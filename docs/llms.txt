@@ -1,0 +1,43 @@
+# Svyable Opps — agent-readable opportunity registry
+
+> Canonical opportunity control surface for Sven Hardy Benson / Svyable.
+
+## Primary machine source
+
+- JSON registry: https://svyable.github.io/Opps/registry.json
+- Human dashboard: https://svyable.github.io/Opps/
+- Repository: https://github.com/Svyable/Opps
+- Canonical markdown ledger: https://github.com/Svyable/Opps/blob/main/LEDGER.md
+
+## Status vocabulary
+
+OPEN — discovered, not fully triaged.
+PURSUE — active effort is justified now.
+WATCH — potentially valuable; wait for a gating fact, partner, timing change or stronger evidence.
+REJECT — expected value / fit is poor.
+WON — converted to an award, signed contract or realized opportunity.
+LOST — pursued but not won or expired.
+
+## Agent operating contract
+
+Optimize for dollars earned, not number of opportunities discovered.
+
+For each opportunity distinguish:
+- payer-stated value;
+- third-party estimate;
+- internal scenario;
+- notional capital allocation;
+- unknown / unstated value.
+
+Evaluate payoff, deadline, qualification probability, new work, reuse of existing Svyable assets, payer credibility, restrictions, pursuit cost and expected value.
+
+Every material autonomous run should advance one highest-value opportunity by a concrete artifact, measured experiment, compliance check, evidence package, proposal component, repository adaptation or justified status transition.
+
+Do not:
+- spend money;
+- accept contracts or legal terms;
+- submit binding applications without explicit approval;
+- fabricate credentials, past performance, registrations, certifications or security experience;
+- treat unverified estimates as official values.
+
+Prefer existing Svyable assets and repositories over unrelated new businesses.
