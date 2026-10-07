@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Sven Hardy Benson / Svyable agentic opportunity registry — prizes, contracts, grants, RFPs, research and reusable opportunity engines.">
+<meta name="robots" content="index,follow">
+<title>SVYABLE // OPPORTUNITY MATRIX</title>
+<style>
+:root{
+  --bg:#07090d;--panel:#0d1118;--panel2:#111722;--ink:#eef4ff;--muted:#8996aa;
+  --line:#202a39;--hot:#f5ff7a;--cyan:#73f7ff;--green:#67f59c;--amber:#ffca6a;
+  --red:#ff7388;--blue:#7aa7ff;--shadow:0 18px 70px rgba(0,0,0,.36);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+  radial-gradient(900px 500px at 82% -10%,rgba(115,247,255,.08),transparent 60%),
+  radial-gradient(850px 600px at -10% 30%,rgba(122,167,255,.07),transparent 60%),var(--bg);
+  color:var(--ink);font:14px/1.45 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+a{color:inherit}
+.shell{max-width:1580px;margin:auto;padding:28px}
+header{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;padding:34px 0 28px;border-bottom:1px solid var(--line)}
+.kicker{color:var(--cyan);letter-spacing:.22em;text-transform:uppercase;font-size:11px}
+h1{font:700 clamp(34px,6vw,80px)/.92 system-ui,sans-serif;letter-spacing:-.055em;margin:10px 0 14px;max-width:940px}
+.sub{max-width:840px;color:var(--muted);font:15px/1.55 system-ui,sans-serif}
+.stamp{text-align:right;color:var(--muted);font-size:11px}.stamp strong{display:block;color:var(--ink);font-size:13px;margin-bottom:6px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+nav a,.chip{border:1px solid var(--line);border-radius:999px;padding:8px 11px;text-decoration:none;color:var(--muted);background:rgba(255,255,255,.018)}
+nav a:hover{border-color:var(--cyan);color:var(--ink)}
+.summary{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:20px 0}
+.metric{padding:18px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.025),transparent);min-height:112px}
+.metric .n{font:700 28px/1 system-ui,sans-serif;letter-spacing:-.04em}.metric .l{color:var(--muted);font-size:11px;margin-top:10px;text-transform:uppercase;letter-spacing:.12em}
+.metric.hot .n{color:var(--hot)}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin:44px 0 14px}
+h2{font:700 24px/1.1 system-ui,sans-serif;letter-spacing:-.025em;margin:0}
+.explain{color:var(--muted);font-size:12px;max-width:600px;text-align:right}
+.priority{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.card{position:relative;border:1px solid var(--line);background:var(--panel);padding:18px;min-height:225px;box-shadow:var(--shadow);overflow:hidden}
+.card:before{content:"";position:absolute;inset:0 auto auto 0;width:100%;height:2px;background:var(--line)}
+.card[data-status=PURSUE]:before{background:var(--green)}.card[data-status=WATCH]:before{background:var(--amber)}.card[data-status=REJECT]:before{background:var(--red)}
+.rank{color:var(--muted);font-size:11px}.card h3{font:700 18px/1.15 system-ui,sans-serif;margin:12px 0 10px;letter-spacing:-.02em}
+.pill{display:inline-block;padding:4px 7px;border-radius:4px;background:#16201c;color:var(--green);font-size:10px;letter-spacing:.08em;font-weight:700}
+.money{font:700 18px/1.15 system-ui,sans-serif;margin:16px 0 5px}.small{font-size:11px;color:var(--muted)}
+.next{margin-top:15px;padding-top:13px;border-top:1px solid var(--line);font-size:12px}.next b{color:var(--cyan)}
+.toolbar{display:grid;grid-template-columns:1fr auto auto;gap:10px;margin:14px 0}
+input,select,button{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:0;padding:11px 12px}
+input:focus,select:focus,button:focus{outline:1px solid var(--cyan);outline-offset:1px}
+button{cursor:pointer}.count{padding:11px 0;color:var(--muted);white-space:nowrap}
+.table-wrap{overflow:auto;border:1px solid var(--line);background:var(--panel)}
+table{border-collapse:collapse;width:100%;min-width:1250px}
+th{position:sticky;top:0;z-index:2;text-align:left;padding:11px 12px;background:#0a0e14;color:#7f8da2;font-size:10px;letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid var(--line)}
+td{padding:13px 12px;border-bottom:1px solid #18202c;vertical-align:top;font-size:12px}
+tr:hover td{background:rgba(115,247,255,.025)}
+.name{font:650 13px/1.3 system-ui,sans-serif;min-width:255px}.lane{color:var(--muted)}
+.status{font-weight:800;font-size:10px;letter-spacing:.08em}.status-PURSUE{color:var(--green)}.status-WATCH{color:var(--amber)}.status-REJECT{color:var(--red)}
+.value{min-width:190px}.deadline{white-space:nowrap}.repo a,.name a{color:var(--cyan);text-decoration:none}.repo a:hover,.name a:hover{text-decoration:underline}
+.bar{width:72px;height:5px;background:#1a2230;margin-top:5px}.bar i{display:block;height:100%;background:var(--blue)}
+.engines{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.engine{border:1px solid var(--line);background:var(--panel);padding:16px;min-height:200px}.engine h3{font:700 16px system-ui,sans-serif;margin:8px 0}.engine .role{color:var(--cyan);font-size:11px}.engine p{color:var(--muted);font-size:11px}.engine a{text-decoration:none;border-bottom:1px solid #355164}
+.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:11px}.dot:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:currentColor;margin-right:6px}.g{color:var(--green)}.a{color:var(--amber)}.r{color:var(--red)}
+footer{display:grid;grid-template-columns:1fr auto;gap:20px;margin:50px 0 20px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}
+.agentbox{border:1px dashed #334154;padding:16px;margin-top:12px;color:var(--muted);font-size:11px}.agentbox code{color:var(--cyan)}
+@media(max-width:1100px){.priority{grid-template-columns:repeat(2,1fr)}.engines{grid-template-columns:repeat(2,1fr)}.summary{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:700px){.shell{padding:18px}header{grid-template-columns:1fr}.stamp{text-align:left}.priority,.engines{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}.toolbar{grid-template-columns:1fr}.explain{display:none}}
+</style>
+</head>
+<body>
+<main class="shell">
+<header>
+  <div>
+    <div class="kicker">Sven Hardy Benson / Svyable</div>
+    <h1>Opportunity Matrix</h1>
+    <div class="sub">A live registry of agentic routes to money: contests, prizes, contracts, grants, RFPs, research programs and the reusable Svyable systems that make them winnable. Built to be useful to a human in ten seconds and parseable by an agent in one request.</div>
+    <nav>
+      <a href="#matrix">Matrix</a><a href="#engines">Engines</a>
+      <a href="registry.json">registry.json</a><a href="llms.txt">llms.txt</a>
+      <a href="https://github.com/Svyable/Opps">GitHub</a>
+    </nav>
+  </div>
+  <div class="stamp"><strong>OPPORTUNITY CONTROL</strong><span id="stamp">registry loading…</span></div>
+</header>
+
+<section class="summary" id="summary"></section>
+
+<div class="section-head">
+  <h2>Priority stack</h2>
+  <div class="explain">Highest-leverage live lanes first. “Value” preserves the distinction between cash prizes, notional allocations, contract ceilings and internal estimates.</div>
+</div>
+<section class="priority" id="priority"></section>
+
+<div class="section-head" id="matrix">
+  <h2>Full matrix</h2>
+  <div class="legend"><span class="dot g">PURSUE</span><span class="dot a">WATCH</span><span class="dot r">REJECT</span></div>
+</div>
+<div class="toolbar">
+  <input id="q" type="search" placeholder="Search name, lane, payer, next action…" aria-label="Search opportunities">
+  <select id="status" aria-label="Filter by status"><option value="">All statuses</option><option>PURSUE</option><option>WATCH</option><option>REJECT</option><option>OPEN</option><option>WON</option><option>LOST</option></select>
+  <div class="count" id="count"></div>
+</div>
+<div class="table-wrap">
+<table>
+<thead><tr>
+<th>Opportunity</th><th>Status / stage</th><th>Money</th><th>Deadline</th><th>Qualification</th><th>Work</th><th>Reuse</th><th>EV posture</th><th>Next action</th><th>Repo</th>
+</tr></thead>
+<tbody id="rows"></tbody>
+</table>
+</div>
+
+<div class="section-head" id="engines">
+  <h2>Opportunity engines</h2>
+  <div class="explain">These are not bids. They are reusable asset systems that lower pursuit cost, raise credibility, and generate future entries.</div>
+</div>
+<section class="engines" id="engineGrid"></section>
+
+<div class="section-head"><h2>Agent contract</h2></div>
+<div class="agentbox">
+  Canonical structured state: <code>/Opps/registry.json</code>. Read that before scraping this page.
+  Preserve the controlled vocabulary <code>OPEN / PURSUE / WATCH / REJECT / WON / LOST</code>.
+  Never silently convert estimates into payer-stated values. Never make binding submissions, spend money, or assert eligibility evidence that has not been verified.
+  A useful agent run should change the state of one highest-EV opportunity by producing evidence, a submission artifact, a measured experiment, a compliance check, or a justified status transition.
+</div>
+
+<footer><div>SVYABLE // Dollars earned &gt; opportunities collected.</div><div>Static HTML · no framework · source-of-truth JSON</div></footer>
+</main>
+
+<script>
+const moneyRank=o=>{
+  const s=(o.value||"").toLowerCase();
+  if(o.id==="scrollq") return 100;
+  if(o.id==="gems") return 92;
+  if(o.id==="quantiacs-q25") return 88;
+  if(o.id==="umgc-92303") return 86;
+  if(o.id==="arc-2026") return 80;
+  return o.status==="PURSUE"?60:o.status==="WATCH"?30:5;
+};
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const workScore=s=>({"Low":20,"Low–medium":35,"Medium":55,"Medium–high":70,"High":82,"Very high":100}[s]||55);
+const reuseScore=s=>({"Low":20,"Low-medium":35,"Low–medium":35,"Medium":55,"Medium-high":75,"Medium–high":75,"High":84,"Very high":100}[s]||55);
+
+async function boot(){
+  const data=await fetch("registry.json",{cache:"no-store"}).then(r=>r.json());
+  window.REGISTRY=data;
+  document.getElementById("stamp").textContent="snapshot "+data.generated_at+" · "+data.opportunities.length+" money lanes";
+
+  const counts = Object.fromEntries(data.statuses.map(s=>[s,data.opportunities.filter(o=>o.status===s).length]));
+  const official = data.opportunities.filter(o=>String(o.value_kind).startsWith("official")).length;
+  document.getElementById("summary").innerHTML=[
+    ["LIVE PURSUITS",counts.PURSUE||0,"hot"],
+    ["WATCHLIST",counts.WATCH||0,""],
+    ["REJECTED / SAVED TIME",counts.REJECT||0,""],
+    ["VERIFIED-VALUE LANES",official,""],
+    ["ASSET ENGINES",data.engines.length,""]
+  ].map(([l,n,c])=>`<div class="metric ${c}"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
+
+  const priority = [...data.opportunities].filter(o=>o.status==="PURSUE").sort((a,b)=>moneyRank(b)-moneyRank(a)).slice(0,4);
+  document.getElementById("priority").innerHTML=priority.map((o,i)=>`
+    <article class="card" data-status="${esc(o.status)}">
+      <div class="rank">0${i+1} / ${esc(o.lane)}</div>
+      <h3>${esc(o.name)}</h3><span class="pill">${esc(o.status)} · ${esc(o.stage)}</span>
+      <div class="money">${esc(o.value)}</div>
+      <div class="small">${esc(o.payer)} · ${esc(o.deadline)}</div>
+      <div class="next"><b>NEXT //</b> ${esc(o.next)}</div>
+    </article>`).join("");
+
+  const render=()=>{
+    const q=document.getElementById("q").value.toLowerCase().trim();
+    const st=document.getElementById("status").value;
+    const rows=data.opportunities.filter(o=>(!st||o.status===st)&&(!q||JSON.stringify(o).toLowerCase().includes(q)));
+    document.getElementById("count").textContent=rows.length+" / "+data.opportunities.length+" shown";
+    document.getElementById("rows").innerHTML=rows.map(o=>`
+      <tr>
+        <td class="name">${o.source?`<a href="${esc(o.source)}" target="_blank" rel="noreferrer">${esc(o.name)}</a>`:esc(o.name)}<div class="lane">${esc(o.type)} · ${esc(o.lane)}</div></td>
+        <td><span class="status status-${esc(o.status)}">${esc(o.status)}</span><div class="lane">${esc(o.stage)}</div></td>
+        <td class="value">${esc(o.value)}<div class="lane">${esc(o.value_kind)}</div></td>
+        <td class="deadline">${esc(o.deadline)}${o.questions_due?`<div class="lane">Q: ${esc(o.questions_due)}</div>`:""}</td>
+        <td>${esc(o.qualification)}</td>
+        <td>${esc(o.work)}<div class="bar"><i style="width:${workScore(o.work)}%"></i></div></td>
+        <td>${esc(o.reuse)}<div class="bar"><i style="width:${reuseScore(o.reuse)}%"></i></div></td>
+        <td>${esc(o.ev)}</td>
+        <td style="min-width:250px">${esc(o.next)}</td>
+        <td class="repo"><a href="${esc(o.repo)}" target="_blank" rel="noreferrer">open ↗</a></td>
+      </tr>`).join("");
+  };
+  document.getElementById("q").addEventListener("input",render);
+  document.getElementById("status").addEventListener("change",render);
+  render();
+
+  document.getElementById("engineGrid").innerHTML=data.engines.map(e=>`
+    <article class="engine">
+      <div class="kicker">${esc(e.status)}</div>
+      <h3>${esc(e.name)}</h3><div class="role">${esc(e.role)}</div>
+      <p>${esc(e.signal)}</p><p><strong>Feeds:</strong> ${esc(e.opportunity_use)}</p>
+      <a href="${esc(e.repo)}" target="_blank" rel="noreferrer">repository ↗</a>
+    </article>`).join("");
+}
+boot().catch(err=>{
+  document.getElementById("stamp").textContent="registry unavailable";
+  document.getElementById("rows").innerHTML='<tr><td colspan="10">Could not load registry.json. Open the machine-readable registry directly or view the GitHub source.</td></tr>';
+  console.error(err);
+});
+</script>
+</body>
+</html>
