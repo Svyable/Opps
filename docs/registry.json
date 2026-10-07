@@ -1,0 +1,382 @@
+{
+  "generated_at": "2026-10-07",
+  "owner": "Sven Hardy Benson / Svyable",
+  "canonical_repo": "https://github.com/Svyable/Opps",
+  "statuses": [
+    "OPEN",
+    "PURSUE",
+    "WATCH",
+    "REJECT",
+    "WON",
+    "LOST"
+  ],
+  "opportunities": [
+    {
+      "id": "umgc-92303",
+      "name": "UMGC 92303 — Custom AI-enabled Content Development",
+      "type": "Contract / task-order vehicle",
+      "lane": "Learning + AI content operations",
+      "status": "PURSUE",
+      "stage": "Proposal development",
+      "value": "Not publicly stated",
+      "value_kind": "payer-unstated",
+      "deadline": "2026-11-20",
+      "questions_due": "2026-10-29",
+      "qualification": "Medium — compliance gates pending",
+      "work": "Medium",
+      "reuse": "Very high",
+      "ev": "Base internal scenario ≈ $18k",
+      "payer": "University of Maryland Global Campus",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/umgc-92303.md",
+      "asset_repos": [
+        "https://github.com/Svyable/desk",
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "next": "Obtain full solicitation + attachments; build line-by-line compliance matrix.",
+      "note": "Lead with evidence-backed AI content operations: skills, sources, claims, assessments, human QA and version history remain linked."
+    },
+    {
+      "id": "gems",
+      "name": "GEMS Prize Challenge",
+      "type": "Prize competition",
+      "lane": "Geospatial ML / geology",
+      "status": "PURSUE",
+      "stage": "Active competition",
+      "value": "$300k total prize pool",
+      "value_kind": "official",
+      "deadline": "2026-12-03",
+      "qualification": "High if rules accepted",
+      "work": "High",
+      "reuse": "High",
+      "ev": "Unpriced — depends on held-out validation evidence",
+      "payer": "U.S. DOE Office of Geothermal / DrivenData",
+      "repo": "https://github.com/Svyable/GEMS-CONTEST",
+      "source": "https://www.drivendata.org/competitions/306/competition-doe-gems/",
+      "asset_repos": [
+        "https://github.com/Svyable/GEMS-CONTEST",
+        "https://github.com/Svyable/frontier-lab"
+      ],
+      "next": "Measure threshold optimizer and model stack on frozen held-out GEMS folds; promote only measured gains.",
+      "note": "Initial round: five × $10k. Final: $100k / $70k / $40k / $25k / $15k."
+    },
+    {
+      "id": "scrollq",
+      "name": "Vesuvius Challenge — ScrollQ / ScrolIQ",
+      "type": "Open prize program",
+      "lane": "Scientific imaging / reproducibility",
+      "status": "PURSUE",
+      "stage": "Monthly progress + 2027 grand prize",
+      "value": "$2.14M open prize pool; $20k monthly best; $1M 2027 grand-prize pool",
+      "value_kind": "official",
+      "deadline": "Monthly progress prizes; Grand Prize 2027-06-25",
+      "qualification": "High for open-source progress work",
+      "work": "Medium–very high",
+      "reuse": "Very high",
+      "ev": "Attractive if work lands as used open-source infrastructure",
+      "payer": "Vesuvius Challenge",
+      "repo": "https://github.com/Svyable/scrollq",
+      "source": "https://scrollprize.org/prizes",
+      "asset_repos": [
+        "https://github.com/Svyable/scrollq"
+      ],
+      "next": "Turn one exact-volume diagnostic into independently checkable, used community evidence; target monthly progress prize before grand-prize scope.",
+      "note": "ScrollQ's strongest edge is evidence composability, provenance, falsification and evaluator-facing reproducibility."
+    },
+    {
+      "id": "arc-2026",
+      "name": "ARC Prize 2026 — ARC-AGI-3",
+      "type": "Prize competition",
+      "lane": "Interactive reasoning agents",
+      "status": "PURSUE",
+      "stage": "Submission preparation",
+      "value": "$850k track pool; named final awards $40k / $15k / $10k / $5k / $5k",
+      "value_kind": "official",
+      "deadline": "Entry 2026-10-26 · Final 2026-11-02",
+      "qualification": "High eligibility; low placement probability at current score",
+      "work": "Medium",
+      "reuse": "Very high",
+      "ev": "Low until private-score evidence improves",
+      "payer": "ARC Prize",
+      "repo": "https://github.com/Svyable/ARCPrize2026",
+      "asset_repos": [
+        "https://github.com/Svyable/ARCPrize2026",
+        "https://github.com/Svyable/agents"
+      ],
+      "next": "Get one valid Kaggle competition run; use private score/rank as the stop/go gate.",
+      "note": "Current public baseline is ~0.29–0.30 mean score; perception/rule inference is the documented bottleneck."
+    },
+    {
+      "id": "quantiacs-q25",
+      "name": "Quantiacs Q25 Crypto Top-10 Long",
+      "type": "Trading contest / allocation",
+      "lane": "Quant research",
+      "status": "PURSUE",
+      "stage": "Contest period running",
+      "value": "$2M notional allocation pool; performance-fee economics",
+      "value_kind": "official-with-structure",
+      "deadline": "Entry closed 2026-09-30 · Contest 2026-10-01 → 2027-01-31",
+      "qualification": "Only already-entered qualifying systems",
+      "work": "Low–medium during live contest",
+      "reuse": "Very high",
+      "ev": "Live payoff depends on final OOS rank and allocation performance",
+      "payer": "Quantiacs",
+      "repo": "https://github.com/Svyable/quantiacs-q25",
+      "source": "https://quantiacs.com/contest/25",
+      "asset_repos": [
+        "https://github.com/Svyable/quantiacs-q25"
+      ],
+      "next": "Monitor live contest evidence; do not contaminate frozen entry research with post-entry hindsight.",
+      "note": "Top-7 notional allocations: $1M / $500k / $250k / $100k / $50k / $50k / $50k. Rules describe 10% relative-performance fees, not an upfront cash prize."
+    },
+    {
+      "id": "army-w56zlwrfi0001",
+      "name": "Army W56ZLWRFI0001 — Operational Generative AI Training",
+      "type": "RFI → potential contract",
+      "lane": "AI training / agents",
+      "status": "PURSUE",
+      "stage": "RFI / acquisition shaping",
+      "value": "Future 5-year acquisition; official value not stated",
+      "value_kind": "payer-unstated",
+      "deadline": "2026-10-07 16:00 ET RFI",
+      "qualification": "Medium-low until federal/security evidence verified",
+      "work": "Medium",
+      "reuse": "High",
+      "ev": "Potentially high if eligibility gates clear; RFI itself pays $0",
+      "payer": "U.S. Army",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/army-w56zlwrfi0001.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/ARCPrize2026",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "next": "Preserve pursuit package; make no SAM/UEI/CAGE/IL5/IL6/instructor claims without evidence.",
+      "note": "Best fit is operational verification, prompt engineering and bounded agent architecture—not generic AI literacy."
+    },
+    {
+      "id": "ice-ai-strategy",
+      "name": "ICE — AI / Data / Technology Strategy RFI",
+      "type": "RFI / consulting pathway",
+      "lane": "AI strategy",
+      "status": "WATCH",
+      "stage": "Teaming scan",
+      "value": "Not stated",
+      "value_kind": "payer-unstated",
+      "deadline": "2026-10-16 10:00 ET",
+      "qualification": "Low–medium as prime",
+      "work": "High",
+      "reuse": "Medium-high",
+      "ev": "Better as specialist/teaming role",
+      "payer": "U.S. Immigration and Customs Enforcement",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/ice-ai-data-strategy.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/frontier-lab",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "next": "Look for teaming / specialist contribution route rather than unsupported full-stack prime positioning.",
+      "note": "Relevant expertise exists; enterprise delivery breadth is the gating issue."
+    },
+    {
+      "id": "loudoun-water",
+      "name": "Loudoun Water 2026-072-1400003 — AI Nameplate Extraction",
+      "type": "SaaS procurement",
+      "lane": "Vision + structured extraction",
+      "status": "WATCH",
+      "stage": "Fit assessment",
+      "value": "Not stated; reported 3-year SaaS procurement",
+      "value_kind": "payer-unstated",
+      "deadline": "2026-10-26",
+      "questions_due": "2026-10-12",
+      "qualification": "Medium-low",
+      "work": "High",
+      "reuse": "Medium",
+      "ev": "Only attractive if pilot/partner scope is allowed",
+      "payer": "Loudoun Water",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/loudoun-water-ai-nameplate.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/frontier-lab"
+      ],
+      "next": "Verify integration, security and maturity requirements before any build.",
+      "note": "AI extraction is plausible; production SaaS, ERP integration and support burden are the cost center."
+    },
+    {
+      "id": "darpa-casualty",
+      "name": "DARPA — Combat Casualty Documentation",
+      "type": "Challenge / R&D opportunity",
+      "lane": "Multimodal + structured documentation",
+      "status": "WATCH",
+      "stage": "Domain-fit assessment",
+      "value": "Challenge-scale value reported up to ~$1M; verify official award structure",
+      "value_kind": "needs-verification",
+      "deadline": "2027-03-01",
+      "qualification": "Unknown",
+      "work": "High",
+      "reuse": "Medium",
+      "ev": "Interesting payer, but domain adaptation dominates",
+      "payer": "DARPA",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/darpa-combat-casualty-documentation.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/frontier-lab"
+      ],
+      "next": "Verify official task, evaluation, data and medical/domain eligibility before allocating engineering.",
+      "note": "Do not treat general multimodal-agent skill as clinical validation."
+    },
+    {
+      "id": "dhs-biothreat",
+      "name": "DHS — Ready, Set…ID the Biothreat",
+      "type": "Prize challenge",
+      "lane": "Bioinformatics",
+      "status": "WATCH",
+      "stage": "Likely reject",
+      "value": "Up to $999,990",
+      "value_kind": "official-reported",
+      "deadline": "2026-10-14",
+      "qualification": "Eligibility plausible; technical fit low",
+      "work": "Very high",
+      "reuse": "Low",
+      "ev": "Poor unless a specialist partner collapses domain gap",
+      "payer": "U.S. Department of Homeland Security",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/dhs-ready-set-id-biothreat.md",
+      "asset_repos": [
+        "https://github.com/Svyable/frontier-lab"
+      ],
+      "next": "No build. Reconsider only with credible metagenomics partner or pre-existing asset.",
+      "note": "Headline prize is not enough to justify a domain jump."
+    },
+    {
+      "id": "arpae-igniite",
+      "name": "ARPA-E IGNIITE 2026",
+      "type": "Research grant",
+      "lane": "Energy research",
+      "status": "REJECT",
+      "stage": "Eligibility gate",
+      "value": "Up to $500k/project",
+      "value_kind": "official-reported",
+      "deadline": "Active program",
+      "qualification": "Unknown / likely restrictive",
+      "work": "High",
+      "reuse": "Low-medium",
+      "ev": "Negative until PI eligibility is proven",
+      "payer": "ARPA-E",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/arpa-e-igniite-2026.md",
+      "asset_repos": [
+        "https://github.com/Svyable/frontier-lab"
+      ],
+      "next": "Do nothing unless official PI/applicant eligibility is independently established.",
+      "note": "Avoid proposal work against a likely eligibility mismatch."
+    },
+    {
+      "id": "san-jose-ai-reporting",
+      "name": "City of San José — AI Reporting Services",
+      "type": "RFP",
+      "lane": "Public-safety enterprise AI",
+      "status": "REJECT",
+      "stage": "Closed internally",
+      "value": "$50k–$300k third-party estimate; not payer-stated",
+      "value_kind": "third-party-estimate",
+      "deadline": "2026-10-22",
+      "qualification": "Low",
+      "work": "Very high",
+      "reuse": "Low",
+      "ev": "Negative",
+      "payer": "City of San José",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/san-jose-ai-reporting.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents"
+      ],
+      "next": "No direct bid; revisit only if a partner wants a narrowly scoped specialist component.",
+      "note": "BWC/RMS/CAD and enterprise public-safety integrations are too far from current assets."
+    },
+    {
+      "id": "trs-ai-advisory",
+      "name": "TRS000658 — AI / IT Advisory Services",
+      "type": "RFP / advisory",
+      "lane": "Enterprise AI advisory",
+      "status": "REJECT",
+      "stage": "Prime route rejected",
+      "value": "Not stated; reported 4-year term",
+      "value_kind": "payer-unstated",
+      "deadline": "2026-10-21",
+      "qualification": "Low as prime",
+      "work": "High",
+      "reuse": "Medium",
+      "ev": "Negative as prime",
+      "payer": "Public-sector buyer",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/trs000658-ai-it-advisory.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/frontier-lab"
+      ],
+      "next": "Reconsider only as specialist subcontractor or if experience requirements change.",
+      "note": "Reported long enterprise/public-sector experience threshold is unfavorable."
+    },
+    {
+      "id": "va-enterprise-ai",
+      "name": "VA 36C10B26Q0834 — Enterprise AI Support Services",
+      "type": "Federal procurement",
+      "lane": "Enterprise AI",
+      "status": "WATCH",
+      "stage": "Later-solicitation / teaming",
+      "value": "Not stated",
+      "value_kind": "payer-unstated",
+      "deadline": "2026-10-07 10:00 ET",
+      "qualification": "Low as standalone prime",
+      "work": "High",
+      "reuse": "Medium",
+      "ev": "Low as prime",
+      "payer": "U.S. Department of Veterans Affairs",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/va-36c10b26q0834.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/frontier-lab"
+      ],
+      "next": "Watch for later solicitation or teaming path; do not force a prime bid.",
+      "note": "Enterprise-scale delivery and past performance are the key barriers."
+    }
+  ],
+  "engines": [
+    {
+      "name": "Sven Hardy Benson’s Desk",
+      "repo": "https://github.com/Svyable/desk",
+      "role": "Research + manuscripts + licensing substrate",
+      "status": "ACTIVE",
+      "signal": "137 book projects / 65 complete drafts reported in repo",
+      "opportunity_use": "Licensing, speaking, media, research partnerships, course/content reuse"
+    },
+    {
+      "name": "Frontier Lab",
+      "repo": "https://github.com/Svyable/frontier-lab",
+      "role": "Frontier ML research engine",
+      "status": "ACTIVE",
+      "signal": "Broad measured public experimentation",
+      "opportunity_use": "Competitions, bounties, sponsored research, model/data partnerships"
+    },
+    {
+      "name": "Svyable Agents",
+      "repo": "https://github.com/Svyable/agents",
+      "role": "Agent discovery + routing layer",
+      "status": "ACTIVE",
+      "signal": "Public agent invitation surface",
+      "opportunity_use": "Routes autonomous work into target opportunity repos"
+    },
+    {
+      "name": "Human Kind",
+      "repo": "https://github.com/Svyable/human-kind",
+      "role": "Evidence-oriented idea commons",
+      "status": "ACTIVE",
+      "signal": "Structured dossiers + agent work queue",
+      "opportunity_use": "Grant/pilot candidates when an idea reaches pilot-ready evidence"
+    },
+    {
+      "name": "ACTA",
+      "repo": "https://github.com/Svyable/ACTA",
+      "role": "Audit-first crypto trading system",
+      "status": "R&D",
+      "signal": "Paper-trading scaffold; live execution disabled",
+      "opportunity_use": "Research capability / future trading infrastructure, not current revenue claim"
+    }
+  ]
+}
