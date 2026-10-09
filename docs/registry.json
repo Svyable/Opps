@@ -206,7 +206,7 @@
       "name": "DARPA — Combat Casualty Documentation",
       "type": "Challenge / R&D opportunity",
       "lane": "Multimodal + structured documentation",
-      "status": "WATCH",
+      "status": "REJECT",
       "stage": "Domain-fit assessment",
       "value": "Challenge-scale value reported up to ~$1M; verify official award structure",
       "value_kind": "needs-verification",
@@ -222,7 +222,9 @@
         "https://github.com/Svyable/frontier-lab"
       ],
       "next": "Verify official task, evaluation, data and medical/domain eligibility before allocating engineering.",
-      "note": "Do not treat general multimodal-agent skill as clinical validation."
+      "note": "Do not treat general multimodal-agent skill as clinical validation.",
+      "next_action": "Do not pursue: user excluded DARPA/medical-regulatory challenges. Prefer simpler, low-friction cash prizes.",
+      "signal": "Excluded by portfolio preference: clinical/regulatory burden"
     },
     {
       "id": "dhs-biothreat",
