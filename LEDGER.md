@@ -15,7 +15,7 @@ This is the canonical deduplicated ledger. The structured source for the Pages d
 | Loudoun Water 2026-072-1400003 — AI Nameplate Extraction | **WATCH** | Not stated; 3-year SaaS procurement reported | 2026-10-26; questions 2026-10-12 | Medium-low | High | Medium | Scope plausible, but production SaaS/integration burden is substantial |
 | ICE — AI / Data / Technology Strategy RFI | **WATCH** | Not stated | 2026-10-16 10:00 AM ET | Low-medium as prime | High | Medium-high | Better as partner/teaming or specialist contributor |
 | VA 36C10B26Q0834 — Enterprise AI Support Services | **WATCH** | Not stated | 2026-10-07 10:00 AM ET | Low as standalone prime | High | Medium | Enterprise past-performance burden makes prime route unattractive |
-| DARPA Combat Casualty Documentation | **WATCH** | Challenge-scale value reported up to ~$1M; verify official structure | 2027-03-01 | Unknown | High | Medium | Credible payer; domain-specific clinical/battlefield adaptation required |
+| DARPA Combat Casualty Documentation | **REJECT** | Challenge-scale value reported up to ~$1M; verify official structure | 2027-03-01 | Unknown | High | Medium | Credible payer; domain-specific clinical/battlefield adaptation required |
 | DHS Ready, Set…ID the Biothreat | **WATCH** | Up to $999,990 | 2026-10-14 | Eligibility plausible; technical fit low | **Very high** | Low | Likely reject unless a specialist partner collapses the metagenomics gap |
 | ARPA-E IGNIITE 2026 | **REJECT** | Up to $500k/project | Active program | Unknown / likely restrictive | High | Low-medium | No proposal work until PI/applicant eligibility is proven |
 | City of San José PUR-RFP2026.09.10071 — AI Reporting Services | **REJECT** | $50k–$300k **third-party estimate** | 2026-10-22 | Low | **Very high** | Low | Police/BWC/RMS/CAD integration is too far from existing assets |
@@ -36,3 +36,7 @@ This is the canonical deduplicated ledger. The structured source for the Pages d
 For opportunities without published award ceilings, do not convert plausible contract size into “actual value.” Maintain separate fields for payer-stated value, third-party estimates, internal scenarios, and notional allocations.
 
 Pursuit cost should include estimated labor, external fees, required registrations/certifications, travel, insurance, and opportunity cost where material.
+
+## Portfolio exclusions (2026-10-08)
+
+Do not pursue NIH SPARK or other NIH grant/challenge opportunities requiring registration, or DARPA medical challenges. Prefer straightforward prizes, bounties, paid open-source work, licensing, and small contracts with minimal regulation. NIH SPARK is not currently in the dashboard registry; retain historical notes without treating it as an active pursuit.
