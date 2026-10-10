@@ -30,12 +30,12 @@ ScrollQ/ScrolIQ's evidence-passport and failure-case diagnostics might make a **
 
 ## Submission outline — fill only with verified evidence
 
-- Problem and exact public dataset: **NOT YET VERIFIED**
-- Baseline failure and reproduction: **NOT YET VERIFIED**
-- ScrollQ improvement / quantified delta: **NOT YET VERIFIED**
-- Reproducibility commands and artifact checksums: **NOT YET VERIFIED**
-- Open-source license and public repository: **TO CONFIRM**
-- Independent community use / feedback: **NOT YET VERIFIED**
+- Problem and exact public dataset: **PARTIAL** — PHercParis4 source diagnostic and native VC3D markers are committed, but this packet does not pin a complete public CT download/volume identity for a new third-party rerun.
+- Baseline failure and reproduction: **PARTIAL** — 2,111/2,232 attached points; 6/16,074 flagged constraints; 194/200 deliberately injected +2 errors detected. Flags are review cues, not independently proven annotation mistakes.
+- ScrollQ improvement / quantified delta: **NOT DEMONSTRATED** — five native VC3D markers exist, but no confirmed correction and no controlled downstream benefit have been established.
+- Reproducibility commands and artifact checksums: **PARTIAL** — marker Git blob `ca2d623afdb601bceaa215ebec622db47617120f`; diagnostic source SHA-256 `5ff4330182324c5cd7a9334f0a7eeb712c1e70a155c6dbca28e1e8d8cb6701fe`; `scroliq-vc3d-review` documented. Independent rerun not recorded.
+- Open-source license and public repository: **VERIFIED** — ScrolIQ public repository has MIT `LICENSE`.
+- Independent community use / feedback: **NOT VERIFIED** — no independent adjudication, reviewed VC3D bundle, or externally documented use has been established by this audit.
 - Final prize form: **NOT SUBMITTED**
 
 ## Marginal EV gate
@@ -43,3 +43,16 @@ ScrollQ/ScrolIQ's evidence-passport and failure-case diagnostics might make a **
 Illustrative $20,000 first-prize scenario: 90% eligibility × 3% conditional win probability × $20,000 − 8 hours × $35 = **+$260**. The 3% win probability is a screening assumption, not a measured estimate. If work rises to 20 hours with the same odds, EV becomes **−$160**. Prize award is discretionary; taxes and potential computing costs not included.
 
 **Authorization boundary:** No registration, prize submission, spending, or contractual acceptance without explicit approval. General progress contributions may be public, but milestone discoveries involving newly read text have additional non-disclosure conditions; check prize category before publication.
+
+## Source-bound October 10 readiness correction
+
+The earlier checklist was stale: the public ScrolIQ repository already contains real-data winding diagnostics, a native review export, documentation, and an MIT license. This update separates **existing measured diagnostics** from the still-missing **prize-grade actionable advantage**.
+
+- Frozen native markers: https://github.com/Svyable/scrollq/blob/main/artifacts/2026-10-03-paris4-winding-attachment/vc3d-review-points.json (Git blob `ca2d623afdb601bceaa215ebec622db47617120f`). Its five distinct collections encode six flagged constraints and carry source SHA-256 `5ff4330182324c5cd7a9334f0a7eeb712c1e70a155c6dbca28e1e8d8cb6701fe`.
+- Existing reviewer instructions and fail-closed tools: https://github.com/Svyable/scrollq/blob/main/docs/vc3d-review-bundles.md . A reviewer must classify each marker; `scroliq-vc3d-review-ingest` rejects missing decisions, unbound provenance, and unsupported winding edits. `scroliq-winding-review-compare` rejects unmatched before/after input hashes.
+- Existing prize reviewer map: https://github.com/Svyable/scrollq/blob/main/docs/SUBMISSION.md . The real-data evidence is already public, but this audit found no evidence that a third party confirmed a winding correction or that the change measurably improved unwrapping. Absence of a named reviewed artifact in the current repo tree is **not proof** no review happened elsewhere.
+- Official progress-prize source, checked 2026-10-10: https://scrollprize.org/prizes . The organizer favors real-data improvements, community use, actionable information, standard formats and documentation. October 31 23:59 Pacific; $20k for one best monthly submission; permissive open-source licensing required to accept a prize. The published $20k guarantee is to **one winner**, not to this project.
+
+**Highest-information next action (not performed):** independent CT-backed classification of the two prioritized markers `relative:198/2233` and `relative:280/2860`, with review time, identity, notes and saved native JSON. If neither produces an independently defensible correction, stop spending time on the winding-correction prize hypothesis. If one does, run the existing apply/compare tools with frozen non-winding inputs, preserve negative controls, and require a measured delta before nomination. No outreach or submission is authorized here.
+
+**EV sensitivity, not a forecast:** at $20k × 90% assumed eligibility × 3% assumed conditional win − $280 incremental cost, EV = **+$260**; at 0.5% conditional win, EV = **−$190**. There is no calibrated winning probability yet. The next two-hour review is a bounded evidence gate, not proof of positive net value.

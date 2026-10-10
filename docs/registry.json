@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07",
+  "generated_at": "2026-10-10",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -16,16 +16,16 @@
       "name": "UMGC 92303 — Custom AI-enabled Content Development",
       "type": "Contract / task-order vehicle",
       "lane": "Learning + AI content operations",
-      "status": "PURSUE",
-      "stage": "Proposal development",
+      "status": "WATCH",
+      "stage": "Eligibility and margin gate",
       "value": "Not publicly stated",
       "value_kind": "payer-unstated",
       "deadline": "2026-11-20",
       "questions_due": "2026-10-29",
-      "qualification": "Medium — compliance gates pending",
-      "work": "Medium",
+      "qualification": "60% assumed; mandatory requirements unverified",
+      "work": "High proposal burden",
       "reuse": "Very high",
-      "ev": "Base internal scenario ≈ $18k",
+      "ev": "Illustrative $300k revenue × 30% margin × .60 eligibility × .08 win − $6k pursuit = −$1,680",
       "payer": "University of Maryland Global Campus",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/umgc-92303.md",
       "asset_repos": [
@@ -33,8 +33,8 @@
         "https://github.com/Svyable/agents",
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Obtain full solicitation + attachments; build line-by-line compliance matrix.",
-      "note": "Lead with evidence-backed AI content operations: skills, sources, claims, assessments, human QA and version history remain linked."
+      "next": "Obtain full solicitation and mandatory gates; do not fund full proposal unless margin-adjusted EV turns positive.",
+      "note": "$300k is an internal hypothetical revenue scenario, not official contract value; contribution margin must be applied before EV."
     },
     {
       "id": "gems",
@@ -67,21 +67,21 @@
       "lane": "Scientific imaging / reproducibility",
       "status": "PURSUE",
       "stage": "Monthly progress + 2027 grand prize",
-      "value": "$2.14M open prize pool; $20k monthly best; $1M 2027 grand-prize pool",
+      "value": "$20k October best-submission award (one winner, not guaranteed to Svyable); $2.14M broader pool",
       "value_kind": "official",
-      "deadline": "Monthly progress prizes; Grand Prize 2027-06-25",
-      "qualification": "High for open-source progress work",
-      "work": "Medium–very high",
+      "deadline": "2026-10-31 23:59 Pacific (progress); 2027-06-25 grand",
+      "qualification": "90% eligibility assumption; conditional winning odds uncalibrated",
+      "work": "Up to 8h/$280 incremental",
       "reuse": "Very high",
-      "ev": "Attractive if work lands as used open-source infrastructure",
+      "ev": "3% win assumption: +$260; 0.5% sensitivity: −$190, both at 90% eligibility and $280 cost",
       "payer": "Vesuvius Challenge",
       "repo": "https://github.com/Svyable/scrollq",
       "source": "https://scrollprize.org/prizes",
       "asset_repos": [
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Turn one exact-volume diagnostic into independently checkable, used community evidence; target monthly progress prize before grand-prize scope.",
-      "note": "ScrollQ's strongest edge is evidence composability, provenance, falsification and evaluator-facing reproducibility."
+      "next": "Independent CT-supported review of five PHercParis4 VC3D markers; only then frozen-input rerun and quantitative improvement.",
+      "note": "Existing 5 markers represent 6 flagged constraints, not verified annotation errors; no measured downstream improvement or community adoption established."
     },
     {
       "id": "arc-2026",
@@ -134,15 +134,15 @@
       "name": "Army W56ZLWRFI0001 — Operational Generative AI Training",
       "type": "RFI → potential contract",
       "lane": "AI training / agents",
-      "status": "PURSUE",
-      "stage": "RFI / acquisition shaping",
+      "status": "REJECT",
+      "stage": "Portfolio excluded",
       "value": "Future 5-year acquisition; official value not stated",
       "value_kind": "payer-unstated",
       "deadline": "2026-10-07 16:00 ET RFI",
       "qualification": "Medium-low until federal/security evidence verified",
       "work": "Medium",
       "reuse": "High",
-      "ev": "Potentially high if eligibility gates clear; RFI itself pays $0",
+      "ev": "Not pursued; cash EV not justified under low-friction policy.",
       "payer": "U.S. Army",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/army-w56zlwrfi0001.md",
       "asset_repos": [
@@ -150,23 +150,23 @@
         "https://github.com/Svyable/ARCPrize2026",
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Preserve pursuit package; make no SAM/UEI/CAGE/IL5/IL6/instructor claims without evidence.",
-      "note": "Best fit is operational verification, prompt engineering and bounded agent architecture—not generic AI literacy."
+      "next": "No pursuit or re-opening without explicit approval.",
+      "note": "Defense-heavy RFI deadline 2026-10-07 passed; do not reopen without approval."
     },
     {
       "id": "ice-ai-strategy",
       "name": "ICE — AI / Data / Technology Strategy RFI",
       "type": "RFI / consulting pathway",
       "lane": "AI strategy",
-      "status": "WATCH",
-      "stage": "Teaming scan",
+      "status": "REJECT",
+      "stage": "Portfolio excluded",
       "value": "Not stated",
       "value_kind": "payer-unstated",
       "deadline": "2026-10-16 10:00 ET",
       "qualification": "Low–medium as prime",
       "work": "High",
       "reuse": "Medium-high",
-      "ev": "Better as specialist/teaming role",
+      "ev": "Not pursued; cash EV not justified under low-friction policy.",
       "payer": "U.S. Immigration and Customs Enforcement",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/ice-ai-data-strategy.md",
       "asset_repos": [
@@ -174,8 +174,8 @@
         "https://github.com/Svyable/frontier-lab",
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Look for teaming / specialist contribution route rather than unsupported full-stack prime positioning.",
-      "note": "Relevant expertise exists; enterprise delivery breadth is the gating issue."
+      "next": "No pursuit or re-opening without explicit approval.",
+      "note": "Compliance-intensive federal RFI excluded from low-friction portfolio."
     },
     {
       "id": "loudoun-water",
@@ -231,22 +231,22 @@
       "name": "DHS — Ready, Set…ID the Biothreat",
       "type": "Prize challenge",
       "lane": "Bioinformatics",
-      "status": "WATCH",
-      "stage": "Likely reject",
+      "status": "REJECT",
+      "stage": "Portfolio excluded",
       "value": "Up to $999,990",
       "value_kind": "official-reported",
       "deadline": "2026-10-14",
       "qualification": "Eligibility plausible; technical fit low",
       "work": "Very high",
       "reuse": "Low",
-      "ev": "Poor unless a specialist partner collapses domain gap",
+      "ev": "Not pursued; cash EV not justified under low-friction policy.",
       "payer": "U.S. Department of Homeland Security",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/dhs-ready-set-id-biothreat.md",
       "asset_repos": [
         "https://github.com/Svyable/frontier-lab"
       ],
-      "next": "No build. Reconsider only with credible metagenomics partner or pre-existing asset.",
-      "note": "Headline prize is not enough to justify a domain jump."
+      "next": "No pursuit or re-opening without explicit approval.",
+      "note": "Biosecurity/clinical-specialist scope excluded; no qualified domain team evidenced."
     },
     {
       "id": "arpae-igniite",
@@ -320,23 +320,116 @@
       "name": "VA 36C10B26Q0834 — Enterprise AI Support Services",
       "type": "Federal procurement",
       "lane": "Enterprise AI",
-      "status": "WATCH",
-      "stage": "Later-solicitation / teaming",
+      "status": "REJECT",
+      "stage": "Portfolio excluded",
       "value": "Not stated",
       "value_kind": "payer-unstated",
       "deadline": "2026-10-07 10:00 ET",
       "qualification": "Low as standalone prime",
       "work": "High",
       "reuse": "Medium",
-      "ev": "Low as prime",
+      "ev": "Not pursued; cash EV not justified under low-friction policy.",
       "payer": "U.S. Department of Veterans Affairs",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/va-36c10b26q0834.md",
       "asset_repos": [
         "https://github.com/Svyable/agents",
         "https://github.com/Svyable/frontier-lab"
       ],
-      "next": "Watch for later solicitation or teaming path; do not force a prime bid.",
-      "note": "Enterprise-scale delivery and past performance are the key barriers."
+      "next": "No pursuit or re-opening without explicit approval.",
+      "note": "Expired 2026-10-07 initial deadline and federal enterprise compliance burden."
+    },
+    {
+      "id": "paypal-ai-hackathon-2026",
+      "name": "PayPal AI Hackathon 2026",
+      "type": "Cash hackathon",
+      "lane": "AI + payments",
+      "status": "WATCH",
+      "stage": "Screened",
+      "value": "$67,500 pool; $5k target category",
+      "value_kind": "official",
+      "deadline": "2026-11-12 12:00 Pacific",
+      "qualification": "90% assumed",
+      "work": "12h/$420",
+      "reuse": "Medium-high",
+      "ev": "$5k × .90 × .005 − $420 = −$397.50",
+      "payer": "PayPal Inc.",
+      "source": "https://paypalaihackathon.devpost.com/rules",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/paypal-ai-hackathon-2026-screen.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents"
+      ],
+      "next": "No build without existing sandbox integration and positive EV.",
+      "note": "Working demo, video, public repository and PayPal sandbox integration required."
+    },
+    {
+      "id": "gemma-4-developer-agent-paper-2026",
+      "name": "Gemma 4 Developer Agent Paper Track",
+      "type": "Research prize",
+      "lane": "Coding-agent evaluation",
+      "status": "WATCH",
+      "stage": "Originality feasibility gate",
+      "value": "$35k paper track pool; $10k target resource award",
+      "value_kind": "official",
+      "deadline": "2026-11-12 23:59 UTC",
+      "qualification": "90% assumed",
+      "work": "12h/$420",
+      "reuse": "High methods reuse",
+      "ev": "$10k × .90 × .025 − $420 = −$195",
+      "payer": "Google DeepMind / Kaggle",
+      "source": "https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/overview/submission-requirements",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/gemma-4-developer-agent-paper-2026.md",
+      "asset_repos": [
+        "https://github.com/Svyable/frontier-lab",
+        "https://github.com/Svyable/agents"
+      ],
+      "next": "Only run 2h originality/reproducibility preflight; no submission or registration.",
+      "note": "Original unpublished research; exact rules/IP to review before any participation."
+    },
+    {
+      "id": "bnb-set-and-earn-2026",
+      "name": "BNB Chain Set and Earn 2026",
+      "type": "Merchandise-only campaign",
+      "lane": "Onchain AI agents",
+      "status": "REJECT",
+      "stage": "Official terms screened",
+      "value": "$0 cash; $10,000 total merchandise retail value",
+      "value_kind": "official-noncash",
+      "deadline": "2026-11-05 12:00 UTC",
+      "qualification": "20% assumed; requires independent third-party hires and onchain activity",
+      "work": "≥12h/$420 plus transaction costs",
+      "reuse": "Medium",
+      "ev": "$0 cash × .20 × .10 − $420 = −$420 (cash-only EV)",
+      "payer": "BNB Chain",
+      "source": "https://www.bnbchain.org/en/hackathons/smart-money-era-set-and-earn",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-10-10-noncash-and-wasm-bounty-screen.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents"
+      ],
+      "next": "Do not register, transact or deploy for a noncash reward.",
+      "note": "Advertised $10k is merchandise retail value; no cash alternative or transfer; requires onchain actions."
+    },
+    {
+      "id": "opire-zeroperl-7",
+      "name": "Opire zeroperl #7 — Asynchronous Web APIs",
+      "type": "Paid open-source bounty",
+      "lane": "C/WASM web APIs",
+      "status": "REJECT",
+      "stage": "Official bounty screened",
+      "value": "$1,500 advertised available reward",
+      "value_kind": "platform-advertised",
+      "deadline": "No stated deadline; issue open 2026-10-10",
+      "qualification": "80% assumed; technical qualification unverified",
+      "work": "≥20h/$700",
+      "reuse": "Low",
+      "ev": "$1,500 × .80 × .10 − $700 = −$580",
+      "payer": "Third-party bounty sponsor via Opire (escrow/payout unverified)",
+      "source": "https://app.opire.dev/issues/01JN06N9GS8Q1KB2NJ318258HR",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-10-10-noncash-and-wasm-bounty-screen.md",
+      "asset_repos": [
+        "https://github.com/Svyable/agents"
+      ],
+      "next": "No pursuit; new C/WASM implementation exceeds reusable Svyable assets.",
+      "note": "Issue remains open, no claimed solvers at screening; reward is subject to sponsor approval/payment."
     }
   ],
   "engines": [
