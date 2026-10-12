@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-12",
+  "canonical_registry_updated": false,
+  "note": "Incremental deduplicated delta; full 54-item ledger in downloadable preflight archive. Historical registry still needs reconciliation.",
+  "opportunities": [
+    {
+      "id": "astralis-middle-powers-transformative-ai-2026",
+      "status": "PURSUE",
+      "deadline": "2026-10-23 23:59 PT",
+      "value": "$100k–$2m typical",
+      "ev_usd_scenario": 554.38,
+      "source": "https://middlepowers.ai/index.html"
+    },
+    {
+      "id": "fli-digital-media-accelerator-2026",
+      "status": "WATCH",
+      "deadline": "rolling",
+      "value": "individual unpublished",
+      "ev_usd_scenario": 115,
+      "source": "https://futureoflife.org/project/digital-media-accelerator/"
+    },
+    {
+      "id": "bluedot-rapid-grants-2026",
+      "status": "WATCH",
+      "deadline": "rolling",
+      "value": "$50–$10k detailed page",
+      "ev_usd_scenario": 50,
+      "source": "https://bluedot.org/grants/rapid"
+    },
+    {
+      "id": "mercor-ai-safety-research-fund-2026",
+      "status": "WATCH",
+      "deadline": "rolling",
+      "value": "$5m pool, per award unpublished",
+      "ev_usd_scenario": -65,
+      "source": "https://jobs.ashbyhq.com/mercor/e1f6792d-1aae-4c2e-8edb-e2b91343dbb5"
+    },
+    {
+      "id": "atlassian-foundation-collective-action-2026",
+      "status": "REJECT",
+      "deadline": "2026-10-30",
+      "value": "up to $1m reported",
+      "ev_usd_scenario": -120,
+      "source": "https://www.atlassianfoundation.org/"
+    }
+  ]
+}
