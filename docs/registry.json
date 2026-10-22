@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07",
+  "generated_at": "2026-10-22",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -16,16 +16,16 @@
       "name": "UMGC 92303 — Custom AI-enabled Content Development",
       "type": "Contract / task-order vehicle",
       "lane": "Learning + AI content operations",
-      "status": "PURSUE",
-      "stage": "Proposal development",
+      "status": "WATCH",
+      "stage": "Do not bid as prime until mandatory eligibility and task-order economics verified",
       "value": "Not publicly stated",
       "value_kind": "payer-unstated",
       "deadline": "2026-11-20",
       "questions_due": "2026-10-29",
-      "qualification": "Medium — compliance gates pending",
-      "work": "Medium",
+      "qualification": "Unverified; mandatory LMS, WCAG, references, security and contract terms",
+      "work": "High (full prime bid)",
       "reuse": "Very high",
-      "ev": "Base internal scenario ≈ $18k",
+      "ev": "Illustrative -$1,800 = $300k hypothetical orders × 35% contribution margin × 50% eligibility × 8% selection − $6k bid cost; no guaranteed orders",
       "payer": "University of Maryland Global Campus",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/umgc-92303.md",
       "asset_repos": [
@@ -33,7 +33,7 @@
         "https://github.com/Svyable/agents",
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Obtain full solicitation + attachments; build line-by-line compliance matrix.",
+      "next": "Verify primary solicitation and appendices; do not prepare a full prime bid under negative EV",
       "note": "Lead with evidence-backed AI content operations: skills, sources, claims, assessments, human QA and version history remain linked."
     },
     {
@@ -337,6 +337,31 @@
       ],
       "next": "Watch for later solicitation or teaming path; do not force a prime bid.",
       "note": "Enterprise-scale delivery and past performance are the key barriers."
+    },
+    {
+      "id": "astralis-middle-powers-transformative-ai-2026",
+      "name": "Astralis / Macroscopic — Middle Powers and Transformative AI",
+      "type": "Research grant",
+      "lane": "AI evaluation interoperability",
+      "status": "PURSUE",
+      "stage": "Applicant authorization and eligibility gate; no application submitted",
+      "value": "$100,000 mainline / $150,000 ambitious proposed; sponsor typical awards $100k–$2M",
+      "value_kind": "grant-request-not-award",
+      "deadline": "2026-10-23 23:59 Pacific",
+      "qualification": "35% subjective feasibility assumption; actual payee, time and IP not verified",
+      "work": "Low remaining drafting; high 26-week delivery",
+      "reuse": "Very high",
+      "ev": "Illustrative +$93.80 economic surplus EV; restricted grant not personal income",
+      "payer": "Astralis Foundation and Macroscopic Ventures",
+      "source": "https://middlepowers.ai/index.html",
+      "repo": "https://github.com/Svyable/Opps",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/scrollq",
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "15 hours/week proposed, recipient eligibility, author-written final answers, reviewer staffing, IP permissions, 10% overhead cap; explicit approval needed before submission",
+      "next": "Applicant must personally verify identity/payee, capacity, rights, budget, team and final authored answers by deadline."
     }
   ],
   "engines": [
