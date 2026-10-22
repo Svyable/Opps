@@ -1,12 +1,13 @@
 # Opportunity Ledger
 
-_Last consolidated: 2026-10-07_
+_Last consolidated: 2026-10-22 (public 15-record subset; 136-record working ledger maintained separately)_
 
 This is the canonical deduplicated ledger. The structured source for the Pages dashboard is [docs/registry.json](docs/registry.json). Dollar figures marked as estimates are internal pursuit assumptions or third-party estimates, not payer commitments.
 
 | Opportunity | Status | Value | Deadline | Qualification | New work | Reuse | EV / decision |
 |---|---|---:|---|---|---|---|---|
-| UMGC 92303 — Custom AI-enabled Content Development | **PURSUE** | Not publicly stated; multi-year task-order vehicle | 2026-11-20; questions 2026-10-29 | Medium, pending mandatory requirements | Medium | **Very high** | Best current contract fit. Base internal scenario: $300k × 8% − $6k ≈ **$18k EV** |
+| UMGC 92303 — Custom AI-enabled Content Development | **WATCH** | Up to $1m reported ceiling, $0 minimum task orders | 2026-11-20; questions 2026-10-29 | Mandatory requirements unverified | **High** prime bid | High | **−$1,800 illustrative EV** = $300k hypothetical orders × 35% margin × 50% eligibility × 8% selection − $6k bid cost; no full prime bid without primary RFP review |
+| Astralis / Macroscopic — Middle Powers and Transformative AI | **PURSUE** | $100k mainline / $150k ambitious proposed; typical $100k–$2m grants | **2026-10-23 23:59 PT** | Individuals eligible in principle; actual payee, capacity, IP unknown | 2h remaining preparation; 26-week project | **Very high** | **+$93.80 illustrative economic-surplus EV**; applicant-authored answers and explicit submission approval required |
 | GEMS Prize Challenge | **PURSUE** | **$300k official prize pool** | 2026-12-03 | High if competition rules accepted | High | High | Strong existing repo + measured-validation culture; payoff depends on held-out performance |
 | Vesuvius Challenge — ScrollQ / ScrolIQ | **PURSUE** | **$2.14M open prize pool**; $20k guaranteed monthly best; $1M 2027 grand-prize pool | Monthly; Grand Prize 2027-06-25 | High for open-source progress work | Medium–very high | **Very high** | Attractive where ScrollQ becomes used, independently checkable infrastructure |
 | ARC Prize 2026 — ARC-AGI-3 | **PURSUE** | $850k track pool; named final awards $40k/$15k/$10k/$5k/$5k | Entry 2026-10-26; final 2026-11-02 | High eligibility; low cash-placement probability at current score | Medium | **Very high** | Continue cheaply until private leaderboard evidence improves |
