@@ -344,7 +344,7 @@
       "type": "Research grant",
       "lane": "AI evaluation interoperability",
       "status": "PURSUE",
-      "stage": "Applicant authorization and eligibility gate; no application submitted",
+      "stage": "Cleaned live application worksheet: obsolete Canada–Netherlands mainline removed 2026-10-23; applicant sign-off still outstanding, not submitted",
       "value": "$100,000 mainline / $150,000 ambitious proposed; sponsor typical awards $100k–$2M",
       "value_kind": "grant-request-not-award",
       "deadline": "2026-10-23 23:59 Pacific",
@@ -360,9 +360,11 @@
         "https://github.com/Svyable/scrollq",
         "https://github.com/Svyable/desk"
       ],
-      "restrictions": "15 hours/week proposed, recipient eligibility, author-written final answers, reviewer staffing, IP permissions, overhead assessed case by case; explicit approval needed before submission",
+      "restrictions": "15 hours/week proposed; legal recipient/payee, author-written final answers, reviewer staffing, IP and employment rights unverified; overhead capped at 10% of total budget; explicit approval required before submission.",
       "next": "Applicant must personally verify identity/payee, capacity, rights, budget, team and final authored answers by deadline.",
-      "overhead": "Current official FAQ: reasonable overhead assessed case by case; no fixed 10% cap stated"
+      "overhead": "Official RFP FAQ checked 2026-10-23: indirect/overhead costs supported up to 10% of TOTAL budget.",
+      "application_review_url": "https://docs.google.com/document/d/1Jv747h2h-uI8_M96PpPZHXtUu19-Hme1KKEucgHQbT8/edit",
+      "source_verified": "2026-10-23 https://middlepowers.ai/index.html"
     },
     {
       "id": "ea-funds-transformative-ai-fund-2026",
