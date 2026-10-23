@@ -1,6 +1,6 @@
 # Opportunity Ledger
 
-_Last consolidated: 2026-10-23 (public 16-record subset; 139-record working ledger maintained separately)_
+_Last consolidated: 2026-10-23 (public 17-record subset; 139-record working ledger maintained separately)_
 
 This is the canonical deduplicated ledger. The structured source for the Pages dashboard is [docs/registry.json](docs/registry.json). Dollar figures marked as estimates are internal pursuit assumptions or third-party estimates, not payer commitments.
 
@@ -8,6 +8,7 @@ This is the canonical deduplicated ledger. The structured source for the Pages d
 |---|---|---:|---|---|---|---|---|
 | UMGC 92303 — Custom AI-enabled Content Development | **WATCH** | Up to $1m reported ceiling, $0 minimum task orders | 2026-11-20; questions 2026-10-29 | Mandatory requirements unverified | **High** prime bid | High | **−$1,800 illustrative EV** = $300k hypothetical orders × 35% margin × 50% eligibility × 8% selection − $6k bid cost; no full prime bid without primary RFP review |
 | EA Funds Transformative AI Fund — Control Evidence | **PURSUE** | **$25k lean / 10 weeks selected for applicant review**; typical $10k–$150k | Rolling | 55% illustrative lean feasibility; 12h/week, payee/IP unverified | 2h application + 120h future delivery | **Very high** | **+$144.50 capacity-adjusted EV**; $50k/300h expansion deferred. [Research and applicant gate](opportunities/taif-control-evidence-2026.md) |
+| Foresight AI Nodes 2026 — Human Empowerment | **PURSUE** | $35k proposed; official typical $30k–$100k | **2026-10-31 23:59 PDT** | 45% subjective; reference/Node capacity unverified | 4h prep + 240h proposed lead delivery | **Very high** | **+$49 modeled EV**; 37-field crosswalk completed, 13 applicant-controlled fields outstanding; [public preflight](opportunities/foresight-ai-nodes-2026-preflight.md) |
 | Astralis / Macroscopic — Middle Powers and Transformative AI | **PURSUE** | $100k mainline / $150k ambitious proposed; typical $100k–$2m grants | **2026-10-23 23:59 PT** | Individuals eligible in principle; actual payee, capacity, IP unknown | Applicant-controlled sign-off; 26-week project | **Very high** | **+$93.80 illustrative economic-surplus EV**; private application worksheet cleaned; 10% total-budget overhead cap; no submission without explicit approval |
 | GEMS Prize Challenge | **PURSUE** | **$300k official prize pool** | 2026-12-03 | High if competition rules accepted | High | High | Strong existing repo + measured-validation culture; payoff depends on held-out performance |
 | Vesuvius Challenge — ScrollQ / ScrolIQ | **PURSUE** | **$2.14M open prize pool**; $20k guaranteed monthly best; $1M 2027 grand-prize pool | Monthly; Grand Prize 2027-06-25 | High for open-source progress work | Medium–very high | **Very high** | Attractive where ScrollQ becomes used, independently checkable infrastructure |
@@ -24,15 +25,15 @@ This is the canonical deduplicated ledger. The structured source for the Pages d
 | City of San José PUR-RFP2026.09.10071 — AI Reporting Services | **REJECT** | $50k–$300k **third-party estimate** | 2026-10-22 | Low | **Very high** | Low | Police/BWC/RMS/CAD integration is too far from existing assets |
 | TRS000658 — AI / IT Advisory Services | **REJECT** | Not stated; 4-year term reported | 2026-10-21 | Low as prime | High | Medium | Reconsider only as specialist subcontractor or if requirements change |
 
-## Current operating priority
+## Current operating priority (2026-10-23)
 
-1. **UMGC 92303** — compliance matrix and technical exhibits.
-2. **ScrollQ / Vesuvius** — prizeable open-source evidence with direct existing asset reuse.
-3. **GEMS** — turn the existing contest repo into measured held-out performance.
-4. **ARC-AGI-3** — private-score evidence is the stop/go gate.
-5. **Quantiacs Q25** — monitor the live contest without post-entry hindsight contamination.
-6. **Army** — preserve truthful pursuit material; do not assert unverified federal/security credentials.
-7. **ICE and other WATCH items** — partner/teaming or gating-fact scan before material pursuit spend.
+1. **Astralis** — closes October 23 at 23:59 Pacific; no submission without applicant approval.
+2. **Foresight AI Nodes** — 37-field form crosswalk now prepared; confirm reference, availability, IP and in-person node fit by October 31.
+3. **TAIF** — lean $25k pilot prepared; applicant capacity and rights are the remaining gates.
+4. **Allodial** — first confirm award capacity and holdout-payment terms before bid work; external inquiry needs authorization.
+5. **ScrolIQ / Vesuvius** — October 31 prize, use independently reproducible evidence; submit only with approval.
+6. **ARC-AGI-3** — confirm Kaggle entry by October 26; do not imply eligibility without acceptance of competition rules.
+7. **UMGC** — WATCH; prime-bid EV negative until compliance/economics improve.
 
 ## EV discipline
 
