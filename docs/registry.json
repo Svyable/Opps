@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22",
+  "generated_at": "2026-10-23",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -360,8 +360,33 @@
         "https://github.com/Svyable/scrollq",
         "https://github.com/Svyable/desk"
       ],
-      "restrictions": "15 hours/week proposed, recipient eligibility, author-written final answers, reviewer staffing, IP permissions, 10% overhead cap; explicit approval needed before submission",
-      "next": "Applicant must personally verify identity/payee, capacity, rights, budget, team and final authored answers by deadline."
+      "restrictions": "15 hours/week proposed, recipient eligibility, author-written final answers, reviewer staffing, IP permissions, overhead assessed case by case; explicit approval needed before submission",
+      "next": "Applicant must personally verify identity/payee, capacity, rights, budget, team and final authored answers by deadline.",
+      "overhead": "Current official FAQ: reasonable overhead assessed case by case; no fixed 10% cap stated"
+    },
+    {
+      "id": "ea-funds-transformative-ai-fund-2026",
+      "name": "EA Funds Transformative AI Fund — Control Evidence",
+      "type": "Early-stage research grant",
+      "lane": "Agent action claims and evidence completeness",
+      "status": "PURSUE",
+      "stage": "Prior-art-corrected private draft; applicant review and approval pending",
+      "value": "Typical grants $10k–$150k; Svyable $25k lean or $50k expanded proposed, not awarded",
+      "value_kind": "grant-request-not-award",
+      "deadline": "Rolling / always open (verified 2026-10-23)",
+      "qualification": "65% subjective feasibility assumption; actual payee, IP, hours not verified",
+      "work": "2h remaining preparation plus 120h lean or 300h expanded delivery",
+      "reuse": "Very high: Human Kind authorization and ScrolIQ provenance",
+      "ev": "Expanded +$401.25 modeled at 5% conditional selection; +$212.75 at 3%. Restricted grant funding is not personal profit.",
+      "payer": "EA Funds / Centre for Effective Altruism",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026.md",
+      "source": "https://funds.effectivealtruism.org/funds/transformative-ai",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "Substantial direct prior art; no claim of first auditable-agent theory; applicant payee, 12/25h per week, IP, terms and duplicate funding not verified; explicit approval required",
+      "next": "Applicant verifies rights/capacity and personally reviews application; no submission without approval"
     }
   ],
   "engines": [
