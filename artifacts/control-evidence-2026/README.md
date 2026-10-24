@@ -8,6 +8,10 @@ python artifacts/control-evidence-2026/contract_smoke.py -v
 python artifacts/control-evidence-2026/contract_smoke.py --fixtures
 ```
 
+## Reproducibility check — 2026-10-24
+
+The exact committed Python file was reproduced locally and its Git blob SHA-1 matched GitHub's file blob (`c95be1d7a8d9d161be5b46c8cd51d0f5459f032f`). Command: `python contract_smoke.py -v`. **10/10 unit-test methods passed**, including all 19 visible fixture verdicts. This verifies deterministic contract behavior under its declared synthetic assumptions, **not** correctness on real agent telemetry or independent evaluation. GitHub Actions workflow `.github/workflows/control-evidence-contract.yml` was committed; no successful remote workflow status has been independently confirmed.
+
 ## What is now real
 
 The committed `contract_smoke.py` defines an executable **three-verdict claim-to-record decision contract** for exactly three narrow claim types: `action_completed`, `approval_before_action`, and `alert_delivered`. It includes **19 transparent, deterministic synthetic fixtures** (six expected support, six expected refutation, seven expected abstention) and **10 unit-test methods**. The fixtures are visible and hand-constructed. They are *not* a blind test, not agent traces, not a sample of deployed systems, and not evidence of model accuracy. The test program does not call external services or access secrets.
