@@ -485,6 +485,28 @@
       ],
       "restrictions": "Personal full-time transition, not part-time alongside another role; grant is not employment or contract; tax implications and unused-funds return",
       "next": "Only pursue if founder independently commits to a full-time personal transition; otherwise maintain WATCH"
+    },
+    {
+      "id": "paypal-ai-hackathon-2026",
+      "name": "PayPal AI Hackathon 2026 — AI + PayPal integration",
+      "type": "Cash prize competition",
+      "lane": "AI agents / payment approvals",
+      "status": "WATCH",
+      "stage": "Screened; no entry; low expected value without existing PayPal integration",
+      "value": "$67,500 cash prize pool; $12,000 top individual award",
+      "value_kind": "official-prize-pool-not-guaranteed",
+      "deadline": "2026-11-12 12:00 PST",
+      "qualification": "90% eligibility assumption, official rules and location restrictions not fully reviewed",
+      "work": "12h new working demo plus open-source repo and under-three-minute video",
+      "reuse": "Medium: Human Kind approval-boundary logic, but PayPal integration absent",
+      "ev": "Illustrative -$397.50 = $5,000 potential award × 90% eligibility × 0.5% selection − $420 pursuit",
+      "payer": "PayPal",
+      "source": "https://developer.paypal.com/community/blog/PayPal_AI_Hackathon/",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "Must meaningfully use PayPal and AI; working demo, public repo, video, official Devpost rules and eligibility; not worth new build at current EV",
+      "next": "WATCH only; revisit if an existing Svyable payment workflow makes a compliant entry nearly free"
     }
   ],
   "engines": [
