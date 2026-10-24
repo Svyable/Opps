@@ -375,7 +375,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "Lean $25k applicant packet prepared; no submission; expanded $50k scope deferred",
+      "stage": "Public runnable synthetic claim-to-trace contract and 19 visible fixtures/10 unit-test methods committed; $25k applicant packet prepared; not submitted or independently validated",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (verified 2026-10-23)",
@@ -391,7 +391,11 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Applicant verifies 12h/week, payee, IP and external reviewers; personally revises answers and explicitly approves any submission"
+      "next": "Applicant verifies 12h/week, payee, IP, data and independent reviewer feasibility; run contract smoke tests and freeze blinded prospective design; personally approves submission",
+      "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
+      "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
+      "note": "New appendix encodes abstention for missing/agent-authored/conflicting evidence and separates provider acceptance from delivery. Visible synthetic fixtures are NOT a blind benchmark or measured model performance.",
+      "source_verified": "2026-10-24 https://funds.effectivealtruism.org/funds/transformative-ai"
     },
     {
       "id": "foresight-ai-nodes-2026",
