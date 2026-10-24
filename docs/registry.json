@@ -433,8 +433,8 @@
       "lane": "AI agent oversight / evaluation",
       "status": "WATCH",
       "stage": "Official rolling grant open; distinct-scope pilot not drafted; no submission",
-      "value": "Up to $20,000 official maximum; no award guaranteed",
-      "value_kind": "official-ceiling",
+      "value": "Dedicated Rapid Grants page says $50–$10,000; grants overview says up to $20,000. Inconsistent official ceilings; plan <=$10k until sponsor confirms.",
+      "value_kind": "official-conflicting-pages",
       "deadline": "Rolling; no fixed close date published",
       "qualification": "~50% subjective project feasibility; course not required but community membership favored",
       "work": "~1-2h application + 4-6 weeks delivery if approved; scope/capacity unverified",
@@ -446,8 +446,9 @@
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "restrictions": "Restricted purpose, written approval for material changes, completion report; time/living costs eligible; cannot double fund TAIF/Foresight deliverables",
-      "next": "Define a genuinely separate small deliverable and expense allocation; confirm applicant time and no overlapping funding before pursuing"
+      "restrictions": "Purpose-specific approved costs; dedicated program page says stipends/living expenses not usual scope (exception possible); official overview conflicts on ceiling; no double funding with TAIF/Foresight",
+      "next": "Use conservative <=$10k request unless BlueDot confirms larger cap; define separate deliverable and budget, verify whether founder-time expenses permitted and avoid overlapping grants",
+      "source_verified": "2026-10-24: https://bluedot.org/grants/rapid (max $10k) versus https://bluedot.org/grants (up to $20k)"
     },
     {
       "id": "bluedot-seed-grants-2026",
