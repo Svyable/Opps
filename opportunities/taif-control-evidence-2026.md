@@ -27,3 +27,8 @@ Applicant must verify 12h/week or 25h/week availability, identity/payee, outside
 ## 23 October applicant package advancement
 
 A single-scope $25,000 application-review packet has been prepared with a reconciled 10-week budget, preregistered false-support/abstention gates, prospective independent holdout plan, explicit prior-art credit and no claim of verified test performance. It is **not submitted**; applicant capacity, rights, payee and personally revised answers are mandatory. This public brief contains no private prototypes or applicant information.
+
+## 24 October technical risk retired — nonfinite clock input
+
+[Public contract implementation](../artifacts/control-evidence-2026/contract_smoke.py) now rejects NaN and ±infinity in approval/execution event times by returning `insufficient_evidence`, rather than permitting misleading ordering/refutation. Two adversarial regression methods were added; the full updated 12-method suite has **not** been independently confirmed to pass after this change. The 19 transparent smoke fixtures are not a held-out benchmark. The next funded milestone is authenticated telemetry with explicit clock uncertainty and blinded adjudication, not more self-scored synthetic fixtures.
+
