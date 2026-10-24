@@ -20,6 +20,12 @@ The rules explicitly refuse to promote agent-authored logs, wrong-scope or wrong
 
 **Critical security limitation:** the synthetic `writer: independent` and `coverage_writer: independent` fields are *labels*, not authenticated attestations. In a real system, the evaluation must independently verify recorder identity, integrity, time order, and completeness. This script is a contract and regression smoke test only. It must not be used to certify real agent actions.
 
+## 24 October adversarial clock-boundary hardening
+
+The synthetic contract previously accepted Python/JSON-adjacent nonfinite event timestamps (NaN, positive infinity, negative infinity) in `approval_before_action`. Python's floating-point comparisons can silently turn such inputs into a false `refuted` verdict or an untrustworthy order comparison. The code now **abstains** when any relevant approval or execution timestamp is nonfinite, with two additional regression methods covering both event classes (12 test methods in source, versus 10 originally). The 19 original visible fixtures are unchanged.
+
+This closes a *specific implementation failure mode*, not the broader problem of trusted clocks. Real event ordering still requires authenticated source identity, clock-skew bounds, monotonic event sequencing, and completeness witnesses. Do not treat this patch as real-world validation. The earlier 10/10 local result predates this patch; the updated 12-method suite requires a fresh CI or local run before claiming all tests pass.
+
 ## Why a grant is still needed
 
 The proposed research is **not** to invent agent auditability. [Auditable Claims about AI Agents](https://arxiv.org/abs/2610.07459) (5 Oct 2026) already formalizes the policy, scope, record authorship, completeness and decision-rule requirements. [Auditable Agents](https://arxiv.org/abs/2604.05485) also predates this pilot. The genuinely unresolved question is **how independently blinded reviewers and methods behave on claim-to-record adjudication when real telemetry is delayed, missing, contradictory or misleading**.
