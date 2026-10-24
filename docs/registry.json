@@ -375,7 +375,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "Public runnable synthetic claim-to-trace contract and 19 visible fixtures/10 unit-test methods committed; $25k applicant packet prepared; not submitted or independently validated",
+      "stage": "Public synthetic claim-to-trace contract shipped; exact Git blob reproduced locally; 10/10 unit tests and 19 visible fixture verdicts passed; CI workflow committed, remote status unverified; $25k application NOT SUBMITTED",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (verified 2026-10-23)",
@@ -391,10 +391,10 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Applicant verifies 12h/week, payee, IP, data and independent reviewer feasibility; run contract smoke tests and freeze blinded prospective design; personally approves submission",
+      "next": "Applicant verifies 12h/week, payee, IP, data access and reviewer availability; freeze genuinely blinded prospective test, personally approve application; do not double-fund Foresight work",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
-      "note": "New appendix encodes abstention for missing/agent-authored/conflicting evidence and separates provider acceptance from delivery. Visible synthetic fixtures are NOT a blind benchmark or measured model performance.",
+      "note": "Synthetic-only contract checks agent-authored/conflicting/missing evidence and distinguishes provider acceptance from delivery. Independent telemetry authentication, blinded benchmark and external validation NOT performed.",
       "source_verified": "2026-10-24 https://funds.effectivealtruism.org/funds/transformative-ai"
     },
     {
