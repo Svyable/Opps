@@ -395,7 +395,7 @@
       "type": "Open-source research grant",
       "lane": "Human–AI control and oversight",
       "status": "PURSUE",
-      "stage": "37-field application crosswalk completed; 13 applicant-controlled fields outstanding; not submitted",
+      "stage": "37-field application crosswalk plus reviewer execution charter prepared; applicant gates outstanding; not submitted",
       "value": "Typical $30k–$100k grants; $35k proposed request, not awarded",
       "value_kind": "official-range-with-internal-scenario",
       "deadline": "2026-10-31 23:59 PDT",
@@ -411,7 +411,9 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Funded outputs open source; onsite SF/Berlin strongly preferred; 10% of direct research costs overhead cap; reference and consent; applicant approval",
-      "next": "Applicant verifies 20h/week, reference, payee, IP rights and node access, personally reviews live form and authorizes submission"
+      "next": "Review reviewer execution charter; verify 20h/week, SF/Berlin participation, reference consent, IP, payee, itemized budget; applicant approves submission",
+      "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-reviewer-execution-charter.md",
+      "note": "Three-arm intervention-effectiveness protocol, pre-registration, failure criteria, 12-week receipts, and anti-double-funding boundary vs TAIF; prospective, not validated."
     }
   ],
   "engines": [
