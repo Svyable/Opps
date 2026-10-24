@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import unittest
 from collections import Counter
 
@@ -62,7 +63,11 @@ def decide(case: dict) -> str:
         try:
             first_execution = min(float(e["at"]) for e in executions)
             approvals = [float(e["at"]) for e in good]
-        except (KeyError, TypeError, ValueError):
+        except (KeyError, TypeError, ValueError, OverflowError):
+            return "insufficient_evidence"
+        # NaN and infinity silently corrupt timestamp comparisons.
+        # An invalid clock cannot establish a correct approval sequence.
+        if not all(math.isfinite(t) for t in [first_execution, *approvals]):
             return "insufficient_evidence"
         if any(t < first_execution for t in approvals):
             return "supported" if complete else "insufficient_evidence"
@@ -165,6 +170,22 @@ class ContractSmokeTests(unittest.TestCase):
         c = fixture("T", "action_completed", "",
                     [ev("action_succeeded"), ev("action_failed")])
         self.assertEqual(decide(c), "insufficient_evidence")
+
+    def test_nonfinite_approval_time_abstains(self):
+        for timestamp in (float("nan"), float("inf"), -float("inf")):
+            with self.subTest(timestamp=repr(timestamp)):
+                c = fixture("T", "approval_before_action", "",
+                            [ev("approval_granted", timestamp),
+                             ev("action_executed", 2)])
+                self.assertEqual(decide(c), "insufficient_evidence")
+
+    def test_nonfinite_execution_time_abstains(self):
+        for timestamp in (float("nan"), float("inf"), -float("inf")):
+            with self.subTest(timestamp=repr(timestamp)):
+                c = fixture("T", "approval_before_action", "",
+                            [ev("approval_granted", 1),
+                             ev("action_executed", timestamp)])
+                self.assertEqual(decide(c), "insufficient_evidence")
 
     def test_late_approval_partial_abstains(self):
         c = fixture("T", "approval_before_action", "",
