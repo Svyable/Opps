@@ -416,6 +416,75 @@
       "next": "Review reviewer execution charter; verify 20h/week, SF/Berlin participation, reference consent, IP, payee, itemized budget; applicant approves submission",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-reviewer-execution-charter.md",
       "note": "Three-arm intervention-effectiveness protocol, pre-registration, failure criteria, 12-week receipts, and anti-double-funding boundary vs TAIF; prospective, not validated."
+    },
+    {
+      "id": "bluedot-rapid-grants-2026",
+      "name": "BlueDot Impact Rapid Grants — Control Evidence small pilot",
+      "type": "Research grant",
+      "lane": "AI agent oversight / evaluation",
+      "status": "WATCH",
+      "stage": "Official rolling grant open; distinct-scope pilot not drafted; no submission",
+      "value": "Up to $20,000 official maximum; no award guaranteed",
+      "value_kind": "official-ceiling",
+      "deadline": "Rolling; no fixed close date published",
+      "qualification": "~50% subjective project feasibility; course not required but community membership favored",
+      "work": "~1-2h application + 4-6 weeks delivery if approved; scope/capacity unverified",
+      "reuse": "Very high: Human Kind / ScrolIQ",
+      "ev": "Illustrative +$30 = $2,000 conditional founder economic surplus × 50% feasibility × 8% selection − $50 prep; highly uncertain",
+      "payer": "BlueDot Impact",
+      "source": "https://bluedot.org/grants/rapid",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "Restricted purpose, written approval for material changes, completion report; time/living costs eligible; cannot double fund TAIF/Foresight deliverables",
+      "next": "Define a genuinely separate small deliverable and expense allocation; confirm applicant time and no overlapping funding before pursuing"
+    },
+    {
+      "id": "bluedot-seed-grants-2026",
+      "name": "BlueDot Impact Seed Grants — AI safety project runway",
+      "type": "Early-stage project grant",
+      "lane": "Agent control and evidence infrastructure",
+      "status": "WATCH",
+      "stage": "Official 6–12 month seed program confirmed; capacity and organizational intent unverified",
+      "value": "$20,000–$200,000 official grant range",
+      "value_kind": "official-range",
+      "deadline": "Rolling; decision target about 4 weeks",
+      "qualification": "Unverified founder ability to commit ~18h/week or more and sustain project; for-profit route case by case",
+      "work": "~45-minute form plus 6–12 months project delivery; significant founder commitment",
+      "reuse": "Very high: Human Kind / ScrolIQ",
+      "ev": "Previous conservative illustrative +$25.73; capacity assumptions dominate and have not been verified",
+      "payer": "BlueDot Impact",
+      "source": "https://bluedot.org/grants/seed",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "Usually paid to individual founder; return unspent funds if project stops; one seed grant per project; for-profit cases require additional review; restricted funding",
+      "next": "Verify sustained founder capacity and whether Svyable project meets genuinely new project/organization criterion before drafting"
+    },
+    {
+      "id": "bluedot-career-transition-grants-2026",
+      "name": "BlueDot Impact Career Transition Grants — full-time AI safety",
+      "type": "Personal fellowship / transition grant",
+      "lane": "AI safety career transition",
+      "status": "WATCH",
+      "stage": "Official up-to-$200k personal program confirmed; full-time commitment unverified",
+      "value": "Up to $200,000 official ceiling; typical starts at $20,000",
+      "value_kind": "official-ceiling",
+      "deadline": "Rolling; no fixed close date published",
+      "qualification": "Low without confirmed full-time transition; estimate 15% feasibility and 5% conditional selection, subjective",
+      "work": "~45-minute form, full-time commitment and regular reporting",
+      "reuse": "High: Human Kind / ScrolIQ research track record",
+      "ev": "Illustrative ~$0 = $12,000 hypothetical conditional economic surplus × 15% feasibility × 5% selection − $90 prep; no current pursuit",
+      "payer": "BlueDot Impact",
+      "source": "https://bluedot.org/grants/career-transition",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "Personal full-time transition, not part-time alongside another role; grant is not employment or contract; tax implications and unused-funds return",
+      "next": "Only pursue if founder independently commits to a full-time personal transition; otherwise maintain WATCH"
     }
   ],
   "engines": [
