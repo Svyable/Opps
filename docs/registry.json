@@ -362,9 +362,9 @@
         "https://github.com/Svyable/scrollq",
         "https://github.com/Svyable/desk"
       ],
-      "restrictions": "15 hours/week proposed; legal recipient/payee, author-written final answers, reviewer staffing, IP and employment rights unverified; overhead capped at 10% of total budget; explicit approval required before submission.",
-      "next": "Applicant must personally verify identity/payee, capacity, rights, budget, team and final authored answers by deadline.",
-      "overhead": "Official RFP FAQ checked 2026-10-23: indirect/overhead costs supported up to 10% of TOTAL budget.",
+      "restrictions": "15 hours/week proposed; legal recipient/payee, author-written final answers, reviewer staffing, IP and employment rights unverified; no fixed overhead cap published; reasonable overhead assessed case by case; explicit approval required before submission.",
+      "next": "Applicant must personally verify identity/payee, capacity, rights, budget, team and final authored answers by 2026-10-23 23:59 Pacific; no submission without explicit authorization.",
+      "overhead": "Official RFP FAQ verified 2026-10-23: indirect/overhead costs likely supported up to a reasonable percentage of total budget, assessed case by case; no numeric 10% cap published.",
       "source_verified": "2026-10-23 https://middlepowers.ai/index.html"
     },
     {
