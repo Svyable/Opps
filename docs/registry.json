@@ -66,22 +66,24 @@
       "type": "Open prize program",
       "lane": "Scientific imaging / reproducibility",
       "status": "PURSUE",
-      "stage": "Monthly progress + 2027 grand prize",
+      "stage": "Five-point PHercParis4 native VC3D reviewer handoff committed; no independent review or prize submission",
       "value": "$2.14M open prize pool; $20k monthly best; $1M 2027 grand-prize pool",
       "value_kind": "official",
-      "deadline": "Monthly progress prizes; Grand Prize 2027-06-25",
-      "qualification": "High for open-source progress work",
-      "work": "Medium–very high",
+      "deadline": "October Progress Prize: 2026-10-31 23:59 PDT; Grand Prize: 2027-06-25",
+      "qualification": "High technical format fit; prize merit unverified until independent review and downstream improvement",
+      "work": "~3-6h to coordinate five-point review and controlled rerun if reviewer available; larger work if fixes required",
       "reuse": "Very high",
-      "ev": "Attractive if work lands as used open-source infrastructure",
+      "ev": "Previous illustrative +$66 EV; uncalibrated. September 2026 $500 winding-check prize shows plausible small-award tier, not a predicted award.",
       "payer": "Vesuvius Challenge",
       "repo": "https://github.com/Svyable/scrollq",
       "source": "https://scrollprize.org/prizes",
       "asset_repos": [
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Turn one exact-volume diagnostic into independently checkable, used community evidence; target monthly progress prize before grand-prize scope.",
-      "note": "ScrollQ's strongest edge is evidence composability, provenance, falsification and evaluator-facing reproducibility."
+      "next": "Obtain independent VC3D adjudication of five flagged PHercParis4 points, record hash-bound review and before/after fit evidence; request approval before external outreach or prize submission",
+      "note": "ScrollQ's strongest edge is evidence composability, provenance, falsification and evaluator-facing reproducibility.",
+      "evidence": "https://github.com/Svyable/scrollq/blob/main/docs/october-2026-five-point-reviewer-handoff.md",
+      "restrictions": "Must show significant advantage and actual use; existing community winding-checking prior art; prize discretionary, permissive open-source release required if awarded; no submission authorized"
     },
     {
       "id": "arc-2026",
