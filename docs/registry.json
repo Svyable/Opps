@@ -347,7 +347,7 @@
       "type": "Research grant",
       "lane": "AI evaluation interoperability",
       "status": "PURSUE",
-      "stage": "Private application worksheet cleaned: obsolete first draft removed; applicant sign-off still outstanding; NOT SUBMITTED",
+      "stage": "Private Canada–Korea application verified at 39-word summary and 462-word explanation; $100k mainline itemized budget scenario and eligibility gate appended; NOT SUBMITTED",
       "value": "$100,000 mainline / $150,000 ambitious proposed; sponsor typical awards $100k–$2M",
       "value_kind": "grant-request-not-award",
       "deadline": "2026-10-23 23:59 Pacific",
@@ -363,9 +363,9 @@
         "https://github.com/Svyable/scrollq",
         "https://github.com/Svyable/desk"
       ],
-      "restrictions": "15 hours/week proposed; legal recipient/payee, author-written final answers, reviewer staffing, IP and employment rights unverified; no fixed overhead cap published; reasonable overhead assessed case by case; explicit approval required before submission.",
-      "next": "Applicant must personally verify identity/payee, capacity, rights, budget, team and final authored answers by 2026-10-23 23:59 Pacific; no submission without explicit authorization.",
-      "overhead": "Official RFP FAQ verified 2026-10-23: indirect/overhead costs likely supported up to a reasonable percentage of total budget, assessed case by case; no numeric 10% cap published.",
+      "restrictions": "Official overhead ceiling 10% of TOTAL budget; $9,800 proposed overhead on $100k = 9.8%; 15 hours/week proposed; payee, capacity, IP, reviewer procurement, founder-authored final answers and explicit submission approval unverified.",
+      "next": "Before 2026-10-23 23:59 Pacific, applicant personally verifies recipient/payee, 15h/week, rights, staffing, proposed $100k cost assumptions and $150k expansion, authors final responses and explicitly approves submission. Otherwise mark deadline passed without submission.",
+      "overhead": "Official RFP FAQ verified 2026-10-23: indirect/overhead up to 10% of TOTAL budget. Earlier 'no fixed cap' claim was incorrect.",
       "source_verified": "2026-10-23 https://middlepowers.ai/index.html"
     },
     {
