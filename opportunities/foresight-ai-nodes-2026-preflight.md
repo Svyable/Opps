@@ -20,3 +20,7 @@ A local applicant-review crosswalk maps 37 publicly indexed Airtable fields, inc
 **Economic screen:** conditional lead surplus $12,000 × subjective 45% qualification × subjective 3.5% selection − $140 full application preparation cost = **+$49 modeled EV**. This is economic surplus, not a $35,000 personal payout. Neither probability is a published acceptance rate.
 
 **Do not submit or represent external commitments without explicit applicant approval.**
+
+## 24 October funding readiness — reconciled itemized budget
+
+The [$35,000 itemized budget and capacity sensitivity](foresight-2026-itemized-budget-capacity.md) now reconciles **$33,000 direct costs + $2,000 overhead** in two *mutually exclusive* delivery modes: 240 founder hours at 20h/week, or 144 founder hours at 12h/week with more independent engineering and review. Neither mode is authorized or staffed. Both satisfy the official 10%-of-direct-costs overhead cap. The previous +$49 EV is valid **only for the 20h/week mode at the assumed 45% feasibility**; a 12h/week mode at an illustrative 65% feasibility yields +$23.80, and worse feasibility can make either mode negative. Applicant capacity, Node participation, payee, rights, reference and contractor availability remain hard gates. No application submitted.
