@@ -403,7 +403,7 @@
       "type": "Open-source research grant",
       "lane": "Human–AI control and oversight",
       "status": "PURSUE",
-      "stage": "37-field application crosswalk + reviewer charter + reconciled $35k two-mode itemized budget; applicant gates outstanding; NOT SUBMITTED",
+      "stage": "60-scenario, 180-assignment prospective three-arm synthetic protocol generator and 8 regression tests committed; no agent trials or independent validation; applicant gates outstanding; NOT SUBMITTED",
       "value": "Typical $30k–$100k grants; $35k proposed request, not awarded",
       "value_kind": "official-range-with-internal-scenario",
       "deadline": "2026-10-31 23:59 PDT",
@@ -419,10 +419,12 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Funded outputs open source; onsite SF/Berlin strongly preferred; 10% of direct research costs overhead cap; reference and consent; applicant approval",
-      "next": "Applicant selects and validates one budget, confirms Node engagement, reference, payee, IP and contractor availability; personally reviews live form and approves any submission by Oct 31",
+      "next": "Verify actual 12–20h/week, payee, reference consent, IP and Node participation; independently review prospective protocol, select one budget, personally authorize application before 2026-10-31 23:59 PDT",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-reviewer-execution-charter.md",
       "note": "Three-arm intervention-effectiveness protocol, pre-registration, failure criteria, 12-week receipts, and anti-double-funding boundary vs TAIF; prospective, not validated.",
-      "budget_evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-itemized-budget-capacity.md"
+      "budget_evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-itemized-budget-capacity.md",
+      "technical_artifact": "https://github.com/Svyable/Opps/tree/main/artifacts/foresight-control-2026",
+      "technical_limits": "Prospective fixture only: no enforcement implemented, no agents executed, no empirical outcomes, no external reviewer recruited; CI workflow committed but remote success unverified"
     },
     {
       "id": "bluedot-rapid-grants-2026",
