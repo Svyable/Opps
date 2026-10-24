@@ -1,0 +1,25 @@
+name: Foresight prospective protocol contract
+on:
+  push:
+    paths:
+      - 'artifacts/foresight-control-2026/**'
+      - '.github/workflows/foresight-protocol.yml'
+  pull_request:
+    paths:
+      - 'artifacts/foresight-control-2026/**'
+      - '.github/workflows/foresight-protocol.yml'
+  workflow_dispatch:
+jobs:
+  synthetic-protocol-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run contract tests
+        run: python -m unittest discover -s artifacts/foresight-control-2026 -p 'test_*.py' -v
+      - name: Generate and verify prospective manifest
+        run: |
+          python artifacts/foresight-control-2026/preregister.py --write /tmp/cwic-manifest.json
+          python artifacts/foresight-control-2026/preregister.py --check /tmp/cwic-manifest.json
