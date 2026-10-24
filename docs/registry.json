@@ -347,7 +347,7 @@
       "type": "Research grant",
       "lane": "AI evaluation interoperability",
       "status": "PURSUE",
-      "stage": "Private Canada–Korea application verified at 39-word summary and 462-word explanation; $100k mainline itemized budget scenario and eligibility gate appended; NOT SUBMITTED",
+      "stage": "Private application verified: $100k mainline and $150k mutually exclusive ambition budgets itemized; applicant approvals outstanding; NOT SUBMITTED",
       "value": "$100,000 mainline / $150,000 ambitious proposed; sponsor typical awards $100k–$2M",
       "value_kind": "grant-request-not-award",
       "deadline": "2026-10-23 23:59 Pacific",
@@ -363,10 +363,11 @@
         "https://github.com/Svyable/scrollq",
         "https://github.com/Svyable/desk"
       ],
-      "restrictions": "Official overhead ceiling 10% of TOTAL budget; $9,800 proposed overhead on $100k = 9.8%; 15 hours/week proposed; payee, capacity, IP, reviewer procurement, founder-authored final answers and explicit submission approval unverified.",
-      "next": "Before 2026-10-23 23:59 Pacific, applicant personally verifies recipient/payee, 15h/week, rights, staffing, proposed $100k cost assumptions and $150k expansion, authors final responses and explicitly approves submission. Otherwise mark deadline passed without submission.",
+      "restrictions": "10% of TOTAL budget overhead cap; mainline 9.8%, ambition 9.53%; unverified payee, 15h/week, reviewer procurement, IP, final applicant-authored responses, explicit submission approval",
+      "next": "Deadline 2026-10-23 23:59 Pacific: applicant confirms legal payee, 15h/week, IP and staffing, personally edits narrative, explicitly authorizes submission; otherwise deadline passes unsubmitted",
       "overhead": "Official RFP FAQ verified 2026-10-23: indirect/overhead up to 10% of TOTAL budget. Earlier 'no fixed cap' claim was incorrect.",
-      "source_verified": "2026-10-23 https://middlepowers.ai/index.html"
+      "source_verified": "2026-10-23 https://middlepowers.ai/index.html",
+      "budget_evidence": "Mainline $90,200 direct + $9,800 overhead = $100,000; ambition $135,700 direct + $14,300 overhead = $150,000; all estimates, no committed personnel"
     },
     {
       "id": "ea-funds-transformative-ai-fund-2026",
