@@ -66,24 +66,25 @@
       "type": "Open prize program",
       "lane": "Scientific imaging / reproducibility",
       "status": "PURSUE",
-      "stage": "Five-point PHercParis4 native VC3D reviewer handoff committed; no independent review or prize submission",
+      "stage": "October prize: five-marker native VC3D handoff plus independent adjudication worksheet committed; no external review or submission yet",
       "value": "$2.14M open prize pool; $20k monthly best; $1M 2027 grand-prize pool",
       "value_kind": "official",
       "deadline": "October Progress Prize: 2026-10-31 23:59 PDT; Grand Prize: 2027-06-25",
       "qualification": "High technical format fit; prize merit unverified until independent review and downstream improvement",
       "work": "~3-6h to coordinate five-point review and controlled rerun if reviewer available; larger work if fixes required",
       "reuse": "Very high",
-      "ev": "Previous illustrative +$66 EV; uncalibrated. September 2026 $500 winding-check prize shows plausible small-award tier, not a predicted award.",
+      "ev": "Illustrative +$66 from prior scenario; selection probabilities uncalibrated; no proof of downstream improvement",
       "payer": "Vesuvius Challenge",
       "repo": "https://github.com/Svyable/scrollq",
       "source": "https://scrollprize.org/prizes",
       "asset_repos": [
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Obtain independent VC3D adjudication of five flagged PHercParis4 points, record hash-bound review and before/after fit evidence; request approval before external outreach or prize submission",
+      "next": "Obtain authorized independent VC3D review of five pending markers, exact-hash confirmation and controlled before/after receipt; applicant approves prize submission",
       "note": "ScrollQ's strongest edge is evidence composability, provenance, falsification and evaluator-facing reproducibility.",
       "evidence": "https://github.com/Svyable/scrollq/blob/main/docs/october-2026-five-point-reviewer-handoff.md",
-      "restrictions": "Must show significant advantage and actual use; existing community winding-checking prior art; prize discretionary, permissive open-source release required if awarded; no submission authorized"
+      "restrictions": "Must show significant advantage and actual use; existing community winding-checking prior art; prize discretionary, permissive open-source release required if awarded; no submission authorized",
+      "review_worksheet": "https://github.com/Svyable/scrollq/blob/main/docs/october-2026-review-adjudication-sheet.csv"
     },
     {
       "id": "arc-2026",
