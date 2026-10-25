@@ -436,23 +436,23 @@
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
       "status": "WATCH",
-      "stage": "Official rolling grant open; distinct-scope pilot not drafted; no submission",
-      "value": "Conservative standard route $50–$10,000 per dedicated Rapid Grants page; overview advertises up to $20,000, unresolved discrepancy / potential exceptional routing",
+      "stage": "Current dedicated official page confirms up to $20k and permits research time/living costs, experiments, compute, events, travel; distinct-scope pilot not drafted; no submission",
+      "value": "Up to $20,000 on current dedicated Rapid Grants page (verified 2026-10-25); not a promised award",
       "value_kind": "current-official-program-ceiling",
       "deadline": "Rolling; no fixed close date published",
       "qualification": "~50% subjective project feasibility; course not required but community membership favored",
       "work": "~1-2h application + 4-6 weeks delivery if approved; scope/capacity unverified",
       "reuse": "Very high: Human Kind / ScrolIQ",
-      "ev": "Illustrative +$30 = $2,000 conditional founder economic surplus × 50% feasibility × 8% selection − $50 prep; highly uncertain",
+      "ev": "Prior illustrative +$30 on $2k conditional founder surplus × 50% feasibility × 8% selection − $50 prep; do not change EV solely because published maximum is $20k",
       "payer": "BlueDot Impact",
       "source": "https://bluedot.org/grants/rapid",
       "asset_repos": [
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "restrictions": "Dedicated Rapid Grants page says stipends/living expenses not usual scope (exceptions possible); research tooling, compute, travel and events fit better; community membership favored; restricted use and geographic/sanctions exclusions; no double funding",
-      "next": "If pursued, design a distinct itemized <=$10k research-tooling request; verify any larger award or stipend exception with sponsor before budgeting",
-      "source_verified": "2026-10-24 https://bluedot.org/grants/rapid and https://bluedot.org/grants"
+      "restrictions": "Purpose-restricted; material scope changes require prior written approval; sanctions/geographic exclusions; community involvement preferred; completion report within 60 days; avoid duplicate grant charges",
+      "next": "If prioritized, itemize a non-overlapping small pilot, verify actual recipient eligibility and capacity, and use up to $20k as published maximum rather than assumed award",
+      "source_verified": "2026-10-25 https://bluedot.org/grants/rapid"
     },
     {
       "id": "bluedot-seed-grants-2026",
