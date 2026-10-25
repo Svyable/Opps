@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24",
+  "generated_at": "2026-10-25",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -97,7 +97,7 @@
       "stage": "Submission preparation",
       "value": "$850k track pool; named final awards $40k / $15k / $10k / $5k / $5k",
       "value_kind": "official",
-      "deadline": "Entry 2026-10-26 · Final 2026-11-02",
+      "deadline": "Entry/rules acceptance: 2026-10-26 23:59 UTC (16:59 PDT); final submission: 2026-11-02 23:59 UTC",
       "qualification": "High eligibility; low placement probability at current score",
       "work": "Medium",
       "reuse": "Very high",
@@ -108,8 +108,9 @@
         "https://github.com/Svyable/ARCPrize2026",
         "https://github.com/Svyable/agents"
       ],
-      "next": "Get one valid Kaggle competition run; use private score/rank as the stop/go gate.",
-      "note": "Current public baseline is ~0.29–0.30 mean score; perception/rule inference is the documented bottleneck."
+      "next": "Applicant personally checks Kaggle entry/rules before 2026-10-26 23:59 UTC if desired; then validate notebook format and private score. Existing public ~0.30 local score implies low prize EV; do not submit or accept rules without explicit approval.",
+      "note": "Current public baseline is ~0.29–0.30 mean score; perception/rule inference is the documented bottleneck.",
+      "restrictions": "Kaggle entry requires personal acceptance of competition rules before 26 Oct 23:59 UTC; prize eligibility requires public permissively licensed code and no internet-dependent inference. Entry and notebook format unverified; no agent acceptance of terms."
     },
     {
       "id": "quantiacs-q25",
@@ -377,7 +378,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "Prospective blind reviewer packet generator + nine local regression tests committed; source SHA binding, pseudonymous review IDs, private label separation; remote CI and independent evaluation NOT verified",
+      "stage": "Sponsor-specific $25k/10-week application draft with five-line itemized budget, preregistered evaluation plan, prior art and applicant stop gates committed; synthetic harness and blinded packet available; NOT SUBMITTED",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (verified 2026-10-23)",
@@ -393,12 +394,13 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Obtain permitted authenticated independent traces and reviewers; freeze truly unseen holdout, run blinded adjudication, score false support and abstentions; applicant confirms payee, 12h/week and rights before any submission",
+      "next": "Applicant verifies payee, 12h/week, IP, reviewer/engineering procurement, Paperform live questions and personal authorship; explicitly approves before submission. Independent telemetry remains a proposed funded deliverable, not pre-award proof.",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
       "note": "19 visible synthetic fixtures; second-order multi-execution NaN/+infinity bypass repaired with 2 regression methods. No independent real telemetry validation.",
-      "source_verified": "2026-10-24 https://funds.effectivealtruism.org/funds/transformative-ai",
-      "evidence": "https://github.com/Svyable/Opps/tree/main/artifacts/control-evidence-2026"
+      "source_verified": "2026-10-25 https://funds.effectivealtruism.org/funds/transformative-ai",
+      "evidence": "https://github.com/Svyable/Opps/tree/main/artifacts/control-evidence-2026",
+      "application_draft": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-application-draft.md"
     },
     {
       "id": "foresight-ai-nodes-2026",
@@ -437,9 +439,9 @@
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
       "status": "WATCH",
-      "stage": "Current dedicated official page confirms up to $20k and permits research time/living costs, experiments, compute, events, travel; distinct-scope pilot not drafted; no submission",
-      "value": "Up to $20,000 on current dedicated Rapid Grants page (verified 2026-10-25); not a promised award",
-      "value_kind": "current-official-program-ceiling",
+      "stage": "Official pages conflict: dedicated Rapid Grants page says typical grants up to $10k and stipends/living costs unusual; general grants overview advertises up to $20k. Use $10k conservative budget until sponsor clarifies; no submission.",
+      "value": "$50–$10,000 on detailed Rapid Grants page; grants overview advertises up to $20,000 (unresolved discrepancy)",
+      "value_kind": "conflicting-official-ceilings-conservative-10k",
       "deadline": "Rolling; no fixed close date published",
       "qualification": "~50% subjective project feasibility; course not required but community membership favored",
       "work": "~1-2h application + 4-6 weeks delivery if approved; scope/capacity unverified",
@@ -451,9 +453,9 @@
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "restrictions": "Purpose-restricted; material scope changes require prior written approval; sanctions/geographic exclusions; community involvement preferred; completion report within 60 days; avoid duplicate grant charges",
-      "next": "If prioritized, itemize a non-overlapping small pilot, verify actual recipient eligibility and capacity, and use up to $20k as published maximum rather than assumed award",
-      "source_verified": "2026-10-25 https://bluedot.org/grants/rapid"
+      "restrictions": "Detailed official page: living expenses/stipends not usual; specific project expenses favored; overview says up to $20k. No assumed $20k award; verify recipient restrictions, scope, non-overlapping charges and sponsor approval before spending.",
+      "next": "If prioritized, draft a distinct <=$10k cost-specific pilot; obtain sponsor clarification before planning any larger award or stipend.",
+      "source_verified": "2026-10-25 https://bluedot.org/grants/rapid and https://bluedot.org/grants"
     },
     {
       "id": "bluedot-seed-grants-2026",
