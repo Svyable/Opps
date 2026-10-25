@@ -23,3 +23,5 @@ jobs:
           python-version: "3.11"
       - name: Run synthetic contract regression tests
         run: python artifacts/control-evidence-2026/contract_smoke.py -v
+      - name: Run prospective blind-packet regression tests
+        run: python artifacts/control-evidence-2026/test_blind_packet.py -v
