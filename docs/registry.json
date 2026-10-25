@@ -375,7 +375,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "Synthetic claim-to-trace contract hardened against NaN/infinite approval/execution times; 12 test methods committed, post-patch CI/local test result NOT VERIFIED; $25k application NOT SUBMITTED",
+      "stage": "Second timestamp validation defect fixed: all independent execution/approval clocks checked before min; 14 unit-test methods committed; post-change Python/remote CI still NOT VERIFIED; $25k application NOT SUBMITTED",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (verified 2026-10-23)",
@@ -391,10 +391,10 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Verify updated 12-method regression suite; applicant confirms 12h/week, payee, IP, data access and reviewer availability; personally approve grant application",
+      "next": "Run committed 14-method suite in Python CI and inspect outcome; applicant verifies 12h/week, payee, IP, reviewer/data access, and authorizes application",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
-      "note": "19 visible synthetic fixtures; new fail-closed nonfinite-clock guard and 2 regression methods. Independent telemetry authentication, blinded benchmark and external validation NOT performed.",
+      "note": "19 visible synthetic fixtures; second-order multi-execution NaN/+infinity bypass repaired with 2 regression methods. No independent real telemetry validation.",
       "source_verified": "2026-10-24 https://funds.effectivealtruism.org/funds/transformative-ai"
     },
     {
@@ -433,7 +433,7 @@
       "lane": "AI agent oversight / evaluation",
       "status": "WATCH",
       "stage": "Official rolling grant open; distinct-scope pilot not drafted; no submission",
-      "value": "Current official Rapid Grants page: up to $20,000 (2026-10-24); April 2026 sponsor blog previously said up to $10,000",
+      "value": "Conservative standard route $50–$10,000 per dedicated Rapid Grants page; overview advertises up to $20,000, unresolved discrepancy / potential exceptional routing",
       "value_kind": "current-official-program-ceiling",
       "deadline": "Rolling; no fixed close date published",
       "qualification": "~50% subjective project feasibility; course not required but community membership favored",
@@ -446,9 +446,9 @@
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "restrictions": "Purpose-specific funding, approved use, possible sanction/geographic exclusions; current official program page explicitly allows research time and living costs, with payment after claim/checks; community membership favored; no double funding with TAIF/Foresight",
-      "next": "Define a separately costed pilot with non-overlapping milestones; verify applicant eligibility, payment mechanics and availability; no expenses before award",
-      "source_verified": "2026-10-24 https://bluedot.org/grants/rapid (up to $20k; time/living costs allowed) and https://blog.bluedot.org/p/weve-given-out-50000-in-rapid-grants (historical $10k)"
+      "restrictions": "Dedicated Rapid Grants page says stipends/living expenses not usual scope (exceptions possible); research tooling, compute, travel and events fit better; community membership favored; restricted use and geographic/sanctions exclusions; no double funding",
+      "next": "If pursued, design a distinct itemized <=$10k research-tooling request; verify any larger award or stipend exception with sponsor before budgeting",
+      "source_verified": "2026-10-24 https://bluedot.org/grants/rapid and https://bluedot.org/grants"
     },
     {
       "id": "bluedot-seed-grants-2026",
