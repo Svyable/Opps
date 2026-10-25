@@ -32,3 +32,7 @@ A single-scope $25,000 application-review packet has been prepared with a reconc
 
 [Public contract implementation](../artifacts/control-evidence-2026/contract_smoke.py) now rejects NaN and ±infinity in approval/execution event times by returning `insufficient_evidence`, rather than permitting misleading ordering/refutation. Two adversarial regression methods were added; the full updated 12-method suite has **not** been independently confirmed to pass after this change. The 19 transparent smoke fixtures are not a held-out benchmark. The next funded milestone is authenticated telemetry with explicit clock uncertainty and blinded adjudication, not more self-scored synthetic fixtures.
 
+
+## 24 October second-order execution-clock defect
+
+The earlier NaN/infinity hardening checked only the `min()` of independent execution timestamps. With multiple execution records, `min([2.0, NaN])` or `min([2.0, +infinity])` yields `2.0`, allowing the invalid later record to be ignored and a false `supported` verdict. The [contract](../artifacts/control-evidence-2026/contract_smoke.py) now checks **every** execution and approval timestamp for finiteness before ordering; two additional regression methods bring the source to **14 test methods** (19 original visible fixtures unchanged). The fix is committed, but no post-fix Python run or successful remote CI is verified. See [technical appendix](../artifacts/control-evidence-2026/README.md). This is synthetic contract hardening, not independent agent telemetry validation.
