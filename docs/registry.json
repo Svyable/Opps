@@ -101,7 +101,7 @@
       "qualification": "High eligibility; low placement probability at current score",
       "work": "Medium",
       "reuse": "Very high",
-      "ev": "Low until private-score evidence improves",
+      "ev": "New incremental-effort sensitivity: $40k first-place prize × optimistic 0.1% chance − 2h × $35/h = −$30. Assumed chance not calibrated; existing ~0.30 public-game score and unverified Kaggle registration make prize EV worse. Historical effort sunk.",
       "payer": "ARC Prize",
       "repo": "https://github.com/Svyable/ARCPrize2026",
       "asset_repos": [
