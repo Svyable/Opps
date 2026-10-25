@@ -26,6 +26,14 @@ The synthetic contract previously accepted Python/JSON-adjacent nonfinite event 
 
 This closes a *specific implementation failure mode*, not the broader problem of trusted clocks. Real event ordering still requires authenticated source identity, clock-skew bounds, monotonic event sequencing, and completeness witnesses. Do not treat this patch as real-world validation. The earlier 10/10 local result predates this patch; the updated 12-method suite requires a fresh CI or local run before claiming all tests pass.
 
+## 24 October follow-up: multi-execution timestamp bypass fixed
+
+A second flaw remained after the first nonfinite-clock fix. The original approval rule computed `min(execution_timestamps)` and validated only that **one selected minimum**. Python's `min([2.0, float("nan")])` returns `2.0`, and `min([2.0, float("inf")])` also returns `2.0`. A later invalid execution record could therefore disappear from validation, allowing a false `supported` verdict. This was an implementation defect in the public synthetic contract, **not** evidence of a deployed-system exploit.
+
+The rule now parses **every** independent execution and approval timestamp, requires all of them to be finite, and only then selects the first execution. Two regression methods cover a nonfinite **additional** execution and a nonfinite **additional** approval; the source now has **14 unit-test methods** and retains the same 19 visible synthetic fixtures. The code change and tests were committed, but an end-to-end Python run of this updated revision and successful remote CI status have **not** been verified in this run. Do not report a 14/14 pass until a test runner confirms it.
+
+**Research implication:** real-world authorization ordering also requires clock-domain identification, bounded skew and independent recorder integrity. This patch strengthens a deterministic decision contract; it does not establish authenticated telemetry or real-world accuracy.
+
 ## Why a grant is still needed
 
 The proposed research is **not** to invent agent auditability. [Auditable Claims about AI Agents](https://arxiv.org/abs/2610.07459) (5 Oct 2026) already formalizes the policy, scope, record authorship, completeness and decision-rule requirements. [Auditable Agents](https://arxiv.org/abs/2604.05485) also predates this pilot. The genuinely unresolved question is **how independently blinded reviewers and methods behave on claim-to-record adjudication when real telemetry is delayed, missing, contradictory or misleading**.
