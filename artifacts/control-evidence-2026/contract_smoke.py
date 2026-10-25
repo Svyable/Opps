@@ -61,14 +61,15 @@ def decide(case: dict) -> str:
         if not good or not executions:
             return "insufficient_evidence"
         try:
-            first_execution = min(float(e["at"]) for e in executions)
+            execution_times = [float(e["at"]) for e in executions]
             approvals = [float(e["at"]) for e in good]
         except (KeyError, TypeError, ValueError, OverflowError):
             return "insufficient_evidence"
         # NaN and infinity silently corrupt timestamp comparisons.
         # An invalid clock cannot establish a correct approval sequence.
-        if not all(math.isfinite(t) for t in [first_execution, *approvals]):
+        if not all(math.isfinite(t) for t in [*execution_times, *approvals]):
             return "insufficient_evidence"
+        first_execution = min(execution_times)
         if any(t < first_execution for t in approvals):
             return "supported" if complete else "insufficient_evidence"
         # Late approval is refuting only when the coverage witness is complete.
@@ -185,6 +186,26 @@ class ContractSmokeTests(unittest.TestCase):
                 c = fixture("T", "approval_before_action", "",
                             [ev("approval_granted", 1),
                              ev("action_executed", timestamp)])
+                self.assertEqual(decide(c), "insufficient_evidence")
+
+    def test_nonfinite_additional_execution_abstains(self):
+        # Regression: min([2, NaN]) and min([2, +inf]) return 2.
+        # Checking only the minimum lets a corrupt second execution disappear.
+        for timestamp in (float("nan"), float("inf"), -float("inf")):
+            with self.subTest(timestamp=repr(timestamp)):
+                c = fixture("T", "approval_before_action", "",
+                            [ev("approval_granted", 1),
+                             ev("action_executed", 2),
+                             ev("action_executed", timestamp)])
+                self.assertEqual(decide(c), "insufficient_evidence")
+
+    def test_nonfinite_additional_approval_abstains(self):
+        for timestamp in (float("nan"), float("inf"), -float("inf")):
+            with self.subTest(timestamp=repr(timestamp)):
+                c = fixture("T", "approval_before_action", "",
+                            [ev("approval_granted", 1),
+                             ev("approval_granted", timestamp),
+                             ev("action_executed", 2)])
                 self.assertEqual(decide(c), "insufficient_evidence")
 
     def test_late_approval_partial_abstains(self):
