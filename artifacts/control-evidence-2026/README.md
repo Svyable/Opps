@@ -61,3 +61,24 @@ This artifact reduces a specific feasibility risk: it makes the proposed verdict
 - **No external outreach, grant submission, expenses or commitments have occurred.**
 
 **Interpretation:** A runnable smoke-test contract is a useful application attachment. It is not evidence that a $25,000 pilot has already succeeded.
+
+## 25 October — prospective blinded reviewer-packet builder (synthetic contract, NOT a review result)
+
+[blind_packet.py](blind_packet.py) now converts an applicant-controlled case manifest into two **separate local files**: a reviewer packet with claim/evidence but **no adjudication labels or original case IDs**, and a private label-key file linking pseudonymous review IDs to case IDs and expected verdicts. Both are bound to the SHA-256 of the exact input bytes. Review IDs use a secret-keyed HMAC; a different key changes identifiers. The generator rejects duplicate IDs, unknown claim/label fields, unexpected event fields, weak secret files and existing output paths. Both outputs are created with mode 0600. [Nine regression tests](test_blind_packet.py) exercise separation, determinism, input refusal and CLI file permissions; the equivalent code passed all nine tests locally on 2026-10-25. The GitHub Actions workflow now requests those tests on pushes; **remote CI success has not been independently verified**.
+
+Example with a **permissioned, local-only** manifest (do not commit the input, key or generated files):
+
+```bash
+umask 077
+python -c 'import secrets; open("local-secret.bin","wb").write(secrets.token_bytes(32))'
+python artifacts/control-evidence-2026/blind_packet.py \
+  --source /secure/frozen-cases.json \
+  --secret-file local-secret.bin \
+  --reviewer-out /secure/reviewer-packet.json \
+  --private-key-out /secure/private-label-key.json
+python artifacts/control-evidence-2026/test_blind_packet.py -v
+```
+
+Required source structure: `{"dataset_id":"...", "cases":[{"case_id":"...", "claim_type":"action_completed", "scope_id":"...", "action_id":"...", "args_digest":"...", "coverage":"complete", "coverage_writer":"independent", "events":[], "expected_verdict":"insufficient_evidence"}]}`. This example is **synthetic**. A field saying `writer=independent` is not a cryptographic authentication of its author; real records still need trusted source identity, consent, clock integrity and independently determined labels. Blinding labels in a packet does not make publicly visible fixtures an independent holdout. Do not publish source truth, private keys, permissioned traces or private reviewer data.
+
+**Remaining funding-dependent step:** acquire authorized independent traces and reviewers, freeze a genuinely unseen test set, obtain blinded decisions, and only then compute false-support and abstention rates. No such data or reviewer decisions exist here.
