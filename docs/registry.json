@@ -600,6 +600,31 @@
       "next": "Applicant verifies full-time/in-person availability, two consenting references, work authorization, alternative earnings and IP compatibility; chooses track and personally approves any application. Otherwise WATCH or REJECT; no submission.",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/mats-residency-winter-2027-incubation-preflight.md",
       "source_verified": "2026-10-25 official MATS residency/apply and residency/tracks pages"
+    },
+    {
+      "id": "ai-philosophy-competition-2026",
+      "name": "AI Philosophy Competition — First Edition",
+      "type": "Cash essay / methodology competition",
+      "lane": "AI philosophy, agent methodology and book research",
+      "status": "REJECT",
+      "stage": "Official call verified 2026-10-25; no entry prepared; negative incremental EV and mandatory public disclosure of unpublished AI-generated work",
+      "value": "$11,000 total pool: $3k / $2k / $1k ranked essays plus $5k discretionary methodology awards",
+      "value_kind": "official-prize-pool-not-individual-award",
+      "deadline": "2026-10-31",
+      "qualification": "Broad eligibility; up to three original primarily AI-generated essays and methodology report; existing book text cannot simply be reused",
+      "work": "Estimated 4h minimum for one original eligible essay plus methodology; likely more for competitive quality",
+      "reuse": "High thematic reuse from Sven's books and Desk research; low direct manuscript reuse because entry must be original, unpublished and primarily AI-generated",
+      "ev": "Illustrative -$110 = $3,000 first prize × 1% uncalibrated win probability − 4h × $35/h; other prizes/methodology pool not modeled due unknown odds",
+      "payer": "Forethought Research (organizer Zachary Goodsell and Elliott Thornley)",
+      "source": "https://www.zacharygoodsell.com/ai-philosophy-competition",
+      "repo": "https://github.com/Svyable/desk",
+      "asset_repos": [
+        "https://github.com/Svyable/desk",
+        "https://github.com/Svyable/agents"
+      ],
+      "restrictions": "Essay primarily AI-generated, max 6,000 words, unpublished and not under review elsewhere; must consent to online publication of essay and methodology; may disclose proprietary authorial process; no entry authorization",
+      "next": "Do not divert effort from MATS, Vesuvius, Foresight or EA Funds under negative modeled EV; reconsider only if an eligible unpublished essay/methodology already exists and rights are cleared",
+      "source_verified": "2026-10-25 official competition rules"
     }
   ],
   "engines": [
