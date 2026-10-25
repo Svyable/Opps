@@ -573,6 +573,33 @@
       "restrictions": "Minimum STEM PhD and several years experience; existing US work authorization; 40h/week Jan–May 2027; orientation in SF; application includes binding arbitration agreement; possible IP/work-product terms require review",
       "next": "Verify STEM PhD, actual scientific research record, full-time availability, US work authorization, Claude Code use and reference consent; if any hard gate fails, REJECT before 2026-10-28. No application authorized.",
       "source_verified": "2026-10-25 official Greenhouse posting"
+    },
+    {
+      "id": "mats-residency-winter-2027",
+      "name": "MATS Residency — Winter 2027 (Incubation / AI safety research)",
+      "type": "Paid research residency / employment",
+      "lane": "Agent evidence verification and AI safety research",
+      "status": "WATCH",
+      "stage": "2026-10-25: official eligibility, track, compensation and full application requirements verified; detailed Incubation candidate research plan and 90-day evidence gates committed. NOT APPLIED.",
+      "value": "$155,000–$285,000 gross annual pay; 6–24 months, prorated; 6-month equivalent $77,500–$142,500 before taxes (not Svyable revenue)",
+      "value_kind": "official-salary-not-grant",
+      "deadline": "2026-10-31 Anywhere on Earth (AoE)",
+      "qualification": "No PhD required; research work sample available, but full-time capacity, 1/3 in-person, two references, IP/employment terms, work authorization and research quality unverified",
+      "work": "~3h applicant preparation if eligible; 6–24 months full-time residency if selected",
+      "reuse": "Very high: Human Kind, Control Evidence, ScrolIQ, Foresight experimental design",
+      "ev": "Illustrative +$52.50 incremental personal earnings EV = ($77.5k six-month gross − $60k hypothetical foregone earnings) × 30% feasibility × 3% conditional selection − $105 prep. -$105 if unavailable; assumptions uncalibrated.",
+      "payer": "MATS Research",
+      "source": "https://www.matsprogram.org/residency/apply",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/mats-residency-winter-2027-incubation-preflight.md",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "Full-time; ≥1/3 in-person at Berkeley/London/DC; two references, CV and applicant-authored responses; potential employer IP/exclusivity conflicts; income not company revenue; disclose AI assistance; no submission authorization.",
+      "next": "Applicant verifies full-time/in-person availability, two consenting references, work authorization, alternative earnings and IP compatibility; chooses track and personally approves any application. Otherwise WATCH or REJECT; no submission.",
+      "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/mats-residency-winter-2027-incubation-preflight.md",
+      "source_verified": "2026-10-25 official MATS residency/apply and residency/tracks pages"
     }
   ],
   "engines": [
