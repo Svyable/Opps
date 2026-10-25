@@ -377,7 +377,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "Second timestamp validation defect fixed: all independent execution/approval clocks checked before min; 14 unit-test methods committed; post-change Python/remote CI still NOT VERIFIED; $25k application NOT SUBMITTED",
+      "stage": "Prospective blind reviewer packet generator + nine local regression tests committed; source SHA binding, pseudonymous review IDs, private label separation; remote CI and independent evaluation NOT verified",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (verified 2026-10-23)",
@@ -393,11 +393,12 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Run committed 14-method suite in Python CI and inspect outcome; applicant verifies 12h/week, payee, IP, reviewer/data access, and authorizes application",
+      "next": "Obtain permitted authenticated independent traces and reviewers; freeze truly unseen holdout, run blinded adjudication, score false support and abstentions; applicant confirms payee, 12h/week and rights before any submission",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
       "note": "19 visible synthetic fixtures; second-order multi-execution NaN/+infinity bypass repaired with 2 regression methods. No independent real telemetry validation.",
-      "source_verified": "2026-10-24 https://funds.effectivealtruism.org/funds/transformative-ai"
+      "source_verified": "2026-10-24 https://funds.effectivealtruism.org/funds/transformative-ai",
+      "evidence": "https://github.com/Svyable/Opps/tree/main/artifacts/control-evidence-2026"
     },
     {
       "id": "foresight-ai-nodes-2026",
@@ -545,6 +546,31 @@
         "https://github.com/Svyable/scrollq"
       ],
       "next": "Only reconsider with documented eligible academic/NGO PI and written allocation of Svyable work/IP; no speculative application or partner outreach without approval."
+    },
+    {
+      "id": "anthropic-stem-fellows-2027",
+      "name": "Anthropic STEM Fellow — January–May 2027",
+      "type": "Paid four-month fixed-term research fellowship",
+      "lane": "AI-assisted science and rigorous evaluation",
+      "status": "WATCH",
+      "stage": "Official job posting verified 2026-10-25; STEM PhD, several years domain research, Claude Code experience, US work authorization and full-time availability UNVERIFIED",
+      "value": "$100,000–$167,000 compensation for four-month fellowship (gross pay, not Svyable grant revenue)",
+      "value_kind": "employment-compensation",
+      "deadline": "2026-10-28 (official posting); fellowship 2027-01-12 to 2027-05-08",
+      "qualification": "0% confirmed eligibility pending STEM PhD and several years' research evidence; 2% conditional selection is hypothetical, not sponsor data",
+      "work": "Potential 2h eligibility/application prep; four months full-time and one-week San Francisco orientation if selected",
+      "reuse": "Potential high: scientific research manuscripts, quantitative evaluation design, ScrolIQ; formal domain expertise not established",
+      "ev": "Illustrative direct-route −$80 if $80 prep is spent before eligibility verified (0% verified eligibility × $70k hypothetical conditional surplus − $80); DO NOT spend prep until gate clears",
+      "payer": "Anthropic PBC (official employer posting; fixed-term through employer of record)",
+      "source": "https://job-boards.greenhouse.io/anthropic/jobs/5452403008",
+      "repo": "https://github.com/Svyable/Opps",
+      "asset_repos": [
+        "https://github.com/Svyable/desk",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "Minimum STEM PhD and several years experience; existing US work authorization; 40h/week Jan–May 2027; orientation in SF; application includes binding arbitration agreement; possible IP/work-product terms require review",
+      "next": "Verify STEM PhD, actual scientific research record, full-time availability, US work authorization, Claude Code use and reference consent; if any hard gate fails, REJECT before 2026-10-28. No application authorized.",
+      "source_verified": "2026-10-25 official Greenhouse posting"
     }
   ],
   "engines": [
