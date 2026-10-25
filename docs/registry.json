@@ -66,12 +66,12 @@
       "type": "Open prize program",
       "lane": "Scientific imaging / reproducibility",
       "status": "PURSUE",
-      "stage": "October prize: five-marker native VC3D handoff plus independent adjudication worksheet committed; no external review or submission yet",
+      "stage": "October 25: ranked all five PHercParis4 VC3D markers from frozen real-data attachments; top two near-patch conflicts packaged with native coordinates and adjudication protocol. No independent review or submission.",
       "value": "$2.14M open prize pool; $20k monthly best; $1M 2027 grand-prize pool",
       "value_kind": "official",
       "deadline": "October Progress Prize: 2026-10-31 23:59 PDT; Grand Prize: 2027-06-25",
       "qualification": "High technical format fit; prize merit unverified until independent review and downstream improvement",
-      "work": "~3-6h to coordinate five-point review and controlled rerun if reviewer available; larger work if fixes required",
+      "work": "~1h focused first-pass on two prioritized markers if a qualified reviewer is available; 3–6h broader review/rerun; external capacity unverified",
       "reuse": "Very high",
       "ev": "Illustrative +$66 from prior scenario; selection probabilities uncalibrated; no proof of downstream improvement",
       "payer": "Vesuvius Challenge",
@@ -80,11 +80,13 @@
       "asset_repos": [
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Obtain authorized independent VC3D review of five pending markers, exact-hash confirmation and controlled before/after receipt; applicant approves prize submission",
-      "note": "ScrollQ's strongest edge is evidence composability, provenance, falsification and evaluator-facing reproducibility.",
+      "next": "With approval, obtain independent VC3D review of relative:227/2445 first (0.886 voxel patch residual -5 vs four residual-zero patches), then relative:242/2549; capture CT receipt, exact hashes, controlled rerun; authorize any submission separately.",
+      "note": "Two near-patch conflicts ranked post-hoc; no independent adjudication, error confirmation, reviewer-time saving or downstream improvement. September $500 winding-check award establishes direct prior art.",
       "evidence": "https://github.com/Svyable/scrollq/blob/main/docs/october-2026-five-point-reviewer-handoff.md",
       "restrictions": "Must show significant advantage and actual use; existing community winding-checking prior art; prize discretionary, permissive open-source release required if awarded; no submission authorized",
-      "review_worksheet": "https://github.com/Svyable/scrollq/blob/main/docs/october-2026-review-adjudication-sheet.csv"
+      "review_worksheet": "https://github.com/Svyable/scrollq/blob/main/docs/october-2026-review-adjudication-sheet.csv",
+      "triage_artifact": "https://github.com/Svyable/scrollq/blob/main/artifacts/2026-10-25-paris4-review-triage/README.md",
+      "triage_manifest": "https://github.com/Svyable/scrollq/blob/main/artifacts/2026-10-25-paris4-review-triage/priority.json"
     },
     {
       "id": "arc-2026",
