@@ -1,0 +1,44 @@
+# Foresight Human Empowerment — applicant-ready research narrative and decision rule
+
+**Prepared 2026-10-25. Status: DRAFT ONLY; NOT SUBMITTED.** Applicant must verify and rewrite in their own voice. Official call: https://foresight.org/grants/ai-science-safety-nodes-rfp-coordination-and-accountability/ . Deadline **2026-10-31 23:59 PDT**. Official application: https://airtable.com/appyVXc5SMPAvIKpP/pagp7takV26cG6JY1/form . Live form fields could not be independently inspected; the 350/500 character caps below come from an earlier public indexing crosswalk and **must be rechecked in the actual form**.
+
+## Candidate short summary (329 characters; provisional 350-character field)
+Control Where It Counts tests whether human approval actually prevents unauthorized AI-agent actions or merely records oversight. We will compare no gate, cosmetic approval, and enforced authorization in a sandbox, publish failures and throughput costs, and release a decision rule for when humans should retain or defer control.
+
+## Candidate RFP fit (405 characters; provisional 500-character field)
+Foresight asks when human oversight adds value versus becomes theatre. Our 12-week, $35,000 study will test three approval designs on 60 preregistered synthetic tasks, with independent review and explicit abstention. AI agents perform sandbox work; deterministic boundaries enforce policy. Human review remains mandatory for legitimacy-sensitive or irreversible actions even if slower. No trials have run.
+
+## Longer research answer — applicant review required
+
+**Question.** Does a human approval step change what an autonomous agent is permitted to accomplish, or only create a reassuring record? More generally, when is control instrumentally useful, when is it owed to people regardless of efficiency, and when does delegation make sense? The proposal separates these three questions rather than pretending one safety score answers all of them.
+
+**Study.** Over twelve weeks, construct a reproducible sandbox for agent tool actions and compare three matched arms: no approval gate; an approval interface that does not enforce at the tool boundary; and an enforceable, scoped authorization check. Begin with the existing 60 synthetic task specifications and 180 **planned, unrun** assignments across file operations, messages, simulated secrets, delegation and tool aliases. Use actual AI-agent execution **only in isolated mock environments** with no live credentials, external sends, or irreversible effects. Freeze policy labels, sampling, agent/model versions, random seeds and scoring before collecting final outcomes. Treat the current manifest as design infrastructure, not pilot evidence.
+
+**AI-first implementation.** Agents attempt delegated tasks and can generate *separate training-side* candidate edge cases; agent-generated cases cannot silently enter the frozen held-out evaluation. Automated trace capture, reproducible replay and failure clustering reduce manual workload. A deterministic policy engine—not a language model's assertion—decides whether a scoped approval exists. Independent reviewers adjudicate a blinded sample from tool-side receipts; model self-reports are not ground truth. AI use is proposed, not yet implemented or measured.
+
+**Decision rule to test, not a conclusion already reached.** (1) **Empirical benefit:** retain or improve a human checkpoint if it materially lowers unauthorized completions against cosmetic approval at a tolerable legitimate-task and latency cost. Report effect sizes, raw denominators, uncertainty and counterexamples; the 60-case fixture does not establish statistical power. (2) **Legitimacy/irreversibility:** separately flag decisions that require meaningful human contestability or authorization even if slower; these are explicit policy judgments, not empirical performance claims. (3) **Delegation:** consider deferring reversible, contestable decisions where an enforceable gate adds no demonstrated benefit and opportunity costs are material. **Abstain** if ground truth, trace coverage or reviewer agreement is insufficient. Known alias, race or delegation bypasses block recommendations for deployment.
+
+**Deliverables.** Weeks 1–2: threat model, license review, preregistration and holdout freeze. Weeks 3–5: real sandbox runner and three-arm controls, independently tested for enforcement. Weeks 6–8: agent trials and raw receipts, including failures and missing traces. Weeks 9–10: blinded adjudication, disagreement log, effect sizes and costs. Weeks 11–12: public code, permissible datasets, negative findings, decision rubric and replication guide. No human participants, contractors or Node affiliation are represented as secured.
+
+**Reuse and distinction.** Existing Svyable/human-kind authorization concepts and Svyable/scrollq provenance patterns reduce starting costs, but neither establishes intervention efficacy. This is *prospective causal intervention testing*; the separate EA Funds Control Evidence proposal concerns *retrospective claim-versus-trace adjudication*. Keep time sheets, expenses, outputs and grant reporting disjoint. No double billing or retrospective grant charging.
+
+**Budget.** Request **$35,000**, comprising **$33,000 direct research costs + $2,000 directly supportive overhead** (6.06% of direct costs). Two mutually exclusive delivery budgets are documented in [the budget appendix](foresight-2026-itemized-budget-capacity.md). Founder-led assumes 240 founder hours; delegated assumes 144 founder hours and more independent engineering. Neither is staffed or authorized. No travel or in-person Node work is budgeted; if necessary, scope and figures must be changed before applying.
+
+**Why funding rather than a customer contract?** The public-good result is evidence of where approval controls fail, including negative results, under open-source publication rather than a proprietary implementation for one customer. This statement is conditional on applicant confirming that there is no existing customer agreement or overlapping funding that would contradict it.
+
+## Mandatory go/no-go evidence
+
+| Requirement | Current evidence | Submission gate |
+|---|---|---|
+| Recipient/payee, tax and due-diligence identity | Not verified | Applicant confirms legal details |
+| Founder weekly availability | 12h or 20h scenario only | Choose one realistic budget |
+| Independent engineer/reviewer | Uncommitted estimates | Confirm deliverability or reduce scope |
+| Open-source/IP/data rights | Existing public code only | Verify ownership and third-party rights |
+| Reference and permission to contact | Not verified | Obtain consent |
+| SF/Berlin Node participation | Not verified | Truthful concrete plan, or disclose remote-only disadvantage |
+| Live Airtable questions/consents | Not independently inspectable | Applicant checks form, privacy and sharing choices |
+| Explicit submission authorization | Not provided | **Do not submit** |
+
+**Economics.** Sponsor typical awards $30k–$100k; Human Empowerment often receives smaller awards. Prior subjective net EV scenarios: founder-led **+$49** at 45% feasible × 3.5% selected; delegated **+$23.80** at 65% feasible × 3.5% selected. These are conditional founder economic-surplus models, not cash forecasts or published odds. With low feasible capacity, either route becomes negative. The prize is restricted research support, not $35k in personal profit.
+
+**Sponsor terms verified 2026-10-25:** in-person Node activity strongly prioritized, AI-first use favored, code/data/outputs open-source, for-profit applicants must explain funding need, overhead up to 10% of direct research costs, due diligence and periodic reporting, and potential public naming of grantee/project. No application or agreement has been executed.
