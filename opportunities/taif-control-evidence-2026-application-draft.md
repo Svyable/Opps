@@ -62,7 +62,7 @@ These are **preparatory artifacts**. Remote CI passed the synthetic/unit suites,
 | Documentation, accessibility and dissemination | estimate | $1,500 |
 | **Total** | | **$25,000** |
 
-This assumes **12 lead hours/week for ten weeks**, not yet verified. The engineering and reviewer allocations are **not quotations, hires or promises**. There is no contingency; if vendor costs differ, rescope or revise the request before submitting. No expense may be incurred on the assumption of funding.
+This assumes **12 lead hours/week for ten weeks**, not yet verified. The engineering and reviewer allocations are **not quotations, hires or promises**. A [nonbinding independent-delivery sourcing packet](taif-control-evidence-2026-independent-delivery-sourcing.md) now specifies the two scopes, acceptance criteria, conflicts, privacy and unsent inquiry drafts; **no candidates, consent, quotes or staffing commitments have been secured**. There is no contingency; if vendor costs differ, rescope or revise the request before submitting. No expense may be incurred on the assumption of funding.
 
 ## Why grant funding rather than a commercial sale?
 The value of this work depends on publishing failure cases, an inspectable protocol and negative results, not just building a proprietary compliance dashboard for a customer. A small early-stage grant could pay for independent evidence that existing public code alone cannot provide. The applicant must verify there is no customer or grant agreement that already pays for this work.
