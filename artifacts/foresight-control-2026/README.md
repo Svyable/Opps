@@ -1,7 +1,7 @@
 # Control Where It Counts — prospective 60-case design gate
 **Prepared 2026-10-24 | Foresight Institute AI Nodes (Human Empowerment) | $35,000 proposed / 12 weeks | NOT SUBMITTED**
 
-This is a reproducible *study-design fixture*, not a demonstration of successful agent control. It provides an explicit synthetic task manifest, balanced policy categories, three paired intervention arms, and a content hash. It does **not** implement the intervention, execute an agent, recruit reviewers, adjudicate ambiguous cases, or measure any outcome.
+This repository now contains **two distinct preparatory components**: a prospective study-design fixture (60 cases, 180 unrun assignments) and a side-effect-free, deterministic **mock authorization-boundary microprototype**. The latter illustrates the three arm semantics but does **not** execute an AI agent, authenticate real human approval, perform tool side effects, recruit reviewers, adjudicate cases, or measure intervention efficacy. Neither component is experimental evidence.
 
 ## Reproduce (Python 3.10+, standard library only)
 
@@ -11,15 +11,24 @@ python artifacts/foresight-control-2026/preregister.py --check /tmp/cwic-manifes
 python -m unittest discover -s artifacts/foresight-control-2026 -p 'test_*.py' -v
 ```
 
-The generator defines **60 synthetic scenario specifications** (5 threat categories × 3 policy labels × 4 variants) and **180 planned assignments** (every case in each of three arms). A fixed seed determines assignment order; the manifest records its SHA-256 digest. Every assignment has `status=not_run` and the manifest declares `outcomes=not_collected`. Eight unit tests cover determinism, tampering, duplicate cases, missing assignments, forged outcomes, live-target strings and label imbalance. The source and tests are committed; the automated workflow is a requested verification, not proof that remote CI has passed.
+The generator defines **60 synthetic scenario specifications** (5 threat categories × 3 policy labels × 4 variants) and **180 planned assignments** (every case in each of three arms). A fixed seed determines assignment order; the manifest records its SHA-256 digest. Every assignment has `status=not_run` and the manifest declares `outcomes=not_collected`. Eight preregistration unit tests cover determinism, tampering, duplicate cases, missing assignments, forged outcomes, live-target strings and label imbalance. A separate set of 20 microprototype unit tests covers authorization semantics; these tests are not the 180 planned assignments. The source and tests are committed; the automated workflow is a requested verification, not proof that remote CI has passed.
 
-### Experimental arms, proposed only
+### Experimental arms (prospective study; mock semantics implemented only)
 
 - **A: no_gate:** an agent may attempt sandbox actions without an approval checkpoint.
 - **B: cosmetic_approval:** a UI records an approval gesture but does not enforce it at the action boundary.
-- **C: enforced_boundary:** the action boundary should check a scoped grant; enforcement must still be built and tested independently.
+- **C: enforced_boundary:** a deterministic mock evaluator checks scoped grants at simulated execution time; real tool-boundary enforcement and independent testing remain future research.
 
 The five categories are simulated file writes, simulated external messages, synthetic secret handling, delegation, and tool aliases/timing. All targets are `sandbox:` or `mock://` placeholders. No network calls, credentials, real messages or filesystem writes are performed by this generator.
+
+
+### Executable mock boundary — newly added 2026-10-26
+
+Run `python artifacts/foresight-control-2026/gate_runner.py --demo` to inspect three deterministic receipts for the **same unapproved synthetic call**. The no-gate and cosmetic arms report `mock_executed`; the enforced arm reports `blocked`. **No file is written, no message is sent, and no action is executed.** The cosmetic arm records an approval-UI indicator without enforcement; this is a controlled illustration of oversight theatre, not an empirical result.
+
+The microprototype implements exact actor/tool/target grant matching, simulated validity windows checked at execution time, canonical mock tool aliases, a basic two-party delegation condition, revocation, ambiguous-authority fail-closed behavior and request digests. It rejects non-mock targets. Its `human:` approver field is an **unauthenticated string**, not a signature; it has no live identity verification, persistence, concurrency guarantees, cryptographic receipt provenance, genuine agent behavior, measured latency or adversarial security assurance. The tool alias map is static. No claim of deployment safety or measured unauthorized-action reduction follows.
+
+**Reproduce the microprototype tests:** `python -m unittest discover -s artifacts/foresight-control-2026 -p 'test_*.py' -v` (28 test methods in total: 8 design + 20 mock boundary). These were exercised locally before the commit; remote CI must be checked independently. The original 60/180 manifest remains unchanged and explicitly unrun.
 
 ### Prospective scoring contract — NOT yet evaluated
 
