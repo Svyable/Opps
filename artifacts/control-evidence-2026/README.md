@@ -82,3 +82,22 @@ python artifacts/control-evidence-2026/test_blind_packet.py -v
 Required source structure: `{"dataset_id":"...", "cases":[{"case_id":"...", "claim_type":"action_completed", "scope_id":"...", "action_id":"...", "args_digest":"...", "coverage":"complete", "coverage_writer":"independent", "events":[], "expected_verdict":"insufficient_evidence"}]}`. This example is **synthetic**. A field saying `writer=independent` is not a cryptographic authentication of its author; real records still need trusted source identity, consent, clock integrity and independently determined labels. Blinding labels in a packet does not make publicly visible fixtures an independent holdout. Do not publish source truth, private keys, permissioned traces or private reviewer data.
 
 **Remaining funding-dependent step:** acquire authorized independent traces and reviewers, freeze a genuinely unseen test set, obtain blinded decisions, and only then compute false-support and abstention rates. No such data or reviewer decisions exist here.
+
+## 25 October — reference-label scoring contract (prospective; not an empirical result)
+
+[`score_reviews.py`](score_reviews.py) accepts the frozen blinded reviewer packet, the **private** reference-label key produced by `blind_packet.py`, and a separate reviewer-response JSON. It verifies the shared dataset identifier, source SHA-256 metadata, case count, packet types and case IDs; rejects duplicate or unknown reviewer/case decisions; and requires an explicit verdict for every case, including `no_decision`. It creates a non-overwriting mode-0600 result file with per-reviewer reference-label agreement, support asserted against a non-support reference, abstentions, a confusion table and Wilson 95% intervals. Zero denominators are `null`, never silently zero.
+
+**Reviewer-response schema** (private; do not commit): `{"schema_version":1,"dataset_id":"<same>","source_sha256":"<same 64-hex>","case_count":3,"packet_type":"reviewer_responses","judgments":[{"reviewer_id":"R1","review_id":"<blinded ID>","verdict":"no_decision"}]}`. Supply exactly one judgment per reviewer per blinded case; allowed verdicts are `supported`, `refuted`, `insufficient_evidence`, and `no_decision`. Missing decisions must be recorded explicitly rather than disappearing from the denominator.
+
+Run locally with Python 3.10+ and no external dependencies:
+
+```bash
+python artifacts/control-evidence-2026/test_score_reviews.py -v
+python artifacts/control-evidence-2026/score_reviews.py \
+  --packet /secure/reviewer-packet.json \
+  --private-key /secure/private-label-key.json \
+  --responses /secure/reviewer-responses.json \
+  --output /secure/reviewer-score.json
+```
+
+**Validation boundary:** 11 regression methods passed locally on the equivalent implementation on 2026-10-25; a remote GitHub Actions success has not yet been independently confirmed. The tests use **three deliberately synthetic cases** and do not measure reviewer performance. The binding fields are untrusted metadata until source provenance and packet integrity are independently verified; a claimed `independent` recorder or `expected_verdict` is **not** authenticated ground truth. The scorer deliberately outputs `reference_is_ground_truth: false` and avoids calling agreement an accuracy estimate. An actual funded study must secure authentic evidence, frozen held-out labels, consent, blinded independent reviewers, and a preregistered analysis before drawing substantive conclusions. The scorer does not estimate AI safety improvement or sponsor award probability.
