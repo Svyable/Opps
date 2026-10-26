@@ -442,8 +442,8 @@
       "lane": "AI agent oversight / evaluation",
       "status": "WATCH",
       "stage": "Official pages conflict: dedicated Rapid Grants page says typical grants up to $10k and stipends/living costs unusual; general grants overview advertises up to $20k. Use $10k conservative budget until sponsor clarifies; no submission.",
-      "value": "$50–$10,000 on detailed Rapid Grants page; grants overview advertises up to $20,000 (unresolved discrepancy)",
-      "value_kind": "conflicting-official-ceilings-conservative-10k",
+      "value": "Up to $20,000 on current dedicated Rapid Grants page (verified 2026-10-25); actual award unspecified",
+      "value_kind": "official-ceiling-not-award",
       "deadline": "Rolling; no fixed close date published",
       "qualification": "~50% subjective project feasibility; course not required but community membership favored",
       "work": "~1-2h application + 4-6 weeks delivery if approved; scope/capacity unverified",
@@ -455,9 +455,10 @@
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "restrictions": "Detailed official page: living expenses/stipends not usual; specific project expenses favored; overview says up to $20k. No assumed $20k award; verify recipient restrictions, scope, non-overlapping charges and sponsor approval before spending.",
-      "next": "If prioritized, draft a distinct <=$10k cost-specific pilot; obtain sponsor clarification before planning any larger award or stipend.",
-      "source_verified": "2026-10-25 https://bluedot.org/grants/rapid and https://bluedot.org/grants"
+      "restrictions": "Current dedicated page allows time/living costs, compute, experiments and travel; purpose-restricted, prior written approval for material changes, funding jurisdiction limits and 60-day completion report; disbursement after claim/checks. Do not double-fund TAIF/Foresight work.",
+      "next": "If prioritized, draft a separately costed <=$20k pilot with non-overlapping deliverables and verified applicant/payment jurisdiction; actual award size unknown.",
+      "source_verified": "2026-10-25 https://bluedot.org/grants/rapid",
+      "note": "Official detailed page https://bluedot.org/grants/rapid verified 2026-10-25 now advertises up to $20k and permits time/living costs; older cached versions showed $10k and excluded routine stipends. Do not infer approval or raise EV solely from ceiling."
     },
     {
       "id": "bluedot-seed-grants-2026",
