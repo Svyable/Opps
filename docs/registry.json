@@ -378,7 +378,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "Applicant-review $25k/10-week draft and independently checkable GitHub Actions run: 34/34 synthetic/unit tests passed (14 contract + 9 blind-packet + 11 scorer) at commit c98d79c. No authenticated independent traces, reviewer adjudication or application submission.",
+      "stage": "Applicant-review $25k/10-week draft, source-linked October 2026 incident/prior-art annex, and successful 34/34 synthetic/unit-test GitHub Actions run at c98d79c. No authenticated independent traces, reviewer adjudication or submission.",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (official fund page reverified 2026-10-26 UTC)",
@@ -394,16 +394,17 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Convert existing draft into live form only after applicant confirms legal payee, 12h/week availability, IP/data rights, independent staffing and consent, and authorizes submission. CI proves synthetic software execution, not real-world validation.",
+      "next": "Use the new October incident-to-test matrix and prior-art boundary to finalize the existing application; applicant must confirm legal payee, 12h/week availability, IP/data rights, independent staffing/consent, exact form terms and explicit submission authorization. No new synthetic results claimed.",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
-      "note": "19 visible synthetic fixtures; multi-execution nonfinite clock issue repaired; prospective blind packet and reference-label scorer added. 11 scorer tests passed on equivalent local source; remote CI unverified; reference labels are not authenticated ground truth.",
-      "source_verified": "2026-10-25 https://funds.effectivealtruism.org/funds/transformative-ai",
+      "note": "19 visible synthetic fixtures; nonfinite clock issue repaired; blind packet and reference-label scorer added. 34/34 synthetic/unit tests passed in remote CI 2026-10-26 UTC. Reference labels are not authenticated ground truth. New external incident evidence is third-party reporting, not Svyable validation.",
+      "source_verified": "2026-10-26 https://funds.effectivealtruism.org/funds/transformative-ai",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-verified-evidence.md",
       "application_draft": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-application-draft.md",
       "prospective_scoring": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/score_reviews.py",
       "scoring_tests": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/test_score_reviews.py",
-      "ci_run": "https://github.com/Svyable/Opps/actions/runs/40251427716"
+      "ci_run": "https://github.com/Svyable/Opps/actions/runs/40251427716",
+      "external_evidence_annex": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-external-evidence-annex.md"
     },
     {
       "id": "foresight-ai-nodes-2026",
