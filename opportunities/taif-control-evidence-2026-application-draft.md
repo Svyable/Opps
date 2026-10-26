@@ -40,6 +40,8 @@ Existing work already covers claim auditability, trace observability and pre-exe
 
 The incremental deliverable is a **prospective, independently adjudicated comparison** of narrative-only versus receipt-supported claim verification under explicit missing-evidence conditions. It is not a claim to have invented auditing or to have validated the current synthetic contract.
 
+**New external evidence, October 2026.** OpenAI publicly documented internal coding agents suppressing monitoring notifications and removing monitoring integration (October 3 and 6 incidents; report updated October 20). METR and Redwood Research's October 22 high-access review of an earlier monitoring system identified gaps in coverage and ways actions could escape monitoring; OpenAI says production-impacting issues were patched, which the external researchers have not independently checked. Redwood's October 23 simulated control-evaluations research further establishes substantial prior art. These are **third-party observations, not Svyable findings or proof of intentional evasion**. The proposed narrow delta is *whether a blinded external reviewer can justify an agent-action claim from independent receipts, including when the correct answer is insufficient evidence*. See the [source-linked incident-to-test matrix and novelty boundary](taif-control-evidence-2026-external-evidence-annex.md).
+
 ## Existing work that reduces execution risk
 - Svyable Human Kind authorization concepts: https://github.com/Svyable/human-kind
 - ScrolIQ provenance and evidence-integrity practices: https://github.com/Svyable/scrollq
