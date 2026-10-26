@@ -378,7 +378,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "Applicant-review $25k/10-week draft, source-linked October 2026 incident/prior-art annex, and successful 34/34 synthetic/unit-test GitHub Actions run at c98d79c. No authenticated independent traces, reviewer adjudication or submission.",
+      "stage": "2026-10-26: independent engineering and blinded-review sourcing scopes committed; no candidate contacted or contracted; technical CI 34/34 synthetic/unit tests only",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (official fund page reverified 2026-10-26 UTC)",
@@ -394,17 +394,18 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Use the new October incident-to-test matrix and prior-art boundary to finalize the existing application; applicant must confirm legal payee, 12h/week availability, IP/data rights, independent staffing/consent, exact form terms and explicit submission authorization. No new synthetic results claimed.",
+      "next": "Applicant confirms legal payee, 12h/week lead capacity and IP; explicitly approves any outreach. Obtain actual engineer/reviewer rates, independence/conflict disclosures and availability; inspect live form and approve submission separately.",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
-      "note": "19 visible synthetic fixtures; nonfinite clock issue repaired; blind packet and reference-label scorer added. 34/34 synthetic/unit tests passed in remote CI 2026-10-26 UTC. Reference labels are not authenticated ground truth. New external incident evidence is third-party reporting, not Svyable validation.",
+      "note": "19 visible synthetic fixtures; nonfinite clock issue repaired; blind packet and reference-label scorer added. 34/34 synthetic/unit tests passed in remote CI 2026-10-26 UTC. Reference labels are not authenticated ground truth. New external incident evidence is third-party reporting, not Svyable validation. | 2026-10-26: $7,500 engineering and $3,000 reviewer assumptions translated to scope, deliverables, conflict/consent gates and unsent outreach drafts; no verified contractors or change in modeled award odds.",
       "source_verified": "2026-10-26 https://funds.effectivealtruism.org/funds/transformative-ai",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-verified-evidence.md",
       "application_draft": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-application-draft.md",
       "prospective_scoring": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/score_reviews.py",
       "scoring_tests": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/test_score_reviews.py",
       "ci_run": "https://github.com/Svyable/Opps/actions/runs/40251427716",
-      "external_evidence_annex": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-external-evidence-annex.md"
+      "external_evidence_annex": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-external-evidence-annex.md",
+      "staffing_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-independent-delivery-sourcing.md"
     },
     {
       "id": "foresight-ai-nodes-2026",
@@ -656,6 +657,30 @@
       "restrictions": "Manual human-only; automated tooling banned; competition entry accepts binding terms. Participation Terms assign worldwide perpetual exclusive contribution IP to Palo Alto Networks; nondisclosure, Stripe payout/KYC, discretionary awards and broad indemnification. Not acceptable for Svyable core IP without explicit legal approval.",
       "next": "Do not enter or transfer Svyable methods/IP. Reconsider only if terms materially change and applicant personally accepts after review.",
       "source_verified": "2026-10-26 https://huntr.com/participation-terms"
+    },
+    {
+      "id": "opencv-ai-competition-2026",
+      "name": "OpenCV AI Competition 2026 powered by AWS",
+      "type": "Vision AI prize competition",
+      "lane": "Scientific computer vision / agentic imaging",
+      "status": "REJECT",
+      "stage": "2026-10-26 screened against ScrolIQ; no entry, integration, AWS account, demo or eligible team verified",
+      "value": "Up to $12,000 total cash; $5,000 first place, $3,000 second, $2,000 third, two $1,000 special awards",
+      "value_kind": "official",
+      "deadline": "2026-10-26 23:45 PDT (Devpost countdown; overview says 23:59, use earlier)",
+      "qualification": "Adult eligibility plausible; OpenCV 5 and AWS integration not verified; 6,187 registered participants are not confirmed entrants",
+      "work": "At least 8h new OpenCV5/AWS integration, technical report, demonstration and video; actual work may be higher",
+      "reuse": "Medium-high conceptual ScrolIQ vision reuse; insufficient compliant ready-made demo",
+      "ev": "Illustrative -$270 = $5,000 first prize × optimistic 0.2% win chance − 8h × $35/h. Selection odds uncalibrated; excludes AWS costs and opportunity cost of emergency work.",
+      "payer": "Open Source Vision Foundation (OpenCV) with AWS",
+      "source": "https://opencv26.devpost.com/rules",
+      "asset_repos": [
+        "https://github.com/Svyable/scrollq",
+        "https://github.com/Svyable/agents"
+      ],
+      "restrictions": "Submission materials license to organizers is perpetual, irrevocable, worldwide, transferable and sublicensable; underlying IP ownership retained. Time cutoff inconsistent across pages; use earlier 23:45 PDT. Cash pool distinct from credits.",
+      "next": "Do not build or register for this deadline; retain ScrolIQ IP and focus on positive-EV grants/prizes.",
+      "note": "Credible payer, poor incremental economics with one day remaining; no participation authorized."
     }
   ],
   "engines": [
