@@ -445,12 +445,12 @@
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
       "status": "WATCH",
-      "stage": "Current official dedicated Rapid Grants page (2026-10-26 UTC) advertises up to $20k, including research time and living costs; funds purpose-restricted and paid after claim/checks. Older $10k cached terms superseded; no submission.",
-      "value": "Up to $20,000 official current ceiling; actual typical award unspecified",
-      "value_kind": "official-ceiling-not-award",
+      "stage": "2026-10-26 official-page discrepancy: dedicated Rapid Grants page says $50-$10,000 and usually upfront, while umbrella grants overview advertises up to $20,000; do not assume higher ceiling or stipend approval. No submission.",
+      "value": "$50–$10,000 dedicated-page range; umbrella overview advertises up to $20,000 (unresolved discrepancy)",
+      "value_kind": "conflicting-official-pages-conservative-10k",
       "deadline": "Rolling; no fixed close date published",
       "qualification": "~50% subjective project feasibility; course not required but community membership favored",
-      "work": "~1-2h application + 4-6 weeks delivery if approved; scope/capacity unverified",
+      "work": "~5-minute application + 4-6 weeks distinct delivery if funded; scope/capacity unverified",
       "reuse": "Very high: Human Kind / ScrolIQ",
       "ev": "Prior illustrative +$30 on $2k conditional founder surplus × 50% feasibility × 8% selection − $50 prep; do not change EV solely because published maximum is $20k",
       "payer": "BlueDot Impact",
@@ -459,10 +459,10 @@
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "restrictions": "Current dedicated page allows time/living costs, compute, experiments and travel; purpose-restricted, prior written approval for material changes, funding jurisdiction limits and 60-day completion report; disbursement after claim/checks. Do not double-fund TAIF/Foresight work.",
-      "next": "Only if distinct from TAIF/Foresight: scope an independently costed small pilot; verify payee jurisdiction, consent and claims requirements; no double billing.",
-      "source_verified": "2026-10-25 https://bluedot.org/grants/rapid",
-      "note": "Official detailed page https://bluedot.org/grants/rapid verified 2026-10-25 now advertises up to $20k and permits time/living costs; older cached versions showed $10k and excluded routine stipends. Do not infer approval or raise EV solely from ceiling."
+      "restrictions": "Dedicated page: stipends/living costs not usual; usually paid upfront, sometimes reimbursed; specific purpose and short completion update. Umbrella page: up to $20k. Payment jurisdiction restrictions; no overlapping TAIF/Foresight costs.",
+      "next": "Budget against $10k conservative ceiling, verify exact grant amount and whether research time is fundable before application; keep project distinct from TAIF/Foresight.",
+      "source_verified": "2026-10-26 https://bluedot.org/grants/rapid and https://bluedot.org/grants (conflicting official ceilings)",
+      "note": "Do not declare the $10k or $20k page obsolete without direct funder confirmation. Dedicated page currently specifies $50-$10k and upfront-by-default, while umbrella page says up to $20k."
     },
     {
       "id": "bluedot-seed-grants-2026",
