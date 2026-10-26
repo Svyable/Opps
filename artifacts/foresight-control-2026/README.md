@@ -28,7 +28,7 @@ Run `python artifacts/foresight-control-2026/gate_runner.py --demo` to inspect t
 
 The microprototype implements exact actor/tool/target grant matching, simulated validity windows checked at execution time, canonical mock tool aliases, a basic two-party delegation condition, revocation, ambiguous-authority fail-closed behavior and request digests. It rejects non-mock targets. Its `human:` approver field is an **unauthenticated string**, not a signature; it has no live identity verification, persistence, concurrency guarantees, cryptographic receipt provenance, genuine agent behavior, measured latency or adversarial security assurance. The tool alias map is static. No claim of deployment safety or measured unauthorized-action reduction follows.
 
-**Reproduce the microprototype tests:** `python -m unittest discover -s artifacts/foresight-control-2026 -p 'test_*.py' -v` (28 test methods in total: 8 design + 20 mock boundary). These were exercised locally before the commit; remote CI must be checked independently. The original 60/180 manifest remains unchanged and explicitly unrun.
+**Reproduce the microprototype tests:** `python -m unittest discover -s artifacts/foresight-control-2026 -p 'test_*.py' -v` (28 test methods in total: 8 design + 20 mock boundary). All 28 passed remotely in [GitHub Actions run 40363475074](https://github.com/Svyable/Opps/actions/runs/40363475074) on 2026-10-26 (commit `a2d687c83a4f9a98e2d59f5c07fc54616726f7df`), including manifest verification and the mock demo. This confirms deterministic code tests only; it does not validate an AI safety effect. The original 60/180 manifest remains unchanged and explicitly unrun.
 
 ### Prospective scoring contract — NOT yet evaluated
 
