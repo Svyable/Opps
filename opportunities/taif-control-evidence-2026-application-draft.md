@@ -45,9 +45,10 @@ The incremental deliverable is a **prospective, independently adjudicated compar
 - ScrolIQ provenance and evidence-integrity practices: https://github.com/Svyable/scrollq
 - Visible 19-case synthetic contract and 14 test methods: https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py
 - Prospective blinded packet builder and nine test methods: https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/blind_packet.py
-- Prospective reviewer reference-label scorer, with 11 locally passing regression tests on equivalent source (remote CI not confirmed): https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/score_reviews.py
+- Prospective reviewer reference-label scorer: https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/score_reviews.py
+- **Independently checkable CI receipt:** https://github.com/Svyable/Opps/actions/runs/40251427716 — 34/34 synthetic/unit tests passed on commit `c98d79cc8761b9fe9cc134e190e3394438efb8fc` (14 contract + 9 blind-packet + 11 scoring). Source blobs, licenses, limitations and applicant gates: https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-verified-evidence.md
 
-These are **preparatory artifacts**. They do not demonstrate accuracy on independent traces, a held-out benchmark, or completed human review. Remote CI and real-world transfer have not been verified in this draft.
+These are **preparatory artifacts**. Remote CI passed the synthetic/unit suites, but that does **not** demonstrate accuracy on independently authenticated traces, a frozen held-out benchmark, completed human review, or transfer to deployed agents. The applicant's IP, staffing, legal-payee and availability gates remain unresolved.
 
 ## Proposed budget — $25,000 total, all figures unquoted estimates
 | Cost | Calculation | Amount |
