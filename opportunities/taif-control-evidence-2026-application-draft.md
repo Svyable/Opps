@@ -45,6 +45,7 @@ The incremental deliverable is a **prospective, independently adjudicated compar
 - ScrolIQ provenance and evidence-integrity practices: https://github.com/Svyable/scrollq
 - Visible 19-case synthetic contract and 14 test methods: https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py
 - Prospective blinded packet builder and nine test methods: https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/blind_packet.py
+- Prospective reviewer reference-label scorer, with 11 locally passing regression tests on equivalent source (remote CI not confirmed): https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/score_reviews.py
 
 These are **preparatory artifacts**. They do not demonstrate accuracy on independent traces, a held-out benchmark, or completed human review. Remote CI and real-world transfer have not been verified in this draft.
 
