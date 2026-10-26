@@ -23,3 +23,6 @@ jobs:
         run: |
           python artifacts/foresight-control-2026/preregister.py --write /tmp/cwic-manifest.json
           python artifacts/foresight-control-2026/preregister.py --check /tmp/cwic-manifest.json
+
+      - name: Show deterministic mock boundary receipts (not an experiment)
+        run: python artifacts/foresight-control-2026/gate_runner.py --demo
