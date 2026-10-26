@@ -25,3 +25,5 @@ jobs:
         run: python artifacts/control-evidence-2026/contract_smoke.py -v
       - name: Run prospective blind-packet regression tests
         run: python artifacts/control-evidence-2026/test_blind_packet.py -v
+      - name: Run blinded-review scoring regression tests
+        run: python artifacts/control-evidence-2026/test_score_reviews.py -v
