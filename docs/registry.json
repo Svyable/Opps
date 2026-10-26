@@ -632,6 +632,30 @@
       "restrictions": "Essay primarily AI-generated, max 6,000 words, unpublished and not under review elsewhere; must consent to online publication of essay and methodology; may disclose proprietary authorial process; no entry authorization",
       "next": "Do not divert effort from MATS, Vesuvius, Foresight or EA Funds under negative modeled EV; reconsider only if an eligible unpublished essay/methodology already exists and rights are cleared",
       "source_verified": "2026-10-25 official competition rules"
+    },
+    {
+      "id": "huntr-blind-trust-2026",
+      "name": "huntr Blind Trust — AI prompt-injection challenge",
+      "type": "AI security prize competition",
+      "lane": "Agent trust boundaries / prompt injection",
+      "status": "REJECT",
+      "stage": "2026-10-26 screened from official rules; no participation or terms acceptance",
+      "value": "$15,000 total pool, NOT a single-winner payout; $600 per-objective first place and $1,600 top overall (other placements lower)",
+      "value_kind": "official-prize-pool-and-per-rank",
+      "deadline": "2026-10-30 15:00 CUT (organizer timezone label; verify local conversion before acting)",
+      "qualification": "Unknown age/location/payment eligibility; human-only manually typed attacks required; no automation or scripts",
+      "work": "~3h minimum manual contest work; no reusable automated submissions allowed",
+      "reuse": "Moderate conceptual Human Kind/agent-security experience; no reusable code under manual-only rule",
+      "ev": "Illustrative −$93 = $600 single-objective top prize × 2% uncalibrated placement probability − 3h × $35/h; could vary with multiple placements, but terms worsen economics",
+      "payer": "Palo Alto Networks / huntr",
+      "source": "https://huntr.com/challenges/4DRe85bV2cu7DrRxPXyiwT/v1/rules",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/agents"
+      ],
+      "restrictions": "Manual human-only; automated tooling banned; competition entry accepts binding terms. Participation Terms assign worldwide perpetual exclusive contribution IP to Palo Alto Networks; nondisclosure, Stripe payout/KYC, discretionary awards and broad indemnification. Not acceptable for Svyable core IP without explicit legal approval.",
+      "next": "Do not enter or transfer Svyable methods/IP. Reconsider only if terms materially change and applicant personally accepts after review.",
+      "source_verified": "2026-10-26 https://huntr.com/participation-terms"
     }
   ],
   "engines": [
