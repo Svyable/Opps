@@ -67,3 +67,8 @@ Formula: **EV = specialist contribution × P(team) × P(prime award) × P(task o
 > Svyable has public, inspectable work in source-linked research, AI-output verification and human review boundaries. For UMGC RFP 92303, we would be interested in discussing a bounded specialist role in evidence traceability and change-control QA under a qualified learning-platform prime. We would not represent ourselves as the LMS host or claim institutional learner outcomes. If your proposal includes such a role, we can exchange a specific scope and acceptance criteria after confirming compliance and IP terms.
 
 **No outreach or bid submitted. No terms accepted.**
+
+
+## October 27 — potential prime evidence scan
+
+[Three evidence-backed prospective primes and tailored unsent nonbinding inquiries](umgc-92303-verified-prime-targets-2026.md) were prepared: Magic EdTech (D2L course build and accessibility), KnowledgeNow (named Centennial College and Western Continuing Studies Brightspace engagements), and OES Learning Solutions (institutional learning and support). **None is known to be bidding, qualified for every term, willing to subcontract, or contacted.** Buyer Q&A on teaming and IP remains pending; do not update award probabilities merely because a prospect list exists. No change to WATCH/no prime bid.
