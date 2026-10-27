@@ -95,12 +95,12 @@
       "name": "ARC Prize 2026 — ARC-AGI-3",
       "type": "Prize competition",
       "lane": "Interactive reasoning agents",
-      "status": "PURSUE",
-      "stage": "Submission preparation",
+      "status": "WATCH",
+      "stage": "2026-10-27 00:00 UTC: official Kaggle 2026-10-26 23:59 UTC entry/rules-acceptance cutoff has elapsed. No entrant registration/acceptance evidence available to this run. Only independently confirmed existing entrants may still submit by Nov 2.",
       "value": "$850k track pool; named final awards $40k / $15k / $10k / $5k / $5k",
       "value_kind": "official",
       "deadline": "Entry/rules acceptance: 2026-10-26 23:59 UTC (16:59 PDT); final submission: 2026-11-02 23:59 UTC",
-      "qualification": "High eligibility; low placement probability at current score",
+      "qualification": "Unknown after entry cutoff: eligibility for final submission depends on pre-deadline personal Kaggle rule acceptance, not verified; existing local score ~0.30 makes award odds low.",
       "work": "Medium",
       "reuse": "Very high",
       "ev": "New incremental-effort sensitivity: $40k first-place prize × optimistic 0.1% chance − 2h × $35/h = −$30. Assumed chance not calibrated; existing ~0.30 public-game score and unverified Kaggle registration make prize EV worse. Historical effort sunk.",
@@ -110,9 +110,9 @@
         "https://github.com/Svyable/ARCPrize2026",
         "https://github.com/Svyable/agents"
       ],
-      "next": "Applicant personally checks Kaggle entry/rules before 2026-10-26 23:59 UTC if desired; then validate notebook format and private score. Existing public ~0.30 local score implies low prize EV; do not submit or accept rules without explicit approval.",
+      "next": "If applicant independently registered and accepted rules by 2026-10-26 23:59 UTC, verify that status and notebook compatibility for 2026-11-02 final submission. Otherwise no new entry is possible; archive after final cutoff if no evidence.",
       "note": "Current public baseline is ~0.29–0.30 mean score; perception/rule inference is the documented bottleneck.",
-      "restrictions": "Kaggle entry requires personal acceptance of competition rules before 26 Oct 23:59 UTC; prize eligibility requires public permissively licensed code and no internet-dependent inference. Entry and notebook format unverified; no agent acceptance of terms."
+      "restrictions": "Kaggle rule acceptance closed Oct 26 23:59 UTC. Existing eligible entrants may submit until Nov 2 23:59 UTC; public permissive licensing, offline Kaggle notebook, 9h CPU/GPU constraints. No rule acceptance or submission by this automation."
     },
     {
       "id": "quantiacs-q25",
