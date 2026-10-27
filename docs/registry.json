@@ -759,6 +759,26 @@
       ],
       "next": "Do not submit optional Oct 29 LOI or build full proposal absent a real K–12 implementation/research partner and PI capacity; reassess only if those are independently evidenced.",
       "restrictions": "U.S. K–12 system relevance, scientifically valid research, grants.gov institutional submission, SEER 27 alignment, two ATS Hub Washington DC convenings, federal reporting/security; LOI optional."
+    },
+    {
+      "id": "ku-leuven-ai-safety-fellows-2027",
+      "name": "KU Leuven AI Safety Lab — Visiting Fellowships 2027",
+      "type": "Research fellowship / stipend",
+      "lane": "AI governance / philosophy / human control",
+      "status": "REJECT",
+      "stage": "2026-10-27: official lab call verified; five in-residence fellowships; no evidence of applicant's Belgium availability or publication track record",
+      "value": "€2,000 per month × 3 months = €6,000 allowance (living support, not salary), five fellows",
+      "value_kind": "official-allowance",
+      "deadline": "2026-10-31",
+      "qualification": "Outside-academia researchers eligible with research-purpose justification, but three-month in-person Leuven residency, CV, 1-page letter, 1,500-word research plan, and publishable paper required; availability unverified",
+      "work": "At least 4h application plus 3 months in residence and original paper; significant travel, living, tax and foregone-work burden",
+      "reuse": "High for Human Kind, Control Evidence and Desk governance research, low for directly monetizing current software",
+      "ev": "Illustrative gross expected stipend: €6,000 × 15% relocation feasibility × 5% selection = €45; minus 4h×€30/h prep = −€75 before travel, lodging and lost earnings. Rates and probabilities are assumptions.",
+      "payer": "KU Leuven AI Safety Lab",
+      "repo": "https://github.com/Svyable/human-kind",
+      "source": "https://aisafetylab.eu/open-calls/",
+      "restrictions": "Fully in-person March–May 2027, no employment contract, applicant handles taxes/social security, publish and submit paper, contribute to lab events; travel and lodging may exceed stipend",
+      "next": "Reject for cash optimization unless verified ability to reside in Leuven and funded travel/foregone-income economics change; no application or email sent."
     }
   ],
   "engines": [
