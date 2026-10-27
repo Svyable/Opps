@@ -69,7 +69,7 @@ The numbers are a preparation aid, **not** claims that the official form uses th
 | 18 | Risks and safety-first sequencing | Copy risks response above. |
 | 19 | Start/end dates and milestones | Copy 12-week schedule; applicant chooses feasible calendar dates after award. |
 | 20 | Three-year scaling plan | Copy conditional three-year path. |
-| 21 | Open-source commitment | **Applicant must personally verify IP, privacy and license rights and select the true answer; do not pre-accept.** Sponsor requires open-source funded work. |
+| 21 | Open-source commitment | [Public-code license evidence audit](foresight-2026-public-license-rights-audit.md) confirms published Apache-2.0 (Opps), MIT (ScrolIQ) and Apache-2.0/CC-BY-4.0 (Human Kind) terms; **applicant must still verify chain of title, contractor/data rights, privacy and the live commitment; do not pre-accept.** Sponsor requires open-source funded work. |
 | 22 | Other links | Use evidence links above, no unverifiable performance claims. |
 | 23 | Preferred Node | **Conditional; applicant decides** Bay Area/Berlin/both only with actual ability to attend. |
 | 24 | Space dates/duration | **Conditional; no dates claimed.** |
