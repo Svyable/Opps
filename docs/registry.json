@@ -622,13 +622,13 @@
       "type": "Cash essay / methodology competition",
       "lane": "AI philosophy, agent methodology and book research",
       "status": "REJECT",
-      "stage": "Official call verified 2026-10-25; no entry prepared; negative incremental EV and mandatory public disclosure of unpublished AI-generated work",
+      "stage": "2026-10-27: official FAQ/rules reverified; alternative Google Form judged equally if OpenReview unavailable. No entry prepared or submitted. Negative incremental EV.",
       "value": "$11,000 total pool: $3k / $2k / $1k ranked essays plus $5k discretionary methodology awards",
       "value_kind": "official-prize-pool-not-individual-award",
       "deadline": "2026-10-31",
-      "qualification": "Broad eligibility; up to three original primarily AI-generated essays and methodology report; existing book text cannot simply be reused",
+      "qualification": "Broad eligibility, but AI must originate ALL substantive arguments. If AI memory contains Sven's human-originated philosophical ideas, use fresh session without that memory. Human custodian identity/email required. Up to 3 anonymized essays + methods; alternative Google Form available.",
       "work": "Estimated 4h minimum for one original eligible essay plus methodology; likely more for competitive quality",
-      "reuse": "High thematic reuse from Sven's books and Desk research; low direct manuscript reuse because entry must be original, unpublished and primarily AI-generated",
+      "reuse": "High reuse of argument-neutral Desk/agents workflow and research operations; low direct reuse of Sven's manuscript arguments, which cannot be repackaged as AI-originated contributions.",
       "ev": "Illustrative -$110 = $3,000 first prize × 1% uncalibrated win probability − 4h × $35/h; other prizes/methodology pool not modeled due unknown odds",
       "payer": "Forethought Research (organizer Zachary Goodsell and Elliott Thornley)",
       "source": "https://www.zacharygoodsell.com/ai-philosophy-competition",
@@ -637,9 +637,9 @@
         "https://github.com/Svyable/desk",
         "https://github.com/Svyable/agents"
       ],
-      "restrictions": "Essay primarily AI-generated, max 6,000 words, unpublished and not under review elsewhere; must consent to online publication of essay and methodology; may disclose proprietary authorial process; no entry authorization",
-      "next": "Do not divert effort from MATS, Vesuvius, Foresight or EA Funds under negative modeled EV; reconsider only if an eligible unpublished essay/methodology already exists and rights are cleared",
-      "source_verified": "2026-10-25 official competition rules"
+      "restrictions": "AI-originated philosophy, ≤6,000 words/essay, anonymized methodology, retain logs, no prompt injection. Publication afterward under CC BY 4.0; author retains copyright. Essay cannot be under journal/conference review or entered in another contest. OpenReview or equal-judging alternative form; human custodian and publication consent required.",
+      "next": "Keep REJECT under −$110 illustrative first-prize-only EV; do not repurpose Sven's original ideas as AI-authored. Only reconsider if independent fresh-context essay, honest method log, rights consent and explicit entry approval exist.",
+      "source_verified": "2026-10-27 official FAQ and rules"
     },
     {
       "id": "huntr-blind-trust-2026",
