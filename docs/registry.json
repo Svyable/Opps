@@ -17,13 +17,13 @@
       "type": "Contract / task-order vehicle",
       "lane": "Learning + AI content operations",
       "status": "WATCH",
-      "stage": "2026-10-27 primary 35-page RFP and live public Q&A verified; full prime bid no-go; scoped specialist teaming crosswalk committed; no external contact",
+      "stage": "2026-10-27: primary RFP/Q&A verified; prime no-go; sourced three possible qualified learning-delivery firms (Magic EdTech, KnowledgeNow, OES), with distinct unsent specialist inquiries; none known to bid or agree",
       "value": "$1,000,000 maximum IDIQ task-order ceiling, no guaranteed work; buyer estimates ~$100,000 typical task order including 12 months support",
       "value_kind": "official-ceiling-no-minimum",
       "deadline": "2026-11-20 10:00 ET",
       "questions_due": "2026-10-29 10:00 ET",
-      "qualification": "Prime case studies (2 comparable clients), ACR VPAT 2.4+, enterprise security/LMS/SLA not verified; possible subcontractor case-study eligibility pending Q&A",
-      "work": "High prime bid; ~2h bounded specialist preflight completed; full delivery requires a qualified prime",
+      "qualification": "Direct prime still no-go: two buyer-compliant case studies, VPAT/ACR, security/LMS/SLA unverified. Potential primes have public institutional experience, but buyer Q&A on teaming, case studies, international eligibility and IP remains pending.",
+      "work": "Prime bid high/no-go; bounded specialist compliance audit and 3-firm evidence-backed prospect shortlist prepared; no outreach. Delivery requires actual eligible prime and scoped subcontract.",
       "reuse": "High for source provenance, AI QA and human review; low for LMS/enterprise operations",
       "ev": "Prime −$1,800 hypothetical. Specialist cautious −$42; favorable +$284.38 conditional, using $20k–$30k hypothetical share of one ~$100k task order and 35% contribution margin. No prime, task order or subcontract exists.",
       "payer": "University of Maryland Global Campus",
@@ -33,9 +33,10 @@
         "https://github.com/Svyable/agents",
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Monitor already-submitted vendor Q&A on subcontractor case studies, team eligibility, ACR and IP; identify a verified eligible prime only if permitted; no contact or bid without explicit approval.",
-      "note": "Primary RFP requires 2 comparable client case studies, current ACR, security/governance/SLA; contract max $1m is not a guarantee. Official Q&A answers pending. Direct prime route no-go.",
-      "source": "https://bidlocker.us/a/umgc/details/6564_Umgc_Solicitation_92303_Custom_Ai_Enabled_Content_Development"
+      "next": "2026-10-29 monitor buyer Q&A on teaming, case studies, cross-border eligibility, ACR/security and IP; if permitted, obtain explicit approval before any targeted nonbinding inquiry to screened firms. No contract or bid.",
+      "note": "Magic EdTech, KnowledgeNow and OES have relevant public case-study evidence but are NOT confirmed bidders/partners. $1m is buyer's ceiling, not Svyable revenue. Specialist −$42 cautious / +$284.38 favorable EV unchanged; no probability uplift from prospect discovery.",
+      "source": "https://bidlocker.us/a/umgc/details/6564_Umgc_Solicitation_92303_Custom_Ai_Enabled_Content_Development",
+      "partner_shortlist": "https://github.com/Svyable/Opps/blob/main/opportunities/umgc-92303-verified-prime-targets-2026.md"
     },
     {
       "id": "gems",
