@@ -17,24 +17,25 @@
       "type": "Contract / task-order vehicle",
       "lane": "Learning + AI content operations",
       "status": "WATCH",
-      "stage": "Do not bid as prime until mandatory eligibility and task-order economics verified",
-      "value": "Not publicly stated",
-      "value_kind": "payer-unstated",
-      "deadline": "2026-11-20",
-      "questions_due": "2026-10-29",
-      "qualification": "Unverified; mandatory LMS, WCAG, references, security and contract terms",
-      "work": "High (full prime bid)",
-      "reuse": "Very high",
-      "ev": "Illustrative -$1,800 = $300k hypothetical orders × 35% contribution margin × 50% eligibility × 8% selection − $6k bid cost; no guaranteed orders",
+      "stage": "2026-10-27 primary 35-page RFP and live public Q&A verified; full prime bid no-go; scoped specialist teaming crosswalk committed; no external contact",
+      "value": "$1,000,000 maximum IDIQ task-order ceiling, no guaranteed work; buyer estimates ~$100,000 typical task order including 12 months support",
+      "value_kind": "official-ceiling-no-minimum",
+      "deadline": "2026-11-20 10:00 ET",
+      "questions_due": "2026-10-29 10:00 ET",
+      "qualification": "Prime case studies (2 comparable clients), ACR VPAT 2.4+, enterprise security/LMS/SLA not verified; possible subcontractor case-study eligibility pending Q&A",
+      "work": "High prime bid; ~2h bounded specialist preflight completed; full delivery requires a qualified prime",
+      "reuse": "High for source provenance, AI QA and human review; low for LMS/enterprise operations",
+      "ev": "Prime −$1,800 hypothetical. Specialist cautious −$42; favorable +$284.38 conditional, using $20k–$30k hypothetical share of one ~$100k task order and 35% contribution margin. No prime, task order or subcontract exists.",
       "payer": "University of Maryland Global Campus",
-      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/umgc-92303.md",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/umgc-92303-specialist-teaming-compliance-2026.md",
       "asset_repos": [
         "https://github.com/Svyable/desk",
         "https://github.com/Svyable/agents",
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Verify primary solicitation and appendices; do not prepare a full prime bid under negative EV",
-      "note": "Lead with evidence-backed AI content operations: skills, sources, claims, assessments, human QA and version history remain linked."
+      "next": "Monitor already-submitted vendor Q&A on subcontractor case studies, team eligibility, ACR and IP; identify a verified eligible prime only if permitted; no contact or bid without explicit approval.",
+      "note": "Primary RFP requires 2 comparable client case studies, current ACR, security/governance/SLA; contract max $1m is not a guarantee. Official Q&A answers pending. Direct prime route no-go.",
+      "source": "https://bidlocker.us/a/umgc/details/6564_Umgc_Solicitation_92303_Custom_Ai_Enabled_Content_Development"
     },
     {
       "id": "gems",
@@ -733,6 +734,30 @@
       ],
       "restrictions": "Must use Agent-Native and create meaningful new work since Oct 19, 2026; public Clips demo, original work and submission rules acceptance. Entrants retain code ownership but give nonexclusive promotional license. No registration fee.",
       "next": "Do not divert from Foresight/EA Funds/Vesuvius unless an already working Agent-Native integration is independently verified; no build or submission authorized."
+    },
+    {
+      "id": "ies-s2s-cstep-2027",
+      "name": "IES From Seedlings to Scale FY2027 — C-STEP Phase One",
+      "type": "Federal research grant",
+      "lane": "K–12 evidence-to-policy AI / education systems",
+      "status": "WATCH",
+      "stage": "2026-10-27 screened primary 31-page RFA; no LOI or application; substantial K–12 research/partner gap",
+      "value": "Up to $500,000 for one-year Phase One project; restricted research funding, not profit",
+      "value_kind": "official-maximum",
+      "deadline": "Optional nonbinding LOI: 2026-10-29; full application: 2026-12-11 23:59:59 ET",
+      "qualification": "For-profit organizations may apply if scientifically valid research capacity; no verified K–12 education system partner, PI/team, school data or institutional grant compliance",
+      "work": "High: full scientific research proposal, K–12 stakeholder engagement, budget, SEER 27 appendix, 1-year project",
+      "reuse": "Medium: Human Kind evidence translation and mAIth learning methods; no established district-level intervention",
+      "ev": "Illustrative −$180 preflight: $50k hypothetical net project contribution × 10% feasible × 2% conditional selection − 8h × $35/h; probabilities and margin uncalibrated; restricted $500k ceiling not counted as profit.",
+      "payer": "U.S. Department of Education / Institute of Education Sciences",
+      "source": "https://files.simpler.grants.gov/opportunities/ee52200b-bc1d-4e98-be9c-60992d1d8836/attachments/c53cc861-7ea5-4bac-855e-bcbb2e39f4c5/FY2027_305J.pdf",
+      "repo": "https://github.com/Svyable/Opps/blob/main/docs/registry.json",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/maith"
+      ],
+      "next": "Do not submit optional Oct 29 LOI or build full proposal absent a real K–12 implementation/research partner and PI capacity; reassess only if those are independently evidenced.",
+      "restrictions": "U.S. K–12 system relevance, scientifically valid research, grants.gov institutional submission, SEER 27 alignment, two ATS Hub Washington DC convenings, federal reporting/security; LOI optional."
     }
   ],
   "engines": [
