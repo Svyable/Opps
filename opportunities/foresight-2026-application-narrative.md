@@ -26,7 +26,7 @@ Foresight asks when human oversight adds value versus becomes theatre. Our 12-we
 
 **Why funding rather than a customer contract?** The public-good result is evidence of where approval controls fail, including negative results, under open-source publication rather than a proprietary implementation for one customer. This statement is conditional on applicant confirming that there is no existing customer agreement or overlapping funding that would contradict it.
 
-## Mandatory go/no-go evidence
+**Form-specific preflight, 2026-10-26:** [37-field applicant crosswalk, proposed long answers and privacy/consent gates](foresight-2026-37-field-submission-crosswalk.md). The 37 fields come from a third-party transcription; the live Airtable form was not independently accessible. Short answers verified at 329 and 405 characters. The reference, legal payee, actual staffing, Node plan, open-source rights, sharing choices and submission consent remain applicant-only decisions.\n\n## Mandatory go/no-go evidence
 
 | Requirement | Current evidence | Submission gate |
 |---|---|---|
