@@ -5,12 +5,14 @@
 ## Candidate short summary (329 characters; provisional 350-character field)
 Control Where It Counts tests whether human approval actually prevents unauthorized AI-agent actions or merely records oversight. We will compare no gate, cosmetic approval, and enforced authorization in a sandbox, publish failures and throughput costs, and release a decision rule for when humans should retain or defer control.
 
-## Candidate RFP fit (405 characters; provisional 500-character field)
-Foresight asks when human oversight adds value versus becomes theatre. Our 12-week, $35,000 study will test three approval designs on 60 preregistered synthetic tasks, with independent review and explicit abstention. AI agents perform sandbox work; deterministic boundaries enforce policy. Human review remains mandatory for legitimacy-sensitive or irreversible actions even if slower. No trials have run.
+## Candidate RFP fit (481 characters; provisional 500-character field)
+Foresight asks when human oversight adds value versus theatre. We propose a 12-week, $35,000 exploratory test of no gate, cosmetic approval and enforced tool authorization across 60 synthetic tasks. We will report unauthorized completions, legitimate-task cost, bypasses and uncertainty; release a decision rule for control versus delegation. This probes a possible false-veto failure mode in consequential agents; it does not establish catastrophe prevention or measured efficacy.
 
 ## Longer research answer — applicant review required
 
 **Question.** Does a human approval step change what an autonomous agent is permitted to accomplish, or only create a reassuring record? More generally, when is control instrumentally useful, when is it owed to people regardless of efficiency, and when does delegation make sense? The proposal separates these three questions rather than pretending one safety score answers all of them.
+
+**Impact bridge and funder review criteria.** A cosmetic approval screen can create a false veto: a person believes a consequential action is blocked while the tool boundary still permits it. A reproducible comparison could help other teams detect this failure before granting agents more authority, but the proposed 12-week pilot cannot measure real-world catastrophic-risk reduction or deployment transfer. The [criterion-by-criterion reviewer annex](foresight-2026-funder-criteria-impact-bridge-2026-10-28.md) identifies all six published evaluation criteria, falsification conditions, and unresolved execution evidence. No selection-probability uplift is claimed.
 
 **Study.** Over twelve weeks, construct a reproducible sandbox for agent tool actions and compare three matched arms: no approval gate; an approval interface that does not enforce at the tool boundary; and an enforceable, scoped authorization check. Begin with the existing 60 synthetic task specifications and 180 **planned, unrun** assignments across file operations, messages, simulated secrets, delegation and tool aliases. Use actual AI-agent execution **only in isolated mock environments** with no live credentials, external sends, or irreversible effects. Freeze policy labels, sampling, agent/model versions, random seeds and scoring before collecting final outcomes. Treat the current manifest as design infrastructure, not pilot evidence.
 
