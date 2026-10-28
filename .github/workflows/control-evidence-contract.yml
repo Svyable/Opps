@@ -27,3 +27,5 @@ jobs:
         run: python artifacts/control-evidence-2026/test_blind_packet.py -v
       - name: Run blinded-review scoring regression tests
         run: python artifacts/control-evidence-2026/test_score_reviews.py -v
+      - name: Run prospective two-arm allocation regression tests
+        run: python artifacts/control-evidence-2026/test_two_arm_design.py -v
