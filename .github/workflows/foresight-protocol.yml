@@ -26,3 +26,7 @@ jobs:
 
       - name: Show deterministic mock boundary receipts (not an experiment)
         run: python artifacts/foresight-control-2026/gate_runner.py --demo
+      - name: Generate explicitly synthetic 108-receipt smoke test (not an experiment)
+        run: |
+          python artifacts/foresight-control-2026/pilot_receipts.py --write /tmp/cwic-mock-receipts.json --summary
+          python -c "import json; p=json.load(open('/tmp/cwic-mock-receipts.json')); assert p['covered_assignments']==108 and p['excluded_assignments']==72 and p['all_real_side_effects_false']"
