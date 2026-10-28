@@ -385,12 +385,12 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "2026-10-26: independent engineering and blinded-review sourcing scopes committed; no candidate contacted or contracted; technical CI 34/34 synthetic/unit tests only",
+      "stage": "2026-10-28: fixed an identifiable study-design gap: existing full-packet scorer could not cleanly compare narrative-only with receipts. New reviewer-balanced two-arm allocation and descriptive reference-summary module, 11 synthetic regression tests passed locally Python 3.13.5; CI workflow updated, new remote pass unverified. No human study or application.",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (official fund page reverified 2026-10-26 UTC)",
       "qualification": "55% subjective lean feasibility scenario; 12h/week, recipient and rights unverified",
-      "work": "2h remaining preparation + 120h future delivery (unverified)",
+      "work": "~2h application finalization still contingent on applicant gates; new prospective allocation module and tests committed. 60-case target entails 120 reviewer judgments (~24h at assumed 12min each), plus 6h calibration/conflict work within estimated 30h reviewer envelope. All estimates unquoted.",
       "reuse": "Very high: Human Kind authorization and ScrolIQ provenance",
       "ev": "Capacity-adjusted illustrative +$144.50 EV = $7,800 conditional lead economic surplus × 55% feasibility × 5% selection − $70 prep; prior +$401 expanded scenario not supported by capacity evidence",
       "payer": "EA Funds / Centre for Effective Altruism",
@@ -401,10 +401,10 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Applicant confirms legal payee, 12h/week lead capacity and IP; explicitly approves any outreach. Obtain actual engineer/reviewer rates, independence/conflict disclosures and availability; inspect live form and approve submission separately.",
+      "next": "Verify new GitHub Actions run; applicant establishes legal payee, 12h/week, rights, engineer/reviewer independence and capacity, and live Paperform terms; approve any outreach or submission separately. Freeze paired case-level analysis and authentic labels before collecting judgments.",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
-      "note": "19 visible synthetic fixtures; nonfinite clock issue repaired; blind packet and reference-label scorer added. 34/34 synthetic/unit tests passed in remote CI 2026-10-26 UTC. Reference labels are not authenticated ground truth. New external incident evidence is third-party reporting, not Svyable validation. | 2026-10-26: $7,500 engineering and $3,000 reviewer assumptions translated to scope, deliverables, conflict/consent gates and unsent outreach drafts; no verified contractors or change in modeled award odds.",
+      "note": "2026-10-28 prospective two-arm design prevents a reviewer seeing the same case in both arms and balances claim types across two reviewers. 11/11 local synthetic tests; remote CI for new module unverified. Prior 34/34 remote CI remains true only for earlier snapshot. No selection probability uplift; illustrative +$144.50 EV unchanged.",
       "source_verified": "2026-10-26 https://funds.effectivealtruism.org/funds/transformative-ai",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-verified-evidence.md",
       "application_draft": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-application-draft.md",
@@ -412,7 +412,9 @@
       "scoring_tests": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/test_score_reviews.py",
       "ci_run": "https://github.com/Svyable/Opps/actions/runs/40251427716",
       "external_evidence_annex": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-external-evidence-annex.md",
-      "staffing_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-independent-delivery-sourcing.md"
+      "staffing_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-independent-delivery-sourcing.md",
+      "two_arm_preflight": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-two-arm-design-preflight.md",
+      "two_arm_code": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/two_arm_design.py"
     },
     {
       "id": "foresight-ai-nodes-2026",
