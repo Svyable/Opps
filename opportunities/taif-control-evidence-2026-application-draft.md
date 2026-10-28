@@ -52,6 +52,10 @@ The incremental deliverable is a **prospective, independently adjudicated compar
 
 These are **preparatory artifacts**. Remote CI passed the synthetic/unit suites, but that does **not** demonstrate accuracy on independently authenticated traces, a frozen held-out benchmark, completed human review, or transfer to deployed agents. The applicant's IP, staffing, legal-payee and availability gates remain unresolved.
 
+## Prospective comparison design — October 28 preflight
+
+A [reviewer-balanced, case-paired two-arm allocation](taif-control-evidence-2026-two-arm-design-preflight.md) now specifies how the narrative-only and narrative-plus-receipts comparison can be conducted without showing a reviewer the same case twice. Two independent reviewers each see every case once, with complementary evidence conditions and claim-type balancing. At a target of 60 cases, the plan calls for 120 total judgments, provisionally 24 of the 30 budgeted reviewer hours at 12 minutes each. Eleven new synthetic regression tests passed locally on Python 3.13.5; remote CI and human review are not yet verified. The current full-packet scorer alone cannot support this two-arm comparison; the new prospective module provides allocation and descriptive reference-label counts, not a powered causal estimate. This closes a study-design specification gap, not an eligibility or staffing gate.
+
 ## Proposed budget — $25,000 total, all figures unquoted estimates
 | Cost | Calculation | Amount |
 |---|---|---:|
