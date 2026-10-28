@@ -8,10 +8,10 @@ This is a concise, independently checkable evidence attachment for the [Foresigh
 
 | Claim | Evidence | What it does **not** establish |
 |---|---|---|
-| **36/36 automated tests passed remotely** on October 27, 2026 UTC | [GitHub Actions run 40582480523](https://github.com/Svyable/Opps/actions/runs/40582480523), job `synthetic-protocol-contract`; logs report `Ran 36 tests in 0.060s` and `OK` | No real-agent experiment, human approval authentication, or causal safety effect |
+| **44/44 automated tests passed remotely** on October 28, 2026 UTC | [GitHub Actions run 40635208184](https://github.com/Svyable/Opps/actions/runs/40635208184), job `synthetic-protocol-contract`; logs report `Ran 44 tests` and `OK` | No real-agent experiment, human approval authentication, or causal safety effect |
 | 8 study-design contract tests | [preregistration tests](../artifacts/foresight-control-2026/test_preregister.py) | Not preregistration of observed outcomes |
 | 20 deterministic mock-boundary tests | [authorization-boundary tests](../artifacts/foresight-control-2026/test_gate_runner.py) | Not live tool-boundary security assurance |
-| 8 exact-power-calculator tests | [exact-power tests](../artifacts/foresight-control-2026/test_exact_power.py) | Not measured treatment effect or calibrated population power |
+| 8 synthetic protocol-to-mock-pilot tests | [pilot tests](../artifacts/foresight-control-2026/test_pilot_receipts.py) | Does not show real-agent behavior or intervention efficacy |\n| 36 of 60 synthetic cases mapped to 108 mock receipts; 24 cases/72 assignments explicitly excluded | [pilot runner](../artifacts/foresight-control-2026/pilot_receipts.py), [CI execution](https://github.com/Svyable/Opps/actions/runs/40635208184) | Fixture labels supply grants; all 180 real experiment assignments remain unrun |\n| 8 exact-power-calculator tests | [exact-power tests](../artifacts/foresight-control-2026/test_exact_power.py) | Not measured treatment effect or calibrated population power |
 | 60 synthetic case specifications and 180 three-arm assignments | [study fixture](../artifacts/foresight-control-2026/README.md) and [generator](../artifacts/foresight-control-2026/preregister.py) | All assignments are **unrun**; no agent outcomes or blinded labels exist |
 | Public code licensing checked | [license-rights audit](foresight-2026-public-license-rights-audit.md) | No proof of contractor chain of title, third-party data permission, or future-output rights |
 
@@ -22,10 +22,10 @@ python -m unittest discover -s artifacts/foresight-control-2026 -p 'test_*.py' -
 python artifacts/foresight-control-2026/preregister.py --write /tmp/cwic-manifest.json
 python artifacts/foresight-control-2026/preregister.py --check /tmp/cwic-manifest.json
 python artifacts/foresight-control-2026/gate_runner.py --demo
-python artifacts/foresight-control-2026/exact_power.py --json
+python artifacts/foresight-control-2026/exact_power.py --json\npython artifacts/foresight-control-2026/pilot_receipts.py --summary
 ```
 
-The CI job runs the first four commands. The exact-power unit tests run through unittest; the last CLI command is an optional local sensitivity report. The mock demo returns synthetic decision receipts without performing actions.
+The CI job runs the test suite, manifest checks, mock demo, and a separate pilot CLI that writes 108 deterministic receipts and verifies all side-effect flags are false. The exact-power CLI is an optional local sensitivity report. The mock receipts are generated from fixture policy labels, not from AI-agent observations.
 
 ## Scientific claim boundary
 
