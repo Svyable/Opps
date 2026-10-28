@@ -420,7 +420,7 @@
       "type": "Open-source research grant",
       "lane": "Human–AI control and oversight",
       "status": "PURSUE",
-      "stage": "2026-10-28: applicant-only final submission decision gate committed after official RFP recheck; 44/44 remote tests and 108 deterministic mock receipts unchanged. No applicant attestations, application, or terms accepted.",
+      "stage": "2026-10-28: official six-criterion reviewer mapping and falsifiable false-veto impact bridge added to submission narrative and 37-field crosswalk; 44/44 remote tests and 108 deterministic mock receipts unchanged. Applicant gates and authorization remain unresolved.",
       "value": "Typical $30k–$100k grants; $35k proposed request, not awarded",
       "value_kind": "official-range-with-internal-scenario",
       "deadline": "2026-10-31 23:59 PDT",
@@ -438,7 +438,7 @@
       "restrictions": "Open-source all funded work product; strong SF/Berlin in-person preference; for-profit grant-need explanation; overhead <=10% of direct costs; due diligence and reports; optional Lightcone sharing has privacy/redistribution risk; consent applicant-only.",
       "next": "Before 2026-10-31 23:59 PDT, applicant privately verifies legal recipient, one of two real weekly-hour budgets, engineer/reviewer capacity, consenting reference, rights, SF/Berlin Node plan, outside-funding disclosures and live form/consents; explicit approval required. If any hard gate fails, do not submit.",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-reviewer-execution-charter.md",
-      "note": "Final applicant decision memo separates all eight unverified release gates from technical evidence; no claim of staffing, Node attendance, consent, grant award, or measured efficacy. 44-test CI and 108 mock receipts remain constructed software evidence. EV unchanged.",
+      "note": "Final applicant decision memo separates all eight unverified release gates from technical evidence; no claim of staffing, Node attendance, consent, grant award, or measured efficacy. 44-test CI and 108 mock receipts remain constructed software evidence. EV unchanged. 2026-10-28: new impact bridge https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-funder-criteria-impact-bridge-2026-10-28.md explains plausible catastrophic-risk mechanism, negative results, and transfer limitations. No selection probability uplift or new experiment.",
       "budget_evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-itemized-budget-capacity.md",
       "technical_artifact": "https://github.com/Svyable/Opps/tree/main/artifacts/foresight-control-2026",
       "technical_limits": "Side-effect-free mock boundary only: no real tools, authenticated approvals, agent runs, independent labels or measured safety efficacy. 36/60 fixtures mapped into 108 mock receipts; 24 cases/72 assignments explicitly excluded; all 180 prospective assignments remain not run.",
@@ -858,6 +858,31 @@
       ],
       "restrictions": "US robotics/world AI teams, one entry per organization, expert ground truth, agreed 72-hour challenge and confidential dataset-access negotiation. No data or IP sharing authorized.",
       "next": "No pursuit; reconsider only if existing eligible team and expert-judged physical-AI dataset can be verified without new work."
+    },
+    {
+      "id": "openai-safety-bug-bounty-2026",
+      "name": "OpenAI Safety Bug Bounty — Agentic Risks / MCP",
+      "type": "Responsible disclosure / paid bug bounty",
+      "lane": "Agent safety / prompt injection",
+      "status": "WATCH",
+      "stage": "2026-10-28: official public program scope verified; no live exploit, permissioned testing, Bugcrowd enrollment, or report. Secondary source quotes $250-$7,500 individual reward tiers; official Bugcrowd payout/terms page inaccessible.",
+      "value": "$250–$7,500 per accepted finding reported by secondary Bugcrowd-data mirror, not independently confirmed on live Bugcrowd; no guaranteed payout",
+      "value_kind": "secondary-payout-needs-primary-check",
+      "deadline": "Rolling/no end date on third-party engagement snapshot checked 2026-09-26; current official end date not published",
+      "qualification": "Technical fit high for agentic authority, but bounty eligibility depends on current Bugcrowd terms, allowed test scope, minimum 50% reproducibility for prompt injection, first-valid-report status and actual harmful impact; entrant age/payee and access unverified.",
+      "work": "2–6h minimum to verify current scope, build consented isolated reproducibility harness and document a real finding; more if no reproducible bug. No unapproved live testing.",
+      "reuse": "High for Human Kind/Control Evidence agent boundary and trace methodology; no known in-scope product vulnerability",
+      "ev": "Cautious hypothetical: $1,000 P3-like payout × 1% valid-and-first finding probability − 2h × $35 = −$60. If no actual finding, $0 gross; probability is illustrative and not calibrated. WATCH until low-cost, authorized, demonstrable vulnerability exists.",
+      "payer": "OpenAI via Bugcrowd",
+      "repo": "https://github.com/Svyable/agents",
+      "source": "https://openai.com/index/safety-bug-bounty/",
+      "asset_repos": [
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/Opps"
+      ],
+      "restrictions": "Third-party injection/exfiltration must reproduce at least 50% and show material harm; generic jailbreaks out of scope; third-party MCP ToS must be respected. Bugcrowd disclosure/IP, first-report, identity/tax and payout rules require direct review. No unauthorized live tests, account access, private data, or submissions.",
+      "next": "Verify current official Bugcrowd scope, reward and terms before allocating engineering; pursue only a reproducible in-scope finding from authorized tests with positive incremental EV. Explicit approval before enrollment, report or accepting legal terms."
     }
   ],
   "engines": [
