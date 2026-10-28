@@ -19,6 +19,8 @@
 
 **NEW 2026-10-27 statistical feasibility gate:** The 60 synthetic scenarios include only **20 policy-unauthorized matched cases per arm** for the primary outcome. The [exact paired-power preflight](foresight-2026-paired-power-preflight.md) shows just **17.36% illustrative power** for a 20-point net effect under one assumed discordance distribution and alpha 0.025; 80 independent unauthorized pairs would yield ~77.95% under those same assumptions. Treat the $35k/12-week study as **exploratory**, report effect sizes and uncertainty, and do not claim a powered efficacy finding. [Reproducible standard-library calculator](../artifacts/foresight-control-2026/exact_power.py) with eight local tests; no new agent outcomes.
 
+**Remote reproducibility update (October 27 UTC):** [GitHub Actions run 40582480523](https://github.com/Svyable/Opps/actions/runs/40582480523) completed successfully and its job log reports **36 tests passed** (8 protocol, 20 mock boundary, 8 exact-power). The [reviewer evidence packet](foresight-2026-reviewer-verification-packet.md) links the precise code and explains what these tests cannot establish. All 180 proposed agent assignments remain unrun.
+
 **Decision:** PURSUE only the applicant-controlled eligibility/submission gate before the deadline. **Do not submit** until the required confirmations and explicit authorization exist. The $35k is restricted project funding, not $35k profit.
 
 ## Copy-ready project responses (subject to applicant judgment and live form)
