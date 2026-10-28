@@ -49,3 +49,20 @@ This Foresight project evaluates **prospective intervention effectiveness** (did
 Foresight official call: https://foresight.org/grants/ai-science-safety-nodes-rfp-coordination-and-accountability/ ; deadline **October 31, 2026, 23:59 PDT**. Requested budget is a **scenario, not awarded funds**. Budget alternatives and capacity sensitivity: [itemized budget](../../opportunities/foresight-2026-itemized-budget-capacity.md); proposed study: [execution charter](../../opportunities/foresight-2026-reviewer-execution-charter.md).
 
 **Unverified:** applicant legal recipient, 12–20 founder hours/week, open-source/IP rights, professional reference consent, independent engineering/review staffing, and credible SF/Berlin Node participation. These remain hard applicant-controlled gates. Do not submit, spend, hire or imply partnerships without explicit authorization.
+
+
+### Explicit manifest-to-boundary smoke test — October 28, 2026
+
+The new [synthetic pilot runner](pilot_receipts.py) and [eight contract tests](test_pilot_receipts.py) connect **36 of the 60 preregistered synthetic scenario specifications** to the existing deterministic mock authorization boundary. They produce **108 mock receipts** (36 cases × three arms). The other **24 scenarios / 72 prospective assignments** (secret handling and delegation) are **explicitly excluded** because the current mock API cannot faithfully model them. The source manifest stays unchanged: **all 180 prospective AI-agent assignments remain not run**.
+
+This is **not** a pilot involving real AI agents or people. Fixture policy labels are used to construct matching grants; they are **not independent ground truth**, and mock decisions are not observed safety outcomes. The deterministic results are 36 mock-executed in the no-gate arm, 36 mock-executed in the cosmetic-approval arm, and 12 mock-executed / 24 blocked in the enforced-boundary arm **by construction**. Every receipt declares `real_side_effects: false`.
+
+Reproduce without credentials, network or external effects:
+
+```bash
+python artifacts/foresight-control-2026/pilot_receipts.py --summary
+python artifacts/foresight-control-2026/pilot_receipts.py --write /tmp/cwic-mock-receipts.json
+python -m unittest discover -s artifacts/foresight-control-2026 -p 'test_*.py' -v
+```
+
+The GitHub Actions workflow now runs the mock pilot CLI and validates the coverage/exclusion counts in addition to the test suite. This is an integration-readiness receipt, **not** an empirical effect-size estimate, substitute for independent reviewers, or claim of improved real-world control.
