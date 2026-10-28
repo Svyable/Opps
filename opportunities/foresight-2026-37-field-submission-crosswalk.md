@@ -31,9 +31,9 @@
 
 > Control Where It Counts tests whether human approval actually prevents unauthorized AI-agent actions or merely records oversight. We will compare no gate, cosmetic approval, and enforced authorization in a sandbox, publish failures and throughput costs, and release a decision rule for when humans should retain or defer control.
 
-**RFP fit — 405 characters, under secondary-source 500-character cap:**
+**RFP fit — 481 characters, under secondary-source 500-character cap:**
 
-> Foresight asks when human oversight adds value versus becomes theatre. Our 12-week, $35,000 study will test three approval designs on 60 preregistered synthetic tasks, with independent review and explicit abstention. AI agents perform sandbox work; deterministic boundaries enforce policy. Human review remains mandatory for legitimacy-sensitive or irreversible actions even if slower. No trials have run.
+> Foresight asks when human oversight adds value versus theatre. We propose a 12-week, $35,000 exploratory test of no gate, cosmetic approval and enforced tool authorization across 60 synthetic tasks. We will report unauthorized completions, legitimate-task cost, bypasses and uncertainty; release a decision rule for control versus delegation. This probes a possible false-veto failure mode in consequential agents; it does not establish catastrophe prevention or measured efficacy.
 
 **Limitations, novelty, success.** Many approval interfaces record that a person clicked a button but do not prove that the downstream tool action was gated by that authorization. We propose a matched three-arm comparison: no approval, cosmetic approval, and a scoped, enforced boundary. We will preregister policy labels and scoring, use isolated mock tools, and collect tool-side receipts rather than trust agent self-reports. Success is a reproducible comparison of unauthorized completion, legitimate task completion, false blocks, approval delay and review burden, with explicit uncertainty and failures. A negative result is publishable. This is not a claim to have invented approval gates or proven they reduce risk. The existing mock gate passes deterministic tests but has not been exercised by a real agent.
 
@@ -112,3 +112,6 @@ This Foresight application funds **prospective comparison of authorization mecha
 - Primary: https://foresight.org/grants/ai-science-safety-nodes-rfp-coordination-and-accountability/ (deadline, focus, eligible applicants, open-source terms, Node preference, overhead, due diligence).
 - Secondary: https://viamu.app/opportunities/ai-science-safety-nodes (37-field inventory and conditional sharing/consent descriptions; **not independently confirmed live form**).
 - Source repositories and CI links above. No other applicant facts inferred.
+
+
+**2026-10-28 funder criteria note:** The [six-criterion impact-bridge annex](foresight-2026-funder-criteria-impact-bridge-2026-10-28.md) explains the false-veto risk mechanism, open-source public-good pathway, falsification criteria, and applicant evidence gaps. It is a proposal argument, not experimental or eligibility evidence. The 481-character RFP-fit answer remains provisional until the applicant verifies the live form cap.
