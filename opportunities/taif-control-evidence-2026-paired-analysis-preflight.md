@@ -31,7 +31,7 @@ Local test command:
 python artifacts/control-evidence-2026/test_paired_analysis.py -v
 ```
 
-**Local verification:** 10/10 tests passed under Python 3.11-compatible standard-library code in the 2026-10-28 preparation environment. The GitHub Actions [Control Evidence workflow](../.github/workflows/control-evidence-contract.yml) was updated to run these tests. **Do not claim a new remote CI pass until the latest workflow run finishes successfully.** All test responses are synthetic.
+**Verified:** 10/10 new tests passed locally and in [GitHub Actions run 40797112938](https://github.com/Svyable/Opps/actions/runs/40797112938), commit `910fdd7394087bb4f2db37b34c42c10a203cadb7`, job `123196147345`, with **55/55 tests total** across five suites (14 + 9 + 11 + 11 + 10). All test responses are synthetic; remote CI verifies code behavior, not research outcomes.
 
 ## Commercial effect, not a claimed award uplift
 
