@@ -902,7 +902,7 @@
       "value_kind": "official-pool-and-proposed-ask",
       "deadline": "Official safety listing has no published fixed cutoff; October 15 funder bulletin describes rolling applications; live portal requires verification",
       "qualification": "Unknown: U.S./U.K.-based eligible institution, nonprofit/PBC/small startup that does not sell AI training data; award paid to institution; applicant's legal status, headcount, geography, research credentials, IP rights and capacity not verified",
-      "work": "2h estimated EOI finalization ($70 at $35/h); 120h proposed lead research and 100h engineer + 30h reviewer unquoted; existing draft reuses EA study and MUST NOT be double funded",
+      "work": "2h estimated EOI finalization ($70 at $35/h); 120h lead research, 100h engineer and revised 40h independent reviewer/reference adjudication (24+10+6) unquoted; same $25k study and MUST NOT be double funded.",
       "reuse": "Very high: Control Evidence two-arm design, 55 synthetic/unit tests, Human Kind tool-boundary concepts, ScrolIQ provenance; no real reviewer study",
       "ev": "Illustrative incremental economic-surplus: ($12k lead compensation − $4.2k lead opportunity cost) × 40% feasibility × 2% selection − $70 EOI = −$7.60 cautious; 60% × 5% − $70 = +$164 favorable; excludes potentially material 12-month competitor restriction cost. Sponsor odds/award size unpublished; unconditional EV unknown.",
       "payer": "Mercor (private AI evaluation/data company; official Ashby grant listing)",
@@ -915,7 +915,7 @@
       ],
       "restrictions": "Eligible US/UK institution only; commercial-use open publication; grantee nonexclusive commercial license to Mercor; early benchmark access and exclusive right for Mercor to build/host private held-out test set; prohibition on substantially similar work with specified competitors during award and 12 months after; public grantee identification, tax/sanctions/progress reporting; actual contract/list of competitors unreviewed.",
       "next": "Privately verify institutional recipient and whether 12-month competitor restriction/benchmark rights are compatible with Svyable's consulting, licensing and other grant plans. Only then consider applicant-approved EOI. No outreach, terms acceptance or application.",
-      "note": "This is a fallback funding route for the same EA Funds Control Evidence pilot, not an additive grant ask; no duplicate funding or exclusive IP promises. The $5m program pool is not an individual payout. Conditional WATCH, no probability uplift claimed."
+      "note": "Mercor EOI now reflects Oct 29 independent-reference budget repair: $4k/40h review and $500 release rather than underfunded $3k/30h. Same Control Evidence pilot as EA Funds; alternate sponsor only. 12-month competitor restriction still unpriced, eligibility unverified; WATCH."
     }
   ],
   "engines": [
