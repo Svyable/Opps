@@ -1,6 +1,6 @@
 # Mercor AI Safety Fund — Control Evidence EOI (alternative funding route)
 
-**Prepared 2026-10-29 UTC · DRAFT ONLY · NOT SUBMITTED · WATCH pending eligibility and award-terms review.**
+**Prepared 2026-10-29 UTC · DRAFT ONLY · NOT SUBMITTED · WATCH pending eligibility and award-terms review.** This is the same Control Evidence study as the EA Funds draft; the [independent-reference budget repair](taif-control-evidence-2026-independent-reference-budget-repair.md) applies to either funder, not two separately funded projects.
 
 **Official sponsor listing:** https://jobs.ashbyhq.com/mercor/1d59ce50-4207-4d95-b7fd-5a01e90b0897  
 **Fund size:** Mercor announces **$5 million total**, **not** a $5 million individual grant. Individual grant size is discretionary. **Proposed request: $25,000**, not an offered award.  
@@ -25,7 +25,7 @@ This fits Mercor's stated interest in oversight and control, red-teaming methodo
 
 **Weeks 3–5:** Instrument an isolated mock-tool sandbox; collect independently authored tool-side receipts, with deliberately delayed, missing, conflicting and spoof-like records. No live secrets, unsolicited communications, real third-party account access, or uncontrolled offensive testing. Record source ownership and licensing.
 
-**Weeks 6–8:** Target 60 cases and 120 blinded judgments. Use a case-paired, reviewer-balanced two-arm assignment: one reviewer sees narrative only, a different reviewer sees the same case plus structured receipts; each reviewer sees a given case once. Verify independent reviewers, consent, conflicts and pay rates *before* promising the study. Keep reference labels inaccessible to reviewers.
+**Weeks 6–8:** Target 60 cases and 120 blinded judgments. Use a case-paired, reviewer-balanced two-arm assignment: one reviewer sees narrative only, a different reviewer sees the same case plus structured receipts; each reviewer sees a given case once. A **third, independent adjudicator** must verify reference labels against authenticated tool-side evidence before experimental outcomes are revealed. Verify three distinct review roles, consent, conflicts and pay rates *before* promising the study. Keep reference labels inaccessible to experimental reviewers.
 
 **Weeks 9–10:** Publish the allowed synthetic dataset, schema, code, exact denominators, uncertainty, failure examples, adjudication disagreements and replication instructions under a commercially reusable license if rights allow. If authentication or reviewers are unavailable, report a smaller feasibility study, not a fabricated effectiveness result.
 
@@ -46,12 +46,12 @@ No participant recruitment, independent labels, authenticated deployed-agent rec
 |---|---:|---:|
 | Research lead / analysis / release | 120 h × $100 | $12,000 |
 | Independent sandbox instrumentation | 100 h × $75 | $7,500 |
-| Independent reviewer adjudication | 30 h × $100 | $3,000 |
+| Independent experimental review + reference adjudication | 40 h × $100 | $4,000 |
 | Isolated compute / storage | estimate | $1,000 |
-| Documentation / accessible public release | estimate | $1,500 |
+| Documentation / accessible public release (reuse existing artifacts) | estimate | $500 |
 | **Total request** | | **$25,000** |
 
-All people, rates and capacity are **hypothetical**. Request access to Mercor's expert network for *potential* independent grading only if consent, conflicts, privacy and funding terms are acceptable. Do not imply Mercor has agreed to provide experts or infrastructure.
+The 40h reviewer line covers 24h two-arm judgments, 10h independent reference checks and 6h reserve; the $500 release line needs feasibility confirmation. All people, rates and capacity are **hypothetical**. Request access to Mercor's expert network for *potential* independent grading only if consent, conflicts, privacy and funding terms are acceptable. Do not imply Mercor has agreed to provide experts or infrastructure.
 
 **Potential impact:** a small reproducible evidence standard for deciding when an agent's claim about a consequential action is justified, contradicted or unprovable. Negative findings are valuable. Transfer to frontier deployment is not assumed.
 
