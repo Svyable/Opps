@@ -916,6 +916,52 @@
       "restrictions": "Eligible US/UK institution only; commercial-use open publication; grantee nonexclusive commercial license to Mercor; early benchmark access and exclusive right for Mercor to build/host private held-out test set; prohibition on substantially similar work with specified competitors during award and 12 months after; public grantee identification, tax/sanctions/progress reporting; actual contract/list of competitors unreviewed.",
       "next": "Privately verify institutional recipient and whether 12-month competitor restriction/benchmark rights are compatible with Svyable's consulting, licensing and other grant plans. Only then consider applicant-approved EOI. No outreach, terms acceptance or application.",
       "note": "Mercor EOI now reflects Oct 29 independent-reference budget repair: $4k/40h review and $500 release rather than underfunded $3k/30h. Same Control Evidence pilot as EA Funds; alternate sponsor only. 12-month competitor restriction still unpriced, eligibility unverified; WATCH."
+    },
+    {
+      "id": "mozilla-fellowship-2027-independent",
+      "name": "Mozilla Foundation Fellowship 2027–28 — Independent, Small-Organization Agent Audit",
+      "type": "Individual fellowship",
+      "lane": "Open security audit infrastructure / agent accountability",
+      "status": "WATCH",
+      "stage": "2026-10-29: official 16-page RFP, eligibility, AI-use policy and LOI field limits verified; sponsor-specific evidence and project-scope preflight committed; no application or personal attestations",
+      "value": "$125,000 total for Independent Fellow: $100,000 individual stipend + $25,000 restricted project budget; 10 total fellowships, five Independent with one Creative Advocacy reserved",
+      "value_kind": "official-stipend-plus-restricted-budget",
+      "deadline": "2026-12-17 23:59 PST (UTC−8) LOI; full application by invitation 2027-03-12; program begins 2027-06-01",
+      "qualification": "Strong published topical fit: RFP explicitly calls for an afternoon test kit for nonprofit inbox agents. Personal senior-level leadership, charitable public benefit, legal payee, actual user engagement, 12-month capacity and rights are UNVERIFIED; 4 general Independent slots inferred, applicant count unknown.",
+      "work": "~3h applicant-authored LOI/evidence work ($105 at $35/h), plus full 12-month project if selected; AI-generated complete application answers forbidden by sponsor policy",
+      "reuse": "Very high: Control Evidence synthetic receipt contract/55 CI tests, Foresight authorization mock/44 CI tests, Human Kind accountable decision boundaries, ScrolIQ provenance. No verified nonprofit deployments or users.",
+      "ev": "Cautious −$45 = $40k assumed net stipend surplus ×30% personal feasibility×0.5% selection −$105 LOI labor; favorable +$345 = $50k×60%×1.5%−$105. Probabilities and surplus subjective; $25k project budget not personal income. Could be worse after 12-month opportunity cost.",
+      "payer": "Mozilla Foundation, established US 501(c)(3)",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/mozilla-fellowship-2027-independent-agent-audit-preflight.md",
+      "source": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+      "rules_source": "https://assets.mofoprod.net/network/documents/PUBLIC_2027_2028_Fellowship_RFP-2.pdf",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "Individuals only; 12-month deliverable and cohort; charitable benefit, USD grant eligibility and conflicts; Fellow retains IP but funded code/nonconfidential content open-licensed; AI tools may assist brainstorming but cannot write full answers; disclose AI use and any overlapping support.",
+      "next": "Applicant personally verify legal receipt, senior-level role, genuine community users, rights and 2027 availability; personally author LOI from evidence crosswalk; no submission or external contact without explicit approval."
+    },
+    {
+      "id": "mozilla-human-scale-incubator-2027",
+      "name": "Mozilla Foundation Human-Scale AI Incubator — 2027 cohort",
+      "type": "Non-dilutive charitable project grant / incubator",
+      "lane": "Small, community-controlled AI products",
+      "status": "REJECT",
+      "stage": "2026-10-29: official call and FAQ screened; existing public Svyable repositories do not establish deployed small-model AI with early users or product-community fit, required for this cohort",
+      "value": "$300,000 restricted year-one project grant for selected project, possible additional $200,000 follow-on over two more years; seven projects selected, three anchor projects preselected",
+      "value_kind": "official-restricted-grant",
+      "deadline": "2026-11-20 23:59 PST (UTC−8)",
+      "qualification": "No verified working deployment with real target users or early product-community fit; small fit-for-purpose AI core unverified. For-profit applicants require charitable public purpose and legal receipt of US 501(c)(3) funds.",
+      "work": "≥8h credible evidence and proposal preflight plus substantive deployment/community proof; cannot ethically invent user traction or retrofit unrelated models",
+      "reuse": "Medium: Human Kind governance and mAIth product surfaces, but Mozilla requires real deployed users and small-model technical differentiation, not just open repositories",
+      "ev": "Illustrative $30k project contribution surplus ×10% technical/user eligibility ×0.5% selection −8h×$35 = −$265; speculative assumptions, no measured acceptance rate. If no real deployed users, effective qualification zero and EV worse.",
+      "payer": "Mozilla Foundation, established US 501(c)(3)",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/mozilla-fellowship-2027-independent-agent-audit-preflight.md",
+      "source": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/",
+      "restrictions": "Charitable-purpose grant, not founder cash; working deployed AI and early users required; AI use cannot replace applicant-authored answers; open public outputs and active cohort participation; no equity taken.",
+      "next": "Do not pursue on current evidence; reconsider only with verified real users/deployment, small-model core, charitable purpose and delivery team; no application."
     }
   ],
   "engines": [
