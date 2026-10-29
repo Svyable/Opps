@@ -33,3 +33,5 @@ jobs:
         run: python artifacts/control-evidence-2026/test_paired_analysis.py -v
       - name: Run independent R3 reference-gate regression tests
         run: python artifacts/control-evidence-2026/test_independent_reference.py -v
+      - name: Run real local subprocess receipt-probe regression tests
+        run: python artifacts/control-evidence-2026/test_local_tool_receipt_pilot.py -v
