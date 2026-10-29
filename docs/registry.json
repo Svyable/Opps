@@ -385,7 +385,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "2026-10-29: identified underfunded independent reference-label adjudication in 60-case two-arm study; prepared third-reviewer protocol and rebalanced proposed $25k budget from 30h/$3k to 40h/$4k review by shifting $1k from documentation. Applicant approval and actual staffing remain unverified; 55 prior synthetic/unit CI tests unchanged.",
+      "stage": "2026-10-29: added strict R3 independent-reference declaration gate to stop scoring author-generated expected labels as if independently adjudicated; 12 synthetic regression tests and CI wiring committed. No real R3, authenticated telemetry, staffing or grant application.",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (official fund page reverified 2026-10-26 UTC)",
@@ -401,10 +401,10 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Applicant privately verifies legal payee, 12h/week, source/IP rights, engineer plus three distinct independent reviewer roles, 40h review capacity, authenticated sandbox data, consent and live Paperform terms; choose 60-case revised budget or 40-case 30h fallback; freeze reference labels before judgments. Explicit approval required for outreach/submission.",
+      "next": "Applicant privately verifies legal payee, 12h/week lead availability, independent engineer and three distinct reviewer roles with 40h budget, real authenticated evidence, source/IP/privacy rights, and live application terms. Freeze genuine R3 decisions before R1/R2 outcomes; applicant approval required before any outreach or submission.",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
-      "note": "October 29 budget repair addresses omitted independent reference-label workload; no human study, authentic labels or outcomes. Same $25k total and illustrative +$144.50 EV, no selection-probability uplift. 55/55 prior remote CI tests verify preparatory code only.",
+      "note": "October 29 budget repair addresses omitted independent reference-label workload; no human study, authentic labels or outcomes. Same $25k total and illustrative +$144.50 EV, no selection-probability uplift. 55/55 prior remote CI tests verify preparatory code only. 2026-10-29 R3 gate rejects missing/duplicate/adversarial adjudication declarations, but source_verified/coverage/independence remain unauthenticated assertions; no evidence of higher selection odds. 1.5–2.5h additional engineering at $35/h reduces prior illustrative +$144.50 net EV to +$57–$92 if counted as unsunk cost.",
       "source_verified": "2026-10-29 https://funds.effectivealtruism.org/funds/transformative-ai",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-verified-evidence.md",
       "application_draft": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-application-draft.md",
@@ -417,7 +417,8 @@
       "two_arm_code": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/two_arm_design.py",
       "paired_analysis": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/paired_analysis.py",
       "paired_analysis_preflight": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-paired-analysis-preflight.md",
-      "independent_reference_budget_repair": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-independent-reference-budget-repair.md"
+      "independent_reference_budget_repair": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-independent-reference-budget-repair.md",
+      "r3_gate": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-r3-reference-gate.md"
     },
     {
       "id": "foresight-ai-nodes-2026",
