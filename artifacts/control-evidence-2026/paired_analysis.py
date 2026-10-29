@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pre-registered paired false-support analysis for the Control Evidence pilot.
+"""Prospective paired false-support analysis for the Control Evidence pilot.
 
 No human data or authenticated ground truth is supplied here. Reference labels
 are inputs, not facts independently verified by this software.
