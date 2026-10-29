@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28 UTC",
+  "generated_at": "2026-10-29 UTC",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -887,6 +887,32 @@
       ],
       "restrictions": "Third-party injection/exfiltration must reproduce at least 50% and show material harm; generic jailbreaks out of scope; third-party MCP ToS must be respected. Bugcrowd disclosure/IP, first-report, identity/tax and payout rules require direct review. No unauthorized live tests, account access, private data, or submissions.",
       "next": "Verify current official Bugcrowd scope, reward and terms before allocating engineering; pursue only a reproducible in-scope finding from authorized tests with positive incremental EV. Explicit approval before enrollment, report or accepting legal terms."
+    },
+    {
+      "id": "mercor-ai-safety-fund-2026",
+      "name": "Mercor AI Safety Fund — Control Evidence alternative EOI",
+      "type": "Corporate research grant",
+      "lane": "AI safety / oversight and control",
+      "status": "WATCH",
+      "stage": "2026-10-29: official $5m pooled safety research grant listing and 1–2 page EOI verified; conditional alternate sponsor for existing Control Evidence study, NOT an independent duplicate $25k project; draft EOI committed; no submission",
+      "value": "$5,000,000 total program pool (official), individual awards unspecified; $25,000 Svyable proposed research budget, NOT offered funding",
+      "value_kind": "official-pool-and-proposed-ask",
+      "deadline": "Official safety listing has no published fixed cutoff; October 15 funder bulletin describes rolling applications; live portal requires verification",
+      "qualification": "Unknown: U.S./U.K.-based eligible institution, nonprofit/PBC/small startup that does not sell AI training data; award paid to institution; applicant's legal status, headcount, geography, research credentials, IP rights and capacity not verified",
+      "work": "2h estimated EOI finalization ($70 at $35/h); 120h proposed lead research and 100h engineer + 30h reviewer unquoted; existing draft reuses EA study and MUST NOT be double funded",
+      "reuse": "Very high: Control Evidence two-arm design, 55 synthetic/unit tests, Human Kind tool-boundary concepts, ScrolIQ provenance; no real reviewer study",
+      "ev": "Illustrative incremental economic-surplus: ($12k lead compensation − $4.2k lead opportunity cost) × 40% feasibility × 2% selection − $70 EOI = −$7.60 cautious; 60% × 5% − $70 = +$164 favorable; excludes potentially material 12-month competitor restriction cost. Sponsor odds/award size unpublished; unconditional EV unknown.",
+      "payer": "Mercor (private AI evaluation/data company; official Ashby grant listing)",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/mercor-ai-safety-fund-2026-control-evidence-eoi.md",
+      "source": "https://jobs.ashbyhq.com/mercor/1d59ce50-4207-4d95-b7fd-5a01e90b0897",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "Eligible US/UK institution only; commercial-use open publication; grantee nonexclusive commercial license to Mercor; early benchmark access and exclusive right for Mercor to build/host private held-out test set; prohibition on substantially similar work with specified competitors during award and 12 months after; public grantee identification, tax/sanctions/progress reporting; actual contract/list of competitors unreviewed.",
+      "next": "Privately verify institutional recipient and whether 12-month competitor restriction/benchmark rights are compatible with Svyable's consulting, licensing and other grant plans. Only then consider applicant-approved EOI. No outreach, terms acceptance or application.",
+      "note": "This is a fallback funding route for the same EA Funds Control Evidence pilot, not an additive grant ask; no duplicate funding or exclusive IP promises. The $5m program pool is not an individual payout. Conditional WATCH, no probability uplift claimed."
     }
   ],
   "engines": [
