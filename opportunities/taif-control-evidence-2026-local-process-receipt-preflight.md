@@ -29,7 +29,7 @@ python artifacts/control-evidence-2026/local_tool_receipt_pilot.py --mode tamper
 python artifacts/control-evidence-2026/local_tool_receipt_pilot.py --mode missing
 ```
 
-**Verification:** equivalent local code passed **10/10 tests** on 2026-10-29 using a test-only local copy of the action-completion decision rule. GitHub Actions is now configured to run the committed probe tests against the repository's **actual** `contract_smoke.py`. Do not claim the new 77-test remote suite passed until the workflow run is checked. Prior 67/67 remote pass: [run 40888335435](https://github.com/Svyable/Opps/actions/runs/40888335435). New workflow: [run 40916333085](https://github.com/Svyable/Opps/actions/runs/40916333085), initially in progress.
+**Verification:** equivalent local code passed **10/10 tests** on 2026-10-29 using a test-only local copy of the action-completion decision rule. More importantly, the **committed** code ran against the repository's actual `contract_smoke.py` in [GitHub Actions run 40916333085](https://github.com/Svyable/Opps/actions/runs/40916333085): **77/77 tests passed** (14 + 9 + 11 + 11 + 10 + 12 + 10), job 123597425418, commit `13348b36bc9ccb3b3ca9b674448a61b9e3d88fce`. These are unit and controlled subprocess tests, not agent evaluations. Prior 67/67 remote pass: [run 40888335435](https://github.com/Svyable/Opps/actions/runs/40888335435).
 
 ## How this changes the application claim
 
