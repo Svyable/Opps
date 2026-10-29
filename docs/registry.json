@@ -385,12 +385,12 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "2026-10-28 evening: added case-paired false-support primary-endpoint analysis with exact discordance test, 10 new tests and release annex; GitHub Actions run 40797112938 verified 55/55 synthetic/unit tests (14+9+11+11+10). No human study or application.",
+      "stage": "2026-10-29: identified underfunded independent reference-label adjudication in 60-case two-arm study; prepared third-reviewer protocol and rebalanced proposed $25k budget from 30h/$3k to 40h/$4k review by shifting $1k from documentation. Applicant approval and actual staffing remain unverified; 55 prior synthetic/unit CI tests unchanged.",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (official fund page reverified 2026-10-26 UTC)",
-      "qualification": "55% subjective lean feasibility scenario; 12h/week, recipient and rights unverified",
-      "work": "~2h application finalization still contingent on applicant gates; new prospective allocation module and tests committed. 60-case target entails 120 reviewer judgments (~24h at assumed 12min each), plus 6h calibration/conflict work within estimated 30h reviewer envelope. All estimates unquoted.",
+      "qualification": "55% subjective lean feasibility scenario; actual payee, 12h/week, rights, authenticated sandbox receipts, independent R1/R2/R3 and $500 public-release feasibility unverified.",
+      "work": "~2h remaining applicant/form work; 120h proposed lead delivery; 100h engineer; revised 40h/$4k independent review: 24h two-arm experimental judgments, 10h third-party reference adjudication, 6h reserve. All estimates unquoted, three distinct reviewer roles unconfirmed.",
       "reuse": "Very high: Human Kind authorization and ScrolIQ provenance",
       "ev": "Capacity-adjusted illustrative +$144.50 EV = $7,800 conditional lead economic surplus × 55% feasibility × 5% selection − $70 prep; prior +$401 expanded scenario not supported by capacity evidence",
       "payer": "EA Funds / Centre for Effective Altruism",
@@ -401,11 +401,11 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Applicant establishes legal payee, 12h/week, source/IP rights, independent engineer/reviewers, data consent and live Paperform terms; freeze reference labels and analysis before human judgments. Approve submission or outreach separately.",
+      "next": "Applicant privately verifies legal payee, 12h/week, source/IP rights, engineer plus three distinct independent reviewer roles, 40h review capacity, authenticated sandbox data, consent and live Paperform terms; choose 60-case revised budget or 40-case 30h fallback; freeze reference labels before judgments. Explicit approval required for outreach/submission.",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
-      "note": "Two-arm allocation prevents same reviewer seeing same case twice; paired endpoint now distinguishes beneficial/harmful discordances. 55/55 remote tests verify preparatory code only; no independent labels, authenticated traces, real reviewers, or observed efficacy. No selection-probability uplift; +$144.50 illustrative EV unchanged.",
-      "source_verified": "2026-10-28 https://funds.effectivealtruism.org/funds/transformative-ai",
+      "note": "October 29 budget repair addresses omitted independent reference-label workload; no human study, authentic labels or outcomes. Same $25k total and illustrative +$144.50 EV, no selection-probability uplift. 55/55 prior remote CI tests verify preparatory code only.",
+      "source_verified": "2026-10-29 https://funds.effectivealtruism.org/funds/transformative-ai",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-verified-evidence.md",
       "application_draft": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-application-draft.md",
       "prospective_scoring": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/score_reviews.py",
@@ -416,7 +416,8 @@
       "two_arm_preflight": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-two-arm-design-preflight.md",
       "two_arm_code": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/two_arm_design.py",
       "paired_analysis": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/paired_analysis.py",
-      "paired_analysis_preflight": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-paired-analysis-preflight.md"
+      "paired_analysis_preflight": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-paired-analysis-preflight.md",
+      "independent_reference_budget_repair": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-independent-reference-budget-repair.md"
     },
     {
       "id": "foresight-ai-nodes-2026",
@@ -730,10 +731,10 @@
       "type": "Developer hackathon / cash prizes",
       "lane": "Human-agent interfaces and bounded workflow",
       "status": "REJECT",
-      "stage": "Official rules screened 2026-10-27; no entry, new build, or terms acceptance",
+      "stage": "2026-10-29 official rules rechecked: event starts Oct 27, new meaningful development during event required; Nov 9 23:59 PT final deadline. Earlier Nov 2 ledger cutoff was incorrect; no entry.",
       "value": "$10,000 total cash pool; $5,000 first, $2,500 second, $1,500 third, $750 fourth, $250 fifth",
       "value_kind": "official",
-      "deadline": "2026-11-02 23:59 PT",
+      "deadline": "2026-11-09 23:59 PT (2026-11-10 07:59 UTC; official rules)",
       "qualification": "Broad adult/global eligibility, subject to sanctions, payment, originality and framework rules; applicant details unverified",
       "work": "Estimated >=10 hours Agent-Native integration + public Clips demo and submission; new development during event mandatory",
       "reuse": "Medium-high conceptual reuse of Human Kind and agents, but framework-specific new code required",
@@ -744,8 +745,10 @@
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/agents"
       ],
-      "restrictions": "Must use Agent-Native and create meaningful new work since Oct 19, 2026; public Clips demo, original work and submission rules acceptance. Entrants retain code ownership but give nonexclusive promotional license. No registration fee.",
-      "next": "Do not divert from Foresight/EA Funds/Vesuvius unless an already working Agent-Native integration is independently verified; no build or submission authorized."
+      "restrictions": "Official rules require original or meaningful new work since 2026-10-27, functional Agent-Native app, public Clips demo and affirmative terms agreement on submission; retain IP, grant nonexclusive promotional license; eligibility/tax verification. No submission authorized.",
+      "next": "Do not divert from Foresight/EA Funds/Vesuvius unless an already working Agent-Native integration is independently verified; no build or submission authorized.",
+      "note": "Corrected erroneous Nov 2 deadline and Oct 19 start-date claim from previous ledger. Official source: https://www.builder.io/hackathon/rules. Status remains REJECT because $5k first-prize × assumed 80% eligibility × 1% first-place probability − $350 labor = −$310; other prizes excluded.",
+      "source_verified": "2026-10-29 https://www.builder.io/hackathon/rules"
     },
     {
       "id": "ies-s2s-cstep-2027",
