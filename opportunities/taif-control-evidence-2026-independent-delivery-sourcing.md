@@ -1,6 +1,6 @@
 # Control Evidence — independent delivery sourcing packet (DRAFT; no commitments)
 
-**Prepared:** 2026-10-26. **Opportunity:** EA Funds Transformative AI Fund; proposed $25,000 / ten-week research pilot. **Status:** PURSUE, NOT SUBMITTED. **Purpose:** turn the $10,500 uncommitted external-labor budget into two verifiable sourcing scopes, without claiming anyone has agreed to participate.
+**Prepared:** 2026-10-26; **updated 2026-10-29**. **Opportunity:** EA Funds Transformative AI Fund; proposed $25,000 / ten-week research pilot. **Status:** PURSUE, NOT SUBMITTED. **Purpose:** turn the **revised $11,500 uncommitted external-labor budget** into verifiable scopes, without claiming anyone has agreed to participate. **Superseding methodology:** [independent-reference and budget repair](taif-control-evidence-2026-independent-reference-budget-repair.md).
 
 **Fund:** https://funds.effectivealtruism.org/funds/transformative-ai (rolling; typical $10k–$150k).
 **Proposal:** [application draft](taif-control-evidence-2026-application-draft.md).
@@ -8,9 +8,9 @@
 
 ## The cash-critical gate
 
-The application budgets **$7,500 for independent engineering (100 hours × an unquoted $75/hour)** and **$3,000 for independent adjudication (30 hours × an unquoted $100/hour)**. These are **budget assumptions, not offers, market quotations, available contractors, or approved expenditure**. If independent staffing cannot be obtained, reduce the study, change the budget and explain the reduced evidence quality *before* applying. No contractor may be promised payment contingent on a grant without an applicant-approved agreement.
+The application budgets **$7,500 for independent engineering (100 hours × an unquoted $75/hour)** and **$4,000 for independent review and reference adjudication (40 hours × an unquoted $100/hour)**. These are **budget assumptions, not offers, market quotations, available contractors, or approved expenditure**. If independent staffing cannot be obtained, reduce the study, change the budget and explain the reduced evidence quality *before* applying. No contractor may be promised payment contingent on a grant without an applicant-approved agreement.
 
-The research lead allocation remains **120 hours × $100 = $12,000**. Compute $1,000 and documentation/dissemination $1,500 complete the proposed $25,000 budget. Lead availability (12h/week) and legal payee are unverified.
+The research lead allocation remains **120 hours × $100 = $12,000**. Compute $1,000 and **revised** documentation/dissemination $500 complete the proposed $25,000 budget. This $500 release allowance requires feasibility verification. Lead availability (12h/week) and legal payee are unverified.
 
 ## Role A — independent instrumentation engineer
 
@@ -30,14 +30,14 @@ The research lead allocation remains **120 hours × $100 = $12,000**. Compute $1
 
 ## Role B — blinded adjudicators
 
-**Estimated envelope:** 30 reviewer hours in total / $3,000 budget assumption. This is an aggregate, not 30 hours per person. Prefer **at least two independently recruited reviewers** and reserve time for disagreement resolution; exact split is to be agreed only after real availability and rates are confirmed.
+**Estimated envelope:** **40 reviewer/adjudicator hours in total / $4,000 budget assumption**. This is an aggregate, not 40 hours per person. Require **two distinct experimental reviewers (R1/R2) plus a separate independent reference adjudicator (R3)**. R3 must not be the case author or the engineer who generated the source receipts. No individual or rate has been confirmed.
 
 **Mission:** independently decide whether each claim is **supported**, **contradicted**, or **insufficient evidence**, using an explicit rubric. Compare narrative-only against structured receipt-supported conditions. Reviewers must not see reference labels before their judgments are frozen.
 
 **Proposed milestones:**
-1. **Calibration and conflict review (4h total):** sign confidentiality/data-use expectations as applicable, disclose conflicts, inspect rubric and do a small *non-holdout* practice set.
-2. **Blinded judgments (20h total):** record verdict, reason, uncertainty/abstention, case ID and time spent; do not inspect private labels or developer annotations.
-3. **Disagreement review and signoff (6h total):** document unresolved disagreements and ambiguous evidence, preserve individual decisions, and release a transparent methods note.
+1. **R1/R2 blinded judgments (24h total):** 60 cases × 2 arms × 12 minutes; record verdict, reason, uncertainty/abstention and time; neither sees reference labels or the other reviewer's judgment.
+2. **R3 independent reference adjudication (10h total):** 60 cases × 10 minutes; inspect authenticated tool-side records and policy oracle, not the case author's candidate label or experimental responses; mark unverified cases indeterminate with reasons.
+3. **Calibration, conflict resolution and audit (6h total):** non-holdout practice, independent-source checks, disagreements, frozen exclusions and transparent methods note. If this reserve is inadequate, rescope; do not manufacture labels.
 
 **Acceptance evidence:** consented reviewer identity/role; conflict statement; timestamped individual decision records; no reference-label access before freeze; complete denominator accounting including missing decisions; exact case/decision hashes; review-time logs; no claim of statistical power from the target of up to 60 cases.
 
@@ -49,7 +49,7 @@ The research lead allocation remains **120 hours × $100 = $12,000**. Compute $1
 |---|---|---|---|
 | Identified candidate, relevant prior work | Required | Required | **NONE VERIFIED** |
 | Conflicts and reference-label access disclosed | Required | Required | **NONE VERIFIED** |
-| Hours within ten-week schedule | 100h target | 30h aggregate | **NONE VERIFIED** |
+| Hours within ten-week schedule | 100h target | **40h aggregate across R1/R2/R3** | **NONE VERIFIED** |
 | Actual rate and payment conditions | Quote required | Quote required | **NONE VERIFIED** |
 | Source code/data release and pre-existing IP carve-outs | Required | Required for permissible decisions/methods | **NONE VERIFIED** |
 | Safe handling of synthetic/consented records | Required | Required | **NONE VERIFIED** |
@@ -66,7 +66,7 @@ We are evaluating an independent engineering role for a proposed ten-week, grant
 
 **Reviewer inquiry subject: Prospective paid blinded adjudication — agent-action evidence**
 
-We are preparing a research proposal comparing AI-agent narratives with tool-side receipts. We seek independent reviewers who can judge supported, contradicted and insufficient-evidence cases without access to hidden labels. The planning envelope is 30 paid reviewer hours **across the reviewer pool** at an unquoted $100/hour assumption, subject to funding and approval. If the topic fits your experience, could you indicate relevant expertise, potential conflicts, availability and expected rate? No participation or payment is promised at this stage.
+We are preparing a research proposal comparing AI-agent narratives with tool-side receipts. We seek independent reviewers who can judge supported, contradicted and insufficient-evidence cases without access to hidden labels. The revised planning envelope is **40 paid hours across two experimental reviewers and one independent reference adjudicator** at an unquoted $100/hour assumption, subject to funding and approval. If the topic fits your experience, could you indicate relevant expertise, potential conflicts, availability and expected rate? No participation or payment is promised at this stage.
 
 **These drafts are internal preparation only.** No recipient is identified, contacted, consented, or hired. Do not send without explicit authorization.
 
@@ -74,7 +74,7 @@ We are preparing a research proposal comparing AI-agent narratives with tool-sid
 
 - **GO to applicant review:** applicant confirms legal recipient, 12h/week, code/data/IP rights, a realistic sourcing plan, and a budget that honestly describes uncommitted external roles; current application form and terms checked.
 - **GO to submission only with explicit applicant approval.** A grant application may describe planned recruitment if the fund allows it; never describe estimates as signed contracts.
-- **RESCOPE:** if rates or availability do not support two independent reviewers and receipt instrumentation, reduce target cases or duration, revise the $25k budget, and disclose loss of independence/power.
+- **RESCOPE:** if rates or availability do not support two independent experimental reviewers, a third independent reference adjudicator, and receipt instrumentation, reduce target cases or duration, revise the $25k budget, and disclose loss of independence/power.
 - **NO-GO:** if the evidence boundary or open-source rights cannot be secured, or if a conflict forces reviewers to grade their own labels.
 
 ## Opportunity economics and next action
