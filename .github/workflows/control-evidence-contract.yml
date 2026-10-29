@@ -29,3 +29,5 @@ jobs:
         run: python artifacts/control-evidence-2026/test_score_reviews.py -v
       - name: Run prospective two-arm allocation regression tests
         run: python artifacts/control-evidence-2026/test_two_arm_design.py -v
+      - name: Run paired primary-endpoint regression tests
+        run: python artifacts/control-evidence-2026/test_paired_analysis.py -v
