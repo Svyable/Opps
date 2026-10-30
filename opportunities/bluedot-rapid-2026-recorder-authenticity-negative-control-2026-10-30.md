@@ -34,3 +34,7 @@ For the Rapid grant, keep the previous **illustrative** founder-surplus model: c
 **Still blocked:** applicant's 15 hours/week, lawful payee/jurisdiction, actual source/contributor rights, funder overlap, exact application fields and explicit authorization to submit. The official page states a lump-sum payment follows an approved claim and checks; the grant is restricted to agreed work, with a completion report due within 60 days. Do not submit, spend, hire or contact anyone on this preflight.
 
 **Sources rechecked 2026-10-30:** https://bluedot.org/grants/rapid ; https://funds.effectivealtruism.org/funds/transformative-ai ; https://foresight.org/grants/ai-science-safety-nodes-rfp-coordination-and-accountability/ .
+
+## Verification status — 2026-10-30
+
+The five cases were independently **reproduced locally (5/5 passing)** on 2026-10-30 with a temporary test directory containing the relevant `decide`/`fixture`/`ev` logic and local subprocess-probe implementation transcribed from the GitHub sources. Command: `python -m unittest -v test_receipt_authenticity_gap`; result: `Ran 5 tests in 1.144s — OK`. This is a **local isolated reproduction against transcribed implementation excerpts**, not an execution of the exact GitHub checkout or a GitHub Actions result. The committed test file was read back by GitHub; remote CI for this commit remains unverified. The passing tests confirm that the **known synthetic gap is reproducible**, not that the future authentication control works.
