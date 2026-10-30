@@ -428,7 +428,7 @@
       "type": "Open-source research grant",
       "lane": "Human–AI control and oversight",
       "status": "PURSUE",
-      "stage": "2026-10-28: official six-criterion reviewer mapping and falsifiable false-veto impact bridge added to submission narrative and 37-field crosswalk; 44/44 remote tests and 108 deterministic mock receipts unchanged. Applicant gates and authorization remain unresolved.",
+      "stage": "2026-10-30: independently reaggregated 80 public PinkWallet sandbox runs and inspected all 80 raw traces; two repetitions of one split-under-cap prompt cleared $1,600 each in test money. Foresight proposal now includes sequence-level intent/veto negative control and honest prior-art attribution; no Svyable trial, submission or eligibility proof.",
       "value": "Typical $30k–$100k grants; $35k proposed request, not awarded",
       "value_kind": "official-range-with-internal-scenario",
       "deadline": "2026-10-31 23:59 PDT",
@@ -444,9 +444,9 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Open-source all funded work product; strong SF/Berlin in-person preference; for-profit grant-need explanation; overhead <=10% of direct costs; due diligence and reports; optional Lightcone sharing has privacy/redistribution risk; consent applicant-only.",
-      "next": "Before 2026-10-31 23:59 PDT, applicant privately verifies legal recipient, one of two real weekly-hour budgets, engineer/reviewer capacity, consenting reference, rights, SF/Berlin Node plan, outside-funding disclosures and live form/consents; explicit approval required. If any hard gate fails, do not submit.",
+      "next": "Before 2026-10-31 23:59 PDT applicant must privately verify legal payee, A/B weekly capacity, engineer/reviewer, consenting reference, source/IP/data rights, SF/Berlin Node plan, funding disclosures, live Airtable fields/consents and explicit submission authorization. Sequence-level negative control is proposed, NOT implemented or observed; stop if gates fail.",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-reviewer-execution-charter.md",
-      "note": "Final applicant decision memo separates all eight unverified release gates from technical evidence; no claim of staffing, Node attendance, consent, grant award, or measured efficacy. 44-test CI and 108 mock receipts remain constructed software evidence. EV unchanged. 2026-10-28: new impact bridge https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-funder-criteria-impact-bridge-2026-10-28.md explains plausible catastrophic-risk mechanism, negative results, and transfer limitations. No selection probability uplift or new experiment.",
+      "note": "Final applicant decision memo separates all eight unverified release gates from technical evidence; no claim of staffing, Node attendance, consent, grant award, or measured efficacy. 44-test CI and 108 mock receipts remain constructed software evidence. EV unchanged. 2026-10-28: new impact bridge https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-funder-criteria-impact-bridge-2026-10-28.md explains plausible catastrophic-risk mechanism, negative results, and transfer limitations. No selection probability uplift or new experiment. External PinkWallet CC BY 4.0 dataset audit: 80 rows; 3 adjudicated attempted tactics, 2 successful sandbox split sequences, 1 blocked disguise dry-run; per-call mock gate lacks intent-level cumulative accounting. No selection-probability uplift; estimated additional 0.5–1h audit labor ($17.50–$35) reduces founder-led favorable net EV from +$49 to +$14–$31.50 if not previously counted. No new tests; prior Foresight CI 44/44.",
       "budget_evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-itemized-budget-capacity.md",
       "technical_artifact": "https://github.com/Svyable/Opps/tree/main/artifacts/foresight-control-2026",
       "technical_limits": "Side-effect-free mock boundary only: no real tools, authenticated approvals, agent runs, independent labels or measured safety efficacy. 36/60 fixtures mapped into 108 mock receipts; 24 cases/72 assignments explicitly excluded; all 180 prospective assignments remain not run.",
@@ -458,7 +458,8 @@
       "verification_packet": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-reviewer-verification-packet.md",
       "remote_ci": "https://github.com/Svyable/Opps/actions/runs/40635208184",
       "pilot_evidence": "https://github.com/Svyable/Opps/blob/main/artifacts/foresight-control-2026/pilot_receipts.py",
-      "release_gate": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-final-submission-decision-2026-10-28.md"
+      "release_gate": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-final-submission-decision-2026-10-28.md",
+      "external_evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/foresight-2026-external-sequence-veto-evidence-2026-10-30.md"
     },
     {
       "id": "bluedot-rapid-grants-2026",
