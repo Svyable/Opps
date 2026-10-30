@@ -468,14 +468,14 @@
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
       "status": "PURSUE",
-      "stage": "2026-10-30: live canonical Rapid page reverified: $20k ceiling, time/living costs allowed, already-underway work eligible, 15-minute application; 4-week $6k recorder-integrity feasibility proposal committed; not submitted; applicant gates remain",
+      "stage": "2026-10-30: official live $20k ceiling/time funding/claim-payment rules verified; $6k four-week proposal; five new deterministic authenticity/replay negative-control tests and sponsor preflight committed; remote CI not yet verified, no application",
       "value": "Up to $20,000 per current official Rapid page (not $10k old listing); $6,000 four-week conditional internal request, restricted funding not profit",
       "value_kind": "official-ceiling-and-internal-request",
       "deadline": "Rolling / no fixed cutoff shown on current canonical Rapid page (checked 2026-10-30)",
       "qualification": "General Rapid route accepts work already underway; no BlueDot course required, though participation/community membership may help. Applicant recipient jurisdiction, sanctions, 15h/week, source rights, grant overlap and live form consents unverified.",
-      "work": "~2h remaining form/readiness ($70 assumed) plus four-week 60h founder feasibility sprint, 10h hypothetical independent review; no reviewer engaged",
+      "work": "Pre-existing local subprocess probe plus five newly prepared synthetic authenticity-gap characterization tests; proposed 60 founder hours + 10 independent-review hours over four weeks remain uncommitted; applicant-only release gates",
       "reuse": "Very high: existing Apache-2.0 Control Evidence local subprocess probe and 77 prior tests as sunk inputs; new recorder-authentication/replay feasibility only; exclude double-funded EA/Foresight/Seed hours",
-      "ev": "New scenario after $70 incremental prep: cautious $1,500 conditional surplus ×40% feasible ×5% selected −$70 = −$40; central $2,000 ×60%×8% −$70 = +$26; favorable $3,000 ×70%×10% −$70 = +$140. Uncalibrated assumptions; no probability uplift; $6k restricted request is not profit.",
+      "ev": "Previous −$40 cautious / +$26 central / +$140 favorable subjective economic-surplus model after $70 form prep; add $17.50–$35 preflight labor with zero assumed selection uplift: cumulative −$75 to −$57.50 cautious; −$9 to +$8.50 central; +$105 to +$122.50 favorable. Not award-rate estimates.",
       "payer": "BlueDot Impact",
       "source": "https://bluedot.org/grants/rapid",
       "asset_repos": [
@@ -483,10 +483,10 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Country/sanctions restrictions, charitable/educational purpose, material-change approval, claim/check payment and transfer fees; 60-day completion report. Founder time/payee/tax/IP unverified; no overlapping grant-funded costs.",
-      "next": "Applicant verifies 15h/week for four weeks, lawful payee/jurisdiction, source rights and grant overlap, reviews exact form and explicitly approves any submission. Treat as shorter alternative to BlueDot Seed, not concurrent duplicate funding.",
+      "next": "Applicant confirms 15h/week, lawful payee/jurisdiction, exact live form and grant agreement, contributor rights and non-overlap; approves submission separately. Funded next work would implement run-bound recorder verification and replay rejection, not re-bill these preflight tests.",
       "source_verified": "2026-10-26 https://bluedot.org/grants/rapid and https://bluedot.org/grants (conflicting official ceilings)",
-      "note": "Official 2026-10-30 Rapid page explicitly permits time/living costs and ongoing work, up to $20k, with claim-based lump-sum payment after checks and 60-day completion report. Old $10k and upfront/no-living-stipend assumptions superseded. Separate BlueDot Project Sprint-specific page must not be conflated with general Rapid route. No tests run or external contact.",
-      "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-recorder-integrity-four-week-preflight.md"
+      "note": "Official Rapid page states up to $20k, time/living support, existing work eligible, lump-sum payment after claim/checks, short completion report within 60 days. Five synthetic characterization tests document that unauthenticated writer/coverage strings and replay can yield supported; NOT an agent exploit or security effectiveness. No CI run verified yet.",
+      "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-recorder-authenticity-negative-control-2026-10-30.md"
     },
     {
       "id": "bluedot-seed-grants-2026",
@@ -570,10 +570,10 @@
       "type": "Research award (cash and AWS credits)",
       "lane": "Agent trajectory verification and human–AI collaboration",
       "status": "WATCH",
-      "stage": "Official rules audited; academic/nonprofit PI required, no verified eligible Svyable PI; do not prepare solo application",
+      "stage": "2026-10-30: official CFP deadline extension to Nov 11 verified; ARA PI must be full-time accredited-institution faculty or permanent researcher at recognized nonprofit/NGO; no qualifying PI verified",
       "value": "Up to $70k cash on average for selected PIs, plus up to $50k AWS credits on average; not a guaranteed maximum or personal cash",
       "value_kind": "official-typical-not-guaranteed",
-      "deadline": "2026-11-04 23:59 Pacific",
+      "deadline": "2026-11-11 23:59 PDT (official Fall 2026 extension; older Nov 4 entry superseded)",
       "qualification": "Direct solo eligibility unverified and presumed 0% until qualifying full-time faculty PI or permanent researcher at recognized NGO is confirmed; selection probability unpublished",
       "work": "At least 4-page proposal, PI and institution administration, likely 8–20h if eligible; 0h justified without PI",
       "reuse": "Very high: Human Kind agent boundaries, ScrolIQ provenance and Control Evidence evaluation methods",
@@ -586,7 +586,7 @@
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Only reconsider with documented eligible academic/NGO PI and written allocation of Svyable work/IP; no speculative application or partner outreach without approval."
+      "next": "Do not prepare solo Svyable bid; only reconsider with documented qualifying academic/NGO PI and rights/payment allocation; no outreach without approval."
     },
     {
       "id": "anthropic-stem-fellows-2027",
