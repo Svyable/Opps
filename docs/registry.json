@@ -979,7 +979,7 @@
       "stage": "2026-10-29 Chicago: official rolling v2 CFP audited and source-linked six-month technical/UK-eligibility preflight committed; no UK partner, staffed team, applicant authorization or submission",
       "value": "Track 2 £200,000–£2,000,000 per funded project; £49.8m total programme, not Svyable award",
       "value_kind": "official-programme-range-not-award",
-      "deadline": "2026-10-31 first rolling quarterly cutoff (exact live portal hour unverified); subsequent quarterly review batches",
+      "deadline": "2026-10-31 14:00 GMT (official next quarterly batch cutoff); submissions after cutoff roll to following quarterly cycle unless call closes",
       "qualification": "Individuals and non-UK organisations may apply, but ARIA prioritises UK benefit and expects 50–80% lead commitment; no verified UK benefit plan, payee, staffing, licenses, or qualified security researcher",
       "work": "One source-linked preflight complete; ≥4h additional submission preparation plus 6 months of substantial team delivery if selected; 10-page PDF, budget spreadsheet, commercial hypothesis and portal terms needed",
       "reuse": "Very high Human Kind/Control Evidence/agents/ScrolIQ conceptual and code reuse; no demonstrated multi-agent security or independent attestations",
@@ -995,8 +995,9 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Funded software must be dual MIT/Apache 2.0; background IP rights need audit. Strong UK-benefit preference, usually >50% UK project costs/personnel or justified exceptional UK benefit; lead 50–80% preferred; £200k Track 2 floor, UK community engagement/travel; full application/terms and COI disclosure required.",
-      "next": "Verify actual UK benefit/operating or partner plan, 50–80% lead time, independent security staff, payee, source licenses and distinct deliverables; if impossible REJECT. No outreach/submission/terms without approval.",
-      "note": "Track 2.2 report/audit is within scope but ARIA says it will focus mostly on negotiation and security reasoners. Existing 77 CI tests are synthetic/local OS tests, not multi-agent or cryptographic evidence. No award or selection-probability uplift."
+      "next": "No rush unsupported Oct 31 submission: applicant UK-benefit plan, lead 50–80% availability, qualified team and dual-license rights remain unverified. Next batch after Oct 31, subject to call staying open. Do not contact or submit without approval.",
+      "note": "Track 2.2 report/audit is within scope but ARIA says it will focus mostly on negotiation and security reasoners. Existing 77 CI tests are synthetic/local OS tests, not multi-agent or cryptographic evidence. No award or selection-probability uplift.",
+      "source_verified": "2026-10-30 UTC: official https://aria.org.uk/opportunity-spaces/trust-everything-everywhere/scaling-trust/funding explicitly states 31 October 2026 14:00 GMT, rolling quarterly batches"
     }
   ],
   "engines": [
