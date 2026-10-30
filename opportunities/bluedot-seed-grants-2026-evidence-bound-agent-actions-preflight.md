@@ -1,12 +1,12 @@
 # BlueDot Seed Grants — evidence-bound agent actions: conditional founder application packet
 
-**Prepared 2026-10-29 · Svyable / Sven Hardy Benson · WATCH / not submitted.** This is a sponsor-specific, evidence-grounded draft for applicant review, **not** a claim of eligibility, a completed form, an approved project, a new legal entity, or a commitment to work full time.
+**Prepared 2026-10-29; live-intake verified 2026-10-30 UTC · Svyable / Sven Hardy Benson · PURSUE preparation / not submitted.** This is a sponsor-specific, evidence-grounded draft for applicant review, **not** a claim of eligibility, a completed form, an approved project, a new legal entity, or a commitment to work full time.
 
 ## Funding opportunity and source integrity
 
-- BlueDot Impact's [Seed Grants detail page](https://website-production.k8s.bluedot.org/grants/seed) describes **$20,000–$200,000 for 6–12 months**, a decision target of about four weeks, support for solo founders, and a project or organization intended to grow beyond its founder. The page was accessible on BlueDot's own production-preview host on 2026-10-29; **the canonical `bluedot.org/grants/seed` page could not be independently opened and the umbrella grants page does not currently expose a Seed listing in the retrieved text. Confirm the actual live application route and terms before any application.**
+- BlueDot Impact's **canonical** [Seed Grants page](https://bluedot.org/grants/seed) is now linked from its [canonical grants overview](https://bluedot.org/grants) and was independently opened 2026-10-30 UTC. It confirms **$20,000–$200,000 for 6–12 months**, about four weeks to a decision, and solo-founder eligibility. The earlier preview-host-only intake blocker is resolved; **the embedded application form and any hidden fields have not been inspected**. The official page instructs applicants to select **“Starting an organization”** when the form asks what funding is for; do not invent an external form URL. See [live-intake submission preflight](bluedot-seed-2026-live-intake-submission-preflight.md).
 - The detail page says the default recipient is the **individual founder**; payment to an organization is negotiable, and for-profit funding is case-by-case and slower. The grant is **not salary, an investment, a contract for services, or automatically tax-free**. The applicant signs an agreement if approved; unused funds must be returned if the project stops. One Seed Grant per project. No verified application deadline is shown; treat as **rolling / live-intake unverified**.
-- [BlueDot's current grant overview](https://bluedot.org/grants) lists Rapid Grants and Career Transition Grants. These are **alternative routes**, not additive awards for the same activities. [BlueDot's Incubator Week page](https://website-production.k8s.bluedot.org/programs/incubator-week) describes a potential pitch route to Seed funding, not a second $200k award.
+- [BlueDot's current canonical grant overview](https://bluedot.org/grants) now explicitly lists **Seed**, Rapid and Career Transition Grants. These are alternative routes, not additive awards for the same activities. [BlueDot's Incubator Week](https://bluedot.org/programs/incubator-week) is a potential pitch pathway, not a second Seed award.
 - No sanctions or residence eligibility conclusion is inferred from Svyable's public GitHub. The applicant must confirm payment jurisdiction, legal/tax arrangements and actual founder availability.
 
 ## One-sentence proposal hypothesis — applicant must approve or rewrite
@@ -42,7 +42,7 @@ If founder availability is below 35 hours/week, if outside work conflicts, or if
 
 ## Applicant-only decision gates — no public identity data
 
-1. **Live route:** confirm current Seed intake, exact form, funder terms, confidentiality, and whether an existing Svyable initiative can qualify as a **new project** rather than a new organization.
+1. **Live route VERIFIED, form NOT inspected:** canonical Seed page and overview now public; applicant must review live form/terms, confidentiality, and whether an existing Svyable initiative can qualify as a **new project** rather than a new organization.
 2. **Founder commitment:** personally verify six months of ~35h/week, competing work, family/travel obligations and whether this is realistically the main project.
 3. **Recipient/tax:** identify real individual recipient or obtain BlueDot's agreement to an organization payee; confirm sanctions, jurisdiction, tax treatment and grant-agreement acceptability.
 4. **Rights:** verify ownership/permissions for all source, future contractor contributions, third-party framework licenses, and whether public release is feasible.
@@ -54,6 +54,9 @@ If founder availability is below 35 hours/week, if outside work conflicts, or if
 
 Assume **3h additional application/readiness work × $35/h = $105** marginal pursuit cost. Since the $60k is restricted and includes actual delivery obligations, model only **conditional founder economic surplus**, not face value. Cautious: $10k surplus × 20% genuine eligibility/capacity × 3% selection − $105 = **−$45**. Favorable: $20k surplus × 50% capacity × 7% selection − $105 = **+$595**. Every probability and surplus is a **subjective assumption**; no historical grant success rate is available. No probability uplift is credited for this document.
 
-**Decision: WATCH, prepared for applicant gate review.** If live intake, full-time capacity, new-project qualification, rights and non-overlap are all verified, move to PURSUE and adapt the final form. If they fail, do not manufacture a new company or promise unavailable work; prioritize the existing rolling EA Funds draft. The nearer Foresight October 31 deadline remains separate and applicant-blocked.
+**Decision: PURSUE preparation only, submission blocked by applicant facts.** Canonical intake is now verified, but full-time capacity, new-project qualification, rights, legal recipient and non-overlap remain unverified. Adapt the live form only after applicant review. If they fail, do not manufacture a new company or promise unavailable work; prioritize the existing rolling EA Funds draft. The nearer Foresight October 31 deadline remains separate and applicant-blocked.
 
 **Sources checked 2026-10-29:** [BlueDot Seed detail](https://website-production.k8s.bluedot.org/grants/seed); [BlueDot overview](https://bluedot.org/grants); [BlueDot Rapid Grants](https://bluedot.org/grants/rapid); [Foresight official RFP](https://foresight.org/grants/ai-science-safety-nodes-rfp-coordination-and-accountability/); [EA Funds](https://funds.effectivealtruism.org/funds/transformative-ai).
+
+
+**2026-10-30 official-route update:** [Live Seed intake and applicant release preflight](bluedot-seed-2026-live-intake-submission-preflight.md). The earlier 2026-10-29 source-integrity section is superseded by this update where inconsistent. No application, consent, grant, or selection-probability uplift is claimed.
