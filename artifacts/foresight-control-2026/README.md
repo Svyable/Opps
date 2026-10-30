@@ -66,3 +66,8 @@ python -m unittest discover -s artifacts/foresight-control-2026 -p 'test_*.py' -
 ```
 
 The GitHub Actions workflow now runs the mock pilot CLI and validates the coverage/exclusion counts in addition to the test suite. This is an integration-readiness receipt, **not** an empirical effect-size estimate, substitute for independent reviewers, or claim of improved real-world control.
+
+
+### Sequence-level mock negative control — 2026-10-30
+
+The original per-call boundary was stateless and could not enforce a human's cumulative authorization over repeated individually valid calls. The new [sequence_intent.py](sequence_intent.py) and [13 contract tests](test_sequence_intent.py) demonstrate the difference, without adding a fourth experimental arm: four synthetic $400 calls under a mock $1,000 total cap all pass the per-call-only mock ($1,600 aggregate), while a separate in-memory intent guard permits two ($800) and blocks the remaining two. No real payments, messages, AI agents, authentic human approval, durable/concurrent enforcement or measured safety effect. This is a constructed negative control motivated by [independent third-party prior art](../../opportunities/foresight-2026-external-sequence-veto-evidence-2026-10-30.md), not Svyable agent evidence. [Sponsor-specific verification and economics](../../opportunities/foresight-2026-sequence-intent-mock-negative-control-2026-10-30.md). [Remote CI run 41058692751](https://github.com/Svyable/Opps/actions/runs/41058692751) passed 57/57 Foresight tests (44 prior + 13 new) on 2026-10-30. Applicant identity, capacity, reference, rights, Node participation and submission approval remain unresolved.
