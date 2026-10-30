@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29 UTC",
+  "generated_at": "2026-10-30 UTC",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -968,6 +968,34 @@
       "source": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/incubator/human-scale-ai/call-for-proposals/",
       "restrictions": "Charitable-purpose grant, not founder cash; working deployed AI and early users required; AI use cannot replace applicant-authored answers; open public outputs and active cohort participation; no equity taken.",
       "next": "Do not pursue on current evidence; reconsider only with verified real users/deployment, small-model core, charitable purpose and delivery team; no application."
+    },
+    {
+      "id": "aria-scaling-trust-track2-2026",
+      "name": "ARIA Scaling Trust — Track 2.2 Verifiable Agent-Action Reporting",
+      "type": "UK public R&D grant / open-source agent component",
+      "lane": "Agent coordination / policy-bound execution receipts",
+      "status": "WATCH",
+      "stage": "2026-10-29 Chicago: official rolling v2 CFP audited and source-linked six-month technical/UK-eligibility preflight committed; no UK partner, staffed team, applicant authorization or submission",
+      "value": "Track 2 £200,000–£2,000,000 per funded project; £49.8m total programme, not Svyable award",
+      "value_kind": "official-programme-range-not-award",
+      "deadline": "2026-10-31 first rolling quarterly cutoff (exact live portal hour unverified); subsequent quarterly review batches",
+      "qualification": "Individuals and non-UK organisations may apply, but ARIA prioritises UK benefit and expects 50–80% lead commitment; no verified UK benefit plan, payee, staffing, licenses, or qualified security researcher",
+      "work": "One source-linked preflight complete; ≥4h additional submission preparation plus 6 months of substantial team delivery if selected; 10-page PDF, budget spreadsheet, commercial hypothesis and portal terms needed",
+      "reuse": "Very high Human Kind/Control Evidence/agents/ScrolIQ conceptual and code reuse; no demonstrated multi-agent security or independent attestations",
+      "ev": "Hypothetical restricted-project £25k net economic benefit × 10% eligibility × 1% selection − £120 labor = −£95 cautious; 35% × 3% − £120 = +£142.50 favorable. All probabilities subjective; real EV may be negative due UK/people gaps.",
+      "payer": "Advanced Research and Invention Agency (ARIA), UK government-sponsored R&D agency",
+      "source": "https://aria.org.uk/opportunity-spaces/trust-everything-everywhere/scaling-trust/funding",
+      "rules_source": "https://aria.org.uk/media/013loxe3/scaling-trust-solicitation_rolling-applications.pdf",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/aria-scaling-trust-track2-component-2026-preflight.md",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "Funded software must be dual MIT/Apache 2.0; background IP rights need audit. Strong UK-benefit preference, usually >50% UK project costs/personnel or justified exceptional UK benefit; lead 50–80% preferred; £200k Track 2 floor, UK community engagement/travel; full application/terms and COI disclosure required.",
+      "next": "Verify actual UK benefit/operating or partner plan, 50–80% lead time, independent security staff, payee, source licenses and distinct deliverables; if impossible REJECT. No outreach/submission/terms without approval.",
+      "note": "Track 2.2 report/audit is within scope but ARIA says it will focus mostly on negotiation and security reasoners. Existing 77 CI tests are synthetic/local OS tests, not multi-agent or cryptographic evidence. No award or selection-probability uplift."
     }
   ],
   "engines": [
