@@ -60,3 +60,6 @@ Assume **3h additional application/readiness work × $35/h = $105** marginal pur
 
 
 **2026-10-30 official-route update:** [Live Seed intake and applicant release preflight](bluedot-seed-2026-live-intake-submission-preflight.md). The earlier 2026-10-29 source-integrity section is superseded by this update where inconsistent. No application, consent, grant, or selection-probability uplift is claimed.
+
+
+**2026-10-30 source-license and new-project clarification:** [Verified reuse/rights and applicant eligibility preflight](bluedot-seed-2026-source-license-new-project-gate.md). The official Seed rule permits a *new project or organization*; selecting “Starting an organization” in the form does not justify claiming a newly incorporated company. The initial SDK should reference pre-existing Apache-2.0 Opps code, attribute CC-BY Human Kind documentation where adapted, avoid importing ScrolIQ's scientific dependencies, and exclude Svyable/agents source without specific rights clearance. Public licenses do not establish full contributor ownership. The $60k request and applicant-only capacity/payee gates are unchanged. This source audit is not a test, award-odds uplift, or permission to submit.
