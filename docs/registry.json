@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30 UTC",
+  "generated_at": "2026-10-31 UTC",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -1003,6 +1003,75 @@
       "next": "No rush unsupported Oct 31 submission: applicant UK-benefit plan, lead 50–80% availability, qualified team and dual-license rights remain unverified. Next batch after Oct 31, subject to call staying open. Do not contact or submit without approval.",
       "note": "Track 2.2 report/audit is within scope but ARIA says it will focus mostly on negotiation and security reasoners. Existing 77 CI tests are synthetic/local OS tests, not multi-agent or cryptographic evidence. No award or selection-probability uplift.",
       "source_verified": "2026-10-30 UTC: official https://aria.org.uk/opportunity-spaces/trust-everything-everywhere/scaling-trust/funding explicitly states 31 October 2026 14:00 GMT, rolling quarterly batches"
+    },
+    {
+      "id": "gpu-world-2026",
+      "name": "GPU World — One GPU Per Person writing prize",
+      "type": "Writing competition / cash prize",
+      "lane": "Sven Hardy Benson books / AI futures",
+      "status": "PURSUE",
+      "stage": "2026-10-30: official prompt/prize/rules verified; existing 2,119-word book chapter screened; author-only editorial/rights preflight committed; no final compliant story, license authorization, form consent or entry",
+      "value": "$100,000 total pool: $40,000 first, $20,000 second, $12,000 third, seven $4,000 finalists; not a single $100k prize",
+      "value_kind": "official",
+      "deadline": "2026-10-31 23:59 Pacific",
+      "qualification": "Open to everyone, one entry per person; fiction or nonfiction 1,000–5,000 words, Markdown/PDF. Applicant must approve CC BY-NC or freer licensing and AI-use disclosure; existing book is All Rights Reserved. Author-only decisions unverified.",
+      "work": "~2h human-author substantive counterfactual rewrite and rights/form review; 0.5h preflight screening; do not pass AI-written prose off as original human contest entry",
+      "reuse": "Very high: existing Abdicating Intelligence Ch26 (2,119 words), Ch8 tutoring research and Ch15 personalization; original 2040/frozen-model scenario still needed",
+      "ev": "Subjective net-EV scenarios after $87.50 marginal labor and 40/50/70% timely compliant-entry probabilities: cautious −$67.50, working −$32.50, favorable +$66.50; mutually exclusive individual prizes; not published win rates. Rights opportunity cost unpriced.",
+      "payer": "GPU World contest; supported by Paradigm and Guardian Angel Intelligence Inc. (official site); no payout history verified",
+      "source": "https://www.gpuworld.org/",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/gpu-world-2026-author-entry-preflight.md",
+      "asset_repos": [
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "One entry per person; CC BY-NC or freer license, AI-use disclosure requested, LLM use permitted but discouraged, rights and other form terms must be approved by author",
+      "next": "Author personally decides by Oct 31 Pacific whether to rewrite a compliant 2040 fixed-2026-capability story, grant an entry-specific CC BY-NC license and authorize submission. Otherwise mark REJECT after cutoff; no entry is recorded."
+    },
+    {
+      "id": "tarbell-fellowship-2027",
+      "name": "Tarbell Center 2027–28 AI Journalism Fellowship",
+      "type": "Paid journalism fellowship / salaried placement",
+      "lane": "Sven Hardy Benson investigative AI writing",
+      "status": "WATCH",
+      "stage": "2026-10-30 official open application screened; no personal full-time journalism-transition intent or work authorization established",
+      "value": "$75,000–$120,000 salary for fellows; $115,000–$135,000 senior fellows (7+ years experience); 12 months of full-time training and newsroom placement, not free profit",
+      "value_kind": "official-salary",
+      "deadline": "2026-11-22",
+      "qualification": "AI expertise/writing fit plausible but newsroom/reporting record, legal work authorization in partner cities, full-time 2027 commitment and seniority unverified; visas rarely sponsored",
+      "work": "1–3h CV/1–3 writing samples and short answers; possible work test/interviews; 3-month full-time training plus 9-month placement if accepted",
+      "reuse": "High: Desk AI investigative nonfiction and source-ledger work; author brand; does not establish newsroom qualifications",
+      "ev": "Conditional economic-surplus screen only: $0–$15k net value after foregone work, 10–40% qualification × 0.5–2% selection, less $105 application labor = −$105 to +$15; highly speculative; salary is compensation for work",
+      "payer": "Tarbell Center for AI Journalism / host newsroom",
+      "source": "https://www.tarbellcenter.org/fellowship",
+      "repo": "https://github.com/Svyable/desk",
+      "asset_repos": [
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "Full-time training and newsroom employment; partner-city/right-to-work and visa constraints; IP/employment terms unreviewed",
+      "next": "Do not draft or submit until applicant confirms willingness to take a full-time newsroom role in 2027 and work authorization."
+    },
+    {
+      "id": "generation-ai-research-prize-2026",
+      "name": "Generation AI Research Prize — young people and AI",
+      "type": "Research prize",
+      "lane": "AI education / child development",
+      "status": "REJECT",
+      "stage": "2026-10-30 official rules screened; existing Abdicating Intelligence writing is not original empirical youth-outcome research",
+      "value": "Up to five awards of £500 each",
+      "value_kind": "official",
+      "deadline": "2026-11-13",
+      "qualification": "Age 18+ and non-sanctioned residence required; empirical qualitative or quantitative youth outcome data required; existing book chapters and synthetic tool tests do not meet it",
+      "work": "Would require a real, ethical youth study with actual data; not feasible as quick repackaging",
+      "reuse": "Medium conceptual fit from Abdicating Intelligence Ch8/Ch26, but low reuse for eligible empirical evidence",
+      "ev": "Reject: conditional selection chance effectively zero with currently verified assets; any new application labor has negative marginal EV; £500 face value does not justify inventing results",
+      "payer": "Generation AI / Reuben College, Oxford (organizer listed on official site)",
+      "source": "https://www.generationai.world/generation-ai-research-prize",
+      "repo": "https://github.com/Svyable/desk",
+      "asset_repos": [
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "Empirical study and methodological rigor, age/residence eligibility, application terms; no invented participants or data",
+      "next": "No entry without an independently completed qualifying empirical youth study."
     }
   ],
   "engines": [
