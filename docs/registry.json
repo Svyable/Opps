@@ -1072,6 +1072,57 @@
       ],
       "restrictions": "Empirical study and methodological rigor, age/residence eligibility, application terms; no invented participants or data",
       "next": "No entry without an independently completed qualifying empirical youth study."
+    },
+    {
+      "id": "alpha-omega-oss-security-q4-2026",
+      "name": "Alpha-Omega Q4 2026 — open-source ecosystem security grant",
+      "type": "Open-source security grant",
+      "lane": "Control Evidence / OSS security",
+      "status": "REJECT",
+      "stage": "2026-10-31: primary-source criticality and license audit completed; no verified downstream production dependency or broader ecosystem criticality for Svyable. No application. Q1 2027 possible only after adoption evidence.",
+      "value": "No standard current award stated on official intake; historical named grants range from $43k to much larger amounts. $50k face value / $10k net benefit purely hypothetical for screening.",
+      "value_kind": "official-historic-awards-and-hypothetical-scenario",
+      "deadline": "2026-10-31 Q4 submission window ends; exact hour unpublished. Next window 2027-01-01 to 2027-01-31.",
+      "qualification": "Apache-2.0 Opps and MIT scrollq license declarations pass necessary OSI criterion; no independently verified critical OSS infrastructure role, downstream users, or security posture. 1–5% subjective criticality/capacity feasibility.",
+      "work": "~2h hypothetical intake, then co-design SOW and material security delivery; currently no credible criticality case. 82 remote CI tests do not prove real-world security or adoption.",
+      "reuse": "High code reuse for receipt verification; low verified ecosystem-security criticality. Svyable/Opps and scrollq each 1 star/0 forks on 2026-10-31, not proof of no private users.",
+      "ev": "Hypothetical $10k net benefit × 1–5% fit × 1–3% selection − $70 pursuit = −$69 to −$55. Subjective; no award rate implied.",
+      "payer": "Alpha-Omega (open-source security grant program)",
+      "source": "https://alpha-omega.dev/grants/how-to-apply/",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-10-31-alpha-omega-corrigibility-funder-fit-no-go.md",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/scrollq",
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "OSI-approved open-source license; critical-infrastructure security impact, credible baseline and direct user benefit; month-two co-design/SOW; public monthly reporting, strategy roundtables, 3 blog reports; no sensitive unpatched vulnerability disclosure.",
+      "next": "Do not apply in Q4 without evidence of critical OSS adoption, contributor rights, real security baseline and committed maintainer capacity. Revisit January 2027 intake only if verified ecosystem use emerges.",
+      "source_verified": "2026-10-31 official Alpha-Omega application instructions, seasonal announcement, named historic recipient grants; GitHub repository API metadata."
+    },
+    {
+      "id": "corrigibility-research-fund-r2-2026",
+      "name": "Corrigibility Research Fund — Round 2",
+      "type": "Charitable AI alignment research grant",
+      "lane": "Agent corrigibility and human control",
+      "status": "REJECT",
+      "stage": "2026-10-31: fund manager's explicit distinction between external obedience enforcement and internal corrigibility makes current Svyable receipt mocks a poor research fit. No application or prize nomination.",
+      "value": "$5,000–$35,000 typical official grant; fund manager reports 8 first-round grants totaling $132,000, from >100 applications. No award to Svyable.",
+      "value_kind": "official-range-and-funder-reported-historic-awards",
+      "deadline": "2026-10-31 Round 2 cutoff; exact hour unpublished",
+      "qualification": "Low fit for existing externally enforced tool/receipt controls; 5–15% subjective chance of credible corrigibility-specific fit/capacity, 1–3% selection conditional on fit. Applicant identity and time unverified.",
+      "work": "At least ~2h original applicant-led application and substantial new behavioral/philosophical corrigibility research; current synthetic tests do not satisfy the research question.",
+      "reuse": "High reuse as negative/control baseline from Human Kind and Control Evidence; low reuse as actual evidence of agents' voluntary corrigibility.",
+      "ev": "$4k hypothetical net benefit × 5–15% fit × 1–3% conditional selection − $70 application = −$68 to −$52. Subjective, not calibrated.",
+      "payer": "Lightcone Infrastructure Inc. (Corrigibility Research Fund)",
+      "source": "https://corrigibilityresearch.org/",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-10-31-alpha-omega-corrigibility-funder-fit-no-go.md",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "Charitable public benefit only, not private business funding; Lightcone Commons applications public by default; no lobbying/political campaigns; fund manager disfavors generic AI-authored, funder-shaped pitches and mere obedience/shutdown controls.",
+      "next": "Do not shoehorn Control Evidence into corrigibility. Only reconsider after real independent insight/behavioral evidence of voluntary agent correction and original applicant-authored explanation.",
+      "source_verified": "2026-10-31 fund official site; 2026-09-03 Max Harms grant-selection methodology and Round 1 grantees."
     }
   ],
   "engines": [
