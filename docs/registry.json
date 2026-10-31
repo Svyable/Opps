@@ -468,14 +468,14 @@
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
       "status": "PURSUE",
-      "stage": "2026-10-30: official live $20k ceiling/time funding/claim-payment rules verified; $6k four-week proposal; five new deterministic authenticity/replay negative-control tests and sponsor preflight committed; remote CI not yet verified, no application",
+      "stage": "2026-10-31: five synthetic recorder spoof/replay characterization tests added to standard CI; GitHub Actions run 41170302920 passed 82/82 tests in eight suites. $6k four-week application release sheet prepared; applicant eligibility and approval remain unverified, no application.",
       "value": "Up to $20,000 per current official Rapid page (not $10k old listing); $6,000 four-week conditional internal request, restricted funding not profit",
       "value_kind": "official-ceiling-and-internal-request",
-      "deadline": "Rolling / no fixed cutoff shown on current canonical Rapid page (checked 2026-10-30)",
+      "deadline": "Rolling / no fixed cutoff on canonical Rapid page (reverified 2026-10-31)",
       "qualification": "General Rapid route accepts work already underway; no BlueDot course required, though participation/community membership may help. Applicant recipient jurisdiction, sanctions, 15h/week, source rights, grant overlap and live form consents unverified.",
-      "work": "Pre-existing local subprocess probe plus five newly prepared synthetic authenticity-gap characterization tests; proposed 60 founder hours + 10 independent-review hours over four weeks remain uncommitted; applicant-only release gates",
-      "reuse": "Very high: existing Apache-2.0 Control Evidence local subprocess probe and 77 prior tests as sunk inputs; new recorder-authentication/replay feasibility only; exclude double-funded EA/Foresight/Seed hours",
-      "ev": "Previous −$40 cautious / +$26 central / +$140 favorable subjective economic-surplus model after $70 form prep; add $17.50–$35 preflight labor with zero assumed selection uplift: cumulative −$75 to −$57.50 cautious; −$9 to +$8.50 central; +$105 to +$122.50 favorable. Not award-rate estimates.",
+      "work": "82 CI-passing engineering tests, including five deliberately passing negative-control characterizations of a synthetic trust-boundary gap; proposed 60 founder hours + 10 independent-review hours over four weeks remain uncommitted; no real-agent or authenticated-recorder evaluation",
+      "reuse": "Very high: Apache-2.0 Control Evidence local subprocess pilot and 82 tests (all pre-grant sunk work); funded work would be distinct run-bound recorder authentication/replay feasibility, not EA/Foresight/Seed double-billed hours",
+      "ev": "Uncalibrated economic-surplus sensitivity with no selection-probability uplift, after $70 initial prep, $17.50–$35 earlier preflight, and $17.50 new CI/evidence labor: cautious −$92.50 to −$75; central −$26.50 to −$9; favorable +$87.50 to +$105. Break-even for latest $17.50 is +1.46 percentage points conditional selection at $2k surplus × 60% qualification; not demonstrated.",
       "payer": "BlueDot Impact",
       "source": "https://bluedot.org/grants/rapid",
       "asset_repos": [
@@ -483,10 +483,10 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Country/sanctions restrictions, charitable/educational purpose, material-change approval, claim/check payment and transfer fees; 60-day completion report. Founder time/payee/tax/IP unverified; no overlapping grant-funded costs.",
-      "next": "Applicant confirms 15h/week, lawful payee/jurisdiction, exact live form and grant agreement, contributor rights and non-overlap; approves submission separately. Funded next work would implement run-bound recorder verification and replay rejection, not re-bill these preflight tests.",
-      "source_verified": "2026-10-26 https://bluedot.org/grants/rapid and https://bluedot.org/grants (conflicting official ceilings)",
-      "note": "Official Rapid page states up to $20k, time/living support, existing work eligible, lump-sum payment after claim/checks, short completion report within 60 days. Five synthetic characterization tests document that unauthenticated writer/coverage strings and replay can yield supported; NOT an agent exploit or security effectiveness. No CI run verified yet.",
-      "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-recorder-authenticity-negative-control-2026-10-30.md"
+      "next": "Stop further synthetic engineering. Applicant alone must verify 15h/week for four weeks, lawful payee/jurisdiction and sanctions, contributor rights, funding non-overlap, live form and agreement, and approve exact submission. No outreach, spending, agreement or submission without explicit approval.",
+      "source_verified": "2026-10-31 official canonical https://bluedot.org/grants/rapid ; BlueDot April 2026 grant history https://blog.bluedot.org/p/weve-given-out-50000-in-rapid-grants",
+      "note": "Current official Rapid ceiling $20k, rolling, time/living support and existing work eligible; payment after approved claim/checks, 60-day completion report. BlueDot self-reports 77 earlier grants totaling >$50k. GitHub-hosted Ubuntu/Python 3.11 CI 82/82 passed: https://github.com/Svyable/Opps/actions/runs/41170302920 . Five tests prove synthetic contract trusts unverified writer/coverage strings and lacks replay freshness; these are deliberately passing gap characterizations, NOT security mitigations or deployed-agent evidence.",
+      "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-verified-ci-evidence-and-release-sheet.md"
     },
     {
       "id": "bluedot-seed-grants-2026",
