@@ -671,10 +671,10 @@
       "type": "AI security prize competition",
       "lane": "Agent trust boundaries / prompt injection",
       "status": "REJECT",
-      "stage": "2026-10-26 screened from official rules; no participation or terms acceptance",
+      "stage": "2026-10-31: official challenge page deadline corrected from stale Oct 30; human-only rule and perpetual exclusive IP assignment reconfirmed; no entry",
       "value": "$15,000 total pool, NOT a single-winner payout; $600 per-objective first place and $1,600 top overall (other placements lower)",
       "value_kind": "official-prize-pool-and-per-rank",
-      "deadline": "2026-10-30 15:00 CUT (organizer timezone label; verify local conversion before acting)",
+      "deadline": "2026-11-01 23:30 CUT (official challenge page as of 2026-10-31; timezone abbreviation shown by sponsor; REJECT unchanged)",
       "qualification": "Unknown age/location/payment eligibility; human-only manually typed attacks required; no automation or scripts",
       "work": "~3h minimum manual contest work; no reusable automated submissions allowed",
       "reuse": "Moderate conceptual Human Kind/agent-security experience; no reusable code under manual-only rule",
@@ -687,7 +687,7 @@
       ],
       "restrictions": "Manual human-only; automated tooling banned; competition entry accepts binding terms. Participation Terms assign worldwide perpetual exclusive contribution IP to Palo Alto Networks; nondisclosure, Stripe payout/KYC, discretionary awards and broad indemnification. Not acceptable for Svyable core IP without explicit legal approval.",
       "next": "Do not enter or transfer Svyable methods/IP. Reconsider only if terms materially change and applicant personally accepts after review.",
-      "source_verified": "2026-10-26 https://huntr.com/participation-terms"
+      "source_verified": "2026-10-31 https://huntr.com/challenges/4DRe85bV2cu7DrRxPXyiwT/v1/rules ; https://huntr.com/participation-terms"
     },
     {
       "id": "opencv-ai-competition-2026",
@@ -1123,6 +1123,33 @@
       "restrictions": "Charitable public benefit only, not private business funding; Lightcone Commons applications public by default; no lobbying/political campaigns; fund manager disfavors generic AI-authored, funder-shaped pitches and mere obedience/shutdown controls.",
       "next": "Do not shoehorn Control Evidence into corrigibility. Only reconsider after real independent insight/behavioral evidence of voluntary agent correction and original applicant-authored explanation.",
       "source_verified": "2026-10-31 fund official site; 2026-09-03 Max Harms grant-selection methodology and Round 1 grantees."
+    },
+    {
+      "id": "mercatus-emergent-ventures-2026",
+      "name": "Mercatus Emergent Ventures — evidence-bound agent-action verification",
+      "type": "Rolling individual/project grant",
+      "lane": "AI agent oversight / open evidence infrastructure",
+      "status": "WATCH",
+      "stage": "2026-10-31: official live form and AI-written-application ban verified; author-only evidence/eligibility dossier committed, no AI-generated proposal or form answers, no submission",
+      "value": "Project-specific grant; official funder publishes NO typical amount or average. $15,000 is an illustrative internal ask only, not an award/range.",
+      "value_kind": "official-no-published-range-hypothetical-ask",
+      "deadline": "Rolling; no published fixed cutoff (official Mercatus page checked 2026-10-31)",
+      "qualification": "Official 13+ worldwide; actual individual/payee, location, rights, distinct project, capacity, charitable/scientific/educational purpose and consent all unverified. AI-written applications prohibited, even for otherwise eligible candidates.",
+      "work": "0.5h source/evidence-only preflight completed; further personal author-written <=1,500-word proposal, real budget and project execution require applicant decisions; no AI application prose allowed.",
+      "reuse": "Very high: Human Kind human authority, Opps Control Evidence 82 passing engineering tests, ScrolIQ provenance; Desk 137 projects/57 releases are production evidence not audience/adoption proof.",
+      "ev": "Uncalibrated marginal screening sensitivity after $17.50 preflight: cautious −$13, central +$7.50, favorable +$122.50, using $3k–$10k hypothetical conditional economic benefit × 30–70% qualification × 0.5–2% selection. Excludes author writing time; no probability uplift claimed.",
+      "payer": "Mercatus Center at George Mason University / Emergent Ventures",
+      "source": "https://www.mercatus.org/emergent-ventures",
+      "form_url": "https://mercatus.tfaforms.net/5099527",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/mercatus-emergent-ventures-2026-evidence-only-author-handoff.md",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/scrollq",
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "No AI-written application beyond proofreading; one application per person/project; no PDF attachments; outside referees may see materials; age certification and personal-data consent; grant use charitable/scientific/educational only, no lobbying/political activity; no official typical award size.",
+      "next": "Author decides whether a genuinely distinct, non-overlapping socially valuable project exists, verifies capacity/rights/payee and personally writes every application answer. Do not submit, accept terms or disclose confidential material without explicit approval."
     }
   ],
   "engines": [
