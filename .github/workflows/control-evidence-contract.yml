@@ -35,3 +35,5 @@ jobs:
         run: python artifacts/control-evidence-2026/test_independent_reference.py -v
       - name: Run real local subprocess receipt-probe regression tests
         run: python artifacts/control-evidence-2026/test_local_tool_receipt_pilot.py -v
+      - name: Characterize recorder spoofing and replay limitations (synthetic only)
+        run: python artifacts/control-evidence-2026/test_receipt_authenticity_gap.py -v
