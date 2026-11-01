@@ -1329,6 +1329,82 @@
       "source": "https://aimo-interp.github.io/",
       "restrictions": "Codabench offline evaluation; source/report reproducibility; up to three peer reviews for award candidates; no entry or public release authorized",
       "next": "No emergency submission. Reconsider research theme only with genuine prior empirical result."
+    },
+    {
+      "id": "firecrawl-alexandria-desk-provider-2026",
+      "name": "Firecrawl Alexandria — Sven Hardy Benson licensed knowledge provider",
+      "type": "Potential content/data licensing revenue",
+      "lane": "Desk / Shelf original intellectual property",
+      "status": "WATCH",
+      "stage": "2026-10-31: Firecrawl official provider waitlist and paid-provider agreements verified; three Desk books and exact ARR no-AI-indexing/retrieval rights verified; rights-locked metadata-only manifest and negotiation preflight committed. No contact, license or payout.",
+      "value": "No public standard royalty, minimum guarantee or deal offered. Internal illustrative one-year contribution if a contract exists: $1,000–$4,000 (NOT a quote). Firecrawl $75m Series B is financing, not a Svyable award.",
+      "value_kind": "unpriced-commercial-option",
+      "deadline": "Rolling provider waitlist; no published application or onboarding cutoff (checked 2026-10-31)",
+      "qualification": "First-party authored works verified; actual rights holder consent to a new AI retrieval license NOT obtained; no published self-service contributor terms, provider acceptance, or paid demand. Payer has named paid provider Wikimedia Enterprise; terms not transferable.",
+      "work": "~1h/$35 rights/metadata preflight assumed; subsequent negotiation, technical integration, legal and tax work unpriced and not authorized",
+      "reuse": "Very high: Desk 137 projects/65 complete drafts/57 Shelf releases per repo README; 3 individual first-edition books inspected (23, 30, 20 chapters). All three ARR, AI retrieval/indexing currently prohibited.",
+      "ev": "Marginal screening, subjective: cautious $1k×40% rights/fit×5% agreement×20% demand−$35=−$31; central $2k×50%×10%×20%−$35=−$15; favorable $4k×70%×20%×30%−$35=+$133. Excludes later negotiation, rights opportunity cost and delivery; no verified positive end-to-end EV.",
+      "payer": "Firecrawl (Alexandria; venture-backed web data platform, says it pays existing providers including Wikimedia Enterprise)",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/firecrawl-alexandria-2026-rights-preserving-provider-preflight.md",
+      "asset_repos": [
+        "https://github.com/Svyable/desk",
+        "https://github.com/Svyable/shelf"
+      ],
+      "source": "https://www.firecrawl.dev/blog/introducing-alexandria-series-b",
+      "rules_source": "https://www.firecrawl.dev/alexandria",
+      "restrictions": "Desk works All Rights Reserved; aiIndexing=false, aiRetrievalGrounding=false, aiTraining=false, commercialUse=false; work-specific rightsholder license and third-party quote clearance mandatory. Revenue share, minimum, termination, sublicensing, model-training and retention terms unpublished.",
+      "next": "WATCH for published provider rates/contract; author privately decides whether to license named works. No waitlist submission, outreach, data transfer or rights change without explicit approval.",
+      "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/firecrawl-alexandria-2026-rights-preserving-provider-preflight.md",
+      "manifest": "https://github.com/Svyable/Opps/blob/main/artifacts/firecrawl-alexandria-2026/provider-candidate-manifest.json"
+    },
+    {
+      "id": "ieee-undp-genai-good-cities-2026",
+      "name": "IEEE/UNDP GenAI for Good Challenge — Cities Edition",
+      "type": "Restricted project challenge funding",
+      "lane": "Human Kind / civic AI / geospatial provenance",
+      "status": "REJECT",
+      "stage": "2026-10-31: official future call screened; 2+ natural persons, year-long commitment, GENIE.AI, permissive release and no personal financial gain; no committed team or city-use-case deployment.",
+      "value": "Up to $40,000 per winning team: $10,000 prototype funding plus up to $30,000 pilot funding; not personal profit or guaranteed",
+      "value_kind": "official-restricted",
+      "deadline": "Applications open 2026-11-05; both Foundant and Zindi steps due 2026-12-13 23:59 EST",
+      "qualification": "International participation conditional on sanctions/legal status, 18+, at least two individuals (companies ineligible), one-year commitment; no second team member or city implementation capacity verified.",
+      "work": "≥4h/$140 speculative eligibility/GENIE technical preflight, plus a year of prototype/pilot delivery if selected; unverified.",
+      "reuse": "Medium: Human Kind human oversight and Svyable geospatial methods could fit Skopje green-cadastre use case; no ready city solution or team.",
+      "ev": "For direct unrestricted Svyable revenue, confirmed opportunity is $0; $0 × any prize probability − $140 prep = −$140. Restricted program impact may be valuable but not cash profit; do not infer allowed founder compensation.",
+      "payer": "IEEE Humanitarian Technologies and UNDP (official joint initiative)",
+      "repo": "https://github.com/Svyable/Opps",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/GEMS-CONTEST"
+      ],
+      "source": "https://ieeeht.org/get-involved/funding-opportunities/genai-for-good/",
+      "restrictions": "2+ individuals, one-year program, GENIE.AI required, code/data/docs/models permissively licensed without seeking personal financial gain/patent rights; multi-platform submissions, sanctions and city alignment.",
+      "next": "REJECT as direct Svyable cash route. Reassess only with two consenting team members, actual city deployment and explicit willingness to open-license deliverables."
+    },
+    {
+      "id": "wunder-alpha-connectome-2026",
+      "name": "Wunder Fund Alpha Connectome — Limit Order Book ML Competition",
+      "type": "Quant research cash prize",
+      "lane": "ACTA / Frontier Lab / quant modeling",
+      "status": "REJECT",
+      "stage": "2026-10-31: official live competition screened; no verified contest-specific long-sequence LOB model, private score or authorized registration in Svyable repos.",
+      "value": "$13,600 stated total prize pool; first $5,000, second $2,500, third $1,700 and five smaller awards. Prize currency/settlement and terms require direct review.",
+      "value_kind": "official-advertised-prize",
+      "deadline": "Teams must be created/joined by 2026-11-01 23:59 UTC per official FAQ; submissions end 2026-11-15 (site warns dates may change)",
+      "qualification": "Public competition; individual legal/tax eligibility, current signup, code disclosure and payout terms unverified; no competitive LOB metric evidenced.",
+      "work": "≥8h/$280 assumed feature/model training, CPU inference compliance and reproducibility, likely more; no verified baseline",
+      "reuse": "Medium: ACTA and Frontier Lab contain quant research patterns, but no demonstrated long-sequence order-book correlation model",
+      "ev": "Illustrative first-prize-only: $5,000 ×50% technical readiness×1% placement −8h×$35=$25−$280=−$255. Subjective; excludes smaller awards, compute, taxes and potential solution-rights cost.",
+      "payer": "Wunder Fund (operating HFT firm; prize history and settlement not independently audited)",
+      "repo": "https://github.com/Svyable/Opps",
+      "asset_repos": [
+        "https://github.com/Svyable/ACTA",
+        "https://github.com/Svyable/frontier-lab"
+      ],
+      "source": "https://wundernn.io/",
+      "rules_source": "https://wundernn.io/connectome/docs/faq",
+      "restrictions": "Hidden rescoring, team join deadline, code verification/possible disclosure, unknown currency and payout conditions; no account or competition rules accepted.",
+      "next": "REJECT absent already-working benchmark evidence and approved entrant; do not rush registration."
     }
   ],
   "engines": [
