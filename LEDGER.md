@@ -69,7 +69,9 @@ This is the canonical deduplicated ledger. The structured source for the Pages d
 | City of San José PUR-RFP2026.09.10071 — AI Reporting Services | **REJECT** | $50k–$300k **third-party estimate** | 2026-10-22 | Low | **Very high** | Low | Police/BWC/RMS/CAD integration is too far from existing assets |
 | TRS000658 — AI / IT Advisory Services | **REJECT** | Not stated; 4-year term reported | 2026-10-21 | Low as prime | High | Medium | Reconsider only as specialist subcontractor or if requirements change |
 
-## October 31 time-sensitive decision (new)
+## October 31 time-sensitive decision (historical; expired as of November 1)
+
+**Current disposition:** GPU World, Foresight AI Nodes and the Asterisk *Secrets* issue intake are now **REJECT** for this cycle because the deadlines have elapsed and no submission is evidenced in this registry. The paragraphs below preserve historical preparation notes only; do not interpret them as live application instructions.
 
 **GPU World:** Author-controlled final edit and explicit CC BY-NC-or-freer licensing decision are the only defensible next steps before **October 31, 11:59 p.m. Pacific**. Existing Ch26 of *Abdicating Intelligence* is a 2,119-word seed, not a ready entry: it does not yet satisfy the 2040 scenario with frontier capabilities frozen as of September 1, 2026. The official contest discourages LLM-generated writing and asks for AI-use disclosure. [Full author-only packet](opportunities/gpu-world-2026-author-entry-preflight.md). If the author does not produce and authorize a compliant entry, archive as REJECT after the deadline, not LOST. No entry or rights consent is on record.
 
