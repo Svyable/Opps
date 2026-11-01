@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01 UTC (BlueDot source-rights release-gate audit; 66 deduplicated records)",
+  "generated_at": "2026-11-01 UTC (Tailwind evidence-only founder preflight; 69 deduplicated records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -11,6 +11,69 @@
     "LOST"
   ],
   "opportunities": [
+    {
+      "id": "coefficient-project-tailwind-2026",
+      "name": "Coefficient Giving Project Tailwind — independent AI action-evidence institution",
+      "type": "AI catastrophic-risk philanthropic founder pre-seed grant",
+      "lane": "Control Evidence / Human Kind / agent oversight",
+      "status": "WATCH",
+      "stage": "2026-11-01: official founder, grant, AI-use, entity and payment conditions audited; version-pinned evidence-only founder/mission/non-overlap dossier committed; no AI-authored EOI or external contact",
+      "value": "Official $200k–$2m pre-seed project grants over 9–18 months; salaries permitted within project budgets; NOT guaranteed founder income or unrestricted Svyable revenue",
+      "value_kind": "official-restricted-project-funding-not-profit",
+      "deadline": "Rolling/no fixed published cutoff; funder may stop accepting if volume high (checked 2026-11-01)",
+      "qualification": "Must directly reduce global catastrophic risks from transformative AI; founder capability and multi-year institution-building commitment required; international and individual pre-seed possible, for-profit charitable purpose/PBC expectations. Personal capacity, mission causal pathway, rights, users and payee UNVERIFIED.",
+      "work": "~1h evidence-only audit plus estimated 2h human-authored EOI/review; 9–18 months exploration and potentially years of institution-building if funded; further legal, hiring and external validation costs unpriced",
+      "reuse": "Very high: public Control Evidence contract, local receipt pilot, five synthetic negative controls, historical 82-test CI, Human Kind; no actual catastrophic-risk reduction or independent users demonstrated",
+      "ev": "Subjective total marginal scenarios after $105 hypothetical preflight+human review: cautious −$90 ($30k conditional personal economic surplus×10% feasibility×0.5% award−$105), central +$20 ($50k×25%×1%−$105), favorable +$695 ($80k×50%×2%−$105). Grant face value not used as profit; full proposal, taxes, legal costs and opportunity cost may reverse result. No observed acceptance rate or uplift.",
+      "payer": "Coefficient Giving (formerly Open Philanthropy), established funder; 2025 $351m technical AI safety/security/fieldbuilding commitments reported by funder, not independently audited Tailwind payouts",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/coefficient-project-tailwind-2026-founder-evidence-only-preflight.md",
+      "source": "https://coefficientgiving.org/tailwind/",
+      "rules_source": "https://coefficientgiving.org/tailwind/faqs/",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "AI-generated EOIs automatically filtered; charitable/catastrophic-risk mission, grant administration, founder time, possible nonprofit/PBC structure; no double billing BlueDot/EA; no legal or IP rights verified",
+      "next": "Founder privately establishes catastrophic-risk causal pathway, 9–18mo capacity, independent need, IP and funding overlap. If viable, personally writes EOI and authorizes any submission; otherwise REJECT. Do not recycle this AI-assisted dossier as application text."
+    },
+    {
+      "id": "atavist-magazine-longform-2026",
+      "name": "The Atavist Magazine — longform reported narrative commission",
+      "type": "Paid narrative journalism commission and royalties",
+      "lane": "Sven Hardy Benson / Desk original reporting and nonfiction",
+      "status": "REJECT",
+      "stage": "2026-11-01: official rolling submissions and $6k baseline fee verified; 8k–30k word reported narrative and absolute generative-AI ban require new interviews, original scenes and fully human writing, not evidenced by existing manuscripts",
+      "value": "$6,000 baseline story fee, 25% guaranteed for assigned stories; potential quarterly traffic royalties not quantified; no assignment offered",
+      "value_kind": "official-commission-fee-conditional-on-editorial-assignment",
+      "deadline": "Rolling; no fixed cutoff, publisher says it will post a pause if needed",
+      "qualification": "Anyone worldwide can pitch; actual firsthand reporting access, primary characters, cooperation and narrative arc unverified; existing Desk books are research background, not a commissioned narrative",
+      "work": "≥2h human-only pitch/reporting preflight plus illustrative 100h original interviews/reporting/writing; editor-specific time unquoted",
+      "reuse": "Moderate Desk research, Gatekeepers manuscript, source links; cannot repurpose AI-assisted pitch/draft, and book chapters do not establish a character-driven reported story",
+      "ev": "Subjective $6k fee−$3.5k/100h delivery labor=$2.5k conditional surplus; ×30% story readiness×3% commission−$70 human pitch labor = −$47.50; royalties/rights costs unpriced. Do not spend autonomous effort.",
+      "payer": "The Atavist Magazine, established publisher with public archive and explicit official baseline fee; no specific commission",
+      "source": "https://magazine.atavist.com/submissions",
+      "restrictions": "Absolute prohibition on generative-AI-written, assisted or edited pitches and drafts; prefers no simultaneous pitches; publication/rights terms not fully specified; long-form original reporting required",
+      "next": "REJECT near-term cash pursuit unless author independently has access to an exceptional character-driven, deeply reported story and writes every pitch/draft without AI."
+    },
+    {
+      "id": "h-company-42ai-paris-hackathon-2026",
+      "name": "H Company × 42AI — Paris Computer Use Agents Hackathon",
+      "type": "In-person agent competition with cash prizes",
+      "lane": "Control Evidence / agent tool-use demonstration",
+      "status": "REJECT",
+      "stage": "2026-11-01: official organizer Luma event and prize ladder verified; travel and approval unverified; no existing H Company Agents API working demo",
+      "value": "€13,000 total cash pool; €5,000 first, €3,000 second, €2,000 third plus sponsor/social awards; per-team not per-member",
+      "value_kind": "official-organizer-event-prize-pool",
+      "deadline": "2026-11-07–08 in Paris; Sunday Nov 8 14:00 CET project submission; entry subject to host approval",
+      "qualification": "Solo or teams 1–4; in-person Paris, individual registration and host approval; actual attendance and travel budget unverified",
+      "work": "At least 16h new working agent build/demo plus hypothetical €500 travel and local costs; €35/h labor=€560, total €1,060 uncommitted",
+      "reuse": "Moderate conceptual reuse of Control Evidence but no verified H Agents API integration or accepted Paris attendance",
+      "ev": "First-prize-only illustrative €5k×20% attendance/approval×1% conditional win−€1,060 labor/travel=−€1,050; excludes IP/API/terms uncertainty. Subjective probabilities.",
+      "payer": "H Company/42AI official organizer page on Luma; public company/product footprint, no independently verified past prize payment",
+      "source": "https://luma.com/hz9db5u9",
+      "restrictions": "Physical Paris attendance, organizer approval, API/product dependency, unreviewed participation/IP rules, team splitting and travel costs; no registration/terms accepted",
+      "next": "REJECT cash-only pursuit; revisit only if already in Paris with approval and ready-to-demo H Company integration, and after reviewing participation terms."
+    },
     {
       "id": "pivotal-ai-safety-fellowship-q1-2027",
       "name": "Pivotal Research Q1 2027 AI Safety Fellowship — human oversight and control",
