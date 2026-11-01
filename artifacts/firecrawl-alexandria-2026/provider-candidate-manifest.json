@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-31",
+  "purpose": "Nonbinding rights review only; no content delivery or license",
+  "provider_candidate": "Firecrawl Alexandria",
+  "source_repo": "https://github.com/Svyable/desk",
+  "rights_policy": "https://github.com/Svyable/desk/blob/main/RIGHTS.md",
+  "content_delivery_enabled": false,
+  "ai_indexing_authorized": false,
+  "ai_retrieval_grounding_authorized": false,
+  "ai_training_authorized": false,
+  "commercial_license_executed": false,
+  "works": [
+    {
+      "slug": "the-agentic-consumer-economy",
+      "title": "The Agentic Consumer Economy",
+      "author": "Sven Hardy Benson",
+      "chapters_reported": 23,
+      "first_edition": "2026-09",
+      "public_reader": "https://svyable.github.io/shelf/reader/#/b/the-agentic-consumer-economy/",
+      "metadata_source": "https://github.com/Svyable/desk/blob/main/books/the-agentic-consumer-economy/README.md",
+      "rights_source": "https://github.com/Svyable/desk/blob/main/books/the-agentic-consumer-economy/rights.json",
+      "license": "ARR",
+      "eligible_for_delivery": false
+    },
+    {
+      "slug": "abdicating-intelligence",
+      "title": "Abdicating Intelligence",
+      "author": "Sven Hardy Benson",
+      "chapters_reported": 30,
+      "first_edition": "2026-09-03",
+      "public_reader": "https://svyable.github.io/shelf/reader/#/b/abdicating-intelligence/",
+      "metadata_source": "https://github.com/Svyable/desk/blob/main/books/abdicating-intelligence/README.md",
+      "rights_source": "https://github.com/Svyable/desk/blob/main/books/abdicating-intelligence/rights.json",
+      "license": "ARR",
+      "eligible_for_delivery": false
+    },
+    {
+      "slug": "the-intelligence-dilemma",
+      "title": "The Intelligence Dilemma",
+      "author": "Sven Hardy Benson",
+      "chapters_reported": 20,
+      "first_edition": "2026-09-03",
+      "public_reader": "https://svyable.github.io/shelf/reader/#/b/the-intelligence-dilemma/",
+      "metadata_source": "https://github.com/Svyable/desk/blob/main/books/the-intelligence-dilemma/README.md",
+      "rights_source": "https://github.com/Svyable/desk/blob/main/books/the-intelligence-dilemma/rights.json",
+      "license": "ARR",
+      "eligible_for_delivery": false
+    }
+  ]
+}
