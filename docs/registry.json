@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01 UTC",
+  "generated_at": "2026-11-01 UTC (Pivotal Q1 mentor-aligned packet; 66 deduplicated records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -11,6 +11,104 @@
     "LOST"
   ],
   "opportunities": [
+    {
+      "id": "pivotal-ai-safety-fellowship-q1-2027",
+      "name": "Pivotal Research Q1 2027 AI Safety Fellowship — human oversight and control",
+      "type": "Individual paid research fellowship",
+      "lane": "Control Evidence / Human Kind empirical agent oversight",
+      "status": "PURSUE",
+      "stage": "2026-11-01: official terms and exact mentor project audited; mentor-aligned falsifiable 15-week research and evidence packet committed; applicant London/capacity/visa and submission approval unverified; NOT submitted",
+      "value": "GBP 15,000 standard stipend or GBP 18,000 senior; GBP 1,800/month housing for non-London fellows plus travel/compute (expense support, not extra unrestricted revenue)",
+      "value_kind": "official-individual-stipend-not-business-contract",
+      "deadline": "2026-11-01; official cutoff hour/timezone not published; do not assume open through midnight",
+      "qualification": "Official 18+ and any background; at least one mentor; full-time 15 weeks in person London Jan 18–Apr 30 2027; rare remote/visa exceptions not guaranteed. Actual age, credentials, 15-week capacity, UK entry and payee unverified.",
+      "work": "Official written application ~1–2h; shortlisted video interview <10m, 1–3h work task, personal interview 30–45m; 15 weeks full-time delivery; conditional human study requires uncommitted independent reviewers",
+      "reuse": "Very high: Control Evidence public synthetic contract, 82/82 historical CI, two-arm human-review design, Human Kind review architecture. No real human experiment or deployed-agent safety shown.",
+      "ev": "Subjective GBP scenarios with GBP37.50 future applicant labor: cautious −37.50 (GBP0 surplus×25% feasibility×1% selection), central +34.50 (GBP4,800 surplus×50%×3%−37.50), favorable +312.50 (GBP10k surplus×70%×5%−37.50). Housing/travel treated as expense offsets; taxes and interview costs omitted; not Svyable business revenue.",
+      "payer": "Pivotal Research Ltd, UK non-profit company limited by guarantee #16440066, prior cohorts and public research outputs; stipend payout independently unaudited",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/pivotal-ai-safety-fellowship-2027-human-oversight-mentor-evidence-2026-11-01.md",
+      "source": "https://www.pivotal-research.org/fellowships/ai-safety-fellowship",
+      "rules_source": "https://www.pivotal-research.org/mentors/profile/preeti-ravindra",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "Full-time in-person London; at least one mentor; applicant-specific visa, eligibility, work conflicts, tax and stipend agreement; no secured reviewers or research ethics approval; fellow retains research output IP per official FAQ but existing Svyable IP rights require separate care.",
+      "next": "Applicant alone confirms London Jan–Apr 2027 availability, actual credentials/eligibility, chooses Preeti Ravindra/Jess Bergs mentor fit, reviews live form and explicitly approves submission before Nov 1 cutoff if still open. If not submitted by cutoff, mark REJECT (unsubmitted), not LOST.",
+      "source_verified": "2026-11-01 official Pivotal fellowship and mentor pages",
+      "note": "Specific mentors Preeti Ravindra and Jess Bergs explicitly seek empirical human-in-loop oversight studies; proposed controlled two-arm evaluation remains prospective and unapproved. No application or external contact."
+    },
+    {
+      "id": "vultr-agent-rush-hackathon-2026",
+      "name": "Vultr × lablab.ai Agent Rush — Blast Radius Zero",
+      "type": "Cash hackathon / cloud execution",
+      "lane": "Control Evidence / sandboxed agent actions",
+      "status": "REJECT",
+      "stage": "2026-11-01 official required Vultr stack, deliverables, judging and event clock audited; no cloud account/registration or deploy; negative direct-cash EV",
+      "value": "USD 9,000 cash pool ($5k/$3k/$1k) plus USD 5,000 Vultr credits; USD 200 credits per participant are noncash and may require account",
+      "value_kind": "official-pool-not-individual-award",
+      "deadline": "Registration 2026-11-03 15:00 UTC; submissions 2026-11-08 22:00 UTC (lablab live dashboard)",
+      "qualification": "Solo or team 1–6, public repository, Vultr VM backend, Vultr Serverless Inference for all model calls, sandbox boundary, public URL and recorded containment demo; account and terms unverified",
+      "work": "At least ~12h hypothetical Vultr deployment, isolation, LLM integration, public demo/video, QA; hosting costs unquoted and no paid resources authorized",
+      "reuse": "High conceptual Control Evidence/local subprocess and test reuse, but low direct Vultr deployment reuse; existing tests are not a hosted sandbox agent",
+      "ev": "Illustrative first-prize-only: $5k×70% feasibility×0.5% win−12h×$35=$17.50−$420=−$402.50, excluding hosting, tax and lesser prizes; selection probability subjective; no cash-positive build justified.",
+      "payer": "Vultr cloud provider and lablab.ai hackathon organizer; official Vultr event page and live lablab dashboard, payout up to 90 days per sponsor",
+      "source": "https://community.vultr.com/e/vultr-agent-rush-hackathon",
+      "rules_source": "https://lablab.ai/ai-hackathons/vultr-hackathon/live",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps"
+      ],
+      "restrictions": "All LLM calls via Vultr Serverless Inference, VM and isolated sandbox; public code and demo; registration/Discord, possible cloud account billing, travel not covered; prize distribution up to 90 days; no unapproved spend or IP disclosure.",
+      "next": "Do not deploy/register speculatively. Reconsider only if existing compliant Vultr deployment and explicit applicant approval reduce marginal work below expected cash benefit.",
+      "source_verified": "2026-11-01 official Vultr event and lablab live dashboard"
+    },
+    {
+      "id": "apart-swarm-alignment-sprint-2026",
+      "name": "Apart Research Swarm Alignment Hackathon",
+      "type": "Research sprint / cash competition",
+      "lane": "Control Evidence / multi-agent monitoring",
+      "status": "REJECT",
+      "stage": "2026-11-01 official tracks and prize terms screened; no project or registration; negative direct-cash EV",
+      "value": "USD 4,000 global cash pool: $2k/$1k/$600/$200/$200; optional LA hub separate $4k pool; platform credits not cash",
+      "value_kind": "official-global-prize-pool",
+      "deadline": "2026-11-08 23:59 Anywhere on Earth; event Nov 6–8",
+      "qualification": "Solo or team up to five, online participation, code and short PDF research report; no prior AI safety background required; final submission terms must be reviewed",
+      "work": "At least ~10h hypothetical distinct multi-agent experiment, reproducibility and report; existing single-process synthetic tests not a swarm study",
+      "reuse": "Medium: Control Evidence authorization/replay evidence and Human Kind oversight patterns, but no verified multi-agent benchmark or real swarm telemetry",
+      "ev": "Illustrative first-prize-only $2k×80% feasibility×1% win−10h×$35=$16−$350=−$334; ignores lesser prizes and unpriced fellowship fast-track; probabilities subjective.",
+      "payer": "Apart Research with AI Alignment Foundation and AE Studio; established public research sprint organizer, historical payouts not independently audited",
+      "source": "https://apartresearch.com/sprints/swarm-alignment-2026",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "Prize/report publication and submission terms require review; optional fellowship invitation is not guaranteed funding; LA attendance costs unbudgeted.",
+      "next": "Do not start a 3-day competition build solely for cash. Reassess only with independently validated multi-agent data and a separate research objective.",
+      "source_verified": "2026-11-01 official Apart Research sprint page"
+    },
+    {
+      "id": "flip-the-switch-hackathon-2026",
+      "name": "Flip the Switch — team-chat agent workflow hackathon",
+      "type": "Cash hackathon / open-source contribution",
+      "lane": "Human Kind / agent collaboration and workflow",
+      "status": "REJECT",
+      "stage": "2026-11-01 official rules screened; main track cash allocations unannounced and contribution track requires assignment and CLA; no work or registration",
+      "value": "USD 10,000 advertised aggregate pool, track cash allocation not published; Best Core Contribution pays $100 each for top 10 PRs",
+      "value_kind": "official-aggregate-pool-with-partially-unspecified-awards",
+      "deadline": "2026-11-07 23:59 IST for PR/submission; build Nov 4–7",
+      "qualification": "Online solo or team ≤4; must integrate Switch with team chat, public repo, video, README; core PR must be assigned hackathon-labelled issue before work and sign CLA",
+      "work": "~4h speculative Switch integration and demo or assigned PR, plus registration and possible CLA; no assigned issue verified",
+      "reuse": "Medium: Human Kind agent approval/review concepts, but Switch integration is new and no prior compatible project shown",
+      "ev": "Illustrative core-contribution $100×30% top-ten probability−4h×$35=$30−$140=−$110, ignoring unpriced main-track cash and rights cost; subjective, not observed odds.",
+      "payer": "DevTools Academy, WeMakeDevs and Switch AI; official public rules, cash payment history unverified",
+      "source": "https://www.devtoolsacademy.com/hackathons/flip-the-switch",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "Switch must be central; open-source CLA for PR track, assigned issue required, public demo; no authorization to contact maintainers, sign CLA or publish third-party code.",
+      "next": "No speculative PR without assignment/CLA approval; reconsider if official main-track prize terms and low-effort reusable workflow become clear.",
+      "source_verified": "2026-11-01 official event page"
+    },
     {
       "id": "nlnet-codesupply-open-internet-stack-2026",
       "name": "NLnet CodeSupply — open software supply-chain metadata grant",
