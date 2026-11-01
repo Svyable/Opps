@@ -40,6 +40,32 @@
       "note": "Worked public-source EN 18286 watch entry verifies publication but intentionally does not claim clause-level mapping or paid client work. No new software tests; prior Control Evidence CI is historical."
     },
     {
+      "id": "govai-eir-2026",
+      "name": "GovAI Entrepreneur-in-Residence — existing Svyable agent-audit project",
+      "type": "Paid 12-month role plus conditional project seed funding",
+      "lane": "AI governance / founder runway",
+      "status": "WATCH",
+      "stage": "2026-11-01 UTC: official EIR page verified; existing-organization project expressly permitted; no application or founder capacity confirmation",
+      "value": "12-month salaried role: Washington DC typically USD $80k–$180k; London GBP £70k–£113.5k; approximately USD $150k seed via partner funders for project, not salary or guaranteed unrestricted Svyable revenue",
+      "value_kind": "official-salary-range-plus-conditional-seed-not-an-award",
+      "deadline": "Rolling expressions of interest; no fixed cutoff published as of 2026-11-01",
+      "qualification": "Entrepreneurial track record and AI governance judgment; no educational requirement. Work authorization/location, full-time 12-month commitment, personal salary tradeoffs, project novelty, references unverified; no visa sponsorship.",
+      "work": "Full-time 12-month role; short EOI, up to 2-page pitch, reference checks and 1–2 interviews. Major displacement/opportunity cost.",
+      "reuse": "Very high potential reuse of Control Evidence, Human Kind, Svyable/agents as a new project inside existing organization; cannot imply existing deployed validation or external customer adoption.",
+      "ev": "Uncalibrated full-pursuit scenarios: $20k conditional economic surplus ×30% feasibility×1% selection −$105 prep = −$45 central; $50k×60%×5%−$105=+$1,395 favorable. Annual salary is NOT additive to seed; actual displaced earnings and commitment unknown.",
+      "payer": "GovAI, U.S. 501(c)(3); seed via separate partner funders (not guaranteed to applicant)",
+      "repo": "https://www.governance.ai/post/eir",
+      "source": "https://www.governance.ai/post/eir",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/agents"
+      ],
+      "restrictions": "Full-time 12 months, location agreed case by case, no visa sponsorship; seed through partners and not personal profit. Applicant approval required for application and any employment/funding terms.",
+      "next": "Applicant must affirm full-time availability, location/work authorization and alternative earnings, and whether to seek founder role around existing Control Evidence. No AI-written pitch or EOI should be sent without approval.",
+      "note": "Strong gross headline but high personal opportunity cost and unverified availability. No outreach/application."
+    },
+    {
       "id": "umgc-92303",
       "name": "UMGC 92303 — Custom AI-enabled Content Development",
       "type": "Contract / task-order vehicle",
