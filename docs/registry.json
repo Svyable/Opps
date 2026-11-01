@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01 UTC (Tailwind evidence-only founder preflight; 69 deduplicated records)",
+  "generated_at": "2026-11-01 UTC (Tarbell institutional 56-item Shelf evidence and restricted $50k decision preflight; Epic MegaJam screened; 71 deduplicated records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -11,6 +11,58 @@
     "LOST"
   ],
   "opportunities": [
+    {
+      "id": "tarbell-institutional-ai-journalism-2026",
+      "name": "Tarbell Center Institutional Grants — independent AI accountability reporting series",
+      "type": "Institutional journalism grant / new media venture",
+      "lane": "Sven Hardy Benson's Shelf / Desk original AI accountability reporting",
+      "status": "WATCH",
+      "stage": "2026-11-01: official criteria, editorial policy and current intake checked; 56-item published Shelf catalog, three relevant book READMEs and rights verified by blob SHA; 12-month $50k restricted budget and conditional reporting slate committed. No independently verified audience, original reporting clips, editor or legal payee; not submitted.",
+      "value": "Official $50,000–$500,000+ restricted institutional grants; $50,000 internal illustrative one-year budget, NOT promised award or free founder income",
+      "value_kind": "official-restricted-grant-range-plus-internal-budget",
+      "deadline": "2026-12-11; exact cutoff hour not established on official program page (verified 2026-11-01)",
+      "qualification": "Worldwide for-profit/nonprofit media outlets and new ventures, no minimum team; must be able to receive grant. Shelf's 56 catalogued released books prove distribution, not journalistic track record or audience; editor, 500h founder capacity, payee, original reporting and reach unverified.",
+      "work": "~2h future applicant verification and form review; if awarded, 500h founder reporting + 100h uncommitted editor + 100h uncommitted production, reporting expenses; 12-month new journalism not book reprints",
+      "reuse": "High: Shelf live reader, 56 released-book catalog entries, Desk research and source ledgers, Gatekeepers, Proof of Human, Intelligence State, Control Evidence; no demonstrated newsroom readership or firsthand reporting",
+      "ev": "Subjective future decision EV on $12,500 founder pretax economic surplus (500h×$60 funded compensation minus 500h×$35 displaced work) less $70 review: cautious −$60.63 (15% fit×0.5% award), central −$13.75 (30%×1.5%), favorable +$180 (50%×4%). $50k is project budget, not profit; editor and delivery unquoted, taxes/extra overhead omitted; no measured probability uplift.",
+      "payer": "Tarbell Center for AI Journalism, established nonprofit; official October 5 announcement identifies NPR and Machine Gods as grant recipients; institutional case studies report $250k and $480k awards, not comparable selection odds.",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/tarbell-institutional-ai-journalism-2026-evidence-budget-and-bid-gates.md",
+      "source": "https://www.tarbellcenter.org/institutional-grants",
+      "rules_source": "https://www.tarbellcenter.org/ethics-and-standards",
+      "asset_repos": [
+        "https://github.com/Svyable/desk",
+        "https://github.com/Svyable/shelf",
+        "https://github.com/Svyable/Opps"
+      ],
+      "restrictions": "Must produce original independent journalism, disclose funder and conflicts, agree disclosure wording, maintain own editorial standards, establish grant-accepting payee; public books are ARR; unknown Airtable/application terms; no existing audience analytics, reporting record or editor verified. Separate individual reporting grants intake closed July 12.",
+      "next": "By Nov 20 verify lawful outlet/payee, dated audience analytics, 2–3 original reporting clips or candid lack thereof, ~500h capacity and independent editorial support. If evidence cannot justify ≥1.87% conditional selection at 30% qualification, stop application work. Applicant must approve form/terms and submission.",
+      "source_verified": "2026-11-01 official Tarbell institutional grant, editorial independence, ethics and case studies; GitHub Shelf/Desk blobs",
+      "note": "Direct Shelf catalog.json has 56 slugs; Desk README reports 57 released Shelf projects, an unresolved metadata mismatch. Do not claim 57 independently verified published editions. No application or outreach."
+    },
+    {
+      "id": "epic-ai-megajam-2026",
+      "name": "Epic Games 2026 AI MegaJam — Unreal/UEFN game competition",
+      "type": "Game jam cash prizes and conditional continuation grants",
+      "lane": "Cinematic ambient channels / generative production / Svyable agents",
+      "status": "REJECT",
+      "stage": "2026-11-01: official Epic-hosted itch.io jam screened; no existing Unreal/UEFN playable game, Epic account eligibility or new gameplay evidence; negative direct cash EV",
+      "value": "$65,000 aggregate cash prizes; $7,500 best-overall first prize in each engine track; separate up to $50,000 per-team conditional development continuation grant, not cash winnings",
+      "value_kind": "official-prize-pool-plus-conditional-project-grant",
+      "deadline": "Build Nov 12–15, 2026; submit Nov 15 at 17:59 PST (Nov 16 01:59 UTC); winners by Jan 29, 2027",
+      "qualification": "Solo or ≤5 developers, 18+ and active Epic account; online allowed. Requires new playable packaged Unreal Engine game or UEFN private version, 30–60s gameplay video and rights-cleared assets. Personal account eligibility unverified.",
+      "work": "At least hypothetical 24h new UE/UEFN game implementation, packaging, QA and video; new-game build cannot begin before Nov 12; existing ambient videos are not gameplay",
+      "reuse": "Low-to-moderate: cinematic channel aesthetics/audio and agent tooling, but no verified Unreal/UEFN playable game or relevant benchmark",
+      "ev": "Illustrative first-prize-only $7,500×70% eligibility/feasibility×0.3% win−24h×$35=$15.75−$840=−$824.25. Other awards/continuation grants excluded as unpriced, probabilities subjective; high competition and new game work.",
+      "payer": "Epic Games / official Epic Games Jams itch.io organizer, credible commercial game-platform sponsor; actual payout and formal eligibility rules not independently audited",
+      "source": "https://itch.io/jam/2026-epic-ai-megajam",
+      "asset_repos": [
+        "https://github.com/Svyable/desk",
+        "https://github.com/Svyable/agents"
+      ],
+      "restrictions": "New gameplay must be built during Nov 12–15; pre-existing assets must be declared and licensed; Epic account, itch.io entry, rights and official PDF terms require acceptance/review; no game submitted or terms accepted",
+      "next": "REJECT cash pursuit unless an independently existing UE/UEFN development capability materially reduces build cost; no speculative jam build or registration.",
+      "source_verified": "2026-11-01 official Epic Games Jams itch.io page"
+    },
     {
       "id": "coefficient-project-tailwind-2026",
       "name": "Coefficient Giving Project Tailwind — independent AI action-evidence institution",
