@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01 UTC (Tarbell institutional 56-item Shelf evidence and restricted $50k decision preflight; Epic MegaJam screened; 71 deduplicated records)",
+  "generated_at": "2026-11-01 America/Chicago (Mozilla Independent Fellowship run-bound receipt demo tested 14/14 and source-pinned; RCC and Constellation Founders screened; 73 deduplicated records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -1294,14 +1294,14 @@
       "type": "Individual fellowship",
       "lane": "Open security audit infrastructure / agent accountability",
       "status": "WATCH",
-      "stage": "2026-10-29: official 16-page RFP, eligibility, AI-use policy and LOI field limits verified; sponsor-specific evidence and project-scope preflight committed; no application or personal attestations",
+      "stage": "2026-11-01: official RFP/eligibility/AI policy rechecked; isolated HMAC run-bound supervisor receipt demo and 14 local Python 3.13.5 regressions committed; exact Git blob hashes match tested files. No remote CI success, real-agent test, nonprofit pilot, user traction, applicant eligibility or submission.",
       "value": "$125,000 total for Independent Fellow: $100,000 individual stipend + $25,000 restricted project budget; 10 total fellowships, five Independent with one Creative Advocacy reserved",
       "value_kind": "official-stipend-plus-restricted-budget",
       "deadline": "2026-12-17 23:59 PST (UTC−8) LOI; full application by invitation 2027-03-12; program begins 2027-06-01",
       "qualification": "Strong published topical fit: RFP explicitly calls for an afternoon test kit for nonprofit inbox agents. Personal senior-level leadership, charitable public benefit, legal payee, actual user engagement, 12-month capacity and rights are UNVERIFIED; 4 general Independent slots inferred, applicant count unknown.",
-      "work": "~3h applicant-authored LOI/evidence work ($105 at $35/h), plus full 12-month project if selected; AI-generated complete application answers forbidden by sponsor policy",
-      "reuse": "Very high: Control Evidence synthetic receipt contract/55 CI tests, Foresight authorization mock/44 CI tests, Human Kind accountable decision boundaries, ScrolIQ provenance. No verified nonprofit deployments or users.",
-      "ev": "Cautious −$45 = $40k assumed net stipend surplus ×30% personal feasibility×0.5% selection −$105 LOI labor; favorable +$345 = $50k×60%×1.5%−$105. Probabilities and surplus subjective; $25k project budget not personal income. Could be worse after 12-month opportunity cost.",
+      "work": "Sunk ~1.5h ($52.50 at illustrative $35/h) local prototype/tests; ~3h applicant-authored LOI/evidence work ($105) still prospective; 12-month funded project if selected. AI-generated full application responses prohibited.",
+      "reuse": "Very high: new local-only supervisor HMAC/run-ID receipt demo with 14/14 synthetic tests, prior Control Evidence and Foresight contracts, Human Kind accountable decision boundaries, ScrolIQ provenance. No independent attestation, durable replay ledger, actual users or security efficacy.",
+      "ev": "Prior subjective future-LOI sensitivity −$45 cautious to +$345 favorable on $40k–$50k net stipend surplus and $105 human LOI labor. This run's ~$52.50 prototype cost has no measured selection-probability uplift; at 40% qualification and $40k conditional net surplus, break-even conditional award probability uplift is 0.328 percentage points if no reuse value. $25k project budget is restricted.",
       "payer": "Mozilla Foundation, established US 501(c)(3)",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/mozilla-fellowship-2027-independent-agent-audit-preflight.md",
       "source": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
@@ -1312,7 +1312,8 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Individuals only; 12-month deliverable and cohort; charitable benefit, USD grant eligibility and conflicts; Fellow retains IP but funded code/nonconfidential content open-licensed; AI tools may assist brainstorming but cannot write full answers; disclose AI use and any overlapping support.",
-      "next": "Applicant personally verify legal receipt, senior-level role, genuine community users, rights and 2027 availability; personally author LOI from evidence crosswalk; no submission or external contact without explicit approval."
+      "next": "Applicant-only: verify senior-level leadership, charitable purpose and actual small-org need, legal USD receipt, 12-month availability, open-license rights and funding non-overlap; personally author LOI. Do not submit without explicit approval. New prototype is not real agent security evidence.",
+      "note": "New 2026-11-01 source blobs: run_bound_receipt_demo.py 1541995f0cd4064df2aefd8365781ddb92b70629; test_run_bound_receipt_demo.py abe4262cb94105fa131aa84e70c0fa30316cf4e9; 14/14 local tests Python 3.13.5. Local shared-key MAC is not independent attestation; in-memory replay tracking is not durable."
     },
     {
       "id": "mozilla-human-scale-incubator-2027",
@@ -1762,6 +1763,46 @@
       "rules_source": "https://wundernn.io/connectome/docs/faq",
       "restrictions": "Hidden rescoring, team join deadline, code verification/possible disclosure, unknown currency and payout conditions; no account or competition rules accepted.",
       "next": "REJECT absent already-working benchmark evidence and approved entrant; do not rush registration."
+    },
+    {
+      "id": "mozilla-rcc-us-2027-institutional",
+      "name": "Mozilla/Mellon Responsible Computing Challenge — U.S. university curricular grants",
+      "type": "Restricted institutional education grant",
+      "lane": "Human Kind / Desk responsible computing curricula",
+      "status": "REJECT",
+      "stage": "2026-11-01: official Mozilla page screened; LOI opens Nov 3, closes Jan 6; only accredited U.S. higher-education institutions can apply. No eligible Svyable institutional principal or academic partner evidenced; no application.",
+      "value": "Up to $125,000 per accredited U.S. institution over two years, restricted grant; not Sven personal income",
+      "value_kind": "official-institutional-grant",
+      "deadline": "LOI opens 2026-11-03; closes 2027-01-06 23:59 Pacific (per official program)",
+      "qualification": "0 for Svyable as direct applicant absent accredited U.S. university status; faculty-led undergraduate interdisciplinary curricula and eligible PI required; no qualifying university partner verified",
+      "work": "At least 3h ($105 at $35/h) hypothetical eligibility/partner/LOI work plus 2-year university delivery; do not invent faculty partners",
+      "reuse": "Medium: Human Kind evidence governance, Desk responsible computing research; no verified accredited academic team or integrated undergraduate courses",
+      "ev": "Direct Svyable award qualification zero on current evidence; hypothetical 3h application labor gives −$105 with no grant payoff. Restricted university funding is not Svyable revenue.",
+      "payer": "Mozilla Foundation and Mellon Foundation, established philanthropic institutions",
+      "repo": "https://github.com/Svyable/Opps/blob/main/docs/registry.json",
+      "source": "https://www.mozillafoundation.org/fy-NL/responsible-computing-challenge-funding-opportunity/",
+      "restrictions": "Accredited US university applicant, faculty-led interdisciplinary undergraduate curriculum, open licensing, student/community participation and institutional grant administration",
+      "next": "REJECT for direct Svyable pursuit; reconsider only if a genuine eligible university PI independently proposes a collaboration. No outreach or terms accepted."
+    },
+    {
+      "id": "constellation-founders-residency-2027",
+      "name": "Constellation Founders Residency — Berkeley AI safety organization-building",
+      "type": "Unfunded founder residency / potential funder introductions",
+      "lane": "Control Evidence / Svyable AI safety organization",
+      "status": "REJECT",
+      "stage": "2026-11-01: official residency and FAQ checked. No stipend or grant is provided directly; requires Berkeley in-person 3+ days/week and existing US work authorization, neither verified. No application.",
+      "value": "$0 direct funding; free space, mentoring and potential introductions to funders offering $250k+ grants, with no grant guarantee",
+      "value_kind": "official-no-direct-cash",
+      "deadline": "2026-11-15 applications; Jan 11–Jul 2 2027 six-month in-person residency",
+      "qualification": "Unknown/low: founder with pressure-tested AI safety organizational thesis, US work authorization and 3+ days/week Berkeley presence; none verified",
+      "work": "~1.5h application ($52.50 at $35/h) plus relocation and six-month opportunity cost; actual costs unpriced",
+      "reuse": "High conceptual reuse of Control Evidence and Human Kind, but no independently tested organization thesis, team or external funding",
+      "ev": "Direct-cash EV ≤−$52.50 for application labor before relocation, because residency provides $0 cash. Value of introductions cannot be responsibly priced without conversion evidence.",
+      "payer": "Constellation Institute, established AI safety research nonprofit; no direct financial payer in this residency",
+      "repo": "https://github.com/Svyable/Opps/blob/main/docs/registry.json",
+      "source": "https://constellation.org/programs/founders",
+      "restrictions": "US work authorization; Berkeley at least 3 days/week; six-month residency; no direct cash, no equity taken, no visa sponsorship",
+      "next": "REJECT for dollars-earned objective absent independent funded-founder plan and relocation authorization. Do not confuse $250k+ funder introductions with awarded money."
     }
   ],
   "engines": [
