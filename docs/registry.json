@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01 America/Chicago (Mozilla Independent Fellowship run-bound receipt demo tested 14/14 and source-pinned; RCC and Constellation Founders screened; 73 deduplicated records)",
+  "generated_at": "2026-11-01 America/Chicago (Mozilla remote CI 96/96 verified, official FAQ eligibility nuance; Codegeist and Codex TwitchCon screened; 75 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -1294,14 +1294,14 @@
       "type": "Individual fellowship",
       "lane": "Open security audit infrastructure / agent accountability",
       "status": "WATCH",
-      "stage": "2026-11-01: official RFP/eligibility/AI policy rechecked; isolated HMAC run-bound supervisor receipt demo and 14 local Python 3.13.5 regressions committed; exact Git blob hashes match tested files. No remote CI success, real-agent test, nonprofit pilot, user traction, applicant eligibility or submission.",
+      "stage": "2026-11-01: remote GitHub Actions run 41375155596, commit 16b385d, Ubuntu/Python 3.11 SUCCESS; 96/96 synthetic tests across 9 suites including 14/14 run-bound and 5/5 recorder-gap tests. Mozilla Oct 25 FAQ confirms users/working tech not mandatory. No live adoption, independent security or applicant qualification proved.",
       "value": "$125,000 total for Independent Fellow: $100,000 individual stipend + $25,000 restricted project budget; 10 total fellowships, five Independent with one Creative Advocacy reserved",
       "value_kind": "official-stipend-plus-restricted-budget",
       "deadline": "2026-12-17 23:59 PST (UTC−8) LOI; full application by invitation 2027-03-12; program begins 2027-06-01",
-      "qualification": "Strong published topical fit: RFP explicitly calls for an afternoon test kit for nonprofit inbox agents. Personal senior-level leadership, charitable public benefit, legal payee, actual user engagement, 12-month capacity and rights are UNVERIFIED; 4 general Independent slots inferred, applicant count unknown.",
+      "qualification": "Official individual applicant; Independent generally senior-level technical builder. Oct 25 FAQ: working tech and existing users welcome but NOT mandatory, so missing pilots are a merit weakness, not automatic ineligibility. Personal leadership, charitable public benefit, lawful US-501(c)(3) receipt, 12-month capacity and rights UNVERIFIED.",
       "work": "Sunk ~1.5h ($52.50 at illustrative $35/h) local prototype/tests; ~3h applicant-authored LOI/evidence work ($105) still prospective; 12-month funded project if selected. AI-generated full application responses prohibited.",
       "reuse": "Very high: new local-only supervisor HMAC/run-ID receipt demo with 14/14 synthetic tests, prior Control Evidence and Foresight contracts, Human Kind accountable decision boundaries, ScrolIQ provenance. No independent attestation, durable replay ledger, actual users or security efficacy.",
-      "ev": "Prior subjective future-LOI sensitivity −$45 cautious to +$345 favorable on $40k–$50k net stipend surplus and $105 human LOI labor. This run's ~$52.50 prototype cost has no measured selection-probability uplift; at 40% qualification and $40k conditional net surplus, break-even conditional award probability uplift is 0.328 percentage points if no reuse value. $25k project budget is restricted.",
+      "ev": "Future-LOI central subjective −$25 = $40k net stipend surplus ×40% personal feasibility×0.5% selection−$105 labor. Additional 0.5h remote-CI evidence verification modeled $17.50, no measured award-probability uplift (standalone award-only incremental EV −$17.50). Break-even conditional selection uplift 0.1094 percentage points at 40% feasibility, not claimed. $25k project budget restricted; reuse across BlueDot/EA possible.",
       "payer": "Mozilla Foundation, established US 501(c)(3)",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/mozilla-fellowship-2027-independent-agent-audit-preflight.md",
       "source": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
@@ -1312,8 +1312,10 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Individuals only; 12-month deliverable and cohort; charitable benefit, USD grant eligibility and conflicts; Fellow retains IP but funded code/nonconfidential content open-licensed; AI tools may assist brainstorming but cannot write full answers; disclose AI use and any overlapping support.",
-      "next": "Applicant-only: verify senior-level leadership, charitable purpose and actual small-org need, legal USD receipt, 12-month availability, open-license rights and funding non-overlap; personally author LOI. Do not submit without explicit approval. New prototype is not real agent security evidence.",
-      "note": "New 2026-11-01 source blobs: run_bound_receipt_demo.py 1541995f0cd4064df2aefd8365781ddb92b70629; test_run_bound_receipt_demo.py abe4262cb94105fa131aa84e70c0fa30316cf4e9; 14/14 local tests Python 3.13.5. Local shared-key MAC is not independent attestation; in-memory replay tracking is not durable."
+      "next": "Applicant verify senior leadership and personal code role, legal US charity receipt, 12-month availability, rights/open-license and public benefit; personally author LOI by Dec 17 23:59 PST. Remote CI proof is reproducibility, not a deployment or adoption claim; explicit approval before submission.",
+      "note": "New 2026-11-01 source blobs: run_bound_receipt_demo.py 1541995f0cd4064df2aefd8365781ddb92b70629; test_run_bound_receipt_demo.py abe4262cb94105fa131aa84e70c0fa30316cf4e9; 14/14 local tests Python 3.13.5. Local shared-key MAC is not independent attestation; in-memory replay tracking is not durable.",
+      "evidence_url": "https://github.com/Svyable/Opps/blob/main/opportunities/mozilla-independent-2027-remote-ci-evidence-2026-11-01.md",
+      "source_verified": "2026-11-01 official Mozilla call/Oct 25 FAQ, GitHub Actions run 41375155596 and decoded job logs; 96 synthetic tests, nine suites."
     },
     {
       "id": "mozilla-human-scale-incubator-2027",
@@ -1803,6 +1805,55 @@
       "source": "https://constellation.org/programs/founders",
       "restrictions": "US work authorization; Berkeley at least 3 days/week; six-month residency; no direct cash, no equity taken, no visa sponsorship",
       "next": "REJECT for dollars-earned objective absent independent funded-founder plan and relocation authorization. Do not confuse $250k+ funder introductions with awarded money."
+    },
+    {
+      "id": "atlassian-codegeist-2026",
+      "name": "Atlassian Codegeist 2026 — Forge app and Rovo agent competition",
+      "type": "Developer competition cash prizes",
+      "lane": "Control Evidence / Svyable agents / Human Kind",
+      "status": "REJECT",
+      "stage": "2026-11-01 official Devpost rules screened; no existing Forge app or judge-installable Atlassian integration verified; no build or registration",
+      "value": "$120,000 aggregate cash; three $15k first, three $8k second, three $5k third; six each $1.5k bonus categories; no award promised",
+      "value_kind": "official-cash-prize-pool",
+      "deadline": "2026-12-22 12:00 PST",
+      "qualification": "Adults in eligible jurisdictions; solo/team/organization subject to restrictions. Requires a functional Atlassian Forge app integrating Jira/Confluence/JSM/Bitbucket/Rovo/etc, judge installation link, YouTube demo, source ownership; no qualifying Forge deployment or personal eligibility verified.",
+      "work": "Illustrative ≥12h new Forge integration, testing, installation/demo/video, plus account/terms review; $35/h opportunity labor = $420; actual effort may be higher.",
+      "reuse": "Moderate: existing agent verification and evidence-contract modules; no Forge manifest, module or deployed Atlassian product demonstrated.",
+      "ev": "Illustrative first-place-only $15k×70% feasibility×0.5% win−12h×$35 = −$367.50; ignores lesser awards/bonuses, taxes, licensing and deployment, probabilities subjective; no measured advantage.",
+      "payer": "Atlassian, established publicly traded software company, Devpost administrator; prize terms official; individual prize receipt/eligibility unverified.",
+      "source": "https://codegeist2026.devpost.com/rules",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "Must use Forge and Atlassian products; installation link, YouTube video, app rights, developer terms, submission grants judging/publicity rights and includes legal commitments; no account creation or acceptance.",
+      "next": "REJECT cash-first new build unless a real existing Forge app materially cuts work and applicant confirms rights/eligibility; no speculative Atlassian account, registration or submission.",
+      "source_verified": "2026-11-01 official Devpost Codegeist rules and prize table"
+    },
+    {
+      "id": "codex-twitchcon-2026",
+      "name": "Codex × TwitchCon 2026 — Twitch interactive project competition",
+      "type": "Developer competition cash prizes",
+      "lane": "Vintage Era Radio / cinematic channels / Svyable agent tooling",
+      "status": "REJECT",
+      "stage": "2026-11-01 official Amazon Advertising/Devpost rules checked; no new Codex-built Twitch-connected working project, session ID or demo verified",
+      "value": "$25,000 total cash: $10k first, $6k second, $4k third, two $2.5k runners; travel not funded",
+      "value_kind": "official-cash-prize-pool",
+      "deadline": "2026-11-02 14:00 PST",
+      "qualification": "Individuals/teams 18+ and jurisdiction/affiliation restrictions; organizations excluded. Must build new Twitch-connected interactive experience during Oct 23–Nov 2, use Codex, provide Codex session ID, repository, functioning Twitch footage and public YouTube demo. None verified.",
+      "work": "Illustrative ≥10h new build/integration/QA/video; $35/h labor = $350 before account/terms/travel.",
+      "reuse": "Low-to-moderate: ambient radio channel concept and agent tools, but no working Twitch API/EventSub/overlay integration or Codex session evidence.",
+      "ev": "First-prize-only $10k×60% feasibility×0.3% win−10h×$35 = −$332, probabilities subjective; lesser prizes, taxes and publicity rights unpriced.",
+      "payer": "Amazon Advertising LLC sponsor, Devpost administrator; established payer identities, no award promised.",
+      "source": "https://twitchcon-codex.devpost.com/rules",
+      "asset_repos": [
+        "https://github.com/Svyable/agents",
+        "https://github.com/Svyable/Opps"
+      ],
+      "restrictions": "New work during submission window, actual Codex session ID and functioning Twitch demo; public video and repo, ownership and license, publicity rights, arbitration, identity verification, no travel reimbursement.",
+      "next": "REJECT cash-only pursuit; do not rush an untested demo, register or accept terms without approval.",
+      "source_verified": "2026-11-01 official Amazon Advertising/Devpost rules"
     }
   ],
   "engines": [
