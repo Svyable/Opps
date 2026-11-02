@@ -54,3 +54,9 @@ These are illustrative applicant economic choices, not valuations of Svyable's p
 - Do not contact Bellingcat, submit, register, agree to terms, spend money or represent the applicant without express approval.
 
 **Decision:** PURSUE only as an urgent, bounded human-authored application possibility; no further autonomous proposal-writing is compliant with Bellingcat's explicit AI-use rule. If full-stack/cloud/co-design evidence or weekly capacity cannot be substantiated, move to REJECT for this intake rather than inventing qualifications.
+
+## November 2 follow-up — implemented UI/service evidence located
+
+The earlier “full-stack front end / server workflows” gap was **partially narrowed** after inspection of the existing [Svyable_Strategies codebase](https://github.com/Svyable/Svyable_Strategies). See the [version-pinned implemented UI, Python workflow service, decision guard, activation and source-test supplement](bellingcat-ai-engineer-2026-implemented-ui-service-evidence-supplement.md). It demonstrates a **local Streamlit interface and Python workflow implementation**, not production cloud/MCP, external investigative deployments, professional client co-design or Sven's personal contribution. The tests were inspected but **not rerun**, and no remote CI result for that repository was confirmed. Bellingcat's AI-generated application prohibition remains binding on any applicant.
+
+The source audit adds an estimated **1.5h/$52.50** in sunk labor; **no measured increase in selection probability**. Prior future-pursuit EV **+$101.25** is unchanged. Cumulative illustrative EV after the original $35 audit and this $52.50 audit is **+$13.75**. The applicant-controlled November 8 release gates are unchanged.
