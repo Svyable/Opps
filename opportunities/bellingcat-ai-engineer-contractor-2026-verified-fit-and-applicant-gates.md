@@ -44,7 +44,7 @@ Illustrative central **40h/week** model uses **$86,500 midpoint gross**, **2,080
 | Central | $35/h = $72,800 | 25% × 5% | $13,700 | **+$101.25** |
 | High opportunity cost | $45/h = $93,600 | 25% × 5% | **negative $7,100** | **−$70 if declined on economics**; taking it would be worse |
 
-These are illustrative applicant economic choices, not valuations of Svyable's portfolio. Full-time capacity, current competing income, tax residency and 20h pricing could overturn the ranking. **No probability uplift has been measured from this packet.** Its incremental preparation cost is ~1h/$35 at the same planning rate, so award-only incremental EV of the packet is **−$35 at zero uplift**, excluding time saved by the verified evidence crosswalk and avoidance of unsupported claims.
+These are illustrative applicant economic choices, not valuations of Svyable's portfolio. Full-time capacity, current competing income, tax residency and 20h pricing could overturn the ranking. **No probability uplift has been measured from this packet.** The completed evidence audit adds **~1h/$35** of sunk modeled labor: cumulative illustrative pursuit EV is **+$66.25** ($101.25 future-pursuit EV minus $35 audit). At **zero measured award-probability uplift**, the packet's standalone award-only incremental EV is **−$35**, excluding saved applicant verification time and avoided unsupported claims.
 
 ## Exact release gates, in urgency order
 
