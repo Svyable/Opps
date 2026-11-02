@@ -37,3 +37,5 @@ jobs:
         run: python artifacts/control-evidence-2026/test_local_tool_receipt_pilot.py -v
       - name: Characterize recorder spoofing and replay limitations (synthetic only)
         run: python artifacts/control-evidence-2026/test_receipt_authenticity_gap.py -v
+      - name: Verify run-bound local supervisor receipt demo (synthetic only)
+        run: python artifacts/control-evidence-2026/test_run_bound_receipt_demo.py -v
