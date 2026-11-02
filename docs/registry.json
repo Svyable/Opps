@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 America/Chicago (Bellingcat direct contractor evidence preflight; six expired WATCH intakes reconciled; 76 unique records; no application submitted)",
+  "generated_at": "2026-11-02 America/Chicago (Bellingcat implemented UI/service source supplement; Pivotal elapsed intake; Tarbell Program Officer WATCH and AgentRush REJECT; deduplicated)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -17,27 +17,28 @@
       "type": "Paid individual engineering contractor (not grant)",
       "lane": "Control Evidence / Human Kind / Agent Business / Desk public-interest agent evaluation",
       "status": "PURSUE",
-      "stage": "2026-11-02: official Bellingcat vacancy checked; three-repo+ evidence crosswalk, exact Git blobs, realistic qualification gaps, candidate work samples and economic sensitivities committed. No application generated or submitted; Bellingcat explicitly rejects AI-generated application text. Public application form unavailable to unauthenticated audit (401).",
+      "stage": "2026-11-02: original portfolio audit plus new source-verified Svyable_Strategies implemented Streamlit UI, Python workflow service, hash-matched human decision guard, activation controls, negative-control source tests and CI workflow; exact blobs and limitations documented. No application, remote CI rerun or qualification attestation.",
       "value": "Official full-time 40h/week annual fee USD $80,000–$93,000 for initial 12 months. Part-time 20h/week offered but fee UNPUBLISHED. Gross personal contractor compensation, not guaranteed Svyable company revenue.",
       "value_kind": "official-contractor-fee-range-fulltime-only",
       "deadline": "2026-11-08 (hour/timezone not published); rolling review began 2026-10-21, so apply earlier if human applicant elects",
-      "qualification": "Public portfolio shows bounded human review, local subprocess verifier, synthetic regression tests, agent safety/evals methods and research-source discipline. Actual full-stack cloud/MCP production deployment, nontechnical co-design, Europe timezone overlap, personal authorship/experience, availability and contractor eligibility NOT VERIFIED. Subjective 25% feasible qualification × 5% conditional selection, not measured.",
-      "work": "~1h/$35 internal evidence audit completed; ~2h/$70 future human-only work-sample review and personally authored application; 20h/week or 40h/week for 12 months if selected, with compensation only published for 40h/week",
-      "reuse": "High: Opps run-bound receipt demo + 14 synthetic tests and historical 96/96 remote CI, Human Kind bounded agent protocol, Agent Business local CLI and eval/security playbook, Desk research. No proof of production MCP, cloud infrastructure or investigative client delivery.",
-      "ev": "40h central subjective: $86,500 gross midpoint − 2,080h×$35 displaced-work value ($72,800) = $13,700 conditional pretax surplus. ×25% feasibility×5% conditional selection − $70 future applicant labor = +$101.25 future-pursuit EV; minus ~$35 completed audit = +$66.25 cumulative illustrative EV. $25/h displaced-work scenario +$361.25 future; $45/h case decline negative contract and lose $70 prep. Taxes/insurance, IP, 20h fee and capacity unpriced; no measured probability uplift.",
+      "qualification": "Public code now demonstrates implemented local Streamlit UI + Python workflow service and source-level decision guard/tests in addition to Control Evidence/Human Kind. Actual personal authorship, production cloud/MCP, co-design with nontechnical users, Europe overlap, lawful contracting and 20/40h availability UNVERIFIED. Subjective 25% qualification feasibility ×5% conditional selection unchanged.",
+      "work": "Prior ~1h/$35 portfolio audit plus new ~1.5h/$52.50 implemented UI/service source audit completed; ~2h/$70 future human-only application/evidence review; 20/40h weekly for 12 months if selected. New Svyable_Strategies tests inspected but NOT run; its CI workflow present but successful run NOT verified.",
+      "reuse": "High: Opps 96/96 historical CI, local receipt demo, Human Kind, Agent Business, Desk; new verified Svyable_Strategies Streamlit front-end, filesystem service, decision guard, activation and negative-control source tests. No verified production cloud/MCP or independent client deployment.",
+      "ev": "Full-time midpoint $86,500 gross −2,080h×$35 displaced value = $13,700 pretax conditional surplus. Subjective 25% qualification×5% conditional selection −$70 future applicant labor = +$101.25 future marginal EV. After $35 prior +$52.50 new sunk audits, cumulative illustrative +$13.75. No measured odds uplift; new audit alone requires +0.383 percentage points combined award probability to pay for itself on award-only basis. Taxes, insurance, contract terms and 20h fee unpriced.",
       "payer": "Bellingcat, established independent open-source investigations organization; official bellingcat.com vacancy; no contract/payment promised",
       "source": "https://www.bellingcat.com/contractor-ai-engineer-open-source-agentic-systems/",
-      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/bellingcat-ai-engineer-contractor-2026-verified-fit-and-applicant-gates.md",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/bellingcat-ai-engineer-2026-implemented-ui-service-evidence-supplement.md",
       "asset_repos": [
         "https://github.com/Svyable/Opps",
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/agent-business",
-        "https://github.com/Svyable/desk"
+        "https://github.com/Svyable/desk",
+        "https://github.com/Svyable/Svyable_Strategies"
       ],
       "restrictions": "Bellingcat explicitly filters AI-generated applications, motivation letters and ideas; only grammar/vocabulary refinement allowed. Human applicant must author. Remote with Europe overlap; 12-month 20/40h commitment. Contract IP, exclusivity, liability, insurance, invoicing, taxes, termination and part-time fee not published.",
       "next": "By Nov 8, founder personally verify 20/40h availability, Europe overlap, true hands-on full-stack/cloud/MCP and co-design experience, ownership/role in sample repos; personally inspect form and write any application without AI-generated answers. Explicit approval before submission/contact/terms. If unsubstantiated, REJECT this intake.",
-      "source_verified": "2026-11-02 official Bellingcat posting; source blobs from connected GitHub, historical CI run 41375155596 (96/96 synthetic tests, not re-run).",
-      "note": "AI-generated packet is internal evidence only and must not be pasted into Bellingcat application. Google Forms URL returned 401 to public fetch; no applicant form questions inspected."
+      "source_verified": "2026-11-02 official Bellingcat vacancy rechecked; exact Git blobs in Svyable_Strategies UI/service/guard/tests inspected; no tests executed or remote CI verified for that repo.",
+      "note": "Supplement adds implemented local UI/service evidence, NOT personal qualification or production experience. AI-generated packet internal only; Bellingcat bans AI-authored application. Applicant-controlled application form and terms remain unverified."
     },
     {
       "id": "tarbell-institutional-ai-journalism-2026",
@@ -159,8 +160,8 @@
       "name": "Pivotal Research Q1 2027 AI Safety Fellowship — human oversight and control",
       "type": "Individual paid research fellowship",
       "lane": "Control Evidence / Human Kind empirical agent oversight",
-      "status": "PURSUE",
-      "stage": "2026-11-01: official terms and exact mentor project audited; mentor-aligned falsifiable 15-week research and evidence packet committed; applicant London/capacity/visa and submission approval unverified; NOT submitted",
+      "status": "REJECT",
+      "stage": "2026-11-02: November 1 application deadline elapsed (including hypothetical latest AoE cutoff by Nov 2 12:00 UTC). No submitted application evidenced in ledger; REJECT this intake, not LOST. Existing research packet retained for possible future cohort.",
       "value": "GBP 15,000 standard stipend or GBP 18,000 senior; GBP 1,800/month housing for non-London fellows plus travel/compute (expense support, not extra unrestricted revenue)",
       "value_kind": "official-individual-stipend-not-business-contract",
       "deadline": "2026-11-01; official cutoff hour/timezone not published; do not assume open through midnight",
@@ -177,8 +178,8 @@
         "https://github.com/Svyable/human-kind"
       ],
       "restrictions": "Full-time in-person London; at least one mentor; applicant-specific visa, eligibility, work conflicts, tax and stipend agreement; no secured reviewers or research ethics approval; fellow retains research output IP per official FAQ but existing Svyable IP rights require separate care.",
-      "next": "Applicant alone confirms London Jan–Apr 2027 availability, actual credentials/eligibility, chooses Preeti Ravindra/Jess Bergs mentor fit, reviews live form and explicitly approves submission before Nov 1 cutoff if still open. If not submitted by cutoff, mark REJECT (unsubmitted), not LOST.",
-      "source_verified": "2026-11-01 official Pivotal fellowship and mentor pages",
+      "next": "Do not submit to closed Q1 2027 intake. WATCH a separately announced future cohort only if official opening and actual applicant availability/eligibility are established.",
+      "source_verified": "2026-11-02 official Pivotal fellowship lists Nov 1 close; external secondary source describes 23:59 AoE but official exact hour was not established. In all cases Nov 2 15:24 UTC is after latest AoE deadline.",
       "note": "Specific mentors Preeti Ravindra and Jess Bergs explicitly seek empirical human-in-loop oversight studies; proposed controlled two-arm evaluation remains prospective and unapproved. No application or external contact."
     },
     {
@@ -1882,6 +1883,55 @@
       "restrictions": "New work during submission window, actual Codex session ID and functioning Twitch demo; public video and repo, ownership and license, publicity rights, arbitration, identity verification, no travel reimbursement.",
       "next": "REJECT cash-only pursuit; do not rush an untested demo, register or accept terms without approval.",
       "source_verified": "2026-11-01 official Amazon Advertising/Devpost rules"
+    },
+    {
+      "id": "tarbell-program-officer-institutional-grants-2026",
+      "name": "Tarbell Center — Program Officer, Institutional Grants",
+      "type": "Paid full-time individual employment (not Svyable contract)",
+      "lane": "Desk / Shelf AI governance research, editorial economics, opportunity underwriting",
+      "status": "WATCH",
+      "stage": "2026-11-02: official Tarbell career posting verified; AI journalism/AI governance relevance and salary confirmed; professional newsroom/grantmaking track record, work eligibility and conflict disclosure not verified. No application.",
+      "value": "US remote $135k–$151k; US city-dependent up to $171k; UK remote £82k–£92k; London up to £102k, official starting salary bands. Personal employment pay, not company revenue.",
+      "value_kind": "official-employment-salary-location-dependent",
+      "deadline": "2026-11-15 23:59 PT",
+      "qualification": "Deep AI safety/governance or journalism expertise sought, with judgment on six-figure grants and newsroom/editor relationships. Existing Desk/Shelf research and Opps underwriting are related but no verified professional grantmaking, editor relationships or eligibility. Subjective 5% fit ×1% conditional selection.",
+      "work": "Official initial application under 30 min; if selected paid work test and paid 1–2 day trial; full-time employment from around Feb 2027, likely displacing current Svyable work. Hypothetical 1h/$35 preflight/application cost; delivery full-time.",
+      "reuse": "Medium: AI governance books, source-linked research, Svyable/Opps risk-adjusted funding analyses; does not prove professional grant administration or newsroom leadership.",
+      "ev": "Conservative US-remote midpoint $143,000 − 2,080h×$35 displaced work ($72,800) = $70,200 conditional pretax economic surplus. Subjective 5% fit ×1% selection =0.05% overall; minus $35 future application labor = +$0.10. At 0% fit, −$35. Taxes, benefits, conflicts, actual time and geography unpriced; no measured odds.",
+      "payer": "Tarbell Center for AI Journalism, established grantmaker with public institutional program and 75+ supported journalists (organizer claim), official careers page.",
+      "source": "https://www.tarbellcenter.org/careers/program-officer-institutional-grants",
+      "asset_repos": [
+        "https://github.com/Svyable/desk",
+        "https://github.com/Svyable/shelf",
+        "https://github.com/Svyable/Opps"
+      ],
+      "restrictions": "Location and right to work US/UK; preferred cities, UK time overlap, full-time commitment, newsroom/grantmaking credibility. Potential conflict if separately seeking Tarbell institutional grant; must disclose and avoid self-dealing. Employment and application terms not inspected.",
+      "next": "WATCH pending applicant evidence of genuine AI governance expertise, newsroom/grantmaking judgment, right to work, capacity and conflicts. Do not invent experience or submit without approval.",
+      "source_verified": "2026-11-02 official Tarbell vacancy, deadline, salary and evaluation process."
+    },
+    {
+      "id": "hack4hack-agentrush-usa-2026",
+      "name": "Hack4Hack AgentRush USA 2026 — AI agent team hackathon",
+      "type": "Competition cash prizes",
+      "lane": "Agent Business / Human Kind agent workflows",
+      "status": "REJECT",
+      "stage": "2026-11-02 organizer page screened; team 2–4, US residency, conditional $49 finalist fee and new working demo make direct cash EV negative. No team or residency verified.",
+      "value": "$5,000 total prize pool; $1,500 first prize per team, $800 second, $500 third; $49 Round 2 team entry if finalist.",
+      "value_kind": "organizer-stated-cash-prizes-unverified-payout-history",
+      "deadline": "Round 1 Nov 22 2026 23:59 ET; finalists Nov 28; Round 2 fee by Dec 3; build Dec 6; winners Dec 10",
+      "qualification": "US-based team of 2–4, real agent and Round 1 deck; no verified qualifying team or residency. Subjective 30% feasible team/eligibility ×2% first-place conditional chance; not measured.",
+      "work": "At least hypothetical 8h/$280 Round 1 preparation, 12h final build and $49 finalist fee if selected, additional cost excluded from central EV.",
+      "reuse": "Medium: agent-business workflows, Control Evidence, Human Kind; new live demo/deck still needed.",
+      "ev": "Optimistic first-prize-only: $1,500×30% qualification×2% first-place = $9 expected gross; minus 8h×$35=$280, minus illustrative 20% finalist×$49=$9.80 = −$280.80. Ignores finalist build labor and team prize split; actual EV lower.",
+      "payer": "Hack4Hack organizer page, cash payout promises stated; independent prize payment history not verified.",
+      "source": "https://hack4hack.com/hackathons/agentrush-usa-2026-24hw",
+      "asset_repos": [
+        "https://github.com/Svyable/agent-business",
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "US-based 2–4 person team, conditional entry fee, new demo, team prize split, eligibility verification; payer history unverified. No spend/registration.",
+      "next": "REJECT; no team-building, fee, deck or submission work without radically improved payout economics.",
+      "source_verified": "2026-11-02 organizer listing with 2026 timeline and prizes."
     }
   ],
   "engines": [
