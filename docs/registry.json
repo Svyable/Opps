@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 America/Chicago (Hunter: EA Funds causal-impact annex; two Apart low-EV sprints screened; 80 unique records)",
+  "generated_at": "2026-11-02 America/Chicago (Hunter: SOA AI model-selection internal matrix; XAI and Amazon institutional eligibility screened; 82 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -958,24 +958,25 @@
       "name": "Amazon Research Awards — Fall 2026 Agentic AI",
       "type": "Research award (cash and AWS credits)",
       "lane": "Agent trajectory verification and human–AI collaboration",
-      "status": "WATCH",
-      "stage": "2026-10-30: official CFP deadline extension to Nov 11 verified; ARA PI must be full-time accredited-institution faculty or permanent researcher at recognized nonprofit/NGO; no qualifying PI verified",
+      "status": "REJECT",
+      "stage": "2026-11-02: official Amazon PI rules independently checked: must be full-time accredited-institution faculty or permanent researcher at qualifying recognized NGO; Svyable has no VERIFIED eligible PI. Current direct route rejected, not a finding about Sven's personal background.",
       "value": "Up to $70k cash on average for selected PIs, plus up to $50k AWS credits on average; not a guaranteed maximum or personal cash",
       "value_kind": "official-typical-not-guaranteed",
-      "deadline": "2026-11-11 23:59 PDT (official Fall 2026 extension; older Nov 4 entry superseded)",
+      "deadline": "2026-11-11 23:59 Pacific Time (official Fall 2026 extension)",
       "qualification": "Direct solo eligibility unverified and presumed 0% until qualifying full-time faculty PI or permanent researcher at recognized NGO is confirmed; selection probability unpublished",
       "work": "At least 4-page proposal, PI and institution administration, likely 8–20h if eligible; 0h justified without PI",
       "reuse": "Very high: Human Kind agent boundaries, ScrolIQ provenance and Control Evidence evaluation methods",
       "payer": "Amazon Research Awards / Amazon.com",
       "source": "https://www.amazon.science/research-awards/call-for-proposals/aws-agentic-ai-call-for-proposals-fall-2026",
       "rules": "https://www.amazon.science/research-awards/program-rules",
-      "restrictions": "PI must be full-time faculty at accredited academic institution or permanent researcher at legally recognized NGO equivalent to 501(c)(3). Award paid to institution/organization, not Svyable personally. No confidential proposals; Amazon may independently pursue similar ideas; publicity/administrative terms; no administrative overhead in CFP; AWS credits not cash.",
-      "ev": "Direct applicant route illustrative $70k × 0% verified PI eligibility − $120 eligibility/prep cost = −$120; academic-partner route unpriced pending real PI, actual compensation rights and selection probability.",
+      "restrictions": "Institutional gift only; no personal award. PI full-time faculty at accredited university OR permanent researcher at recognized nonprofit; one proposal per PI; Amazon staff/procurement restrictions; confidentiality/IP, legal and institutional administration rules.",
+      "ev": "Actionable current direct-route EV $0 by declining speculative work; ≥3h×$35 = −$105 if pursued without eligible PI. No defensible positive success probability or personal-cash claim until institutional status verified.",
       "asset_repos": [
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Do not prepare solo Svyable bid; only reconsider with documented qualifying academic/NGO PI and rights/payment allocation; no outreach without approval."
+      "next": "REJECT current direct Svyable route; reopen only if independently verified qualifying PI and institution consent; no application.",
+      "rules_source": "https://www.amazon.science/research-awards/program-rules"
     },
     {
       "id": "anthropic-stem-fellows-2027",
@@ -1981,6 +1982,53 @@
       "restrictions": "Only weekend work judged; 8-page PDF and ethics appendix; held-out scoring; publication of best work may be limited; potential licensing and data-use restrictions not fully audited",
       "next": "REJECT direct-cash pursuit unless an independently new validated classifier can be built for materially less than $280 or fellowship economics become concrete.",
       "source_verified": "2026-11-02 official Apart sprint page"
+    },
+    {
+      "id": "soa-right-ai-tool-rfp-2026",
+      "name": "SOA Research Institute — The Right AI Tool for the Job (actuarial model/platform selection)",
+      "type": "Paid commissioned research RFP (not grant)",
+      "lane": "Svyable_Strategies model governance / Desk research / Human Kind oversight",
+      "status": "WATCH",
+      "stage": "2026-11-02 official RFP and two implemented Svyable_Strategies source blobs checked; internal comparative decision matrix and specialist release gates committed. NO application because SOA forbids AI-written proposals and requires disclosure of any AI use.",
+      "value": "No fixed award price. SOA historical 33rd–66th percentile $25k–$50k all contracted projects and $15k–$20k literature reviews; illustrative Svyable bid $25k is NOT a payer offer.",
+      "value_kind": "official-historical-cost-guide-not-contract-offer",
+      "deadline": "2026-11-13 (proposal received; cutoff hour unspecified)",
+      "qualification": "No formal actuarial designation requirement in RFP, but personal actuarial experience, expert collaborator, practitioner access, rights, legal payee and CV UNVERIFIED; 10% cautious feasibility assumption.",
+      "work": "3h human-authored proposal if gates pass; hypothetical 160h research, 40h specialist, $1k incidentals; completed preflight ~1.5h/$52.50.",
+      "reuse": "High model-governance and research scaffolding, LOW actuarial validation. Verified Python strategy service and pre-activation guard; Desk research infrastructure.",
+      "ev": "Cautious future −$61.80 = ($25k−$5.6k lead labor−$4k unquoted specialist−$1k other)×10% qualification×3% selection−$105 applicant labor. Including $52.50 preflight = −$114.30. With genuinely verified specialist, sensitivity +$147 future; not current fact. Zero measured selection uplift.",
+      "payer": "Society of Actuaries Research Institute",
+      "source": "https://www.soa.org/research/opportunities/2026/how-act-choose-between-models-plat",
+      "asset_repos": [
+        "https://github.com/Svyable/Svyable_Strategies",
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "Five-page researcher-written proposal; disclose ALL AI use; SOA plans copyright in commissioned research; publicity/presentations may be required; conflict disclosures; Letter of Agreement before award; no guaranteed funding.",
+      "next": "WATCH through Nov 6 for verified actuarial collaborator, truthful CV, lawful payee, capacity and rights; REJECT before Nov 13 if absent. No AI-authored proposal or submission.",
+      "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/soa-right-ai-tool-2026-internal-framework-and-bid-gates.md"
+    },
+    {
+      "id": "soa-explainable-ai-reg-compliance-rfp-2026",
+      "name": "SOA Research Institute — Explainable AI and Regulatory Compliance",
+      "type": "Paid commissioned research RFP (not grant)",
+      "lane": "Control Evidence / Svyable_Strategies model governance / Desk research",
+      "status": "REJECT",
+      "stage": "2026-11-02 official RFP screened; no insurance-regulatory XAI domain research or practitioner evidence verified; AI-authored proposal prohibited.",
+      "value": "No fixed contract price; SOA historical literature review range $15k–$20k (33rd–66th percentile), NOT an offer.",
+      "value_kind": "historical-research-cost-range-not-offer",
+      "deadline": "2026-11-13 (received; hour unspecified)",
+      "qualification": "Subjective 5% fit without verified insurance-regulatory XAI expertise; no proof of legal ineligibility.",
+      "work": "≥2h human proposal plus hypothetical 100h report/research and specialist review; $70 prep and substantial delivery cost.",
+      "reuse": "Medium model governance/research, no validated actuarial XAI outcomes.",
+      "ev": "Illustrative $8k conditional surplus×5% qualification×3% award−$70 proposal = −$58.00, before sourcing actuarial expert; zero measured uplift.",
+      "payer": "Society of Actuaries Research Institute",
+      "source": "https://www.soa.org/research/opportunities/2026/explainable-ai-reg-compliance",
+      "asset_repos": [
+        "https://github.com/Svyable/Svyable_Strategies",
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "SOA plans copyright; five-page human-authored proposal, all AI use disclosed; publicity and conflicts; no award guarantee.",
+      "next": "REJECT this intake unless genuine existing actuarial XAI qualifications independently emerge; do not invent experience."
     }
   ],
   "engines": [
