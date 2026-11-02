@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 America/Chicago (Win Accelerator: Bellingcat confidential full-stack source preflight, private release hazards; 78 unique records)",
+  "generated_at": "2026-11-02 America/Chicago (Hunter: EA Funds causal-impact annex; two Apart low-EV sprints screened; 80 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -769,14 +769,14 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "2026-10-29: implemented actual local subprocess file-action probe with supervisor-observed exit/file digest; 4 controlled conditions, 10 new tests; 77/77 GitHub Actions tests passed. No agent experiment, trusted telemetry, R3 reviewer or application.",
+      "stage": "2026-11-02: official TAI focus, live rolling intake and CEA content-license terms rechecked; committed a falsifiable five-link catastrophic-risk theory-of-change and pre-award staffing/telemetry/adoption stop-gate annex. Historical 96/96 synthetic/unit CI smoke job rechecked success; no new tests, real reviewer study, external adopter or application.",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (official fund page reverified 2026-10-26 UTC)",
       "qualification": "55% subjective lean feasibility scenario; actual payee, 12h/week, rights, authenticated sandbox receipts, independent R1/R2/R3 and $500 public-release feasibility unverified.",
       "work": "~2h remaining applicant/form work; 120h proposed lead delivery; 100h engineer; revised 40h/$4k independent review: 24h two-arm experimental judgments, 10h third-party reference adjudication, 6h reserve. All estimates unquoted, three distinct reviewer roles unconfirmed.",
       "reuse": "Very high: Human Kind authorization and ScrolIQ provenance",
-      "ev": "Illustrative expected conditional founder surplus $7,800 × 55% feasibility × 5% selection = $214.50; less $70 application prep = $144.50 before prior R3 and new probe. If R3 ($52.50–$87.50) plus local probe ($35–$70) are incremental with no probability uplift, cumulative scenario −$13 to +$57. Subjective probabilities; not unrestricted grant revenue. Avoid more synthetic work absent applicant gate progress.",
+      "ev": "Prior subjective future applicant EV +$144.50 = ($12k lead budget − 120h×$35 alternative cost)×55% feasibility×5% conditional selection−$70 future application labor. New 1h×$35 internal causal-impact annex cost with 0 measured odds uplift: +$109.50 after this incremental cost, before older sunk costs, taxes and quote risk. Break-even conditional selection uplift for the new $35 is ~0.816 percentage points; not demonstrated.",
       "payer": "EA Funds / Centre for Effective Altruism",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026.md",
       "source": "https://funds.effectivealtruism.org/funds/transformative-ai",
@@ -784,12 +784,12 @@
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "restrictions": "Prior art credited; no claimed first invention; no pre-award work billable. Paperform field labels not independently accessible; application site content/rights terms, payee, 12h/week and overlapping awards require applicant approval.",
-      "next": "Applicant privately verify legal payee, 12h/week, independent engineer and three human reviewer roles, authentic permissioned traces, source/IP/privacy rights and live Paperform terms. No further synthetic feature work unless a concrete funder requirement; explicit approval before outreach, spending or submission.",
+      "restrictions": "CEA site terms updated Oct 1 2026 treat uploaded user content as nonconfidential/nonproprietary, with perpetual worldwide nonexclusive noncommercial license and moral-rights waiver language; separate grant terms/form unverified. No private traces or manuscripts uploaded. Payee, 12h/week, IP, no overlapping grants, genuine independent engineer/R1/R2/R3, authenticated telemetry, reviewer consent, publication rights and external adopter unverified.",
+      "next": "PURSUE only after applicant privately confirms lawful payee, 12h/week, code/trace rights, independent engineer and 3 distinct human reviewers, credible authenticated sandbox telemetry, funding non-overlap and live form terms. If these cannot be substantiated, REJECT instead of adding synthetic work. No outreach/submission without approval.",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
       "note": "Prior R3 gate, reviewer budget repair and this local-process probe reduce specific feasibility gaps. The new worker is a real local subprocess but its supervisor is not independently authenticated; no deployed-agent data or human study. No measured grant-selection uplift. All applicant-controlled payee, capacity, staffing, evidence, privacy, rights and submission gates remain.",
-      "source_verified": "2026-10-29 https://funds.effectivealtruism.org/funds/transformative-ai",
+      "source_verified": "2026-11-02 official TAI fund and apply pages, CEA site terms; connected GitHub run 41375155596 smoke job success and exact run-bound/R3 source blobs. No new tests or selection uplift.",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-verified-evidence.md",
       "application_draft": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-application-draft.md",
       "prospective_scoring": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/score_reviews.py",
@@ -804,7 +804,8 @@
       "independent_reference_budget_repair": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-independent-reference-budget-repair.md",
       "r3_gate": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-r3-reference-gate.md",
       "local_process_probe": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-local-process-receipt-preflight.md",
-      "local_process_code": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/local_tool_receipt_pilot.py"
+      "local_process_code": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/local_tool_receipt_pilot.py",
+      "causal_impact_gate": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-causal-impact-and-stop-gates-2026-11-02.md"
     },
     {
       "id": "foresight-ai-nodes-2026",
@@ -1932,6 +1933,54 @@
       "restrictions": "US-based 2–4 person team, conditional entry fee, new demo, team prize split, eligibility verification; payer history unverified. No spend/registration.",
       "next": "REJECT; no team-building, fee, deck or submission work without radically improved payout economics.",
       "source_verified": "2026-11-02 organizer listing with 2026 timeline and prizes."
+    },
+    {
+      "id": "apart-ai-epistemics-sprint-2026",
+      "name": "Apart Research — AI x Epistemics Research Sprint",
+      "type": "Online AI verification research competition / fellowship pathway",
+      "lane": "Control Evidence / ScrolIQ provenance and evidence adjudication",
+      "status": "REJECT",
+      "stage": "2026-11-02 official sprint screened; strong thematic overlap but only new weekend work is judged; no new experiment or submission",
+      "value": "$2,000 aggregate cash prizes; $1,000 first / $500 second / $300 third / $100 fourth / $100 fifth. Fellowship fast-track unpriced, not guaranteed.",
+      "value_kind": "official-global-team-prize-pool",
+      "deadline": "2026-11-15 23:59 Anywhere on Earth (UTC−12); sprint Nov 13–15",
+      "qualification": "Open worldwide, online, solo or teams, no degree requirement; ~90% assumed basic feasibility, not applicant-verified. Only work performed during sprint judged.",
+      "work": "At least 6h genuinely new evaluation/report work after sprint begins; $210 at $35/h, excluding optional registration, report revisions and team coordination",
+      "reuse": "High preexisting claim verification, blinded packet and receipt tests; prior code must be declared and cannot count as new judged work",
+      "ev": "Subjective first-place-only $1,000×90% qualification×2% win−6h×$35=$18−$210=−$192. Other prizes and possible fellowship unpriced; no calibrated odds.",
+      "payer": "Apart Research, established AI safety sprint organizer with public program and prize terms; payout/individual terms not independently audited",
+      "source": "https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/scrollq"
+      ],
+      "restrictions": "8-page report with 150–250 word abstract and ethics appendix, new sprint work only; teams split prizes, publication/license and payment terms need review; no application or agreement accepted",
+      "next": "REJECT direct-cash pursuit unless independent new-work plan and funded fellowship continuation justify at least $192 of added value; do not recycle preexisting code as new contest work.",
+      "source_verified": "2026-11-02 official Apart sprint page"
+    },
+    {
+      "id": "apart-agent-attribution-sprint-2026",
+      "name": "Apart Research — Agent Attribution Hackathon",
+      "type": "Online agent-attribution research competition / fellowship pathway",
+      "lane": "Control Evidence / Human Kind run-bound source evidence",
+      "status": "REJECT",
+      "stage": "2026-11-02 official sprint screened; source-authenticity methods relevant but existing code does not classify human steering; new experimental work needed",
+      "value": "$2,000 aggregate cash pool; $1,000 first / $500 second / $300 third / $100 fourth / $100 fifth. Fellowship fast-track not guaranteed.",
+      "value_kind": "official-global-team-prize-pool",
+      "deadline": "2026-11-29 23:59 Anywhere on Earth (UTC−12); sprint Nov 27–29",
+      "qualification": "Open worldwide, online, solo or teams; 90% hypothetical basic feasibility. Actual human-vs-agent attribution evidence and held-out performance absent.",
+      "work": "At least 8h new classifier/trace-simulation/report work during sprint, $280 at $35/h; independent dataset permissions and reproducibility unverified",
+      "reuse": "Moderate: run-bound receipts and writer-authenticity negative controls are prior art, not a human-steering classifier; must mark prior code as preexisting",
+      "ev": "Subjective first-place-only $1,000×90% eligibility×2% win−8h×$35=$18−$280=−$262. Other prizes and fellowship unpriced.",
+      "payer": "Apart Research, established AI safety sprint organizer; official prize schedule and public judging rubric, payment and license terms require review",
+      "source": "https://apartresearch.com/sprints/agent-attribution-2026",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/human-kind"
+      ],
+      "restrictions": "Only weekend work judged; 8-page PDF and ethics appendix; held-out scoring; publication of best work may be limited; potential licensing and data-use restrictions not fully audited",
+      "next": "REJECT direct-cash pursuit unless an independently new validated classifier can be built for materially less than $280 or fellowship economics become concrete.",
+      "source_verified": "2026-11-02 official Apart sprint page"
     }
   ],
   "engines": [
