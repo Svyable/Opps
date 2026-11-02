@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01 America/Chicago (Mozilla remote CI 96/96 verified, official FAQ eligibility nuance; Codegeist and Codex TwitchCon screened; 75 unique records)",
+  "generated_at": "2026-11-02 America/Chicago (Bellingcat direct contractor evidence preflight; six expired WATCH intakes reconciled; 76 unique records; no application submitted)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -11,6 +11,34 @@
     "LOST"
   ],
   "opportunities": [
+    {
+      "id": "bellingcat-ai-engineer-contractor-2026",
+      "name": "Bellingcat — AI Engineer (Open Source Agentic Systems), 12-month contractor",
+      "type": "Paid individual engineering contractor (not grant)",
+      "lane": "Control Evidence / Human Kind / Agent Business / Desk public-interest agent evaluation",
+      "status": "PURSUE",
+      "stage": "2026-11-02: official Bellingcat vacancy checked; three-repo+ evidence crosswalk, exact Git blobs, realistic qualification gaps, candidate work samples and economic sensitivities committed. No application generated or submitted; Bellingcat explicitly rejects AI-generated application text. Public application form unavailable to unauthenticated audit (401).",
+      "value": "Official full-time 40h/week annual fee USD $80,000–$93,000 for initial 12 months. Part-time 20h/week offered but fee UNPUBLISHED. Gross personal contractor compensation, not guaranteed Svyable company revenue.",
+      "value_kind": "official-contractor-fee-range-fulltime-only",
+      "deadline": "2026-11-08 (hour/timezone not published); rolling review began 2026-10-21, so apply earlier if human applicant elects",
+      "qualification": "Public portfolio shows bounded human review, local subprocess verifier, synthetic regression tests, agent safety/evals methods and research-source discipline. Actual full-stack cloud/MCP production deployment, nontechnical co-design, Europe timezone overlap, personal authorship/experience, availability and contractor eligibility NOT VERIFIED. Subjective 25% feasible qualification × 5% conditional selection, not measured.",
+      "work": "~1h/$35 internal evidence audit completed; ~2h/$70 future human-only work-sample review and personally authored application; 20h/week or 40h/week for 12 months if selected, with compensation only published for 40h/week",
+      "reuse": "High: Opps run-bound receipt demo + 14 synthetic tests and historical 96/96 remote CI, Human Kind bounded agent protocol, Agent Business local CLI and eval/security playbook, Desk research. No proof of production MCP, cloud infrastructure or investigative client delivery.",
+      "ev": "40h central subjective: $86,500 gross midpoint − 2,080h×$35 displaced-work value ($72,800) = $13,700 conditional pretax surplus. ×25% feasibility×5% conditional selection − $70 future applicant labor = +$101.25 future-pursuit EV; minus ~$35 completed audit = +$66.25 cumulative illustrative EV. $25/h displaced-work scenario +$361.25 future; $45/h case decline negative contract and lose $70 prep. Taxes/insurance, IP, 20h fee and capacity unpriced; no measured probability uplift.",
+      "payer": "Bellingcat, established independent open-source investigations organization; official bellingcat.com vacancy; no contract/payment promised",
+      "source": "https://www.bellingcat.com/contractor-ai-engineer-open-source-agentic-systems/",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/bellingcat-ai-engineer-contractor-2026-verified-fit-and-applicant-gates.md",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/agent-business",
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "Bellingcat explicitly filters AI-generated applications, motivation letters and ideas; only grammar/vocabulary refinement allowed. Human applicant must author. Remote with Europe overlap; 12-month 20/40h commitment. Contract IP, exclusivity, liability, insurance, invoicing, taxes, termination and part-time fee not published.",
+      "next": "By Nov 8, founder personally verify 20/40h availability, Europe overlap, true hands-on full-stack/cloud/MCP and co-design experience, ownership/role in sample repos; personally inspect form and write any application without AI-generated answers. Explicit approval before submission/contact/terms. If unsubstantiated, REJECT this intake.",
+      "source_verified": "2026-11-02 official Bellingcat posting; source blobs from connected GitHub, historical CI run 41375155596 (96/96 synthetic tests, not re-run).",
+      "note": "AI-generated packet is internal evidence only and must not be pasted into Bellingcat application. Google Forms URL returned 401 to public fetch; no applicant form questions inspected."
+    },
     {
       "id": "tarbell-institutional-ai-journalism-2026",
       "name": "Tarbell Center Institutional Grants — independent AI accountability reporting series",
@@ -526,8 +554,8 @@
       "name": "ICE — AI / Data / Technology Strategy RFI",
       "type": "RFI / consulting pathway",
       "lane": "AI strategy",
-      "status": "WATCH",
-      "stage": "Teaming scan",
+      "status": "REJECT",
+      "stage": "2026-11-02 stale-intake reconciliation: 2026-10-16 RFI cutoff elapsed; no response recorded, no direct cash value; REJECT this intake, revisit only new solicitation. Prior notes retained.",
       "value": "Not stated",
       "value_kind": "payer-unstated",
       "deadline": "2026-10-16 10:00 ET",
@@ -542,7 +570,7 @@
         "https://github.com/Svyable/frontier-lab",
         "https://github.com/Svyable/scrollq"
       ],
-      "next": "Look for teaming / specialist contribution route rather than unsupported full-stack prime positioning.",
+      "next": "2026-10-16 RFI cutoff elapsed; no response recorded, no direct cash value; REJECT this intake, revisit only new solicitation.",
       "note": "Relevant expertise exists; enterprise delivery breadth is the gating issue."
     },
     {
@@ -550,8 +578,8 @@
       "name": "Loudoun Water 2026-072-1400003 — AI Nameplate Extraction",
       "type": "SaaS procurement",
       "lane": "Vision + structured extraction",
-      "status": "WATCH",
-      "stage": "Fit assessment",
+      "status": "REJECT",
+      "stage": "2026-11-02 stale-intake reconciliation: 2026-10-26 procurement cutoff elapsed; no bid recorded and production SaaS qualifications unverified; REJECT this intake. Prior notes retained.",
       "value": "Not stated; reported 3-year SaaS procurement",
       "value_kind": "payer-unstated",
       "deadline": "2026-10-26",
@@ -566,7 +594,7 @@
         "https://github.com/Svyable/agents",
         "https://github.com/Svyable/frontier-lab"
       ],
-      "next": "Verify integration, security and maturity requirements before any build.",
+      "next": "2026-10-26 procurement cutoff elapsed; no bid recorded and production SaaS qualifications unverified; REJECT this intake.",
       "note": "AI extraction is plausible; production SaaS, ERP integration and support burden are the cost center."
     },
     {
@@ -599,8 +627,8 @@
       "name": "DHS — Ready, Set…ID the Biothreat",
       "type": "Prize challenge",
       "lane": "Bioinformatics",
-      "status": "WATCH",
-      "stage": "Likely reject",
+      "status": "REJECT",
+      "stage": "2026-11-02 stale-intake reconciliation: 2026-10-14 challenge cutoff elapsed; no entry recorded and specialist biothreat fit absent; REJECT this intake. Prior notes retained.",
       "value": "Up to $999,990",
       "value_kind": "official-reported",
       "deadline": "2026-10-14",
@@ -613,7 +641,7 @@
       "asset_repos": [
         "https://github.com/Svyable/frontier-lab"
       ],
-      "next": "No build. Reconsider only with credible metagenomics partner or pre-existing asset.",
+      "next": "2026-10-14 challenge cutoff elapsed; no entry recorded and specialist biothreat fit absent; REJECT this intake.",
       "note": "Headline prize is not enough to justify a domain jump."
     },
     {
@@ -688,8 +716,8 @@
       "name": "VA 36C10B26Q0834 — Enterprise AI Support Services",
       "type": "Federal procurement",
       "lane": "Enterprise AI",
-      "status": "WATCH",
-      "stage": "Later-solicitation / teaming",
+      "status": "REJECT",
+      "stage": "2026-11-02 stale-intake reconciliation: 2026-10-07 RFI cutoff elapsed; no response recorded and prime past-performance unverified; REJECT this intake. Prior notes retained.",
       "value": "Not stated",
       "value_kind": "payer-unstated",
       "deadline": "2026-10-07 10:00 ET",
@@ -703,7 +731,7 @@
         "https://github.com/Svyable/agents",
         "https://github.com/Svyable/frontier-lab"
       ],
-      "next": "Watch for later solicitation or teaming path; do not force a prime bid.",
+      "next": "2026-10-07 RFI cutoff elapsed; no response recorded and prime past-performance unverified; REJECT this intake.",
       "note": "Enterprise-scale delivery and past performance are the key barriers."
     },
     {
@@ -952,8 +980,8 @@
       "name": "Anthropic STEM Fellow — January–May 2027",
       "type": "Paid four-month fixed-term research fellowship",
       "lane": "AI-assisted science and rigorous evaluation",
-      "status": "WATCH",
-      "stage": "Official job posting verified 2026-10-25; STEM PhD, several years domain research, Claude Code experience, US work authorization and full-time availability UNVERIFIED",
+      "status": "REJECT",
+      "stage": "2026-11-02 stale-intake reconciliation: 2026-10-28 application deadline elapsed; no application recorded and STEM PhD/US work eligibility unverified; REJECT this intake. Prior notes retained.",
       "value": "$100,000–$167,000 compensation for four-month fellowship (gross pay, not Svyable grant revenue)",
       "value_kind": "employment-compensation",
       "deadline": "2026-10-28 (official posting); fellowship 2027-01-12 to 2027-05-08",
@@ -969,7 +997,7 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Minimum STEM PhD and several years experience; existing US work authorization; 40h/week Jan–May 2027; orientation in SF; application includes binding arbitration agreement; possible IP/work-product terms require review",
-      "next": "Verify STEM PhD, actual scientific research record, full-time availability, US work authorization, Claude Code use and reference consent; if any hard gate fails, REJECT before 2026-10-28. No application authorized.",
+      "next": "2026-10-28 application deadline elapsed; no application recorded and STEM PhD/US work eligibility unverified; REJECT this intake.",
       "source_verified": "2026-10-25 official Greenhouse posting"
     },
     {
@@ -977,8 +1005,8 @@
       "name": "MATS Residency — Winter 2027 (Incubation / AI safety research)",
       "type": "Paid research residency / employment",
       "lane": "Agent evidence verification and AI safety research",
-      "status": "WATCH",
-      "stage": "2026-10-25: official eligibility, track, compensation and full application requirements verified; detailed Incubation candidate research plan and 90-day evidence gates committed. NOT APPLIED.",
+      "status": "REJECT",
+      "stage": "2026-11-02 stale-intake reconciliation: 2026-10-31 AoE deadline elapsed by Nov 2; no application recorded in Svyable/Opps ledger; this intake REJECT, not LOST. Prior notes retained.",
       "value": "$155,000–$285,000 gross annual pay; 6–24 months, prorated; 6-month equivalent $77,500–$142,500 before taxes (not Svyable revenue)",
       "value_kind": "official-salary-not-grant",
       "deadline": "2026-10-31 Anywhere on Earth (AoE)",
@@ -995,7 +1023,7 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Full-time; ≥1/3 in-person at Berkeley/London/DC; two references, CV and applicant-authored responses; potential employer IP/exclusivity conflicts; income not company revenue; disclose AI assistance; no submission authorization.",
-      "next": "Applicant verifies full-time/in-person availability, two consenting references, work authorization, alternative earnings and IP compatibility; chooses track and personally approves any application. Otherwise WATCH or REJECT; no submission.",
+      "next": "2026-10-31 AoE deadline elapsed by Nov 2; no application recorded in Svyable/Opps ledger; this intake REJECT, not LOST.",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/mats-residency-winter-2027-incubation-preflight.md",
       "source_verified": "2026-10-25 official MATS residency/apply and residency/tracks pages"
     },
