@@ -1,5 +1,9 @@
 # Opportunity Ledger
 
+## Current hunt decision — 2026-11-03 (live BlueDot time-funding rule change)
+
+**ONE existing opportunity materially advanced:** [live BlueDot Rapid rule-change and submission preflight](opportunities/bluedot-rapid-2026-live-rule-change-2026-11-03.md). The [canonical Rapid page](https://bluedot.org/grants/rapid), freshly checked Nov 3, now explicitly offers **up to $20,000** and lists **time and living costs** as fundable; the [general grant FAQ](https://bluedot.org/grants) says **no BlueDot course required**. These current official statements supersede older $10k/stipend-atypical and Sprint-only eligibility assumptions. The $4,500 / 60-hour founder-time request is now categorically plausible, not guaranteed. Payment is after a claim and checks, with a 60-day completion-report requirement; payee, availability, rate, IP and overlap gates remain unverified. **PURSUE (conditional)**. Subjective prospective EV is **+$8.20** at 50% funding-category feasibility ×60% delivery ×8% award selection ×$1,800 net benefit −$35 applicant labor; 25% scenario −$13.40, 75% +$29.80. No observed probability uplift. **83 unique records: PURSUE 4 / WATCH 29 / REJECT 50 / OPEN 0 / WON 0 / LOST 0**. No submission, outreach, payment or new test.
+
 _Last consolidated: 2026-11-03 America/Chicago (**83 unique curated records**). BlueDot Rapid official rules reconciled; no external commitments._
 
 ## Current hunt decision — 2026-11-03 (BlueDot Rapid historical stipend precedent)
