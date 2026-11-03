@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 America/Chicago (Hunter: SOA AI model-selection internal matrix; XAI and Amazon institutional eligibility screened; 82 unique records)",
+  "generated_at": "2026-11-02 America/Chicago (Hunter: Tarbell Associate official opening; qualification/economics preflight; 83 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2029,6 +2029,30 @@
       ],
       "restrictions": "SOA plans copyright; five-page human-authored proposal, all AI use disclosed; publicity and conflicts; no award guarantee.",
       "next": "REJECT this intake unless genuine existing actuarial XAI qualifications independently emerge; do not invent experience."
+    },
+    {
+      "id": "tarbell-program-associate-institutional-grants-2026",
+      "name": "Tarbell Center — Program Associate, Institutional Grants",
+      "type": "Full-time paid employment (not grant or contract)",
+      "lane": "Desk AI research / Svyable Opps grant evaluation",
+      "status": "WATCH",
+      "stage": "2026-11-02 official vacancy verified; internal applicant qualification/economics preflight committed; no application",
+      "value": "US remote $88k–$99k; location-specific US up to $112k; UK remote £54k–£60k; London £59k–£66k; gross annual salary, not company revenue",
+      "value_kind": "official-employment-salary-location-specific",
+      "deadline": "2026-11-15 23:59 Pacific",
+      "qualification": "15% subjective feasibility; research and AI safety background potentially relevant, but personal CV, journalism/editor network, work eligibility, location, availability and references unverified",
+      "work": "Under 30min application stated; budget 1h/$35 applicant review, plus paid work test, interview and paid 1–2 day trial; full-time employment",
+      "reuse": "High Svyable/Opps decision ledger and Desk AI research reuse; low verified newsroom/grantmaking delivery",
+      "ev": "US remote midpoint $93,500 less illustrative $85,000 displaced annual earnings = $8,500 pretax conditional incremental value; 15% feasible×2% hired−$35 future application labor = −$9.50; favorable +$265 at $25k surplus×30%×4%−$35; uncalibrated",
+      "payer": "Tarbell Center for AI Journalism (> $30m raised since 2023 claimed by employer)",
+      "source": "https://www.tarbellcenter.org/careers/program-associate-institutional-grants",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps",
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "Full-time employee; UK/US remote possible, location preferences; paid test and paid trial; employment/portfolio IP and applicant truthfulness to review; no known ban on AI assistance in official posting",
+      "next": "WATCH until applicant verifies CV, US/UK work eligibility, full-time availability, genuine editorial relationships, alternative earnings and rights; do not apply without approval",
+      "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/tarbell-program-associate-2026-qualification-and-economics.md"
     }
   ],
   "engines": [
