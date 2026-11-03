@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 America/Chicago (Hunter: Tarbell Associate official opening; qualification/economics preflight; 83 unique records)",
+  "generated_at": "2026-11-03 America/Chicago (BlueDot Rapid official ceiling and stipend eligibility correction; 83 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -853,14 +853,14 @@
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
       "status": "PURSUE",
-      "stage": "2026-11-01: source-rights and grant-release-gate audit committed; exact four-file Git blobs and visible path authors inventoried. Apache-2.0 declaration and historic 82-test CI verified, but legal rights/payee/60h availability/overlap/submission approval remain applicant-only. No new tests or application.",
-      "value": "Up to $20,000 official Rapid ceiling; $4,500 self-contained conditional four-week request preferred for applicant review, or separate original $6,000 reviewer-inclusive draft (choose ONE); restricted project support, not profit",
+      "stage": "2026-11-03 official-source reconciliation: $10k/$20k ceiling discrepancy and atypical founder stipend identified. Applicant must substantiate exceptional stipend need; no submission. See reconciliation artifact.",
+      "value": "Official pages conflict: program-specific Rapid page $50–$10,000; general grants overview says up to $20,000. Use $10,000 as conservative ceiling pending clarification. Existing $4,500 alternative is 60h×$75 founder stipend, NOT standard eligible tooling cost.",
       "value_kind": "official-ceiling-and-internal-request",
       "deadline": "Rolling / no fixed cutoff on canonical Rapid page (reverified 2026-10-31)",
-      "qualification": "Official rolling Rapid permits time/living support and ongoing work, no course prerequisite. Public source and Apache-2.0 declaration verified, but GitHub author metadata is not proof of legal ownership. Applicant jurisdiction/sanctions, legal payee, 15h/week, contribution rights, overlap and application consents unverified.",
+      "qualification": "Official rolling Rapid permits time/living support and ongoing work, no course prerequisite. Public source and Apache-2.0 declaration verified, but GitHub author metadata is not proof of legal ownership. Applicant jurisdiction/sanctions, legal payee, 15h/week, contribution rights, overlap and application consents unverified. 2026-11-03: program-specific page says stipends/living expenses are not usual scope; a stronger exceptional case is required.",
       "work": "Historical 82/82 CI; four core Python file identities and visible Git commit histories verified Nov 1. Preferred prospective work remains 60 uncommitted founder hours over four weeks; no external reviewer or expenses promised. No further autonomous code until applicant release gates clear.",
       "reuse": "Very high: Apache-2.0 Control Evidence local subprocess pilot and 82 tests (all pre-grant sunk work); funded work would be distinct run-bound recorder authentication/replay feasibility, not EA/Foresight/Seed double-billed hours",
-      "ev": "Uncalibrated economic-surplus sensitivity with no selection-probability uplift, after $70 initial prep, $17.50–$35 earlier preflight, and $17.50 new CI/evidence labor: cautious −$92.50 to −$75; central −$26.50 to −$9; favorable +$87.50 to +$105. Break-even for latest $17.50 is +1.46 percentage points conditional selection at $2k surplus × 60% qualification; not demonstrated.",
+      "ev": "2026-11-03 forward-only: previous +$51.40 central assumes stipend eligibility. If stipend ineligible and no eligible expenses, −$35 applicant labor. Illustrative 10% exception feasibility ×60% capacity ×8% selection ×$1,800 surplus −$35 = −$26.36. New internal audit $17.50 sunk; no measured uplift. Prior scenarios remain in audit_ev/alternative_ev.",
       "payer": "BlueDot Impact",
       "source": "https://bluedot.org/grants/rapid",
       "asset_repos": [
@@ -868,14 +868,15 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Country/sanctions restrictions, charitable/educational purpose, material-change approval, claim/check payment and transfer fees; 60-day completion report. Founder time/payee/tax/IP unverified; no overlapping grant-funded costs.",
-      "next": "Applicant privately affirms lawful grant receipt/jurisdiction, 60h capacity, all contributor/source rights, no funded-hour overlap, and the $75/h planning basis; chooses only the $4.5k or $6k alternative and expressly approves any submission. Stop further autonomous engineering/polish pending clearance.",
+      "next": "STOP: verify exceptional founder-stipend eligibility, legal receipt, rights, availability and nonoverlap; no invented invoices or external submission. If no credible stipend case, downgrade to WATCH/REJECT.",
       "source_verified": "2026-11-01 official https://bluedot.org/grants/rapid and https://bluedot.org/grants ; GitHub LICENSE, four source blobs/path histories, historical CI 41170302920",
       "note": "Current official Rapid ceiling $20k, rolling, time/living support and existing work eligible; payment after approved claim/checks, 60-day completion report. BlueDot self-reports 77 earlier grants totaling >$50k. GitHub-hosted Ubuntu/Python 3.11 CI 82/82 passed: https://github.com/Svyable/Opps/actions/runs/41170302920 . Five tests prove synthetic contract trusts unverified writer/coverage strings and lacks replay freshness; these are deliberately passing gap characterizations, NOT security mitigations or deployed-agent evidence. 2026-10-31 self-contained $4.5k alternative: 60h×$75 planning support; zero reviewer/tooling budget; no selection-probability uplift claimed; old $6k remains separate unapproved version. 2026-11-01 registry value reconciled to 2026-10-31 $4,500 alternative; no application or selection uplift.",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-verified-ci-evidence-and-release-sheet.md",
       "alternative_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-self-contained-4500-alternative-2026-10-31.md",
       "alternative_ev": "Marginal $4.5k alternative: cautious −$11, central +$51.40, favorable +$133, assuming $35 new applicant review and $1.2k/$1.8k/$2.4k conditional economic benefit; 40/60/70% capacity and 5/8/10% selection, all subjective. Excludes historical sunk costs and does not supersede prior $6k cumulative sensitivity.",
       "provenance_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-source-rights-and-release-gate-2026-11-01.md",
-      "audit_ev": "New 2026-11-01 provenance audit assumed 0.5h×$35=$17.50; no demonstrated award probability uplift, standalone incremental EV −$17.50 if no eligibility-risk/time-saving benefit. Conditional full remaining-pursuit sensitivity after $35 applicant review + audit: cautious −$28.50, central +$33.90, favorable +$115.50, all subjective, prior preparation and taxes excluded."
+      "audit_ev": "New 2026-11-01 provenance audit assumed 0.5h×$35=$17.50; no demonstrated award probability uplift, standalone incremental EV −$17.50 if no eligibility-risk/time-saving benefit. Conditional full remaining-pursuit sensitivity after $35 applicant review + audit: cautious −$28.50, central +$33.90, favorable +$115.50, all subjective, prior preparation and taxes excluded.",
+      "reconciliation_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-official-ceiling-reconciliation-2026-11-03.md"
     },
     {
       "id": "bluedot-seed-grants-2026",
