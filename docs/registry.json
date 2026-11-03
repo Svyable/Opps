@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03 America/Chicago (live BlueDot Rapid time-funding correction; 83 unique records)",
+  "generated_at": "2026-11-03 America/Chicago (TAIF/BlueDot funding nonoverlap accelerator; 83 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -769,7 +769,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "2026-11-02: official TAI focus, live rolling intake and CEA content-license terms rechecked; committed a falsifiable five-link catastrophic-risk theory-of-change and pre-award staffing/telemetry/adoption stop-gate annex. Historical 96/96 synthetic/unit CI smoke job rechecked success; no new tests, real reviewer study, external adopter or application.",
+      "stage": "2026-11-03 accelerator: committed TAIF/BlueDot mutually exclusive funding election and overlap-risk matrix; no eligibility, staffing, IP, hours, reviewer, payment or independent-evidence gates cleared. Applicant decision required before submission. No new runtime tests or measured selection uplift.",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (official fund page reverified 2026-10-26 UTC)",
@@ -784,7 +784,7 @@
         "https://github.com/Svyable/human-kind",
         "https://github.com/Svyable/scrollq"
       ],
-      "restrictions": "CEA site terms updated Oct 1 2026 treat uploaded user content as nonconfidential/nonproprietary, with perpetual worldwide nonexclusive noncommercial license and moral-rights waiver language; separate grant terms/form unverified. No private traces or manuscripts uploaded. Payee, 12h/week, IP, no overlapping grants, genuine independent engineer/R1/R2/R3, authenticated telemetry, reviewer consent, publication rights and external adopter unverified.",
+      "restrictions": "CEA site terms updated Oct 1 2026 treat uploaded user content as nonconfidential/nonproprietary, with perpetual worldwide nonexclusive noncommercial license and moral-rights waiver language; separate grant terms/form unverified. No private traces or manuscripts uploaded. Payee, 12h/week, IP, no overlapping grants, genuine independent engineer/R1/R2/R3, authenticated telemetry, reviewer consent, publication rights and external adopter unverified. Funding overlap gate: proposed TAIF $25k and BlueDot $4.5k Control Evidence scopes may duplicate founder hours, scoring and release; BlueDot held by default pending task/date/hour allocation and applicant disclosures. See opportunities/taif-bluedot-nonoverlap-funding-election-2026-11-03.md.",
       "next": "PURSUE only after applicant privately confirms lawful payee, 12h/week, code/trace rights, independent engineer and 3 distinct human reviewers, credible authenticated sandbox telemetry, funding non-overlap and live form terms. If these cannot be substantiated, REJECT instead of adding synthetic work. No outreach/submission without approval.",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
