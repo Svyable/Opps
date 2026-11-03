@@ -1,8 +1,14 @@
 # Opportunity Ledger
 
-_Last consolidated: 2026-11-02 America/Chicago (**83 unique curated records**). Hunter: Tarbell Program Associate official vacancy and qualification/economics preflight; no external commitments._
+_Last consolidated: 2026-11-03 America/Chicago (**83 unique curated records**). BlueDot Rapid official rules reconciled; no external commitments._
 
-## Current hunt decision — 2026-11-02 (Tarbell Program Associate, employment lane)
+## Current hunt decision — 2026-11-03 (BlueDot Rapid eligibility correction)
+
+**ONE existing opportunity advanced:** [BlueDot Rapid — official-source reconciliation](opportunities/bluedot-rapid-2026-official-ceiling-reconciliation-2026-11-03.md) (**PURSUE, conditional**). The [program-specific Rapid page](https://bluedot.org/grants/rapid) says **$50–$10,000**, while the [general grants page](https://bluedot.org/grants) advertises **up to $20,000**. Conservatively use **$10,000** pending clarification. More importantly, the current $4,500 proposal is **60 hours of founder stipend**, and the program-specific page says stipends/living expenses are *not usual scope*; stronger justification is needed. The separate [sprint participant reimbursement scheme](https://blog.bluedot.org/p/rapid-small-grants-for-the-bluedot) is not interchangeable. The payer has [reported 77 grants totaling over $50k](https://blog.bluedot.org/p/weve-given-out-50000-in-rapid-grants).
+
+**Economics:** earlier future-only central +$51.40 assumes the stipend qualifies. If not, and there are no genuine alternative eligible expenses, future EV becomes **−$35** applicant labor. At an illustrative 10% exception feasibility ×60% capacity ×8% conditional selection ×$1,800 surplus −$35, EV **−$26.36**. New audit cost estimated **$17.50**, no measured selection uplift. No fabricated invoices, grant application, contact, or commitment. Existing Control Evidence source and historical CI reused; no new tests. **83 unique records: PURSUE 4 / WATCH 29 / REJECT 50 / OPEN 0 / WON 0 / LOST 0**. Next decision: applicant must substantiate exceptional time-support eligibility, rights, nonoverlap, lawful receipt and 60h availability; otherwise downgrade.
+
+## Prior hunt decision — 2026-11-02 (Tarbell Program Associate, employment lane)
 
 **ONE opportunity advanced:** [Tarbell Center — Program Associate, Institutional Grants](opportunities/tarbell-program-associate-2026-qualification-and-economics.md) (**WATCH**), a verified direct-employment opening rather than a grant. [Official vacancy](https://www.tarbellcenter.org/careers/program-associate-institutional-grants): **November 15, 2026, 11:59 p.m. Pacific** deadline. US remote **$88k–$99k**, with higher city-specific ranges up to **$112k**; UK remote **£54k–£60k**. Tarbell reports >$30m raised and 75+ journalists supported. The internal preflight maps actual Svyable/Opps grant-decision artifacts and Desk AI research to the employer's research/assessment duties, while expressly not asserting Sven has journalism relationships, employment eligibility or prior grantmaking experience. The vacancy offers a **paid work test** and **paid 1–2 day trial** (amount unspecified). No application submitted.
 
