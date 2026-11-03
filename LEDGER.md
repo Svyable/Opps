@@ -2,6 +2,12 @@
 
 _Last consolidated: 2026-11-03 America/Chicago (**83 unique curated records**). BlueDot Rapid official rules reconciled; no external commitments._
 
+## Current hunt decision — 2026-11-03 (BlueDot Rapid historical stipend precedent)
+
+**ONE existing opportunity advanced:** [BlueDot Rapid first-party stipend precedent and break-even analysis](opportunities/bluedot-rapid-2026-stipend-precedent-evidence-2026-11-03.md). BlueDot's [April 14, 2026 first-party retrospective](https://blog.bluedot.org/p/weve-given-out-50000-in-rapid-grants) names a **$4,200 facilitator-stipend grant**, **$8,000 startup-validation transition grant** and **$3,000 reading-group coordination grant**. This proves nonstandard person-time support has happened, but **does not prove** Svyable's proposed 60 founder hours at $75/h qualify. The [current Rapid rules](https://bluedot.org/grants/rapid) still call stipends atypical and cap normal grants at $10k. The $4,500 proposal remains **PURSUE (gated)**; no application submitted.
+
+**Economics:** with subjective 10% stipend-exception feasibility ×60% delivery ×8% selection ×$1,800 conditional economic benefit −$35 future applicant work, EV remains **−$26.36**. Break-even combined award probability 1.944%; at other assumptions fixed, exception feasibility must exceed **40.51%**. No measured probability uplift or new tests. Applicant must prove actual marginal time bottleneck, credible rate, rights, payee, future work, and no double-funding before further application labor. **83 unique records: PURSUE 4 / WATCH 29 / REJECT 50 / OPEN 0 / WON 0 / LOST 0**.
+
 ## Current hunt decision — 2026-11-03 (BlueDot Rapid eligibility correction)
 
 **ONE existing opportunity advanced:** [BlueDot Rapid — official-source reconciliation](opportunities/bluedot-rapid-2026-official-ceiling-reconciliation-2026-11-03.md) (**PURSUE, conditional**). The [program-specific Rapid page](https://bluedot.org/grants/rapid) says **$50–$10,000**, while the [general grants page](https://bluedot.org/grants) advertises **up to $20,000**. Conservatively use **$10,000** pending clarification. More importantly, the current $4,500 proposal is **60 hours of founder stipend**, and the program-specific page says stipends/living expenses are *not usual scope*; stronger justification is needed. The separate [sprint participant reimbursement scheme](https://blog.bluedot.org/p/rapid-small-grants-for-the-bluedot) is not interchangeable. The payer has [reported 77 grants totaling over $50k](https://blog.bluedot.org/p/weve-given-out-50000-in-rapid-grants).
