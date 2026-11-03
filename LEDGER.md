@@ -1,8 +1,14 @@
 # Opportunity Ledger
 
-_Last consolidated: 2026-11-02 America/Chicago (**82 unique curated records**). Hunter: SOA direct commissioned-research RFP model-selection feasibility matrix, XAI no-go, and Amazon ARA PI eligibility correction; no external commitments._
+_Last consolidated: 2026-11-02 America/Chicago (**83 unique curated records**). Hunter: Tarbell Program Associate official vacancy and qualification/economics preflight; no external commitments._
 
-## Current hunt decision — 2026-11-02 (SOA paid research RFP; human-authorship gate)
+## Current hunt decision — 2026-11-02 (Tarbell Program Associate, employment lane)
+
+**ONE opportunity advanced:** [Tarbell Center — Program Associate, Institutional Grants](opportunities/tarbell-program-associate-2026-qualification-and-economics.md) (**WATCH**), a verified direct-employment opening rather than a grant. [Official vacancy](https://www.tarbellcenter.org/careers/program-associate-institutional-grants): **November 15, 2026, 11:59 p.m. Pacific** deadline. US remote **$88k–$99k**, with higher city-specific ranges up to **$112k**; UK remote **£54k–£60k**. Tarbell reports >$30m raised and 75+ journalists supported. The internal preflight maps actual Svyable/Opps grant-decision artifacts and Desk AI research to the employer's research/assessment duties, while expressly not asserting Sven has journalism relationships, employment eligibility or prior grantmaking experience. The vacancy offers a **paid work test** and **paid 1–2 day trial** (amount unspecified). No application submitted.
+
+**Risk-adjusted WATCH:** illustrative US-remote annual pretax *incremental* value $8,500 after $85k alternative earnings; 15% qualification × 2% conditional selection − $35 future applicant work = **−$9.50 future EV**; favorable sensitivity **+$265**. Probabilities are uncalibrated; no measured uplift. Full-time availability, legal US/UK employment, personally verified qualifications, references and IP disclosure are gates. Do not double count salary alongside mutually exclusive full-time Bellingcat work. Officer vacancy remains separately WATCH; no status change. Newly verified direct opportunity adds one unique ID, bringing registry to **83**: **PURSUE 4 / WATCH 29 / REJECT 50 / OPEN 0 / WON 0 / LOST 0**.
+
+## Prior hunt decision — 2026-11-02 (SOA paid research RFP; human-authorship gate)
 
 **ONE opportunity materially advanced:** [Society of Actuaries Research Institute — The Right AI Tool for the Job](opportunities/soa-right-ai-tool-2026-internal-framework-and-bid-gates.md), a **paid commissioned research RFP** with proposals due **November 13, 2026** (hour not published). The [official RFP](https://www.soa.org/research/opportunities/2026/how-act-choose-between-models-plat) has **no guaranteed or advertised contract price**; its historical guide shows **$25k–$50k** for the middle 33rd–66th percentile of all contracted studies, not an offer. Payer is the established SOA Research Institute, but it may decline to award a contract. This is **WATCH**, not PURSUE: there is no verified actuarial co-researcher, personal practitioner track record, lawful payee, 160h capacity, or acceptable commissioned-IP arrangement.
 
