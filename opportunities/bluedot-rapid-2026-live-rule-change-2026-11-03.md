@@ -1,0 +1,21 @@
+# BlueDot Rapid — live official-rule correction (2026-11-03)
+
+## Decision-grade change
+
+The canonical live page https://bluedot.org/grants/rapid now explicitly says **up to $20,000**, and under **Research and learning** lists **time, living costs and research access**. It says applications can fund time to explore or begin something new. This supersedes the earlier archived/previously observed $10,000 ceiling and statement that stipends are atypical. The $4,500 Control Evidence request (60 future founder hours × $75) is now *categorically plausible*, but not automatically approved: the applicant still must show that the time is a genuine marginal bottleneck, the rate is reasonable, and the work advances AI safety. Source: https://bluedot.org/grants/rapid (verified Nov 3 2026; lines 27-63, 94-109, 129-131 in live page extraction).
+
+The official https://bluedot.org/grants FAQ says **no BlueDot course is required** (lines 43-45). This resolves the prior concern from the separate, older Sprint-only reimbursement scheme. Eligibility remains conditional on sanctions, legal payee, rights and project purpose. Restricted-country list is on the Rapid page. Funding is a single lump sum after an approved claim and checks, with possible transfer/FX fees; changes require prior written approval, and a short completion report is due within 60 days of finishing (Rapid FAQ lines 100-123). Do not assume cash arrives before the work or incur costs in reliance on approval.
+
+## Application-ready scope (internal; not submitted)
+
+**Request:** $4,500 for 60 prospective, non-overlapping hours at $75/hour; no invented compute purchases or retroactive compensation. Proposed deliverables: (1) reproducible Control Evidence receipt verifier and adversarial mutation/replay checks; (2) evidence-quality scoring protocol with documented abstentions; (3) sanitized, public reproducibility package; (4) concise outcome and limitation report. Existing 96/96 historical CI tests are baseline, not new delivery or external validation. Confirm deliverables do not duplicate already-funded work and distinguish new tasks from existing code.
+
+**Stop gates:** lawful payment jurisdiction and receiving entity; applicant's genuine ability to dedicate 60 hours; rate and budget support; contributor/IP license permissions; no overlapping grants; credible causal connection to AI risk; written agreement on whether founder time qualifies for this particular request; acceptance of actual terms. No submission or third-party contact without approval.
+
+## Conservative economic decision
+
+Prior model: 10% exceptional-stipend feasibility ×60% delivery feasibility ×8% selection ×$1,800 conditional net benefit −$35 future applicant labor = **−$26.36**. Because the official page now explicitly includes time/living costs, the 10% *category-exception* assumption is obsolete. Do not claim a measured new probability. Illustrative conditional scenarios using the same $1,800 net benefit, 60% delivery and 8% selection: 25% funding-category feasibility => $21.60 gross EV −$35 = **−$13.40**; 50% => $43.20 −$35 = **+$8.20**; 75% => $64.80 −$35 = **+$29.80**. Break-even category feasibility = $35/($1,800×0.60×0.08) = **40.51%**. These are planning assumptions, not acceptance rates. Labor spent on this review is sunk and must not be disguised as incremental future cost. If personal gates are cleared, a concise applicant-controlled submission is rational in the 50% scenario; otherwise defer.
+
+## Comparison / selection
+
+Bellingcat: $80k–$93k full-time contractor fee, Nov 8; higher previous modeled future EV (+$101.25), but employer explicitly prohibits AI-written applications and personal engineering credentials remain unverified (https://www.bellingcat.com/contractor-ai-engineer-open-source-agentic-systems/). EA Transformative AI Fund: typical $10k–$150k, rolling; prior +$144.50 prospective model before later audit costs, but authentic reviewers and staffing unverified (https://funds.effectivealtruism.org/funds/transformative-ai). BlueDot is selected for this run because its official eligibility change removes a previously dispositive submission weakness with negligible new technical work. No grant award, application, payer contact, test run or selection-odds measurement is claimed.
