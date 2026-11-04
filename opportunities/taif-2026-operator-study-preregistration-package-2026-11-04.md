@@ -7,6 +7,10 @@
 - https://funds.effectivealtruism.org/apply-for-funding — checked 2026-11-04. Application advertised under 1 hour; final form, rights, payment and grant terms require applicant review. The page identifies Centre for Effective Altruism Inc. as US 501(c)(3), EIN 33-3737390. A credible payer is not a guaranteed award.
 - Existing request: **$25,000 proposed**, not an awarded amount. Research money is restricted project funding, not automatically personal income.
 
+## Scope control — 2026-11-04 funding reconciliation
+
+**UNFUNDED EXPANSION / NOT PART OF THE CURRENT $25,000 APPLICATION.** This document's dual independent reference adjudicators, third dispute adjudicator, and unsafe-human-approval primary endpoint are a future operator-impact study, **not** the funded ten-week Control Evidence claim-verification pilot. The [actual applicant-review draft](taif-control-evidence-2026-application-draft.md) instead proposes two blinded experimental reviewers (24h), one separate independent R3 reference adjudicator (10h), and six hours of review reserve: 40h × an **unquoted** $100/h = $4,000. It measures false support of agent completion claims, not reduction of unsafe operator approvals. At 60 cases × 10 minutes, the two-reference-pass design below needs 10 additional hours ($1,000 illustrative) before any third-adjudicator disputes; it must not be represented as budgeted or committed. See the [cross-document budget audit](taif-2026-adjudicator-protocol-budget-conflict-2026-11-04.md). The applicant must elect and cost an expanded study separately before any submission. Neither study has independent participants, permissioned traces, or demonstrated efficacy.
+
 ## Decision-critical causal hypothesis
 **H1 (unproven):** In independently labeled agent-execution review tasks, showing a human reviewer a claim-to-evidence audit (including explicit missing-evidence/abstain) reduces approval of *unsafe or unsupported* completion claims compared with showing the same underlying agent narrative and records without the audit. **H0:** No reduction. The study cannot directly establish a reduction in catastrophic AI risk.
 
