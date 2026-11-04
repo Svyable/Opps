@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04 America/Chicago (TAIF protocol source corrected in place; 83 unique records)",
+  "generated_at": "2026-11-04 America/Chicago (BlueDot source-precedence and stop-loss; 83 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -855,7 +855,7 @@
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
       "status": "WATCH",
-      "stage": "2026-11-03 canonical program-specific Rapid page rechecked: $50–$10k, stipends atypical but exceptions possible, upfront default with reimbursement sometimes. Supersedes conflicting earlier $20k/routine founder-time/post-claim claims as working assumption. Existing $4,500 founder-time request remains on HOLD pending evidence; no submission.",
+      "stage": "2026-11-04: program-specific Rapid page says $50–$10k and exceptional stipends; general overview simultaneously advertises up to $20k. Source precedence and negative-EV stop-loss committed; $4,500 all-founder-time request remains WATCH, no submission.",
       "value": "Existing internal $4,500 request (60 future founder hours × $75), NOT awarded. Official Rapid snapshots conflict on program ceiling ($10k versus $20k); verify live application terms.",
       "value_kind": "official-ceiling-and-internal-request",
       "deadline": "Rolling; no fixed cutoff on canonical Rapid page (verified 2026-11-03)",
@@ -870,8 +870,8 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Conflicting official Rapid snapshots: stipend/living costs atypical versus expressly eligible; payment upfront default versus after claim; $10k versus $20k ceiling. No spending/claim before applicant verifies actual terms. Other payee, rights and overlap gates outstanding.",
-      "next": "WATCH until applicant can verify live form rules, genuine 60h future availability, $75/h rate and funding bottleneck, legal payee, rights, and nonoverlap with $25k EA Funds project. If unsupported REJECT; if verified and positive marginal EV, PURSUE with explicit submission approval.",
-      "source_verified": "2026-11-03 canonical official Rapid program page, official April 14 retrospective and separate March sprint program cross-checked. No runtime test or applicant qualification verified.",
+      "next": "Hold further autonomous proposal work until genuine applicant stipend justification, lawful payee, task-level EA Funds nonoverlap and rights are attested. Recompute EV then.",
+      "source_verified": "2026-11-04: official Rapid and general grants pages cross-checked; conflicting caps; $10k conservative. Stipend eligibility and funding nonoverlap unverified.",
       "note": "Current official Rapid ceiling $20k, rolling, time/living support and existing work eligible; payment after approved claim/checks, 60-day completion report. BlueDot self-reports 77 earlier grants totaling >$50k. GitHub-hosted Ubuntu/Python 3.11 CI 82/82 passed: https://github.com/Svyable/Opps/actions/runs/41170302920 . Five tests prove synthetic contract trusts unverified writer/coverage strings and lacks replay freshness; these are deliberately passing gap characterizations, NOT security mitigations or deployed-agent evidence. 2026-10-31 self-contained $4.5k alternative: 60h×$75 planning support; zero reviewer/tooling budget; no selection-probability uplift claimed; old $6k remains separate unapproved version. 2026-11-01 registry value reconciled to 2026-10-31 $4,500 alternative; no application or selection uplift.",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-verified-ci-evidence-and-release-sheet.md",
       "alternative_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-self-contained-4500-alternative-2026-10-31.md",
@@ -882,7 +882,8 @@
       "stipend_precedent_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-stipend-precedent-evidence-2026-11-03.md",
       "live_rule_change": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-live-rule-change-2026-11-03.md",
       "rule_conflict_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-official-snapshot-conflict-and-hold-2026-11-03.md",
-      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-canonical-rule-and-budget-release-gate-2026-11-03.md"
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-canonical-rule-and-budget-release-gate-2026-11-03.md",
+      "rule_reconciliation": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-04-rapid-grants-source-precedence-and-stop-loss.md"
     },
     {
       "id": "bluedot-seed-grants-2026",
