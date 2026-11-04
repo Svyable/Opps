@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03 America/Chicago (canonical BlueDot Rapid rule reconciliation; 83 unique records)",
+  "generated_at": "2026-11-04 America/Chicago (Bellingcat 20h economics decision; 83 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -17,7 +17,7 @@
       "type": "Paid individual engineering contractor (not grant)",
       "lane": "Control Evidence / Human Kind / Agent Business / Desk public-interest agent evaluation",
       "status": "PURSUE",
-      "stage": "2026-11-02 win accelerator: confidential first-party full-stack React/TypeScript, authenticated database hooks, Deno edge backend, SQL RLS, and nontrivial source tests independently inspected in a PRIVATE repository; 8/8 source-pattern assertions matched exact blobs. This partially resolves the implemented JS frontend/backend artifact gap, NOT applicant personal qualification, production deployment, MCP or user co-design. Private code and exact file paths intentionally not published. Earlier public Streamlit/Python crosswalk preserved.",
+      "stage": "2026-11-04: official 20h/week route explicitly modeled without inventing part-time pay; human-only authorship and November 8 decision gates documented. Previous implemented source audits remain unchanged.",
       "value": "Official full-time 40h/week annual fee USD $80,000–$93,000 for initial 12 months. Part-time 20h/week offered but fee UNPUBLISHED. Gross personal contractor compensation, not guaranteed Svyable company revenue.",
       "value_kind": "official-contractor-fee-range-fulltime-only",
       "deadline": "2026-11-08 (hour/timezone not published); rolling review began 2026-10-21, so apply earlier if human applicant elects",
@@ -36,9 +36,10 @@
         "https://github.com/Svyable/Svyable_Strategies"
       ],
       "restrictions": "Bellingcat explicitly filters AI-generated applications, motivation letters and ideas; only grammar/vocabulary refinement allowed. Human applicant must author. Remote with Europe overlap; 12-month 20/40h commitment. Contract IP, exclusivity, liability, insurance, invoicing, taxes, termination and part-time fee not published. 2026-11-02 confidential audit found a plaintext HTTP provider-key request and unverified compliance claims in private code; do not present this as secure production evidence or disclose private source. Bellingcat bans AI-generated application prose.",
-      "next": "PURSUE only applicant-controlled, self-authored decision before Nov 8. Privately confirm personal contributions/rights, genuine cloud/MCP deployment and nontechnical co-design if any, Europe overlap, full/part-time economics, and contract terms. Do not publish private code or use unverified security claims. No further autonomous application drafting or speculative engineering.",
-      "source_verified": "2026-11-02 official Bellingcat vacancy rechecked; connected GitHub private source read and 8 source-pattern checks; no runtime tests or award-probability change.",
-      "note": "Supplement adds implemented local UI/service evidence, NOT personal qualification or production experience. AI-generated packet internal only; Bellingcat bans AI-authored application. Applicant-controlled application form and terms remain unverified."
+      "next": "By Nov 8 human applicant decides 20h/40h Europe overlap and self-authored application; no AI-generated submission. If shortlisted verify actual part-time fee and outside-work/IP/insurance terms. No applicant qualification or award odds uplift established.",
+      "source_verified": "2026-11-04 official vacancy checked; part-time fee remains unpublished. Internal economic sensitivity only; no runtime tests or selection-probability uplift.",
+      "note": "Supplement adds implemented local UI/service evidence, NOT personal qualification or production experience. AI-generated packet internal only; Bellingcat bans AI-authored application. Applicant-controlled application form and terms remain unverified.",
+      "part_time_decision_sheet": "https://github.com/Svyable/Opps/blob/main/opportunities/bellingcat-2026-part-time-economics-and-human-decision-2026-11-04.md"
     },
     {
       "id": "tarbell-institutional-ai-journalism-2026",
