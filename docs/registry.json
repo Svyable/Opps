@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04 America/Chicago (ITU winner-only prize preflight; 84 unique records)",
+  "generated_at": "2026-11-04 America/Chicago (EA Funds official award precedents; 84 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -770,7 +770,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "2026-11-04: corrected conflicting operator-study source in place: dual-R3 unsafe-approval study explicitly unfunded expansion; $25k application remains single-R3 claim-verification pilot, 40h/$4k unquoted reviewer line. PURSUE evidence hold; no verified personnel/traces.",
+      "stage": "2026-11-04: official comparable-award evidence checked (Lida Safety Research $121,388.24; Simon Grimm $30,000); $25k request within published range, but precedents do not establish eligibility or odds. Evidence hold remains.",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (official fund page reverified 2026-10-26 UTC)",
@@ -807,7 +807,8 @@
       "local_process_probe": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-local-process-receipt-preflight.md",
       "local_process_code": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/local_tool_receipt_pilot.py",
       "causal_impact_gate": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-2026-causal-impact-evidence-gate-2026-11-04.md",
-      "adjudicator_budget_conflict": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-2026-adjudicator-protocol-budget-conflict-2026-11-04.md"
+      "adjudicator_budget_conflict": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-2026-adjudicator-protocol-budget-conflict-2026-11-04.md",
+      "comparable_awards": "opportunities/taif-2026-comparable-awards-and-claim-boundary-2026-11-04.md"
     },
     {
       "id": "foresight-ai-nodes-2026",
