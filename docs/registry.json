@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04 America/Chicago (BlueDot source-precedence and stop-loss; 83 unique records)",
+  "generated_at": "2026-11-04 America/Chicago (ITU winner-only prize preflight; 84 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2061,6 +2061,32 @@
       "restrictions": "Full-time employee; UK/US remote possible, location preferences; paid test and paid trial; employment/portfolio IP and applicant truthfulness to review; no known ban on AI assistance in official posting",
       "next": "WATCH until applicant verifies CV, US/UK work eligibility, full-time availability, genuine editorial relationships, alternative earnings and rights; do not apply without approval",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/tarbell-program-associate-2026-qualification-and-economics.md"
+    },
+    {
+      "id": "itu-ai-for-good-innovation-factory-2027",
+      "name": "ITU AI for Good Innovation Factory 2026–27 startup pitching competition",
+      "type": "Startup pitch prize / possible commercial partnerships",
+      "lane": "human-kind / Control Evidence / agent-business",
+      "status": "WATCH",
+      "stage": "2026-11-04 official organizer winner-only prize verified; eligibility and actual users unverified; preflight and stop-loss committed",
+      "value": "$20,000 cash to ONE June 2027 Grand Finale winner; no verified cash for each finalist; partnerships unpriced",
+      "value_kind": "official-winner-only-cash-prize",
+      "deadline": "Monthly pitch sessions Sep 2026–May 2027; next listed Dec 8, 2026; no universal official deadline verified; finale June 24, 2027",
+      "qualification": "Startup/entity age, funding, live MVP, real users, AI core and social impact unverified; subjective 30% qualification feasibility only",
+      "work": "~3h/$105 applicant preflight and pitch, additional travel/presentation work unpriced",
+      "reuse": "Moderate/high possible reuse of existing human-kind, Control Evidence and agent-business; no verified independent customers",
+      "ev": "Illustrative $20k ×30% feasibility×1% winner probability−$105 pursuit labor = −$45; no observed odds, travel and rights costs excluded",
+      "payer": "International Telecommunication Union (ITU), credible UN specialized agency and organizer; prize terms/payment not independently audited",
+      "source": "https://aiforgood.itu.int/about-us/innovation-factory/",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/itu-ai-for-good-innovation-factory-2027-eligibility-preflight-2026-11-04.md",
+      "asset_repos": [
+        "https://github.com/Svyable/human-kind",
+        "https://github.com/Svyable/agent-business",
+        "https://github.com/Svyable/Opps"
+      ],
+      "restrictions": "Winner-only prize; formal eligibility, IP/publicity, live pitch, Geneva travel and tax terms unverified; no entry or acceptance",
+      "next": "Verify official global round application rules and genuine entity/MVP/users before investing further; otherwise REJECT",
+      "source_verified": "2026-11-04 official ITU page; secondary listings conflicting on per-finalist payouts corrected"
     }
   ],
   "engines": [
