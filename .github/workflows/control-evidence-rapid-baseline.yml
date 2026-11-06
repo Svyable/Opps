@@ -1,0 +1,50 @@
+name: Control Evidence rapid-grant baseline
+
+on:
+  push:
+    paths:
+      - 'artifacts/control-evidence-2026/rapid_grant_baseline.py'
+      - 'artifacts/control-evidence-2026/contract_smoke.py'
+      - 'artifacts/control-evidence-2026/local_tool_receipt_pilot.py'
+      - '.github/workflows/control-evidence-rapid-baseline.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  constructed-baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run visible contract tests
+        run: python -m unittest -q contract_smoke
+        working-directory: artifacts/control-evidence-2026
+      - name: Run constructed baseline and retain raw JSON
+        run: python rapid_grant_baseline.py > rapid-grant-baseline-result.json
+        working-directory: artifacts/control-evidence-2026
+      - name: Validate reported denominators and baseline drift
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('rapid-grant-baseline-result.json').read_text())
+          assert d['schema']=='control-evidence-baseline-v1'
+          assert d['n']==len(d['rows'])==10
+          assert d['attacks']==sum(bool(r['attack']) for r in d['rows'])==4
+          assert d['falsely_supported']==sum(bool(r['falsely_supported']) for r in d['rows'])
+          assert d['baseline_mismatches']==0
+          print('constructed cases:',d['n'],'attack cases:',d['attacks'],'falsely supported:',d['falsely_supported'])
+          PY
+        working-directory: artifacts/control-evidence-2026
+      - name: Upload raw synthetic result (including on failure)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapid-grant-constructed-baseline
+          path: artifacts/control-evidence-2026/rapid-grant-baseline-result.json
+          if-no-files-found: warn
