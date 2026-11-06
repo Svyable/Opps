@@ -1,5 +1,10 @@
 # Opportunity Ledger
 
+## Current hunt — 2026-11-06 (BlueDot live terms reversal; STOP-LOSS)
+
+**ONE opportunity advanced: BlueDot Rapid Grants, PURSUE → WATCH.** [Dedicated official page](https://bluedot.org/grants/rapid) now describes $50–$10,000 awards, stipends/living expenses as *not usual scope* requiring a high-impact exception, normally upfront payment, and a short completion update rather than a formal report. [Grants index](https://bluedot.org/grants) and [Career Transition FAQ](https://bluedot.org/grants/career-transition) still describe a $20,000 ceiling and time support: official pages conflict. The existing $4,500 proposal consists entirely of unverified personal-time compensation and is therefore not a routine-fit grant. [Committed correction and economics](opportunities/2026-11-06-bluedot-live-terms-reversal.md). At 20% subjective fit, modeled prospective EV is **−$17.72** versus +$8.20 at 50% fit, before new research labor; break-even fit ~40.5%. No new award odds or test outcomes claimed. Stop further drafting until genuine exceptional-case evidence or a real non-stipend bottleneck exists. **Registry verified 84 unique IDs: 3 PURSUE, 31 WATCH, 50 REJECT, 0 OPEN/WON/LOST.** No application, outreach, spending or commitment.
+
+
 ## Win accelerator — 2026-11-06 (verified evidence gate; no speculative spend)
 
 **Selected ONE: BlueDot general Rapid Grants — conditional PURSUE, not submitted.** [Official current terms](https://bluedot.org/grants/rapid) confirm up to $20,000, including research time and living costs, with no published fixed deadline; lump-sum payment after claim/checks, jurisdiction/sanctions restrictions, agreed charitable use and a completion report within 60 days. Proposed $4,500/60h Control Evidence pilot reuses the existing Python evaluator, local subprocess probe, ten-case constructed baseline, CI workflow and application packet. Payer's [April 14, 2026 history](https://blog.bluedot.org/p/weve-given-out-50000-in-rapid-grants) reports 77 grants and over $50k, self-reported rather than audited.
