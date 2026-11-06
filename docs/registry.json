@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05 America/Chicago (Bellingcat public-source evidence crosswalk; 84 unique records)",
+  "generated_at": "2026-11-06 America/Chicago (BlueDot live-terms reversal; 84 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -855,12 +855,12 @@
       "name": "BlueDot Impact Rapid Grants — Control Evidence small pilot",
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
-      "status": "PURSUE",
-      "stage": "2026-11-05: live $20k/time-cost rules reverified; short-form $4,500 applicant-review packet committed with bounded 82-test evidence, explicit proposed milestones and six UNKNOWN/NOT APPROVED submission gates. Conditional PURSUE; no application submitted, no new test results.",
+      "status": "WATCH",
+      "stage": "2026-11-06: dedicated live Rapid page now says stipends/living expenses NOT usual scope (exceptional high-impact case required); $50-$10k range and usually upfront, short update/no formal report. Grants index and CTG FAQ still advertise up to $20k. $4,500 stipend-only packet no longer treated as routine fit; applicant and CI evidence unresolved. See opportunities/2026-11-06-bluedot-live-terms-reversal.md. No application.",
       "value": "Official ceiling up to $20,000; Svyable proposed restricted $4,500 for 60 hours at unquoted $75/hour. No award.",
       "value_kind": "official-ceiling-and-internal-request",
-      "deadline": "Rolling; no fixed deadline on live official Rapid page verified 2026-11-05",
-      "qualification": "Time and living costs expressly eligible under live rules; community/course affiliation increases likelihood but is not required. Recipient jurisdiction, sanctions, payee, 60h availability, rate, rights and project fit unverified.",
+      "deadline": "Rolling; no fixed deadline published on live dedicated Rapid page as of 2026-11-06",
+      "qualification": "General eligibility broad; BlueDot community affiliation advantageous not mandatory. Entire $4,500 proposal is personal time, which live dedicated page says is not usual scope; exceptional high-impact case needed. Payee jurisdiction, availability, rights, nonoverlap and benchmark remain unverified.",
       "work": "Historical 82/82 CI; four core Python file identities and visible Git commit histories verified Nov 1. Preferred prospective work remains 60 uncommitted founder hours over four weeks; no external reviewer or expenses promised. No further autonomous code until applicant release gates clear.",
       "reuse": "Very high: Apache-2.0 Control Evidence local subprocess pilot and 82 tests (all pre-grant sunk work); funded work would be distinct run-bound recorder authentication/replay feasibility, not EA/Foresight/Seed double-billed hours",
       "ev": "Future marginal model unchanged +$8.20: $1,800 conditional economic benefit ×50% eligibility/fit×60% delivery×8% award −$35 remaining applicant labor. New packet estimated 0.5h×$35=$17.50 sunk labor; combined incremental outlook −$9.30 if no measurable uplift, none claimed. Gross $4,500 restricted, not profit.",
