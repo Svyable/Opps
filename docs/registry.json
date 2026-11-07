@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06 America/Chicago (BlueDot live-terms reversal; 84 unique records)",
+  "generated_at": "2026-11-06 America/Chicago (BlueDot Media Grants preflight; 85 unique records)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2089,6 +2089,30 @@
       "restrictions": "Winner-only prize; formal eligibility, IP/publicity, live pitch, Geneva travel and tax terms unverified; no entry or acceptance",
       "next": "Verify official global round application rules and genuine entity/MVP/users before investing further; otherwise REJECT",
       "source_verified": "2026-11-04 official ITU page; secondary listings conflicting on per-finalist payouts corrected"
+    },
+    {
+      "id": "bluedot-media-grants-2026",
+      "name": "BlueDot Impact Media Grants — Shelf/Desk AI-risk original media series",
+      "type": "Restricted creator/media grant",
+      "lane": "Sven Hardy Benson's Shelf / Desk research / cinematic media",
+      "status": "WATCH",
+      "stage": "2026-11-06 official criteria and existing Shelf README verified; source-backed preflight committed; first-party audience and applicant eligibility unverified",
+      "value": "Official $20,000–$200,000 over 6–12 months; $40,000 illustrative project budget, not guaranteed or unrestricted income",
+      "deadline": "Rolling / no fixed closing date published on official Media Grants page as of 2026-11-06",
+      "qualification": "Existing self-built following explicitly required; 56 released books verified in Shelf README, but audience, engagement, payee jurisdiction, rights and applicant capacity unverified",
+      "work": "~2h/$70 future analytics and eligibility review; hypothetical 300h founder research/writing and 100h external editing if funded",
+      "reuse": "High: 56 released Shelf editions, live reader, Desk AI-risk research, existing media production experience; no verified audience metrics",
+      "ev": "Subjective central 35% fit × 3% conditional award × $7,500 conditional founder pretax surplus − $70 future review = +$8.75; conservative −$55; favorable +$117.50. No measured uplift; excludes tax and overruns",
+      "payer": "BlueDot Impact, documented grantmaker; no Media Grant award guaranteed",
+      "source": "https://bluedot.org/grants/media",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-06-bluedot-media-grants-preflight.md",
+      "asset_repos": [
+        "https://github.com/Svyable/shelf",
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "Existing self-built audience and craft/accuracy/distribution required; no lobbying, sanctions/jurisdiction exclusions, monthly/final updates, return unspent funds, grant agreement; editorial control retained; tax possible",
+      "next": "Verify dated first-party audience analytics, three published work samples, payee/rights, founder capacity and nonoverlap before moving to PURSUE; no submission without approval",
+      "source_verified": "2026-11-06 official page and Shelf README"
     }
   ],
   "engines": [
