@@ -1,5 +1,13 @@
 # Opportunity Ledger
 
+## Current hunt — 2026-11-07 (EA cross-call replay defect corrected)
+
+**ONE cash-relevant opportunity advanced:** EA Funds Transformative AI Fund, existing conditional **PURSUE**, proposed $25k restricted research pilot. Official fund https://funds.effectivealtruism.org/funds/transformative-ai accepts rolling applications, typically $10k–$150k. Rechecked SOA AI-model-selection RFP (Nov 13 deadline, $25k–$50k historical *range*, not an offered contract) but **REJECT/WATCH** without actuarial specialist and because SOA prohibits AI-written proposals. Bellingcat $80k–$93k full-time-equivalent AI engineer contract closes **Nov 8**, but **human-authored application required**; no AI-generated materials submitted. BlueDot Media $20k–$200k rolling requires an independently built audience; WATCH without first-party analytics.
+
+**Verified code finding:** `verified_claim.decide_verified` created its replay nonce set anew per call, so a receipt could be accepted in a later invocation. Committed repair requires caller-owned `used_nonces` and fails closed if absent; added three regressions, for **12 test definitions** total. [Decision and test gate](opportunities/2026-11-07-ea-replay-registry-hardening.md). **No updated suite execution or CI success verified**, and a set is not a durable cross-process store. Next gate: run source-pinned tests and implement a transactional durable nonce registry plus independent recorder. Incremental modeled labor 0.5h × $35=$17.50, no measured probability uplift; incremental cash EV **−$17.50** absent reuse. Existing subjective project EV unchanged. No external action.
+
+**Deduplicated registry unchanged: 90 unique records; 8 PURSUE, 32 WATCH, 50 REJECT, 0 OPEN/WON/LOST.** Five frontier benchmarks remain active technical pursuits with unverified cash compensation, not assumed monetary winners.
+
 ## Frontier campaign — 2026-11-07 (all five target benchmarks)
 
 **Five distinct user-requested targets added to the canonical registry; 90 unique IDs: 8 PURSUE technical, 32 WATCH, 50 REJECT, 0 OPEN/WON/LOST.** Public official benchmark contracts audited; benchmark slugs in the request were not all literal GitHub repository names. The first deadline-focused lane is **EC Rank** (Nov 14 user-reported), then ECDSA.fail (Dec 31 user-reported); FLock, Proximity's four tracks and CircuitBreaker remain active bounded experiments. **No verified cash prizes or dollar equivalents were established**, so these PURSUE statuses reflect explicit technical targeting, not positive monetary EV. [Five-track campaign](opportunities/2026-11-07-frontier-five-benchmark-campaign.md).
