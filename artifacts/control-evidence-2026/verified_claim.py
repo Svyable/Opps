@@ -8,7 +8,7 @@ KINDS = {'action_completed': ('action_succeeded', 'action_failed'),
          'alert_delivered': ('alert_delivered', 'alert_bounced')}
 
 def decide_verified(claim, receipts, coverage_receipt, key, used_nonces=None):
-    """Use caller-owned durable nonce registry; fail closed without one."""
+    """Use caller-owned nonce registry; fail closed without one (not crash-durable)."""
     if claim.get('claim_type') not in KINDS:
         raise ValueError('unsupported claim')
     if not isinstance(used_nonces, set):
