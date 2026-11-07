@@ -1,0 +1,36 @@
+name: Control Evidence receipt regression
+on:
+  push:
+    paths:
+      - 'artifacts/control-evidence-2026/receipt_boundary.py'
+      - 'artifacts/control-evidence-2026/verified_claim.py'
+      - 'artifacts/control-evidence-2026/test_verified_claim.py'
+      - '.github/workflows/control-evidence-receipts.yml'
+  pull_request:
+    paths:
+      - 'artifacts/control-evidence-2026/**'
+      - '.github/workflows/control-evidence-receipts.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  synthetic-receipt-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Execute committed synthetic regression suite
+        working-directory: artifacts/control-evidence-2026
+        run: |
+          python -m unittest -v receipt_boundary test_verified_claim 2>&1 | tee receipt-test-output.txt
+          test ${PIPESTATUS[0]} -eq 0
+      - name: Upload raw test log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: synthetic-receipt-test-log
+          path: artifacts/control-evidence-2026/receipt-test-output.txt
+          if-no-files-found: warn
