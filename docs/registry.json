@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 (SOA essay award screening)",
+  "generated_at": "2026-11-08 (EA $25k conditional reviewer packet; no new opportunity IDs)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -770,7 +770,7 @@
       "type": "Early-stage research grant",
       "lane": "Agent action claims and evidence completeness",
       "status": "PURSUE",
-      "stage": "2026-11-06: source-reviewed provenance vulnerability in contract evaluator (input-controlled independent writer and coverage labels); four constructed attack cases expected falsely supported, NOT newly executed. Committed authenticated receipt/replay/coverage/independent-holdout release decision at opportunities/2026-11-06-ea-control-evidence-provenance-release-decision.md. Submission held for independent evidence, rights, recipient and nonoverlap.",
+      "stage": "2026-11-08: conditional reviewer-ready $25k restricted Control Evidence pilot packet committed; official fund scope and rolling intake verified. No independent recorder, validated CI log, applicant eligibility or measured uplift; not submission-ready.",
       "value": "Official typical $10k–$150k; Svyable applicant-review request $25k / 10 weeks (not awarded)",
       "value_kind": "grant-request-not-award",
       "deadline": "Rolling / always open (official fund page reverified 2026-10-26 UTC)",
@@ -786,10 +786,10 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "CEA site terms updated Oct 1 2026 treat uploaded user content as nonconfidential/nonproprietary, with perpetual worldwide nonexclusive noncommercial license and moral-rights waiver language; separate grant terms/form unverified. No private traces or manuscripts uploaded. Payee, 12h/week, IP, no overlapping grants, genuine independent engineer/R1/R2/R3, authenticated telemetry, reviewer consent, publication rights and external adopter unverified. Funding overlap gate: proposed TAIF $25k and BlueDot $4.5k Control Evidence scopes may duplicate founder hours, scoring and release; BlueDot held by default pending task/date/hour allocation and applicant disclosures. See opportunities/taif-bluedot-nonoverlap-funding-election-2026-11-03.md.",
-      "next": "FIRST verify CI run of SQLite durable-nonce replay tests and protected recorder evidence; applicant must elect single-independent-R3 pilot or obtain dual-adjudication staffing/quotes, confirm payee/rights/hours/nonoverlap before any submission.",
+      "next": "First verify actual GitHub Actions raw test logs and obtain independently controlled recorder operator/host/key attestation, authorized holdout, staffing/budget quotes, applicant/payee/rights and nonoverlap. Review conditional reviewer packet; no submission without approval.",
       "technical_appendix": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/README.md",
       "smoke_test": "https://github.com/Svyable/Opps/blob/main/artifacts/control-evidence-2026/contract_smoke.py",
-      "note": "Prior R3 gate, reviewer budget repair and this local-process probe reduce specific feasibility gaps. The new worker is a real local subprocess but its supervisor is not independently authenticated; no deployed-agent data or human study. No measured grant-selection uplift. All applicant-controlled payee, capacity, staffing, evidence, privacy, rights and submission gates remain. 2026-11-04 source-level protocol correction: https://github.com/Svyable/Opps/blob/main/opportunities/taif-2026-operator-study-preregistration-package-2026-11-04.md ; no award odds uplift measured. 2026-11-08: committed SQLite atomic nonce replay store + 6 regression test definitions and updated CI; no successful test execution verified (local GitHub DNS failed). Technical gate: https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-08-ea-sqlite-durable-replay-gate.md. No measured odds uplift; incremental illustrative 1h/$35 labor, standalone EV -$35 absent measured value.",
+      "note": "Prior R3 gate, reviewer budget repair and this local-process probe reduce specific feasibility gaps. The new worker is a real local subprocess but its supervisor is not independently authenticated; no deployed-agent data or human study. No measured grant-selection uplift. All applicant-controlled payee, capacity, staffing, evidence, privacy, rights and submission gates remain. 2026-11-04 source-level protocol correction: https://github.com/Svyable/Opps/blob/main/opportunities/taif-2026-operator-study-preregistration-package-2026-11-04.md ; no award odds uplift measured. 2026-11-08: committed SQLite atomic nonce replay store + 6 regression test definitions and updated CI; no successful test execution verified (local GitHub DNS failed). Technical gate: https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-08-ea-sqlite-durable-replay-gate.md. No measured odds uplift; incremental illustrative 1h/$35 labor, standalone EV -$35 absent measured value.\n2026-11-08 reviewer packet: opportunities/2026-11-08-ea-control-evidence-25000-reviewer-packet.md. Three-month single-recorder R3 design, predeclared success/failure criteria, five budget lines totaling $25k. Planning only, no verified results or staff commitments.",
       "source_verified": "2026-11-02 official TAI fund and apply pages, CEA site terms; connected GitHub run 41375155596 smoke job success and exact run-bound/R3 source blobs. No new tests or selection uplift.",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-verified-evidence.md",
       "application_draft": "https://github.com/Svyable/Opps/blob/main/opportunities/taif-control-evidence-2026-application-draft.md",
