@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07 America/Chicago (five-target frontier benchmark campaign; source contracts and unranked EC Rank test)",
+  "generated_at": "2026-11-08 (SOA essay award screening)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2249,6 +2249,56 @@
       "upstream": "https://github.com/Layr-Labs/circuitbreaker-llm-verifier",
       "next": "Inspect accepted full proof statements, set scope to fixed eligible NP family, and prepare original mathematical proof audit before attempting submission.",
       "campaign": "opportunities/2026-11-07-frontier-five-benchmark-campaign.md"
+    },
+    {
+      "id": "soa-ai-antiselection-essay-2026",
+      "name": "SOA AI and Potential for Antiselection in Life Insurance Distribution — essay awards",
+      "type": "Essay cash award competition",
+      "lane": "Sven Hardy Benson AI decision systems / insurance risk commentary",
+      "status": "WATCH",
+      "stage": "Official cash and rights verified; human-authored original essay and actuarial relevance not established. Research-only eligibility decision memo committed.",
+      "value": "Up to $10,000 USD total award pool; per-author amount unspecified and discretionary",
+      "value_kind": "verified-aggregate-prize-not-individual-award",
+      "deadline": "2026-12-01",
+      "qualification": "Illustrative 50% chance of meeting originality/domain eligibility if a human-written unpublished essay can be produced; no existing eligible manuscript verified.",
+      "work": "8 hours human research/writing estimated; AI cannot materially generate submission text.",
+      "reuse": "AI governance, agentic bargaining, financial-risk research as background only; original prose and actuarial insight must be human-authored.",
+      "ev": "Illustrative $1,500 × 50% eligibility × 3% conditional win − 8h×$35 = −$257.50 before copyright costs. No positive cash EV established.",
+      "payer": "Society of Actuaries Research Institute (credible professional research body)",
+      "source": "https://www.soa.org/research/opportunities/2026/ai-potential-antiselection-life-ins/",
+      "repo": "https://github.com/Svyable/Opps",
+      "asset_repos": [
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "AI-generated substantive essay content prohibited; submitter grants unlimited publication license; prize winner assigns ALL copyrights to SOA; original unpublished work only.",
+      "next": "Only reconsider if Sven supplies independently human-authored original essay and approves copyright terms; otherwise no autonomous drafting.",
+      "source_verified": "Official call checked 2026-11-08",
+      "note": "Distinct from SOA policyholder-behavior research RFP. Memo: opportunities/2026-11-08-soa-ai-antiselection-essay-gate.md"
+    },
+    {
+      "id": "soa-catastrophic-risk-essay-2026",
+      "name": "SOA Incorporation of Catastrophic Risks into Actuarial Practice — essay awards",
+      "type": "Essay cash award competition",
+      "lane": "Sven Hardy Benson catastrophe/AI risk writing",
+      "status": "REJECT",
+      "stage": "Screened; award pool too small relative to human writing labor and rights loss.",
+      "value": "Up to $2,500 total awards; individual amount not promised",
+      "value_kind": "verified-aggregate-prize-not-individual-award",
+      "deadline": "2026-11-17",
+      "qualification": "Human-authored original unpublished 500–2,500-word essay and genuine actuarial relevance not evidenced.",
+      "work": "At least 6h human research/writing estimated; no AI substantive drafting.",
+      "reuse": "Existing AI catastrophic risk analysis as research background only.",
+      "ev": "Illustrative $1,000 × 50% eligible × 3% award − 6h×$35 = −$195 before rights cost; award cap is pooled.",
+      "payer": "Society of Actuaries Research Institute (credible)",
+      "source": "https://www.soa.org/research/opportunities/2026/incorp-cat-risk-act-practice/",
+      "repo": "https://github.com/Svyable/Opps",
+      "asset_repos": [
+        "https://github.com/Svyable/desk"
+      ],
+      "restrictions": "AI substantive authorship prohibited; unlimited publication license on submission; copyright assignment if award selected.",
+      "next": "No pursuit unless original human-authored unpublished essay already exists and rights cost is acceptable.",
+      "source_verified": "Official call checked 2026-11-08",
+      "note": "No draft prepared; human-authorship gate respected."
     }
   ],
   "engines": [
