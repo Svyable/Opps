@@ -2132,14 +2132,14 @@
       ],
       "restrictions": "Only original discoveries, no copied curves/isogenies/twists; certified points, nonregression and actual rank mandatory.",
       "source_verified": "Benchmark contracts inspected November 7, 2026; monetary award and user-stated closing dates not independently verified.",
-      "note": "User explicitly instructed targeting all five; PURSUE means bounded technical exploration, NOT a positive expected-cash-return claim.",
+      "note": "User explicitly instructed targeting all five; PURSUE means bounded technical exploration, NOT a positive expected-cash-return claim. 2026-11-08 negative certificate: (-6,2)+(-2,10)=-(12,38) on [0,0,0,-28,52]; full 10-point list dependent. See opportunities/2026-11-08-ec-rank-dependency-audit.md. No prize amount confirmed.",
       "id": "frontier-ec-rank-2026",
       "name": "Yukon EC Rank — original elliptic-curve rank and height records",
-      "stage": "FIRST: 9/9 local tests passed for deterministic unranked integral-curve probe; no PARI certification and no official score. User-reported Nov 14 deadline; first task verify genuine new curve and height-pairing independence.",
+      "stage": "Exact dependency audit executed 2026-11-08: 8/8 tests passed; original top five integral-point lists contain 27/22/23/18/25 short group-law relations; none of these full lists certifies independent rank. No official score.",
       "deadline": "2026-11-14 user-provided; official benchmark JSON has no cutoff",
       "source": "https://www.yukon.org/ecrank",
       "upstream": "https://github.com/Layr-Labs/elliptic-rank-challenge-public",
-      "next": "Run upstream PARI/GP 2.17.4 verifier on original candidates; preserve search logs and prohibit copied curves.",
+      "next": "Abandon raw integral-point-count-as-rank heuristic; seek original generators, pinned PARI/GP 2.17.4 certified independent point subset, novelty/minimality and official board score before any submission.",
       "campaign": "opportunities/2026-11-07-frontier-five-benchmark-campaign.md"
     },
     {
