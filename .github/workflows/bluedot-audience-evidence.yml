@@ -1,0 +1,36 @@
+name: BlueDot audience evidence validator tests
+on:
+  push:
+    paths:
+      - 'artifacts/bluedot-media-2026/audience_evidence_validator.py'
+      - 'artifacts/bluedot-media-2026/test_audience_evidence_validator.py'
+      - '.github/workflows/bluedot-audience-evidence.yml'
+  pull_request:
+    paths:
+      - 'artifacts/bluedot-media-2026/**'
+      - '.github/workflows/bluedot-audience-evidence.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run synthetic unit tests (no real audience data in repository)
+        working-directory: artifacts/bluedot-media-2026
+        shell: bash
+        run: |
+          set -o pipefail
+          python -m unittest -v test_audience_evidence_validator 2>&1 | tee audience-validator-test.log
+      - name: Upload raw test log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bluedot-audience-validator-tests
+          path: artifacts/bluedot-media-2026/audience-validator-test.log
+          if-no-files-found: warn
