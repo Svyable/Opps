@@ -52,6 +52,12 @@ class AudienceEvidenceTests(unittest.TestCase):
     def test_noninteger_views(self):
         self.write([ROW[:3]+["many"]+ROW[4:]])
         with self.assertRaisesRegex(ValueError,"invalid row"):parse_rows(self.path)
+    def test_nan_watch_hours_rejected(self):
+        self.write([ROW[:4]+["nan"]+ROW[5:]])
+        with self.assertRaisesRegex(ValueError,"negative"):parse_rows(self.path)
+    def test_infinite_watch_hours_rejected(self):
+        self.write([ROW[:4]+["inf"]+ROW[5:]])
+        with self.assertRaisesRegex(ValueError,"negative"):parse_rows(self.path)
     def test_two_channels(self):
         other=ROW.copy();other[0]="Plein Air Radio"
         self.write([ROW,other])
