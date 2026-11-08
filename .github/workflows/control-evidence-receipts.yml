@@ -4,6 +4,8 @@ on:
     paths:
       - 'artifacts/control-evidence-2026/receipt_boundary.py'
       - 'artifacts/control-evidence-2026/verified_claim.py'
+      - 'artifacts/control-evidence-2026/durable_nonces.py'
+      - 'artifacts/control-evidence-2026/test_durable_nonces.py'
       - 'artifacts/control-evidence-2026/test_verified_claim.py'
       - '.github/workflows/control-evidence-receipts.yml'
   pull_request:
@@ -25,7 +27,7 @@ jobs:
       - name: Execute committed synthetic regression suite
         working-directory: artifacts/control-evidence-2026
         run: |
-          python -m unittest -v receipt_boundary test_verified_claim 2>&1 | tee receipt-test-output.txt
+          python -m unittest -v receipt_boundary test_verified_claim test_durable_nonces 2>&1 | tee receipt-test-output.txt
           test ${PIPESTATUS[0]} -eq 0
       - name: Upload raw test log
         if: always()
