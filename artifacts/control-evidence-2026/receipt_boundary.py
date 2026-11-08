@@ -24,14 +24,20 @@ def verify(event, signature, key, expected, used_nonces):
             return False
         if any(event[k] != expected[k] for k in ("scope_id", "action_id", "args_digest")):
             return False
-        if event["nonce"] in used_nonces:
-            return False
         if not hmac.compare_digest(hmac.new(key, raw, hashlib.sha256).hexdigest(), signature):
             return False
     except (KeyError, TypeError, ValueError):
         return False
-    used_nonces.add(event["nonce"])
-    return True
+    # Atomic consume for durable stores. A set is supported only for local
+    # synthetic compatibility, never for production replay guarantees.
+    if callable(getattr(used_nonces, "consume", None)):
+        return used_nonces.consume(event["nonce"])
+    if isinstance(used_nonces, set):
+        if event["nonce"] in used_nonces:
+            return False
+        used_nonces.add(event["nonce"])
+        return True
+    return False
 
 class BoundaryTests(unittest.TestCase):
     def setUp(self):
