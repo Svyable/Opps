@@ -2096,7 +2096,7 @@
       "type": "Restricted creator/media grant",
       "lane": "Sven Hardy Benson's Shelf / Desk research / cinematic media",
       "status": "WATCH",
-      "stage": "2026-11-06: three publicly released Shelf reader samples mapped to craft/accuracy/distribution; work-sample evidence packet committed. Self-built audience, rights, dates and fact-checks remain unverified; WATCH.",
+      "stage": "2026-11-07: first-party audience evidence validator, ten synthetic regression tests and CI workflow committed; no owner export yet, no tests/CI success independently verified; WATCH.",
       "value": "Official $20,000–$200,000 over 6–12 months; $40,000 illustrative project budget, not guaranteed or unrestricted income",
       "deadline": "Rolling / no fixed closing date published on official Media Grants page as of 2026-11-06",
       "qualification": "Existing self-built following explicitly required; 56 released books verified in Shelf README, but audience, engagement, payee jurisdiction, rights and applicant capacity unverified",
@@ -2111,8 +2111,9 @@
         "https://github.com/Svyable/desk"
       ],
       "restrictions": "Existing self-built audience and craft/accuracy/distribution required; no lobbying, sanctions/jurisdiction exclusions, monthly/final updates, return unspent funds, grant agreement; editorial control retained; tax possible",
-      "next": "Obtain first-party 90-day audience metrics; then human-review three sample editions for accuracy, rights and dates. No application without approval.",
-      "source_verified": "2026-11-06 official page and Shelf README"
+      "next": "Obtain owner-exported channel analytics CSV for a nonoverlapping 90-day period, run artifacts/bluedot-media-2026/audience_evidence_validator.py, retain source exports privately, inspect CI log, verify actual channel ownership and sample rights. Do not fabricate metrics or submit.",
+      "source_verified": "2026-11-06 official page and Shelf README",
+      "note": " | 2026-11-07: Source code and 10 synthetic tests committed for first-party evidence validation. No real audience counts inferred, no platform-authenticity proof, and no passing test execution claimed. Incremental effort estimated 1h/$35 illustrative labor, uplift unmeasured, standalone incremental EV -$35 until probability effect evidenced."
     },
     {
       "type": "Public technical leaderboard / frontier research benchmark; cash award not verified",
