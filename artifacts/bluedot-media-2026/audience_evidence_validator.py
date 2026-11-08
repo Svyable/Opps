@@ -10,6 +10,7 @@ import csv
 import datetime as dt
 import hashlib
 import json
+import math
 from pathlib import Path
 
 REQUIRED = ("channel", "period_start", "period_end", "views", "watch_hours",
@@ -42,7 +43,7 @@ def parse_rows(path):
             raise ValueError(f"row {i}: channel, owner attestation and export reference required")
         if end < start or end > dt.date.today() or (end-start).days > 366:
             raise ValueError(f"row {i}: invalid or future period")
-        if views < 0 or hours < 0 or gained < 0:
+        if not math.isfinite(hours) or views < 0 or hours < 0 or gained < 0:
             raise ValueError(f"row {i}: negative count not allowed")
         item = channels.setdefault(channel, {"periods": [], "views": 0, "watch_hours": 0.0,
                                               "subscribers_gained": 0, "sources": []})
