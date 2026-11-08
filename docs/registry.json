@@ -2111,9 +2111,9 @@
         "https://github.com/Svyable/desk"
       ],
       "restrictions": "Existing self-built audience and craft/accuracy/distribution required; no lobbying, sanctions/jurisdiction exclusions, monthly/final updates, return unspent funds, grant agreement; editorial control retained; tax possible",
-      "next": "Obtain owner-exported channel analytics CSV for a nonoverlapping 90-day period, run artifacts/bluedot-media-2026/audience_evidence_validator.py, retain source exports privately, inspect CI log, verify actual channel ownership and sample rights. Do not fabricate metrics or submit.",
+      "next": "Verify 12-test suite in CI; obtain genuine owner-exported 90-day channel analytics and channel control evidence; ensure country/sanctions eligibility, audience history and work sample rights before preparing application. No application or acceptance without approval.",
       "source_verified": "2026-11-06 official page and Shelf README",
-      "note": " | 2026-11-07: Source code and 10 synthetic tests committed for first-party evidence validation. No real audience counts inferred, no platform-authenticity proof, and no passing test execution claimed. Incremental effort estimated 1h/$35 illustrative labor, uplift unmeasured, standalone incremental EV -$35 until probability effect evidenced."
+      "note": " | 2026-11-07: Source code and 10 synthetic tests committed for first-party evidence validation. No real audience counts inferred, no platform-authenticity proof, and no passing test execution claimed. Incremental effort estimated 1h/$35 illustrative labor, uplift unmeasured, standalone incremental EV -$35 until probability effect evidenced. | 2026-11-07 late: Hardened owner-export validator against NaN/Infinity watch-hour inputs (float accepts these silently) and added two regression tests, now 12 defined tests. Commits 3ec0623487bf4ce39d02537a9dbafc9fe7b31523 / 5c76d9cfab49f2220d95cfbc25332b085cd09478. No verified execution; no owner export. Official BlueDot terms confirm funding $20k-$200k, self-built following, part-time, sanctions/country restrictions and grant taxation; no applicant eligibility established. Incremental estimated 0.5h/$17.50; no measurable odds uplift, standalone EV -$17.50 before reuse."
     },
     {
       "type": "Public technical leaderboard / frontier research benchmark; cash award not verified",
