@@ -8,10 +8,11 @@ KINDS = {'action_completed': ('action_succeeded', 'action_failed'),
          'alert_delivered': ('alert_delivered', 'alert_bounced')}
 
 def decide_verified(claim, receipts, coverage_receipt, key, used_nonces=None):
-    """Use caller-owned nonce registry; fail closed without one (not crash-durable)."""
+    """Use caller-owned nonce registry; fail closed without one; durable store recommended."""
     if claim.get('claim_type') not in KINDS:
         raise ValueError('unsupported claim')
-    if not isinstance(used_nonces, set):
+    if not (isinstance(used_nonces, set) or
+            callable(getattr(used_nonces, 'consume', None))):
         return 'insufficient_evidence'
     try:
         expected = {k: claim[k] for k in ('scope_id', 'action_id', 'args_digest')}
