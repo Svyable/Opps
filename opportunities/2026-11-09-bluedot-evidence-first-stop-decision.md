@@ -1,0 +1,17 @@
+# 2026-11-09 — BlueDot Rapid: evidence-first stop decision
+
+**Status: conditional PURSUE; not application-ready.** This is a dated decision record, not a grant application or evidence of award.
+
+## Primary-source check (November 9, 2026)
+- [BlueDot Rapid](https://bluedot.org/grants/rapid): up to **$20,000**; research time and living costs allowed; ~15-minute application; no fixed deadline or stated average decision time; lump-sum payment after claims checks; report within 60 days after work/grant end. BlueDot community participation is preferred, not mandatory. Payment-country exclusions and sanctions restrictions apply; applicant jurisdiction is unverified. No rights/IP terms are confirmed.
+- [BlueDot's April 14, 2026 public grant report](https://blog.bluedot.org/p/weve-given-out-50000-in-rapid-grants) reports 77 awards totaling over $50,000 at that date. This supports payer existence, not probability of a new award.
+- [EA Transformative AI Fund](https://funds.effectivealtruism.org/funds/transformative-ai): continuously accepts applications, typical $10k–$150k; Svyable's distinct $25k proposal remains a potential alternative, not committed funding.
+- [SOA Explainable AI RFP](https://www.soa.org/research/opportunities/2026/explainable-ai-reg-compliance/): November 13 deadline; requires applicant-authored (not AI-written) proposal, researcher credentials, and envisages SOA ownership of research copyright. Historical $25k–$50k project costs are **not** a promised award. Do not autonomously draft a submission under this RFP.
+
+## New independent repository check
+On November 9, checked GitHub's commit status and PR-associated Actions runs for workflow commit `963f60e062d5a69e590eafb59cb5c0a988ded3b2`: **zero commit statuses and zero PR-associated workflow runs returned**. These endpoints cannot exclude push-triggered runs, so this is **not proof that CI never ran**. It is also **not a passing CI log**. No new execution evidence has been established. The current workflow includes the funding release tests; synthetic tests cannot prove actual grant eligibility or independently controlled recording.
+
+## Cash decision
+Existing BlueDot proposal: $4,500 for 60 *future* hours at proposed $75/h. At a **hypothetical** $35/h opportunity cost, delivery consumes $2,100 and leaves $2,400 before tax, fees, overhead and compliance. Eligibility and selection probabilities are unknown, not safely inferable from prior award totals. Formula: **EV = $2,400 × P(eligible and awarded and paid) − additional pursuit costs**. At $35 additional labor, break-even joint probability is 1.46%; at $70, 2.92%. These are thresholds, not estimated odds. Applicant eligibility, location, 60-hour capacity, hourly rate justification, community credentials, independently administered recorder evidence, and exclusive EA/BlueDot work allocation remain first-party gates. Reuse of receipt verifier, funding gate, fixtures and proposal is high, but it does not establish a positive monetary EV.
+
+**Decision:** do not spend more autonomous engineering time on this proposal absent a concrete failing test, independently verified recorder, applicant evidence, or sponsor-requested correction. The highest-value next action is a first-party applicant eligibility and exclusive-funder decision, followed by raw CI job URL and logs. No submission, contact, expenditure, agreement, or IP transfer authorized. Preserve conditional PURSUE; no evidence justifies marking WON/LOST or inventing an application.
