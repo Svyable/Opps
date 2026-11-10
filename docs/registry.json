@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 (Bellingcat official deadline expiration audit; 92 unique opportunities)",
+  "generated_at": "2026-11-10 (BlueDot Seed official founder/payee eligibility reconciliation; 92 unique opportunities)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -893,7 +893,7 @@
       "type": "Early-stage project grant",
       "lane": "Agent control and evidence infrastructure",
       "status": "WATCH",
-      "stage": "2026-10-30: canonical intake and source-license gates remain documented; six-month 35h/week capacity not attested. Put on WATCH while a narrower, currently eligible-in-principle BlueDot Rapid four-week alternative is prepared. No submission or terms acceptance.",
+      "stage": "2026-11-10: official Seed terms reconciled: solo founders and some for-profits eligible, individual-founder payee default, no universal 35h/week rule published; still WATCH pending founder capacity, public-good case, nonoverlap, verified independent evidence. See opportunities/2026-11-10-bluedot-seed-founder-eligibility-reconciliation.md.",
       "value": "Official $20k–$200k / 6–12 months; $60k conditional six-month internal ask (not awarded)",
       "value_kind": "official-range",
       "deadline": "Rolling / no fixed cutoff published on canonical live Seed page (checked 2026-10-30 UTC)",
