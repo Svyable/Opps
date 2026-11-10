@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10 (BlueDot Seed official founder/payee eligibility reconciliation; 92 unique opportunities)",
+  "generated_at": "2026-11-10 (SOA Policyholder Behavior AI RFP eligibility gate; 93 unique opportunities)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2299,6 +2299,25 @@
       "next": "No pursuit unless original human-authored unpublished essay already exists and rights cost is acceptable.",
       "source_verified": "Official call checked 2026-11-08",
       "note": "No draft prepared; human-authorship gate respected."
+    },
+    {
+      "id": "soa-policyholder-behavior-ai-era-rfp-2026",
+      "name": "SOA Research Institute — Policyholder Behavior in the Artificial Intelligence Era",
+      "type": "Research RFP / potential paid contract",
+      "lane": "Control Evidence / Desk AI research / insurance AI",
+      "status": "WATCH",
+      "stage": "2026-11-10: official deadline Nov 13; mandatory human-written proposal and actuarial credentials unverified; internal reviewer gate committed, no proposal drafted",
+      "value": "Historical SOA contract costs $25k–$50k, not a quoted award; hypothetical $30k only for sensitivity",
+      "deadline": "2026-11-13 (receipt required; time zone not published)",
+      "qualification": "Unknown/low absent verified actuarial research competence, lead authority, and insurance data",
+      "work": "Human-only <=5-page proposal and CVs, budget and schedule; hypothetical 12h bid, 300h delivery; not verified",
+      "reuse": "Low-moderate: existing agent/Control Evidence research; insurance-specific quantitative research missing",
+      "payer": "Society of Actuaries Research Institute; credible established research commissioner; no contract guaranteed",
+      "restrictions": "AI-written proposal prohibited, any AI use disclosed; SOA plans copyright ownership and publicity obligations; agreement required",
+      "ev": "Unknown. Illustrative $13k conditional contribution and $600 bid cost requires >4.62% joint win probability; no measured probability",
+      "source": "https://www.soa.org/research/opportunities/2026/policyholder-behavior-ai-era/",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-10-soa-policyholder-ai-rfp-go-no-go.md",
+      "next": "Require first-party qualified human researcher and copyright review by Nov 13; otherwise REJECT after cutoff"
     }
   ],
   "engines": [
