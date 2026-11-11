@@ -1,0 +1,16 @@
+# BlueDot Rapid — first synthetic agent-boundary fixture (2026-11-10)
+
+**PURSUE / submission blocked.** One substantive gap in the $4,500 Control Evidence packet was that its only named regression evidence concerned *funding allocation*, not agent/tool authorization. Added an isolated deterministic authorization fixture and five unit tests:
+
+- [control_fixture.py](../artifacts/control-evidence-2026/control_fixture.py)
+- [test_control_fixture.py](../artifacts/control-evidence-2026/test_control_fixture.py)
+
+**Local evidence (2026-11-10):** `cd artifacts/control-evidence-2026 && python -m unittest -v test_control_fixture` equivalent test run from a local copy: five tests passed in 0.001s. Cases cover exact allow/deny decisions, case-sensitive fail-closed behavior, deterministic digest and order sensitivity, malformed input rejection, and excluding payload contents from the trace. The exact source was copied into GitHub via separate commits; GitHub CI was not verified after commit. Example three-request trace digest: `4290f23d98e4563f59fdab9b66da6383839513f72d2eebb0289a4114f8c90084`.
+
+**Critical limitation:** This is a synthetic model with no agent, actual tool calls, external recorder, independent verifier, adversarial evaluation, or evidence of advanced-AI catastrophic-risk reduction. It is a reusable test scaffold, not a safety benchmark or a grant eligibility credential. Before citing it as results, independently check GitHub blob parity with tested bytes and execute a clean checkout; then implement a real boundary with independent trace capture.
+
+**Official terms checked Nov 10:** [BlueDot Rapid](https://bluedot.org/grants/rapid) up to $20,000; research time and experiments eligible; plan/budget and evidence of progress required; no fixed deadline or award probability published; payment by claim and checks; restricted countries and sanctions; purpose changes require written approval and report within 60 days. [BlueDot reported 77 rapid awards exceeding $50k in April 2026](https://blog.bluedot.org/p/weve-given-out-50000-in-rapid-grants). [EA Transformative AI](https://funds.effectivealtruism.org/funds/transformative-ai) rolling, typical $10k–$150k; higher potential but stronger safety-fit evidence needed. [SOA Explainable AI RFP](https://www.soa.org/research/opportunities/2026/explainable-ai-reg-compliance/) Nov 13; prohibits AI-written proposals, requires disclosure and SOA research copyright. Do not submit an AI-authored proposal.
+
+**Economics:** $4,500 proposed restricted grant, 60h × $75 requested rate. Hypothetical delivery labor 60h × $35 = $2,100; conditional surplus $2,400 before taxes, fees and overhead. Estimated incremental fixture effort 0.5h × $35 = $17.50; break-even uplift in joint eligibility/award/payment probability if considering incremental fixture alone is 17.50/2400 = 0.73 percentage points. **No empirical uplift or actual award probability is known**; standalone incremental cash EV is −$17.50 before reusable research value. Applicant/payment country, capacity, rate justification, cross-funder scope and real independent recorder evidence still blocked.
+
+**Decision:** Hold PURSUE; no submission. No spend, third-party contact, contract or IP transfer. Deduplicated registry remains 93: 8 PURSUE / 33 WATCH / 52 REJECT, zero OPEN/WON/LOST; five frontier benchmark lanes preserved.
