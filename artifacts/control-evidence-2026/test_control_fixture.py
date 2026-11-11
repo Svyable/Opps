@@ -25,5 +25,19 @@ class FixtureTests(unittest.TestCase):
         self.assertNotIn('never logged', str(run_fixture([request])))
 
 
+    def test_reject_string_allowlist_substring_bypass(self):
+        with self.assertRaises(ValueError):
+            run_fixture([{'action':'read'}], allowed_actions='read_public')
+
+    def test_reject_malformed_allowlist_entries(self):
+        for bad in [None, 42, {'read_public': True}, ['read_public', None], ['']]:
+            with self.subTest(bad=bad), self.assertRaises(ValueError):
+                run_fixture([{'action':'read_public'}], allowed_actions=bad)
+
+    def test_exact_membership_with_valid_collection(self):
+        self.assertEqual(run_fixture([{'action':'read'}], allowed_actions=['read_public'])['trace'][0]['decision'], 'deny')
+        self.assertEqual(run_fixture([{'action':'read_public'}], allowed_actions=['read_public'])['trace'][0]['decision'], 'allow')
+
+
 if __name__ == '__main__':
     unittest.main()
