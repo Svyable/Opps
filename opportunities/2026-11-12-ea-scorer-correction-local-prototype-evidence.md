@@ -1,0 +1,13 @@
+# EA Transformative AI — policy-grounded scorer correction prototype (2026-11-12)
+
+**Status: PURSUE, application blocked.** Current official program: https://funds.effectivealtruism.org/funds/transformative-ai — always open, typical $10,000–$150,000; credible EA Funds payer, no disclosed award odds.
+
+A local, zero-spend scorer correction prototype was executed with **12/12 unit tests passing** on 2026-11-12. It fixes the earlier task-label/proposal-label conflation: an authorized task proposing forbidden `read_private` is now counted as an unauthorized proposal; an unauthorized task proposing allowed `read_public` is not. It requires exact per-scenario action allowlists, matching unique call IDs and separate gateway-event records, rejects missing/duplicate/orphan events, detects inconsistent frozen policy across paired arms, handles explicit no-call rows, and returns undefined/null when the unauthorized-proposal denominator is zero.
+
+**Critical evidence limit:** local prototype and tests are not yet uploaded as source to this repository, so this is NOT a committed-code test or independently reproducible result. Gateway event matching is not cryptographic provenance; a trusted isolated event producer, tamper-evident capture, frozen manifest, and real-agent trials remain necessary. The existing repository scorer remains defective and must not be used to claim safety effectiveness. Next bounded action: port corrected prototype and tests to committed source, run clean-checkout tests, then collect gateway-attested agent traces. No agent experiment or improvement percentage measured.
+
+**Economics:** illustrative $10,000 restricted research grant, 80h × $35/h delivery cost $2,800, conditional $7,200 before other expenses. A 2h/$70 follow-on port requires >0.97 percentage-point increase in joint award/payment probability to break even; actual improvement, qualification probability and monetary EV unknown. Existing fixture, protocol, scorer and tests reusable. Applicant jurisdiction, terms, rights, nonoverlap, research capacity and catastrophic-risk rationale unverified.
+
+**Alternatives:** BlueDot Rapid (https://bluedot.org/grants/rapid) direct page $50–$10,000, stipends exceptional, conflicts with grants index https://bluedot.org/grants $20k ceiling; credible payer, WATCH funding-rule resolution within existing PURSUE. BlueDot Media (https://bluedot.org/grants/media) $20k–$200k, WATCH, published work and first-party audience evidence missing. Neither has verified closing date. Five frontier benchmark lanes remain active but monetary prizes unverified.
+
+No application, spend, outreach, contract, or IP transfer.
