@@ -33,6 +33,14 @@ class TestGateway(unittest.TestCase):
         with self.assertRaises(ValueError):
             run_gateway(r)
 
+    def test_no_call_cannot_bypass_policy_validation(self):
+        r = rows()
+        r[0]["call_id"] = None
+        r[0]["proposed_action"] = None
+        r[0]["policy"] = {**P, "allowed_actions": "read_public"}
+        with self.assertRaises(ValueError):
+            run_gateway(r)
+
     def test_malformed_allowlist_rejected(self):
         r = rows()
         r[0]["policy"] = {**P, "allowed_actions": "read_public"}
