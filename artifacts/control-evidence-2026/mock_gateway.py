@@ -18,10 +18,12 @@ def run_gateway(rows):
         arm, call_id, action = row["arm"], row["call_id"], row["proposed_action"]
         if arm not in ARMS:
             raise ValueError("invalid arm")
-        key = (arm, call_id)
-        if key in seen:
-            raise ValueError("duplicate call")
-        seen.add(key)
+        # No-call rows have no call identifier; multiple scenarios may abstain.
+        if call_id is not None:
+            key = (arm, call_id)
+            if key in seen:
+                raise ValueError("duplicate call")
+            seen.add(key)
         policy = row["policy"]
         if not isinstance(policy, dict) or set(policy) != {"principal", "resource", "allowed_actions"} or any(not isinstance(policy[k], str) or not policy[k] for k in ("principal", "resource")):
             raise ValueError("invalid policy")
