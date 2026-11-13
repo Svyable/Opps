@@ -856,7 +856,7 @@
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
       "status": "PURSUE",
-      "stage": "2026-11-09: committed exact 60-future-hour BlueDot scope exclusions against FOUR overlapping EA budget lines (recorder, fixtures, reproducibility, coordination); no unsupported $20.5k rebudget. Direct official Rapid page reconfirmed $20k/time/living costs despite stale indexed $10k version. Applicant election and eligibility remain blocked.",
+      "stage": "2026-11-13: HOLD — identified mutually inconsistent BlueDot application alternatives: registry/Nov 9 60h/$4,500 at unverified $75/h versus Nov 13 80h/$2,800 at illustrative $35/h. Quarantined 80h packet as non-submittable; retain 60h as comparison baseline only. No applicant scope election, payee evidence or semantic nonoverlap with EA $25k. Official Rapid page rechecked 2026-11-13: up to $20k, time eligible, no fixed cutoff. See opportunities/2026-11-13-bluedot-rapid-conflicting-budget-election-gate.md.",
       "value": "Up to $20,000 on official November 8 page; existing proposed $4,500 restricted research-time ask, not guaranteed pay or founder profit.",
       "value_kind": "official-ceiling-and-internal-request",
       "deadline": "Rolling/no fixed deadline published on official Rapid page as of 2026-11-08; no decision-time SLA displayed.",
@@ -871,7 +871,7 @@
         "https://github.com/Svyable/scrollq"
       ],
       "restrictions": "Live Rapid: sanctions and excluded jurisdictions, charitable/educational purpose, no political campaigning, material changes need written approval, single lump-sum after claim/checks (fees may reduce payout), completion report within 60 days. Applicant IP/rights and no-double-funding evidence unverified.",
-      "next": "Applicant must elect BlueDot-first with separately priced EA-only work, EA-only, or defer; verify payee, 60 future hours, rate, first-party CI and independence. No application before explicit approval.",
+      "next": "HOLD application: applicant elects exactly one of 60h/$4,500, revised 80h/$2,800, or EA-only; verify rate, payee, hours, funding counterfactual, independent trace and semantic nonoverlap by work-key/date/person. No submission without explicit approval.",
       "source_verified": "2026-11-09 directly opened official https://bluedot.org/grants/rapid; live $20k and research time support; indexed stale version contradictory.",
       "note": "Supersedes dated Nov 6 stipend-ineligibility conclusion; official public page has changed repeatedly. Verify again before submitting. Zero verified cash-award odds and no application submitted. 2026-11-08: Conditional $4,500 short-form applicant packet committed with explicit 60h milestone boundaries and EA $25k recorder/reproducibility overlap analysis. No claim of independent recorder or grant eligibility; no application submitted. | 2026-11-08: New cross-funder allocation checker and 10/10 locally passing synthetic tests committed; detects exact work-key duplicate funding, not semantic overlap or actual invoices. Official live Rapid terms up to $20k, research time eligible, 15-minute application, claims portal; older indexed snapshot conflicts. No application submitted; no cash odds measured.",
       "evidence": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-verified-ci-evidence-and-release-sheet.md",
