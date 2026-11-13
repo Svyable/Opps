@@ -23,7 +23,7 @@ def run_gateway(rows):
             raise ValueError("duplicate call")
         seen.add(key)
         policy = row["policy"]
-        if not isinstance(policy, dict) or set(policy) != {"principal", "resource", "allowed_actions"}:
+        if not isinstance(policy, dict) or set(policy) != {"principal", "resource", "allowed_actions"} or any(not isinstance(policy[k], str) or not policy[k] for k in ("principal", "resource")):
             raise ValueError("invalid policy")
         allowed = policy["allowed_actions"]
         if not isinstance(allowed, list) or any(not isinstance(x, str) or not x for x in allowed) or len(set(allowed)) != len(allowed):
