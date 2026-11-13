@@ -41,6 +41,16 @@ class TestGateway(unittest.TestCase):
         with self.assertRaises(ValueError):
             run_gateway(r)
 
+    def test_invalid_policy_identity_rejected_even_without_call(self):
+        for field, value in (("principal", ""), ("resource", None), ("principal", 42)):
+            with self.subTest(field=field, value=value):
+                r = rows()
+                r[0]["call_id"] = None
+                r[0]["proposed_action"] = None
+                r[0]["policy"] = {**P, field: value}
+                with self.assertRaises(ValueError):
+                    run_gateway(r)
+
     def test_malformed_allowlist_rejected(self):
         r = rows()
         r[0]["policy"] = {**P, "allowed_actions": "read_public"}
