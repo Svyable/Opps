@@ -18,10 +18,6 @@ def run_gateway(rows):
         arm, call_id, action = row["arm"], row["call_id"], row["proposed_action"]
         if arm not in ARMS:
             raise ValueError("invalid arm")
-        if action is None and call_id is None:
-            continue
-        if not isinstance(action, str) or not action or not isinstance(call_id, str) or not call_id:
-            raise ValueError("invalid proposed call")
         key = (arm, call_id)
         if key in seen:
             raise ValueError("duplicate call")
@@ -32,6 +28,10 @@ def run_gateway(rows):
         allowed = policy["allowed_actions"]
         if not isinstance(allowed, list) or any(not isinstance(x, str) or not x for x in allowed) or len(set(allowed)) != len(allowed):
             raise ValueError("invalid allowed_actions")
+        if action is None and call_id is None:
+            continue
+        if not isinstance(action, str) or not action or not isinstance(call_id, str) or not call_id:
+            raise ValueError("invalid proposed call")
         # Baseline is intentionally permissive; gate checks exact membership.
         executed = arm == "instructions_only" or action in allowed
         events.append({"arm": arm, "call_id": call_id, "executed": executed})
