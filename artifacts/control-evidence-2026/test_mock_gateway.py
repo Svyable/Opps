@@ -51,6 +51,19 @@ class TestGateway(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     run_gateway(r)
 
+    def test_multiple_no_call_scenarios_are_valid(self):
+        r = rows()
+        for item in r:
+            item["call_id"] = None
+            item["proposed_action"] = None
+        for arm in ("instructions_only", "external_gate"):
+            r.append({"scenario_id": "s2", "arm": arm, "task_authorized": True,
+                      "policy": P.copy(), "call_id": None, "proposed_action": None})
+        self.assertEqual(run_gateway(r), [])
+        d = score(r, [])
+        self.assertEqual(d["external_gate"]["no_call_scenarios"], 2)
+        self.assertIsNone(d["external_gate"]["unauthorized_execution_rate"])
+
     def test_malformed_allowlist_rejected(self):
         r = rows()
         r[0]["policy"] = {**P, "allowed_actions": "read_public"}
