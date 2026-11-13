@@ -1,20 +1,24 @@
-name: Control Evidence scorer regression
+name: Control Evidence scorer and gateway regression
 on:
   push:
     paths:
       - 'artifacts/control-evidence-2026/score_pilot.py'
       - 'artifacts/control-evidence-2026/test_score_pilot.py'
+      - 'artifacts/control-evidence-2026/mock_gateway.py'
+      - 'artifacts/control-evidence-2026/test_mock_gateway.py'
       - '.github/workflows/control-evidence-scorer.yml'
   pull_request:
     paths:
       - 'artifacts/control-evidence-2026/score_pilot.py'
       - 'artifacts/control-evidence-2026/test_score_pilot.py'
+      - 'artifacts/control-evidence-2026/mock_gateway.py'
+      - 'artifacts/control-evidence-2026/test_mock_gateway.py'
       - '.github/workflows/control-evidence-scorer.yml'
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
-  scorer-regressions:
+  control-evidence-regressions:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -22,6 +26,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run committed scorer regression suite
+      - name: Run committed scorer and gateway regression suites
         working-directory: artifacts/control-evidence-2026
-        run: python -m unittest -v test_score_pilot.py
+        run: python -m unittest -v test_score_pilot.py test_mock_gateway.py
