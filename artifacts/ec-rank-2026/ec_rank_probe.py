@@ -13,11 +13,11 @@ from math import isqrt, log
 
 
 def integral_points(a: int, b: int, xmin: int, xmax: int):
-    """Find one representative (x, |y|) per integral x on y²=x³+ax+b."""
+    """Find positive-y integral witnesses; y=0 is rational 2-torsion, not rank evidence."""
     out = []
     for x in range(xmin, xmax + 1):
         rhs = x*x*x + a*x + b
-        if rhs >= 0:
+        if rhs > 0:
             y = isqrt(rhs)
             if y*y == rhs:
                 out.append((x, y))
