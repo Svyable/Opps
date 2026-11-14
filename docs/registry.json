@@ -856,7 +856,7 @@
       "type": "Research grant",
       "lane": "AI agent oversight / evaluation",
       "status": "PURSUE",
-      "stage": "2026-11-13: HOLD — identified mutually inconsistent BlueDot application alternatives: registry/Nov 9 60h/$4,500 at unverified $75/h versus Nov 13 80h/$2,800 at illustrative $35/h. Quarantined 80h packet as non-submittable; retain 60h as comparison baseline only. No applicant scope election, payee evidence or semantic nonoverlap with EA $25k. Official Rapid page rechecked 2026-11-13: up to $20k, time eligible, no fixed cutoff. See opportunities/2026-11-13-bluedot-rapid-conflicting-budget-election-gate.md.",
+      "stage": "2026-11-13 LIVE RULE CONFLICT / HOLD: direct official Rapid page currently says typical up to $10k and FAQ $50–$10k; official grants index says up to $20k. Direct page says stipends/living costs not usual scope, stronger case required. Earlier Nov 13 $20k/research-time-as-routine assertions superseded. Both 60h/$4,500 and 80h/$2,800 alternatives remain blocked for conflicting rates, uncertain stipend eligibility, payee jurisdiction and EA budget overlap. No application. See opportunities/2026-11-13-bluedot-rapid-control-evidence-conditional-package.md.",
       "value": "Up to $20,000 on official November 8 page; existing proposed $4,500 restricted research-time ask, not guaranteed pay or founder profit.",
       "value_kind": "official-ceiling-and-internal-request",
       "deadline": "Rolling/no fixed deadline published on official Rapid page as of 2026-11-08; no decision-time SLA displayed.",
@@ -885,7 +885,12 @@
       "rule_conflict_artifact": "https://github.com/Svyable/Opps/blob/main/opportunities/bluedot-rapid-2026-official-snapshot-conflict-and-hold-2026-11-03.md",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-09-bluedot-rapid-60h-funder-exclusion-schedule.md",
       "rule_reconciliation": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-04-rapid-grants-source-precedence-and-stop-loss.md",
-      "short_form_packet": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-05-bluedot-rapid-short-form-submission-packet.md"
+      "short_form_packet": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-05-bluedot-rapid-short-form-submission-packet.md",
+      "rule_conflict_verified_at": "2026-11-13",
+      "rule_conflict_sources": [
+        "https://bluedot.org/grants/rapid",
+        "https://bluedot.org/grants"
+      ]
     },
     {
       "id": "bluedot-seed-grants-2026",
