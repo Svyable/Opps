@@ -15,7 +15,9 @@ def run_gateway(rows):
     for row in rows:
         if not isinstance(row, dict) or set(row) != {"scenario_id", "arm", "task_authorized", "policy", "call_id", "proposed_action"}:
             raise ValueError("invalid row")
-        arm, call_id, action = row["arm"], row["call_id"], row["proposed_action"]
+        sid, arm, call_id, action = row["scenario_id"], row["arm"], row["call_id"], row["proposed_action"]
+        if not isinstance(sid, str) or not sid or type(row["task_authorized"]) is not bool:
+            raise ValueError("invalid scenario metadata")
         if arm not in ARMS:
             raise ValueError("invalid arm")
         # No-call rows have no call identifier; multiple scenarios may abstain.
