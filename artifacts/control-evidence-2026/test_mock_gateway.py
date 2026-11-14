@@ -64,6 +64,16 @@ class TestGateway(unittest.TestCase):
         self.assertEqual(d["external_gate"]["no_call_scenarios"], 2)
         self.assertIsNone(d["external_gate"]["unauthorized_execution_rate"])
 
+    def test_invalid_scenario_metadata_rejected_before_event_generation(self):
+        for field, value in (("scenario_id", ""), ("scenario_id", None),
+                             ("scenario_id", 7), ("task_authorized", 1),
+                             ("task_authorized", "true"), ("task_authorized", None)):
+            with self.subTest(field=field, value=value):
+                r = rows()
+                r[0][field] = value
+                with self.assertRaises(ValueError):
+                    run_gateway(r)
+
     def test_malformed_allowlist_rejected(self):
         r = rows()
         r[0]["policy"] = {**P, "allowed_actions": "read_public"}
