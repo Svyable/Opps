@@ -8,6 +8,14 @@ class SearchTests(unittest.TestCase):
     def test_exact_integer_points(self):
         for x,y in integral_points(-1,1,-8,8):
             self.assertEqual(y*y,x*x*x-x+1)
+    def test_two_torsion_not_counted_as_rank_witness(self):
+        # On a short Weierstrass curve, (x,0) has order 2 whenever nonsingular.
+        # y^2 = x^3 - x has three integral 2-torsion points.
+        pts=integral_points(-1,0,-3,3)
+        self.assertTrue(all(y>0 for x,y in pts))
+        self.assertFalse(any((x,y) in pts for x,y in [(-1,0),(0,0),(1,0)]))
+        # Do not discard legitimate positive-y witnesses.
+        self.assertIn((0,1),integral_points(-1,1,-3,3))
     def test_only_one_sign_per_x(self):
         pts=integral_points(-1,1,-8,8)
         self.assertEqual(len(pts),len({x for x,y in pts}))
