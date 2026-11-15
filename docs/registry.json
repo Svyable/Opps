@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14 (Control Evidence single-funder scope election; no status/count changes)",
+  "generated_at": "2026-11-14 (Anthropic Residency added WATCH; 94 unique, five frontier lanes retained)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2323,6 +2323,27 @@
       "source": "https://www.soa.org/research/opportunities/2026/policyholder-behavior-ai-era/",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-10-soa-policyholder-ai-rfp-go-no-go.md",
       "next": "Require first-party qualified human researcher and copyright review by Nov 13; otherwise REJECT after cutoff"
+    },
+    {
+      "id": "anthropic-residency-2026",
+      "name": "Anthropic Residency — paid senior technical research placement",
+      "type": "Paid fixed-term full-time individual research residency",
+      "lane": "Control Evidence / AI control / scalable oversight / adversarial robustness",
+      "status": "WATCH",
+      "stage": "2026-11-14 official deadline and applicant eligibility gate prepared; no application",
+      "value": "Official $350k–$500k annual-equivalent; illustrative six-week gross $40,385–$57,692, three-month $87,500–$125,000, six-month $175,000–$250,000; prorating and actual offer unverified",
+      "value_kind": "official-annualized-compensation-not-guaranteed",
+      "deadline": "2026-11-22; cutoff time/timezone not verified",
+      "qualification": "Official senior technical leadership and full-time transition required; personal leadership, authorship, work authorization, full-time availability and outside-IP constraints UNVERIFIED",
+      "work": "~2h/$70 illustrative application preflight after founder qualification; full-time 6 weeks to 6 months if accepted",
+      "reuse": "High Control Evidence AI-control synthetic gateway/scorer research; no independently verified real-agent efficacy or attributable senior leadership",
+      "ev": "Unknown; illustrative $15k genuinely incremental net benefit requires >0.467% joint qualification/selection/payment chance to offset $70 pursuit labor; no observed probability or net benefit; if full-time unavailable EV negative",
+      "payer": "Anthropic official Alignment Science blog; established AI research company, no offer",
+      "source": "https://alignment.anthropic.com/2026/anthropic-residency/",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/2026-11-14-anthropic-residency-decision-gate.md",
+      "restrictions": "Full-time; SF preferred, remote possible especially shorter placements; personal employment authorization, side projects/IP, taxes, confidentiality and salary terms unverified",
+      "next": "Before Nov 22 founder verifies senior technical leadership, full-time commitment, US/UK posting eligibility and conflict/IP restrictions; no application without explicit approval",
+      "source_verified": "2026-11-14 official residency announcement"
     }
   ],
   "engines": [
