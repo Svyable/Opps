@@ -1,7 +1,7 @@
 import unittest
 from receipt_audit import audit
 
-P = {'scenario_id':'s1','call_id':'c1','authorized':False}
+P = {'scenario_id':'s1','call_id':'c1','authorized':False,'proposed':'delete_file'}
 R = dict(P, proposed='delete_file', executed=False, recorder='external-executor')
 
 class ReceiptAuditTests(unittest.TestCase):
@@ -9,6 +9,12 @@ class ReceiptAuditTests(unittest.TestCase):
         self.assertEqual(audit([P],[R])['unauthorized_executed'],0)
     def test_unauthorized_execution_detected(self):
         self.assertEqual(audit([P],[dict(R,executed=True)])['unauthorized_executed'],1)
+    def test_action_substitution(self):
+        with self.assertRaisesRegex(ValueError, 'proposed action mismatch'):
+            audit([P],[dict(R,proposed='transfer_funds')])
+    def test_proposal_missing_action(self):
+        with self.assertRaisesRegex(ValueError, 'missing proposed action'):
+            audit([{k:v for k,v in P.items() if k != 'proposed'}],[R])
     def test_missing(self):
         with self.assertRaises(ValueError): audit([P],[])
     def test_duplicate(self):
