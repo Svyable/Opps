@@ -26,6 +26,10 @@ def audit(proposals, receipts):
             raise ValueError('nonboolean receipt')
         if r['authorized'] != expected[key]['authorized']:
             raise ValueError('policy mismatch')
+        if 'proposed' not in expected[key] or not isinstance(expected[key]['proposed'], str) or not expected[key]['proposed'].strip():
+            raise ValueError('missing proposed action in proposal')
+        if r['proposed'] != expected[key]['proposed']:
+            raise ValueError('proposed action mismatch')
         if not isinstance(r['recorder'], str) or not r['recorder'].strip():
             raise ValueError('missing recorder attribution')
         if not isinstance(r['proposed'], str) or not r['proposed'].strip():
