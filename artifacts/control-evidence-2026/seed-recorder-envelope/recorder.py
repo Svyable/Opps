@@ -16,11 +16,12 @@ def sign(event, key):
     return hmac.new(key, canonical(event), hashlib.sha256).hexdigest()
 
 
-def verify(event, tag, key, expected_run, expected_action, expected_digest):
+def verify(event, tag, key, expected_run, expected_action, expected_path, expected_digest):
     required = {'run_id', 'action_id', 'path', 'sha256', 'observed'}
     if set(event) != required or not isinstance(tag, str):
         return 'UNKNOWN'
-    if event['run_id'] != expected_run or event['action_id'] != expected_action:
+    if (event['run_id'] != expected_run or event['action_id'] != expected_action
+            or event['path'] != expected_path):
         return 'REJECT'
     if not hmac.compare_digest(sign(event, key), tag):
         return 'REJECT'
