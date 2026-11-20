@@ -3,7 +3,7 @@ from observer_boundary import run_trial
 
 class BoundaryTests(unittest.TestCase):
     def test_authorized_write(self):
-        self.assertEqual(run_trial(), 'VERIFIED')
+        self.assertEqual(run_trial(), 'OBSERVED_ONLY')
 
     def test_substituted_file(self):
         self.assertEqual(run_trial(tamper=True), 'REJECT')
@@ -17,10 +17,10 @@ class BoundaryTests(unittest.TestCase):
     def test_preexisting_without_execution(self):
         self.assertEqual(run_trial(prepopulate=True, omit=True), 'REJECT')
 
-    def test_post_precheck_injection_without_executor_false_verification(self):
-        # Expected vulnerability: matching bytes arrive from an untrusted actor
+    def test_post_precheck_injection_without_executor_is_observation_only(self):
+        # Expected limitation: matching bytes arrive from an untrusted actor
         # after the absence check; no authorized executor runs.
-        self.assertEqual(run_trial(omit=True, inject_after_precheck=True), 'VERIFIED')
+        self.assertEqual(run_trial(omit=True, inject_after_precheck=True), 'OBSERVED_ONLY')
 
 if __name__ == '__main__':
     unittest.main()
