@@ -11,5 +11,11 @@ class BoundaryTests(unittest.TestCase):
     def test_missing_execution(self):
         self.assertEqual(run_trial(omit=True), 'UNKNOWN')
 
+    def test_preexisting_matching_file(self):
+        self.assertEqual(run_trial(prepopulate=True), 'REJECT')
+
+    def test_preexisting_without_execution(self):
+        self.assertEqual(run_trial(prepopulate=True, omit=True), 'REJECT')
+
 if __name__ == '__main__':
     unittest.main()
