@@ -26,7 +26,7 @@ def observer(path, run_id, action_id, key, pipe):
     pipe.close()
 
 def run_trial(payload=b'authorized harmless write', tamper=False, omit=False,
-              prepopulate=False):
+              prepopulate=False, inject_after_precheck=False):
     """Prestate check blocks preexisting targets; not race-safe attestation."""
     with tempfile.TemporaryDirectory() as directory:
         path = str(Path(directory) / (secrets.token_hex(16) + '.bin'))
@@ -37,8 +37,7 @@ def run_trial(payload=b'authorized harmless write', tamper=False, omit=False,
         # Parent-controlled prestate check; same-host races remain possible.
         if Path(path).exists():
             return 'REJECT'
-        if not omit:
-            proc = mp.Process(target=executor, args=(path, payload))
+        # Adversarial negative-control hook: a separate actor can create the\n        # expected bytes after the parent checks absence but before observation.\n        if inject_after_precheck:\n            Path(path).write_bytes(payload)\n        if not omit:\n            proc = mp.Process(target=executor, args=(path, payload))
             proc.start()
             proc.join(5)
             if proc.is_alive():
