@@ -25,11 +25,18 @@ def observer(path, run_id, action_id, key, pipe):
     pipe.send((report, tag))
     pipe.close()
 
-def run_trial(payload=b'authorized harmless write', tamper=False, omit=False):
+def run_trial(payload=b'authorized harmless write', tamper=False, omit=False,
+              prepopulate=False):
+    """Prestate check blocks preexisting targets; not race-safe attestation."""
     with tempfile.TemporaryDirectory() as directory:
-        path = str(Path(directory) / 'action.txt')
+        path = str(Path(directory) / (secrets.token_hex(16) + '.bin'))
         key = secrets.token_bytes(32)
         run_id, action_id = secrets.token_hex(8), 'write-1'
+        if prepopulate:
+            Path(path).write_bytes(payload)
+        # Parent-controlled prestate check; same-host races remain possible.
+        if Path(path).exists():
+            return 'REJECT'
         if not omit:
             proc = mp.Process(target=executor, args=(path, payload))
             proc.start()
