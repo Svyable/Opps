@@ -1,4 +1,4 @@
-"""Two-process harmless-file observation demo; not hostile-host isolation."""
+"""Two-process harmless-file observation demo; never attests action provenance."""
 import hashlib
 import hmac
 import json
@@ -71,4 +71,4 @@ def run_trial(payload=b'authorized harmless write', tamper=False, omit=False,
             return 'REJECT'
         if not report['observed']:
             return 'UNKNOWN'
-        return 'VERIFIED' if report['sha256'] == hashlib.sha256(payload).hexdigest() else 'REJECT'
+        return 'OBSERVED_ONLY' if report['sha256'] == hashlib.sha256(payload).hexdigest() else 'REJECT'
