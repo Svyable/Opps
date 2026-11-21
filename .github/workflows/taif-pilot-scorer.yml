@@ -1,0 +1,36 @@
+name: TAIF pilot scorer synthetic regression
+on:
+  push:
+    paths:
+      - 'artifacts/control-evidence-2026/taif-pilot-score.py'
+      - 'artifacts/control-evidence-2026/test_taif_pilot_score.py'
+      - '.github/workflows/taif-pilot-scorer.yml'
+  pull_request:
+    paths:
+      - 'artifacts/control-evidence-2026/taif-pilot-score.py'
+      - 'artifacts/control-evidence-2026/test_taif_pilot_score.py'
+      - '.github/workflows/taif-pilot-scorer.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  synthetic-scorer-tests:
+    name: Scorer synthetic tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Check checked-out scorer and tests syntax
+        working-directory: artifacts/control-evidence-2026
+        run: python -m py_compile taif-pilot-score.py test_taif_pilot_score.py
+      - name: Execute five synthetic scorer regression tests
+        working-directory: artifacts/control-evidence-2026
+        run: python -m unittest -v test_taif_pilot_score
