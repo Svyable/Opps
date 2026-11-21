@@ -1,0 +1,36 @@
+name: Control Evidence observer negative controls
+on:
+  push:
+    paths:
+      - 'artifacts/control-evidence-2026/seed-recorder-envelope/observer_boundary.py'
+      - 'artifacts/control-evidence-2026/seed-recorder-envelope/test_observer_boundary.py'
+      - '.github/workflows/control-evidence-observer.yml'
+  pull_request:
+    paths:
+      - 'artifacts/control-evidence-2026/seed-recorder-envelope/observer_boundary.py'
+      - 'artifacts/control-evidence-2026/seed-recorder-envelope/test_observer_boundary.py'
+      - '.github/workflows/control-evidence-observer.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  observer-negative-controls:
+    name: Observer tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Syntax check exact checked-out source
+        working-directory: artifacts/control-evidence-2026/seed-recorder-envelope
+        run: python -m py_compile observer_boundary.py test_observer_boundary.py
+      - name: Run six observer tests including adversarial injection
+        working-directory: artifacts/control-evidence-2026/seed-recorder-envelope
+        run: python -m unittest -v test_observer_boundary
