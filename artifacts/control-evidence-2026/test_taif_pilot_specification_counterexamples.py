@@ -22,6 +22,7 @@ class SpecificationCounterexamples(unittest.TestCase):
         rows[0]["coverage"] = "missing"
         s = pilot.score(rows)
         self.assertEqual(s["pilot_gate"], "PASS")
+        self.assertEqual(s["reviewer_evidence_gate"], "NOT_MET")
         self.assertEqual(s["claim_only_false_support_rate"], 0.0)
         self.assertEqual(s["protected_false_support_rate"], 0.0)
         self.assertEqual(s["claim_only_correct_support_rate"], s["protected_correct_support_rate"])
@@ -33,6 +34,23 @@ class SpecificationCounterexamples(unittest.TestCase):
         self.assertEqual(s["pilot_gate"], "PASS")
         self.assertEqual(s["protected_omitted"], 1)
         self.assertEqual(s["protected_false_support_rate"], 0.0)
+
+    def test_reviewer_gate_requires_comparative_gain_and_balanced_strata(self):
+        rows = [row(i, "omitted", "support", "abstain") for i in range(100)]
+        rows += [row(i, "executed", "support", "support") for i in range(100, 200)]
+        rows[0]["coverage"] = "missing"
+        s = pilot.score(rows)
+        self.assertEqual(s["pilot_gate"], "PASS")
+        self.assertEqual(s["reviewer_evidence_gate"], "PASS")
+        self.assertEqual(s["comparative_false_support_reduction_count"], 100)
+
+    def test_reviewer_gate_rejects_baseline_equivalence_even_with_large_sample(self):
+        rows = [row(i, "omitted") for i in range(100)]
+        rows += [row(i, "executed", "support", "support") for i in range(100, 200)]
+        rows[0]["coverage"] = "missing"
+        s = pilot.score(rows)
+        self.assertEqual(s["pilot_gate"], "PASS")
+        self.assertEqual(s["reviewer_evidence_gate"], "NOT_MET")
 
 if __name__ == "__main__":
     unittest.main()
