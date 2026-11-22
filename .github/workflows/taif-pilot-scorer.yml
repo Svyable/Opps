@@ -4,11 +4,13 @@ on:
     paths:
       - 'artifacts/control-evidence-2026/taif-pilot-score.py'
       - 'artifacts/control-evidence-2026/test_taif_pilot_score.py'
+      - 'artifacts/control-evidence-2026/test_taif_pilot_specification_counterexamples.py'
       - '.github/workflows/taif-pilot-scorer.yml'
   pull_request:
     paths:
       - 'artifacts/control-evidence-2026/taif-pilot-score.py'
       - 'artifacts/control-evidence-2026/test_taif_pilot_score.py'
+      - 'artifacts/control-evidence-2026/test_taif_pilot_specification_counterexamples.py'
       - '.github/workflows/taif-pilot-scorer.yml'
   workflow_dispatch:
 
@@ -30,7 +32,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Check checked-out scorer and tests syntax
         working-directory: artifacts/control-evidence-2026
-        run: python -m py_compile taif-pilot-score.py test_taif_pilot_score.py
-      - name: Execute five synthetic scorer regression tests
+        run: python -m py_compile taif-pilot-score.py test_taif_pilot_score.py test_taif_pilot_specification_counterexamples.py
+      - name: Execute synthetic scorer and adversarial specification regression tests
         working-directory: artifacts/control-evidence-2026
-        run: python -m unittest -v test_taif_pilot_score
+        run: python -m unittest -v test_taif_pilot_score test_taif_pilot_specification_counterexamples
