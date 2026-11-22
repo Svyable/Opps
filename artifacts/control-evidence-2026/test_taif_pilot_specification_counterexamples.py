@@ -44,6 +44,26 @@ class SpecificationCounterexamples(unittest.TestCase):
         self.assertEqual(s["reviewer_evidence_gate"], "PASS")
         self.assertEqual(s["comparative_false_support_reduction_count"], 100)
 
+    def test_one_improvement_is_not_sufficient_paired_evidence(self):
+        rows = [row(i, "omitted") for i in range(100)]
+        rows[0]["claim_only"] = "support"
+        rows += [row(i, "executed", "support", "support") for i in range(100, 200)]
+        rows[1]["coverage"] = "missing"
+        result = pilot.score(rows)
+        self.assertEqual(result["pilot_gate"], "PASS")
+        self.assertEqual(result["paired_discordant_improved"], 1)
+        self.assertEqual(result["paired_one_sided_p"], 0.5)
+        self.assertEqual(result["reviewer_evidence_gate"], "NOT_MET")
+
+    def test_six_paired_improvements_cross_exploratory_threshold(self):
+        rows = [row(i, "omitted", "support" if i < 6 else "abstain") for i in range(100)]
+        rows += [row(i, "executed", "support", "support") for i in range(100, 200)]
+        rows[6]["coverage"] = "missing"
+        result = pilot.score(rows)
+        self.assertEqual(result["paired_discordant_improved"], 6)
+        self.assertEqual(result["paired_one_sided_p"], 1 / 64)
+        self.assertEqual(result["reviewer_evidence_gate"], "PASS")
+
     def test_reviewer_gate_rejects_baseline_equivalence_even_with_large_sample(self):
         rows = [row(i, "omitted") for i in range(100)]
         rows += [row(i, "executed", "support", "support") for i in range(100, 200)]
