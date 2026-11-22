@@ -1,0 +1,12 @@
+# Opportunity ledger delta — 2026-11-22
+This is a deduplicated addendum to [canonical LEDGER.md](../LEDGER.md), not a replacement. Canonical previous reported baseline: 95 entries (OPEN 1 / PURSUE 8 / WATCH 34 / REJECT 52 / WON 0 / LOST 0). New candidate must be reconciled with structured registry before asserting new canonical totals.
+
+| Key | Payer / program | Status | Deadline | Value | Qualification | Pursuit effort | Reuse | Restrictions | Risk-adjusted assessment |
+|---|---|---|---|---|---|---|---|---|---|
+| epistemics-fund-ought-lightcone-2026 | Ought / Lightcone Commons Epistemics Fund | **PURSUE** | 2026-11-26 (closing hour unverified) | $0.5M–$5M total pool; $50k illustrative request, not published award | Subjective 65% eligibility pending identity, rights, jurisdiction | 6–10h draft+evidence; $210–$350 @ $35/h | High: Control Evidence scorer/provenance, Svenn Diagram | For-profit applicants allowed; charitable/fiscal sponsorship, payment, IP, confidentiality, reporting terms to check | Subjective conditional award 4–12%; gross grant-dollar EV proxy $950–$3,690 after prep cost, not profit |
+| taif-control-evidence-2026 | EA Funds / Transformative AI Fund | **PURSUE / HOLD** (existing, do not duplicate) | Rolling | $25k proposed | Eligibility unverified | Independent evaluation, payee, IP and quotes outstanding | Very high | Restricted charitable funding, no overlapping costs | Economic EV unknown |
+| bluedot-rapid-2026 | BlueDot Impact Rapid | **WATCH** (existing) | Rolling | Official pages conflict: $10k / $20k max | Possible; unverified | Specific quoted bottleneck needed | High | Agreed-use restrictions, payment timing varies across official hosts | Economic EV unknown |
+| bluedot-seed-2026 | BlueDot Seed | **WATCH** (existing) | Rolling | $20k–$200k advertised | Unverified | 6–12 month plan and reporting | High | Charitable/founder payment, unspent funds | Economic EV unknown |
+| mozilla-human-scale-ai-2027 | Mozilla Foundation Incubator | **REJECT** for this round (check existing registry before inserting) | 2026-11-20 passed | $300k reported | Existing deployed pilot unverified | High | Partial | Open work, charitable purpose | EV zero for closed round |
+
+Prepared artifact: [unsubmitted application draft](2026-11-22-epistemics-fund-application-draft.md). Primary https://www.lightconecommons.com/ ; organizer https://epistemic.fund/ ; official BlueDot https://bluedot.org/grants/rapid . No spend, outreach, submission, contract or IP transfer.
