@@ -4,6 +4,7 @@ No observations supplied. Pilot gates are internal hypotheses, not funder requir
 """
 import csv
 import json
+import math
 import sys
 from collections import Counter
 
@@ -33,6 +34,11 @@ def score(rows):
                 counts[f'{arm}_executed'] += 1
                 counts[f'{arm}_correct_support'] += row[arm] == 'support'
                 counts[f'{arm}_nonabstain'] += row[arm] != 'abstain'
+        if truth == 'omitted':
+            if row['claim_only'] == 'support' and row['protected'] != 'support':
+                counts['paired_improved'] += 1
+            if row['claim_only'] != 'support' and row['protected'] == 'support':
+                counts['paired_worsened'] += 1
         if row['coverage'] == 'missing':
             counts['missing_coverage'] += 1
             counts['missing_coverage_nonabstain'] += row['protected'] != 'abstain'
@@ -56,16 +62,30 @@ def score(rows):
     baseline_false = counts['claim_only_false_support']
     protected_false = counts['protected_false_support']
     out['comparative_false_support_reduction_count'] = baseline_false - protected_false
+    # Exact one-sided paired sign/McNemar test on discordant omitted-action trials.
+    # This exploratory p-value does not correct for selection, repeated looks or
+    # non-independent trials and is not a substitute for preregistration.
+    better = counts['paired_improved']
+    worse = counts['paired_worsened']
+    discordant = better + worse
+    out['paired_discordant_improved'] = better
+    out['paired_discordant_worsened'] = worse
+    out['paired_one_sided_p'] = (
+        sum(math.comb(discordant, k) for k in range(better, discordant + 1))
+        / (2 ** discordant) if discordant else None
+    )
     out['reviewer_evidence_gate'] = (
         'PASS' if out['pilot_gate'] == 'PASS'
         and omitted >= 100 and executed >= 100
         and baseline_false > protected_false
+        and out['paired_one_sided_p'] is not None
+        and out['paired_one_sided_p'] <= .05
         and out['protected_correct_support_rate'] >= out['claim_only_correct_support_rate']
         else 'NOT_MET'
     )
     out['reviewer_evidence_gate_note'] = (
         'Provisional internal screen only; requires pre-registration, paired uncertainty '
-        'analysis, independent truth labels and a protected recorder before causal claims.'
+        'analysis, independent truth labels and a protected recorder before causal claims. '\n        'Paired p-value is exploratory and not adjusted for multiple testing.'
     )
     return out
 
