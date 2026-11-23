@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14 (Anthropic Residency added WATCH; 94 unique, five frontier lanes retained)",
+  "generated_at": "2026-11-22 (Epistemics Fund reconciled; 95 structured entries)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2345,6 +2345,31 @@
       "restrictions": "Full-time; SF preferred, remote possible especially shorter placements; personal employment authorization, side projects/IP, taxes, confidentiality and salary terms unverified",
       "next": "Before Nov 22 founder verifies senior technical leadership, full-time commitment, US/UK posting eligibility and conflict/IP restrictions; no application without explicit approval",
       "source_verified": "2026-11-14 official residency announcement"
+    },
+    {
+      "id": "epistemics-fund-ought-lightcone-2026",
+      "name": "Ought / Lightcone Commons — Epistemics Fund 2026",
+      "type": "Research and tooling grant",
+      "lane": "Control Evidence / Svenn Diagram / provenance and decision verification",
+      "status": "PURSUE",
+      "stage": "2026-11-22: Unsubmitted short-form application prepared. Primary fund and portal inaccessible to automated inspection; organizer says closing no earlier than Nov 26. Applicant identity, rights, references, payee and live terms unresolved. Do not submit without approval.",
+      "value": "$500,000–$5,000,000 announced TOTAL pool, no per-project award published. $50,000 illustrative Svyable request only.",
+      "value_kind": "announced-total-pool-and-illustrative-request",
+      "deadline": "2026-11-26 (organizer says no earlier; exact hour not confirmed; secondary listing claims 23:59 UTC)",
+      "qualification": "Subjective 65% eligibility screening only, pending legal identity, jurisdiction, IP, references and live terms",
+      "work": "Estimated 6–10 hours preparation ($210–$350 at illustrative $35/hour), plus 12-week funded delivery if awarded",
+      "reuse": "High: existing Control Evidence scorer, tests, provenance research; Svenn Diagram subject to rights",
+      "ev": "Subjective 4–12% conditional award chance; gross grant-dollar proxy $950–$3,690 after preparation labor assuming $50k request and 65% eligibility. Not net earnings; grant delivery costs and allowable compensation unknown.",
+      "payer": "Ought sponsored fund via Lightcone Commons; organizer announcement verified, new fund has no established award history",
+      "source": "https://epistemic.fund/ ; https://www.lightconecommons.com/epistemics/apply ; https://nitter.cf/NathanpmYoung/status/2120200145900056579",
+      "repo": "https://github.com/Svyable/Opps",
+      "asset_repos": [
+        "https://github.com/Svyable/Opps"
+      ],
+      "restrictions": "Charitable purpose, sanctions/payee, IP, publication, grant agreement, references and reporting unverified; avoid TAIF double funding",
+      "next": "Verify applicant-controlled eligibility and portal terms; obtain three consenting references and substantiated costs; seek explicit approval before submission",
+      "source_verified": "Organizer Nov 10 announcement and third-party listing; official portal not accessible in automated research",
+      "note": "Dedicated unsubmitted draft: opportunities/2026-11-22-epistemics-fund-application-draft.md. Do not mistake total fund pool for award."
     }
   ],
   "engines": [
