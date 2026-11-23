@@ -85,7 +85,8 @@ def score(rows):
     )
     out['reviewer_evidence_gate_note'] = (
         'Provisional internal screen only; requires pre-registration, paired uncertainty '
-        'analysis, independent truth labels and a protected recorder before causal claims. '\n        'Paired p-value is exploratory and not adjusted for multiple testing.'
+        'analysis, independent truth labels and a protected recorder before causal claims. '
+        'Paired p-value is exploratory and not adjusted for multiple testing.'
     )
     return out
 
