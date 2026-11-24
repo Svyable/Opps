@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22 (Epistemics Fund reconciled; 95 structured entries)",
+  "generated_at": "2026-11-24 (official closure screening and release gate refresh)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -1362,7 +1362,7 @@
       "next": "Applicant verify senior leadership and personal code role, legal US charity receipt, 12-month availability, rights/open-license and public benefit; personally author LOI by Dec 17 23:59 PST. Remote CI proof is reproducibility, not a deployment or adoption claim; explicit approval before submission.",
       "note": "New 2026-11-01 source blobs: run_bound_receipt_demo.py 1541995f0cd4064df2aefd8365781ddb92b70629; test_run_bound_receipt_demo.py abe4262cb94105fa131aa84e70c0fa30316cf4e9; 14/14 local tests Python 3.13.5. Local shared-key MAC is not independent attestation; in-memory replay tracking is not durable.",
       "evidence_url": "https://github.com/Svyable/Opps/blob/main/opportunities/mozilla-independent-2027-remote-ci-evidence-2026-11-01.md",
-      "source_verified": "2026-11-01 official Mozilla call/Oct 25 FAQ, GitHub Actions run 41375155596 and decoded job logs; 96 synthetic tests, nine suites."
+      "source_verified": "2026-11-01 official Mozilla call/Oct 25 FAQ, GitHub Actions run 41375155596 and decoded job logs; 96 synthetic tests, nine suites.; 2026-11-24 official call rechecked: LOI Dec 17 23:59 PST, $100k stipend plus $25k project, direct application."
     },
     {
       "id": "mozilla-human-scale-incubator-2027",
@@ -2367,9 +2367,28 @@
         "https://github.com/Svyable/Opps"
       ],
       "restrictions": "Charitable purpose, sanctions/payee, IP, publication, grant agreement, references and reporting unverified; avoid TAIF double funding",
-      "next": "Verify applicant-controlled eligibility and portal terms; obtain three consenting references and substantiated costs; seek explicit approval before submission",
+      "next": "Owner-only release decision: confirm legal applicant/payee and rights; obtain three consenting references if required by live form; confirm evaluator and budget, nonoverlap, actual closing hour and explicit approval. No further speculative drafting. If gates remain unresolved Nov 25, hold rather than submit.",
       "source_verified": "Organizer Nov 10 announcement and third-party listing; official portal not accessible in automated research",
       "note": "Dedicated unsubmitted draft: opportunities/2026-11-22-epistemics-fund-application-draft.md. Do not mistake total fund pool for award."
+    },
+    {
+      "id": "omidyar-tech-journalism-fund",
+      "name": "Omidyar Network Tech Journalism Fund",
+      "type": "Reporting grant",
+      "lane": "Desk / AI reporting",
+      "status": "REJECT",
+      "stage": "Official fund closed effective 2026-11-01; third-party December deadline stale",
+      "value": "Historical $5,000–$25,000",
+      "deadline": "Closed 2026-11-01",
+      "qualification": "0% current intake",
+      "work": "None; avoid speculative application",
+      "reuse": "High potential Desk reporting reuse, publication evidence unverified",
+      "ev": "$0 by rejecting; $35 wasted per hour if pursued",
+      "payer": "Omidyar Network established philanthropic funder",
+      "source": "https://omidyar.com/where-we-focus/tech-journalism-fund/",
+      "restrictions": "No new applications",
+      "next": "Watch distinct Reporters in Residence program early 2027; no application",
+      "source_verified": "2026-11-24 official closure notice"
     }
   ],
   "engines": [
