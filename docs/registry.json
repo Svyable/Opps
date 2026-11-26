@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24 (official closure screening and release gate refresh)",
+  "generated_at": "2026-11-26 (Catalyst eligibility and IP preflight)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2389,6 +2389,25 @@
       "restrictions": "No new applications",
       "next": "Watch distinct Reporters in Residence program early 2027; no application",
       "source_verified": "2026-11-24 official closure notice"
+    },
+    {
+      "id": "research-software-catalyst-exploratory-2026",
+      "name": "Research Software Catalyst Fund — Exploratory Grants",
+      "type": "Open research software grant",
+      "lane": "Control Evidence / Project 100",
+      "status": "PURSUE",
+      "stage": "2026-11-26: secondary-source corroboration; official application page returned 403. Eligibility and IP release preflight below; no submission.",
+      "value": "Reported $15,000–$50,000; modeled $40,000 request, not personal income",
+      "deadline": "2026-12-31; cutoff time unverified",
+      "qualification": "Subjective 60% eligibility × 8% conditional award; individual applicant route reported; company route excluded",
+      "work": "4h/$140 preparation; four months proposed delivery",
+      "reuse": "Control Evidence evidence schemas and Project 100 candidate workflows; verify licenses and personal contribution before reuse",
+      "ev": "$40,000 × 0.60 × 0.08 − $140 = $1,780 gross funding EV; delivery excluded",
+      "payer": "Catalyst Fund, reported fiscal sponsor The Hack Foundation; payment history not verified",
+      "source": "https://researchsoftwarecatalyst.fund/apply",
+      "restrictions": "Reported OSI software license; CC BY/CC0 other outputs; indirect costs <=10%; no company/LLC applicant; sanctions restrictions. Do not transfer background IP.",
+      "next": "Release preflight: establish individual payee eligibility and right to reuse each repository; inventory background vs funded IP; confirm compensation and reviewer costs; require independent acceptance criteria written before implementation; preserve private data; obtain explicit submission approval. Proposed $40k budget: $24k development, $6k independent review, $4k documentation, $2k infrastructure, $4k indirect. No spending authorized.",
+      "source_verified": "2026-11-26 secondary sources https://world-wide.org/grant/catalyst-exploratory-fund-research-i92ooljt and https://devgrantsdaily.com/items/2026-11-01-research-software-catalyst-fund/; primary fetch 403"
     }
   ],
   "engines": [
