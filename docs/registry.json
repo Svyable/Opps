@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26 (Allodial track 03 preflight)",
+  "generated_at": "2026-11-27 (RJI screening)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2428,6 +2428,25 @@
       "restrictions": "Permissive open source, authorship/publication retained; runtime self-hostable, no proprietary API or reference labels; 20/30/30/20 milestone payments; final holdout acceptance; background IP and acceptance terms unresolved",
       "next": "Track 03 only. Normalize OTel tool spans and claim events; classify supported, contradicted or insufficient evidence; never infer failure from missing telemetry. Aggregate corpus-level rates with session-cluster bootstrap intervals; freeze I/O schema week 4; validate on unseen structurally distinct holdout. Verify applicant and code links, conflicts, availability and contract before approval.",
       "source_verified": "2026-11-26 official RFP explicitly open rolling; remaining award count unknown"
+    },
+    {
+      "id": "rji-emerging-technology-fellowship-2027",
+      "name": "Reynolds Journalism Institute — Emerging Technology Fellowship",
+      "type": "Project fellowship",
+      "lane": "Desk / Control Evidence",
+      "status": "WATCH",
+      "stage": "2026-11-27 official call verified; newsroom validation missing",
+      "value": "USD 100000 stipend in three deliverable-linked installments",
+      "deadline": "2027-01-08",
+      "qualification": "Subjective 60% qualification × 3% conditional selection; worldwide applicants, no journalism credential required; newsroom fit and travel availability unverified",
+      "work": "4h initial preparation at $35/h; eight months delivery, illustrative 800h and $15000 external expenses",
+      "reuse": "Desk source-ledger methods and Control Evidence claim-to-trace adjudication; proposed AI-assisted newsroom source verification tool, no newsroom adoption claimed",
+      "ev": "100000 × .018 − 140 = $1660 gross; contribution EV (100000−28000−15000) × .018−140 = $886",
+      "payer": "Reynolds Journalism Institute, University of Missouri",
+      "source": "https://rjionline.org/about-rji-fellowships/",
+      "restrictions": "Free accessible open-source output; emerging technology essential; user testing and public launch; in-person kickoff June 28 2027 and additional covered visits; background IP terms unreviewed",
+      "next": "Validate newsroom demand with prospective users before drafting; no outreach or submission without approval",
+      "source_verified": "2026-11-27 official program page"
     }
   ],
   "engines": [
