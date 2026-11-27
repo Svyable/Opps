@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26 (Catalyst eligibility and IP preflight)",
+  "generated_at": "2026-11-26 (Allodial track 03 preflight)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2408,6 +2408,26 @@
       "restrictions": "Reported OSI software license; CC BY/CC0 other outputs; indirect costs <=10%; no company/LLC applicant; sanctions restrictions. Do not transfer background IP.",
       "next": "Release preflight: establish individual payee eligibility and right to reuse each repository; inventory background vs funded IP; confirm compensation and reviewer costs; require independent acceptance criteria written before implementation; preserve private data; obtain explicit submission approval. Proposed $40k budget: $24k development, $6k independent review, $4k documentation, $2k infrastructure, $4k indirect. No spending authorized.",
       "source_verified": "2026-11-26 secondary sources https://world-wide.org/grant/catalyst-exploratory-fund-research-i92ooljt and https://devgrantsdaily.com/items/2026-11-01-research-software-catalyst-fund/; primary fetch 403"
+    },
+    {
+      "id": "allodial-fiduciary-overlay-research-2026",
+      "name": "Allodial Foundation — Trace integrity research contract",
+      "type": "Fixed-price research services",
+      "lane": "Control Evidence",
+      "status": "PURSUE",
+      "stage": "Official RFP verified 2026-11-26; internal technical preflight, not submitted",
+      "value": "USD 50,000 maximum; proposed 50,000",
+      "value_kind": "fixed-price-contract",
+      "deadline": "Rolling; may close when funds committed",
+      "qualification": "Subjective 65% qualification × 10% conditional selection; applicant identity, availability and track record unverified",
+      "work": "4h preparation at $35/h; 12 weeks delivery; illustrative 480h at $35/h plus $8k external costs",
+      "reuse": "Control Evidence trace integrity fixtures; verify code and license before reuse",
+      "ev": "50000 × .065 − 140 = $3110 gross; contribution EV (50000−16800−8000) × .065−140 = $1498",
+      "payer": "Allodial Foundation Vermont nonprofit, 501(c)(3) pending; named Future of Life Foundation partner; payment history unverified",
+      "source": "https://allodial.org/rfp/",
+      "restrictions": "Permissive open source, authorship/publication retained; runtime self-hostable, no proprietary API or reference labels; 20/30/30/20 milestone payments; final holdout acceptance; background IP and acceptance terms unresolved",
+      "next": "Track 03 only. Normalize OTel tool spans and claim events; classify supported, contradicted or insufficient evidence; never infer failure from missing telemetry. Aggregate corpus-level rates with session-cluster bootstrap intervals; freeze I/O schema week 4; validate on unseen structurally distinct holdout. Verify applicant and code links, conflicts, availability and contract before approval.",
+      "source_verified": "2026-11-26 official RFP explicitly open rolling; remaining award count unknown"
     }
   ],
   "engines": [
