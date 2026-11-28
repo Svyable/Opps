@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27 (Allodial portfolio evidence reconciliation)",
+  "generated_at": "2026-11-28 (intake correction and contract diligence)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2415,7 +2415,7 @@
       "type": "Fixed-price research services",
       "lane": "Control Evidence",
       "status": "PURSUE",
-      "stage": "2026-11-27: official RFP refreshed; Human Kind and Project 100 README portfolio evidence crosswalk committed; personal contributions and submission authority unresolved",
+      "stage": "2026-11-27: official RFP refreshed; Human Kind and Project 100 README portfolio evidence crosswalk committed; personal contributions and submission authority unresolved; 2026-11-28 commercial contract diligence gates specified",
       "value": "USD 50,000 maximum; proposed 50,000",
       "value_kind": "fixed-price-contract",
       "deadline": "Rolling; may close when funds committed",
@@ -2426,8 +2426,8 @@
       "payer": "Allodial Foundation Vermont nonprofit, 501(c)(3) pending; named Future of Life Foundation partner; payment history unverified",
       "source": "https://allodial.org/rfp/",
       "restrictions": "Permissive open source, authorship/publication retained; runtime self-hostable, no proprietary API or reference labels; 20/30/30/20 milestone payments; final holdout acceptance; background IP and acceptance terms unresolved",
-      "next": "Confirm personal contributions, contracting identity, availability, IP and conflicts; authorize submission. No additional speculative engineering.",
-      "source_verified": "2026-11-27 official rolling RFP; remaining awards unknown",
+      "next": "Applicant release gates remain. Before signing, request written acceptance thresholds, cure period, milestone invoice due dates, background IP carveout and termination payment. No further speculative engineering.",
+      "source_verified": "2026-11-28 official RFP rolling; remaining awards unknown",
       "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/allodial-2026-11-27-portfolio-evidence.md"
     },
     {
@@ -2480,6 +2480,22 @@
       "restrictions": "Full-time; DC preference; technical and policy expertise",
       "ev": "85000 × .01 − 105 = $745 gross",
       "source": "https://www.iaps.ai/frontier-security-researcher"
+    },
+    {
+      "id": "tarbell-individual-reporting-grants",
+      "name": "Tarbell individual AI reporting grants",
+      "status": "WATCH",
+      "value": "$1,000–$20,000 restricted reporting funding",
+      "deadline": "Last round closed July 12, 2026; next unannounced",
+      "qualification": "0% current intake; future fit 45% illustrative, established outlet and reporting clips needed",
+      "work": "No current pursuit; future 2h application plus estimated 120h reporting",
+      "reuse": "Desk AI accountability research, not book reprints",
+      "payer": "Tarbell Center; official announcement reports ~$400k historical individual grants",
+      "restrictions": "Original journalism, editor interest before disbursement, funding disclosure",
+      "ev": "$0 current; future illustrative $15000 × .045 − $70 = $605 gross, not profit",
+      "source": "https://www.tarbellcenter.org/grants",
+      "source_verified": "2026-11-28",
+      "next": "Wait for next official round"
     }
   ],
   "engines": [
