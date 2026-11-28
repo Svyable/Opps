@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27 (Allodial adapter and contract screening)",
+  "generated_at": "2026-11-27 (Allodial portfolio evidence reconciliation)",
   "owner": "Sven Hardy Benson / Svyable",
   "canonical_repo": "https://github.com/Svyable/Opps",
   "statuses": [
@@ -2415,7 +2415,7 @@
       "type": "Fixed-price research services",
       "lane": "Control Evidence",
       "status": "PURSUE",
-      "stage": "2026-11-27 official rolling RFP reverified; local OTLP JSON subset adapter and 8 new synthetic tests plus original test method passed; artifact not committed; not submitted",
+      "stage": "2026-11-27: official RFP refreshed; Human Kind and Project 100 README portfolio evidence crosswalk committed; personal contributions and submission authority unresolved",
       "value": "USD 50,000 maximum; proposed 50,000",
       "value_kind": "fixed-price-contract",
       "deadline": "Rolling; may close when funds committed",
@@ -2426,8 +2426,9 @@
       "payer": "Allodial Foundation Vermont nonprofit, 501(c)(3) pending; named Future of Life Foundation partner; payment history unverified",
       "source": "https://allodial.org/rfp/",
       "restrictions": "Permissive open source, authorship/publication retained; runtime self-hostable, no proprietary API or reference labels; 20/30/30/20 milestone payments; final holdout acceptance; background IP and acceptance terms unresolved",
-      "next": "Verify portfolio links and applicant availability, then approve submission. Adapter uses custom ce.* attributes and caller trust; native tool semantics, claim extraction, parent-child correlation and independent holdout remain unimplemented.",
-      "source_verified": "2026-11-27 official RFP rolling; remaining awards unknown"
+      "next": "Confirm personal contributions, contracting identity, availability, IP and conflicts; authorize submission. No additional speculative engineering.",
+      "source_verified": "2026-11-27 official rolling RFP; remaining awards unknown",
+      "repo": "https://github.com/Svyable/Opps/blob/main/opportunities/allodial-2026-11-27-portfolio-evidence.md"
     },
     {
       "id": "rji-emerging-technology-fellowship-2027",
